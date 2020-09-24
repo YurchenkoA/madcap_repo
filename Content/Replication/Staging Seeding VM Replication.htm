@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Staging+(Seeding)+VM+Replication.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 class="Heading1">Staging (Seeding) VM Replication</h1>
+        <p class="NormalWeb">With VMs usually being large, the initial (full) VM replication can be slow and time-consuming, and can put an undesirable load on the network. Perform staged replication to speed up the initial VM replication and save network bandwidth. Staging requires the transfer of VMs to the target site using a removable medium (such as an external USB hard drive). You can then create a new replication job that will use the transferred VMs as a target and perform only incremental replication.</p>
+        <p class="NormalWeb">To stage VM replication, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Put VMs that you want to replicate on a removable medium (such as an external USB hard drive) using backup, replication, or any other method.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Transfer the medium to the target location.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Add (recover) the VMs to the desired server and datastore.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Create a new replication job and&#160;<a href="file:///C:/display/NH/Replication+Job+Wizard+for+VMware:+Destination#ReplicationJobWizardforVMware:Destination-ReplicaMapping" class="Hyperlink">map </a>the source VMs to the transferred VMs.</p>
+            </li>
+        </ol>
+    </body>
+</html>

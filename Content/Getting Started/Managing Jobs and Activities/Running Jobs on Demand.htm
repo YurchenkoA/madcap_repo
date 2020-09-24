@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/Jobs+Alarms+and+Notifications1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Running Jobs on Demand</h1>
+        <p>Use the <b>Dashboard</b>&#160;to start and stop jobs on demand.</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Running+Jobs+on+Demand.doc#RunningJobsonDemand-StartingJobs">Starting Jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Running+Jobs+on+Demand.doc#RunningJobsonDemand-StoppingJobs">Stopping Jobs</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Starting Jobs</h2>
+        <p>To start a job, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Go to the <b>Dashboard</b>, select the job from the list of jobs, and click&#160;<b>Run Job.</b></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">In the dialog that opens, define the scope of your job: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1">Choose one of the following options: </p>
+                        <ul class="ul_4">
+                            <li class="li_1">
+                                <p class="p_1"><b>Run for all VMs/backups/physical machines</b>: The job will run for all VMs/backups/physical machines.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Run for selected VM/backups/physical machines</b>: The job will run for the VMs/backups/physical machines you select.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Run for failed VMs/backups/physical machines</b>: The job will run for previously failed VMs/backups/physical servers&#160;only.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">If the type of the backup repository for your job is&#160;<a href="C:\display\NH\Creating+Backup+Repositories">Incremental with full backups</a>,&#160;<a href="C:\display\NH\Creating+Backup+Repositories">you will have to choose between the following backup types</a>: </p>
+                        <ul class="ul_4">
+                            <li class="li_1">
+                                <p class="p_1"><b>Incremental</b>: Your job will create an incremental backup.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Full</b>: Your job will create a full backup. If you choose this option, please choose the full backup mode: </p>
+                                <ul class="ul_4">
+                                    <li class="li_1">
+                                        <p class="p_1"><b>Synthetic full</b>: The application will first perform an incremental backup – that is, will transfer only the VM data that changed since the last backup, – and will then transform the available data into a full backup.</p>
+                                    </li>
+                                    <li class="li_1">
+                                        <p class="p_1"><b>Active full</b>: Will read all source VM data and transfer it to the backup repository.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click the&#160;<b>Run</b>&#160;button to confirm your operation.<br /><br /><img src="../../Resources/Images/Running+Jobs+on+Demand/Running Jobs on Demand_2.png" class="img_17" /></p>
+                <p>&#160;</p>
+            </li>
+        </ol>
+        <p>The product will close the dialog box and start running your job.</p>
+        <h2>Stopping Jobs</h2>
+        <p>To stop a job that is currently running, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Go to the <b>Dashboard</b>, select the job from the list of jobs, and click&#160;<b>Stop Job</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">In the dialog that opens, choose either of the following: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1"><b>Stop for all VMs/backups/physical servers</b>: Your job will stop for all VMs/backups/physical servers.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Stop for selected VMs/backups/physical servers</b>: Your job will stop for the jobs you select.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click the&#160;<b>Stop</b>&#160;button in the dialog to confirm your operation.<br /><br /><img src="../../Resources/Images/Running+Jobs+on+Demand/Running Jobs on Demand_3.png" class="img_18" /></p>
+            </li>
+        </ol>
+        <p>The product will close the dialog box and stop your job.</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

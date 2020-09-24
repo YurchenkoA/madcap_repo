@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Granular Recovery\Performing Universal Object Recovery"
+  LastImport="2020-09-17T13:43:17.8657623+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Opening+Universal+Object+Recovery+Wizard.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Opening+Universal+Object+Recovery+Wizard.doc" />
+    <Url
+      Source="../../../../../Downloads/Performing+Universal+Object+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Performing+Universal+Object+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/Universal+Object+Recovery+Wizard_+Backup.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Universal+Object+Recovery+Wizard_+Backup.doc" />
+    <Url
+      Source="../../../../../Downloads/Universal+Object+Recovery+Wizard_+Disks.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Universal+Object+Recovery+Wizard_+Disks.doc" />
+    <Url
+      Source="../../../../../Downloads/Universal+Object+Recovery+Wizard_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Universal+Object+Recovery+Wizard_+Options.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Opening+Universal+Object+Recovery+Wizard/Opening Universal Object Recovery.png"
+      TimeStamp="Thu 17.09.20 1:43:11 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Opening+Universal+Object+Recovery+Wizard/Opening Universal Object Recovery_1.png"
+      TimeStamp="Thu 17.09.20 1:43:11 PM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Performing Universal Object Recovery/Opening Universal Object Recovery.htm"
+      TimeStamp="Thu 17.09.20 1:43:12 PM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Performing Universal Object Recovery/Performing Universal Object.htm"
+      TimeStamp="Thu 17.09.20 1:43:12 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Universal+Object+Recovery+Wizard_+Backup/Universal Object Recovery.png"
+      TimeStamp="Thu 17.09.20 1:43:11 PM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Performing Universal Object Recovery/Universal Object Recovery.htm"
+      TimeStamp="Thu 17.09.20 1:43:12 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Universal+Object+Recovery+Wizard_+Disks/Universal Object Recovery_1.png"
+      TimeStamp="Thu 17.09.20 1:43:11 PM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Performing Universal Object Recovery/Universal Object Recovery_1.htm"
+      TimeStamp="Thu 17.09.20 1:43:12 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Universal+Object+Recovery+Wizard_+Options/Universal Object Recovery_2.png"
+      TimeStamp="Thu 17.09.20 1:43:11 PM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Performing Universal Object Recovery/Universal Object Recovery_2.htm"
+      TimeStamp="Thu 17.09.20 1:43:12 PM" />
+    <Url
+      Source="../TOCs/Opening+Universal+Object+Recovery+Wizard.fltoc"
+      TimeStamp="Thu 17.09.20 1:43:11 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Opening+Universal+Object+Recovery+Wizard.css"
+      TimeStamp="Thu 17.09.20 1:43:11 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

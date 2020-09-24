@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Full Recovery\Hyper-V VM Recovery"
+  AutoFitTables="true"
+  UseHeaderRows="true"
+  TableStyles="NewTableStyleSheets"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-17T17:24:25.2092176+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Hyper-V+VM+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Hyper-V+VM+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+Hyper-V_+Backups.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Hyper-V_+Backups.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+Hyper-V_+Destination.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Hyper-V_+Destination.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+Hyper-V_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Hyper-V_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+Hyper-V+VM+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+Hyper-V+VM+Recovery.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Hyper-V VM Recovery/Hyper V VM Recovery.htm"
+      TimeStamp="Thu 17.09.20 5:24:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Hyper-V_+Backups/Recovery Job Wizard for Hyper.png"
+      TimeStamp="Thu 17.09.20 5:24:09 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Hyper-V VM Recovery/Recovery Job Wizard for Hyper.htm"
+      TimeStamp="Thu 17.09.20 5:24:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Hyper-V_+Destination/Recovery Job Wizard for Hyper_1.png"
+      TimeStamp="Thu 17.09.20 5:24:12 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Hyper-V_+Destination/Recovery Job Wizard for Hyper_1_1.png"
+      TimeStamp="Thu 17.09.20 5:24:12 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Hyper-V_+Destination/Recovery Job Wizard for Hyper_1_2.png"
+      TimeStamp="Thu 17.09.20 5:24:12 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Hyper-V VM Recovery/Recovery Job Wizard for Hyper_1.htm"
+      TimeStamp="Thu 17.09.20 5:24:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Hyper-V_+Options/Recovery Job Wizard for Hyper_2.png"
+      TimeStamp="Thu 17.09.20 5:24:15 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Hyper-V_+Options/Recovery Job Wizard for Hyper_2_1.png"
+      TimeStamp="Thu 17.09.20 5:24:15 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Hyper-V_+Options/Recovery Job Wizard for Hyper_2_2.png"
+      TimeStamp="Thu 17.09.20 5:24:15 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Hyper-V_+Options/Recovery Job Wizard for Hyper_2_3.png"
+      TimeStamp="Thu 17.09.20 5:24:16 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Hyper-V VM Recovery/Recovery Job Wizard for Hyper_2.htm"
+      TimeStamp="Thu 17.09.20 5:24:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Hyper-V+VM+Recovery/Starting Hyper V VM Recovery.png"
+      TimeStamp="Thu 17.09.20 5:24:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Hyper-V+VM+Recovery/Starting Hyper V VM Recovery_1.png"
+      TimeStamp="Thu 17.09.20 5:24:18 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Hyper-V VM Recovery/Starting Hyper V VM Recovery.htm"
+      TimeStamp="Thu 17.09.20 5:24:19 PM" />
+    <Url
+      Source="../TOCs/Hyper-V+VM+Recovery.fltoc"
+      TimeStamp="Thu 17.09.20 5:24:18 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Hyper-V+VM+Recovery.css"
+      TimeStamp="Thu 17.09.20 5:24:18 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="auto-cursor-target"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Heading 3"
+      To="h3"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

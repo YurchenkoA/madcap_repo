@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Getting Started"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-24T09:54:38.7080947+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/First+Steps+with+NAKIVO+Backup+&amp;+Replication.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/First+Steps+with+NAKIVO+Backup+&amp;+Replication.doc" />
+    <Url
+      Source="../../../../../Downloads/Getting+Started.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Getting+Started.doc" />
+    <Url
+      Source="../../../../../Downloads/Logging+in+to+NAKIVO+Backup+and+Replication.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Logging+in+to+NAKIVO+Backup+and+Replication.doc" />
+    <Url
+      Source="../../../../../Downloads/Web+Interface+Components.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Web+Interface+Components.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/First+Steps+with+NAKIVO+Backup+&amp;+Replication/First Steps with NAKIVO Backup_4.png"
+      TimeStamp="Thu 24.09.20 9:54:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/First+Steps+with+NAKIVO+Backup+&amp;+Replication/First Steps with NAKIVO Backup_5.png"
+      TimeStamp="Thu 24.09.20 9:54:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/First+Steps+with+NAKIVO+Backup+&amp;+Replication/First Steps with NAKIVO Backup_6.png"
+      TimeStamp="Thu 24.09.20 9:54:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/First+Steps+with+NAKIVO+Backup+&amp;+Replication/First Steps with NAKIVO Backup_7.png"
+      TimeStamp="Thu 24.09.20 9:54:35 AM" />
+    <Url
+      Source="../../Content/Getting Started/First Steps with NAKIVO Backup.htm"
+      TimeStamp="Thu 24.09.20 9:54:36 AM" />
+    <Url
+      Source="../../Content/Getting Started/Getting Started.htm"
+      TimeStamp="Thu 24.09.20 9:54:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Logging+in+to+NAKIVO+Backup+and+Replication/Logging in to NAKIVO Backup_2.png"
+      TimeStamp="Thu 24.09.20 9:54:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Logging+in+to+NAKIVO+Backup+and+Replication/Logging in to NAKIVO Backup_3.png"
+      TimeStamp="Thu 24.09.20 9:54:35 AM" />
+    <Url
+      Source="../../Content/Getting Started/Logging in to NAKIVO Backup.htm"
+      TimeStamp="Thu 24.09.20 9:54:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_8.png"
+      TimeStamp="Thu 24.09.20 9:54:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_9.png"
+      TimeStamp="Thu 24.09.20 9:54:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_10.png"
+      TimeStamp="Thu 24.09.20 9:54:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_11.png"
+      TimeStamp="Thu 24.09.20 9:54:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_12.png"
+      TimeStamp="Thu 24.09.20 9:54:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_13.png"
+      TimeStamp="Thu 24.09.20 9:54:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_14.png"
+      TimeStamp="Thu 24.09.20 9:54:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_15.png"
+      TimeStamp="Thu 24.09.20 9:54:36 AM" />
+    <Url
+      Source="../../Content/Getting Started/Web Interface Components.htm"
+      TimeStamp="Thu 24.09.20 9:54:36 AM" />
+    <Url
+      Source="../TOCs/First+Steps+with+NAKIVO+Backup+&amp;+Replication1.fltoc"
+      TimeStamp="Thu 24.09.20 9:54:36 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/First+Steps+with+NAKIVO+Backup+&amp;+Replication1.css"
+      TimeStamp="Thu 24.09.20 9:54:36 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="HTML Code"
+      To="code"
+      Style="Flare" />
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

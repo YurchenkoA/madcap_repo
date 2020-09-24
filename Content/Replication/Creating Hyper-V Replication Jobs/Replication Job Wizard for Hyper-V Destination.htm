@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/Creating+Hyper-V+Replication+Jobs1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Replication Job Wizard for Hyper-V: Destination</h1>
+        <p>On the <b>Destination</b> page, select a location for your Hyper-V replicas.</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Hyper-V_+Destination.doc#ReplicationJobWizardforHyper-V:Destinat">Setting the Same Host and Path for All Replicas</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Hyper-V_+Destination.doc#ReplicationJobWizardforHyper-V:Destinat">Setting the Default Destination for Replicas</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Hyper-V_+Destination.doc#ReplicationJobWizardforHyper-V:Destinat">Setting Different Options for Replicas</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Hyper-V_+Destination.doc#ReplicationJobWizardforHyper-V:Destinat">Mapping Source VMs to Existing Replicas</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Hyper-V_+Destination.doc#ReplicationJobWizardforHyper-V:Destinat">Excluding a VM Disk from the Replication Job</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Setting the Same Host and Path for All Replicas</h2>
+        <p>To replicate all VMs to the same server and location, and to connect all replicas to the same network:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2">Choose a server from the <b>Container</b> drop-down list.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_1">Enter a path to the location where you want to store VM replicas in the <b>Path</b> field. It can be either a local or shared path.</p>
+                <p>Note</p>
+                <p>To connect to a shared path successfully, make sure that the following requirements are met:</p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_2">The shared path is created with the same credentials as the corresponding Hyper-V container. See <a href="C:\display\NH\Adding+Hyper-V+Servers">Adding Hyper-V Servers</a> for details on adding Hyper-V containers to the inventory of NAKIVO Backup &amp; Replication.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The logon session in which you created the shared path has not ended. As a workaround, create a symbolic link to the shared path from the Hyper-V container. Refer to Step 7 in <a href="C:\pages\viewpage.action?pageId=24951525">High Availability of NAKIVO Backup &amp; Replication</a> for details.</p>
+                        <p>As a workaround, create a symbolic link to the shared path from the Hyper-V container. Refer to <a href="C:\pages\viewpage.action?pageId=24951525">High Availability of NAKIVO Backup &amp; Replication</a> – Step 7 of the procedure,– for an explanation.</p>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_2">If you create a Replication job from the existing backup job, select the target network from the <b>Network</b> drop-down list. For more details, see&#160;<a href="C:\display\NH\Replication+Job+Wizard+for+Hyper-V:+Source">Replication Job Wizard for Hyper V: Source</a>.<br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Destination/Replication Job Wizard for_5.png" class="img_2" /></p>
+            </li>
+        </ol>
+        <h2>Setting the Default Destination for Replicas</h2>
+        <p>If you have chosen a host, cluster, folder, or a resource pool as a source for your replication job on the <a href="C:\display\NH\Replication+Job+Wizard+for+Hyper-V:+Source"><b class="b_1">Source</b></a> page, you can set a default container, datastore, and VM folder for replicas. To do this:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2">Click <b>Advanced options </b>and then click on the name of the chosen host, cluster, folder, or resource pool.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Choose a <b>Default container</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">If you have chosen the backup job on the <b>Source </b>page, you can choose a <b>Default Network</b>.</p>
+            </li>
+            <li class="li_3">
+                <p class="p_3">Optionally, you can also choose a <b>Default VM folder.</b><span class="span_1"><br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Destination/Replication Job Wizard for_6.png" class="img_3" /></span></p>
+            </li>
+        </ol>
+        <h2>Setting Different Options for Replicas</h2>
+        <p>To specify different replication options for VMs, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2">Click <b>Advanced options</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Set a target server, path, and network for each VM.<br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Destination/Replication Job Wizard for_7.png" class="img_4" /></p>
+            </li>
+        </ol>
+        <h2>Mapping Source VMs to Existing Replicas</h2>
+        <p>If you want to perform <a href="C:\display\NH\Staging+(Seeding)+VM+Replication">staged replication</a>&#160;or if you lose the replication job (due to accidental job deletion or because you need to recreate jobs in a new copy of the product), you can map source VMs to existing replicas to avoid running full VM replication again.</p>
+        <p>To map source VMs to existing VMs, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2">Click <b>Advanced options</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Select the <b>Use existing target VM</b> option.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">From the <b>Virtual Machine</b> drop-down list, select the VM that should be used as a target for replication.<br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Destination/Replication Job Wizard for_8.png" class="img_5" /></p>
+            </li>
+        </ol>
+        <p>When you run the job, the product analyzes the target VM you have selected, determines how it is different from the source VM, and transfers only the differential data.</p>
+        <p>VM replication mapping can be a time-consuming process that can be equal to the time required to create a full VM replication.</p>
+        <p>After job completion, a new recovery point is created and existing recovery points are <cite>not</cite> changed or overwritten.</p>
+        <h2>Excluding a VM Disk from the Replication Job</h2>
+        <p>If you do not want to replicate some disks of a VM, you can exclude those disks from the replication job. Follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2">Click <b>Advanced setup</b>.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_1">In the VM box, uncheck the disks you want to exclude from the replication job.<br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Destination/Replication Job Wizard for_9.png" class="img_5" /></p>
+            </li>
+        </ol>
+    </body>
+</html>

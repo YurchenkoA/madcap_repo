@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/Available+Commands.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Using Command Line Interface</h1>
+        <ul class="ul_2">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Using+Command+Line+Interface.doc#UsingCommandLineInterface-OperationMode">Operation Modes of Command Line Interface</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Using+Command+Line+Interface.doc#UsingCommandLineInterface-UsingCommandL">Using Command Line Interface Locally</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Using+Command+Line+Interface.doc#UsingCommandLineInterface-UsingCommandL">Using Command Line Interface Remotely</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Using+Command+Line+Interface.doc#UsingCommandLineInterface-UsingCommandL">Using Command Line Interface in Multi-Tenant Mode</a>
+                </p>
+            </li>
+        </ul>
+        <p>NAKIVO Backup &amp; Replication allows you running actions from the product’s command line interface (CLI).</p>
+        <p>In case credentials are configured for the product, running an action via CLI requires providing administrator credentials as arguments, namely, <code class="code_1">--username [login] --password [password]</code>, where <code class="code_1">[login]</code> is the administrator user name and <code class="code_1">[password]</code> is the administrator password.</p>
+        <h2>Operation Modes of Command Line Interface</h2>
+        <p>You can run CLI in either of the following modes:</p>
+        <ul class="ul_2">
+            <li class="li_1">
+                <p class="p_1"><cite>Interactive mode.</cite> This allows you to use a single login for a session. When opened in the interactive mode, CLI allows you executing commands without dashes.<br />To open CLI in the interactive mode, enter <code class="code_1">cli.bat --interactive --username [login] --password [password]</code> and press <b>Enter</b>. To exit the CLI interactive mode, enter <b>Ctrl-C</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><cite>Non-interactive mode.</cite> This requires entering your credentials for each command. You will have to enter dashes before commands. For example: <code class="code_1">cli.bat --username [login] --password [password] --inventory-list</code></p>
+            </li>
+        </ul>
+        <h2>Using Command Line Interface Locally</h2>
+        <p>To use CLI on the machine where NAKIVO Backup &amp; Replication Director is installed, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Run the CLI executable:</p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1">If NAKIVO Backup &amp; Replication is installed on a Windows OS, run the&#160;<code class="code_1">cli.bat</code>&#160;file located in the&#160;<code class="code_1">bin</code>&#160;folder inside the product installation folder ("<code class="code_1">C:\Program Files\NAKIVO Backup &amp; Replication"</code> by default).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">If NAKIVO Backup &amp; Replication is installed on a Linux OS, run the&#160;<code class="code_1">cli.sh</code>&#160;file located in the&#160;<code class="code_1">director/bin</code>&#160;folder inside the product installation folder (<code class="code_1">/opt/nakivo/</code> by default).</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Run available&#160;<a href="C:\display\NH\Available+Commands">commands</a>.</p>
+            </li>
+        </ol>
+        <h2>Using Command Line Interface Remotely</h2>
+        <p>To use CLI from a remote machine, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Copy the CLI executable and <code class="code_1">.jar</code> files to the machine from where you plan to use the CLI:</p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1">If NAKIVO Backup &amp; Replication is installed on a Windows OS, copy the&#160;<code class="code_1">cli.bat</code>&#160;and&#160;<code class="code_1">cli.jar</code>&#160;files located in the&#160;<code class="code_1">bin</code>&#160;folder inside the product installation folder ("<code class="code_1">C:\Program Files\NAKIVO Backup &amp; Replication"</code>&#160;by default).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">If NAKIVO Backup &amp; Replication is installed on a Linux OS, copy the&#160;<code class="code_1">cli.sh</code>&#160;and&#160;<code class="code_1">cli.jar</code>&#160;files located in the&#160;<code class="code_1">director/bin</code>&#160;folder inside the product installation folder (<code class="code_1">/opt/nakivo/</code> by default).</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">On the machine from where you plan to use the CLI, configure the <code class="code_1">PATH</code> system variable as described at&#160;<a href="http://java.com/en/download/help/path.xml">http://java.com/en/download/help/path.xml</a></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Run commands using the following format:&#160;<code class="code_1">&lt;command&gt; &lt;host&gt; &lt;port&gt; &lt;username&gt; &lt;password&gt;</code></p>
+            </li>
+        </ol>
+        <p><b>Example</b>
+        </p>
+        <p>To get a list of jobs of the product which is installed on the machine with the <code class="code_1">192.168.10.10</code> IP address,&#160;uses the <code class="code_1">4443</code> port number for the <b>Director Web HTTPS port</b>, and has “<code class="code_1">admin</code>” as login and password for the product’s web UI, run the following command:&#160;<code class="code_1">--job-list --host 192.168.10.10 --port 4443 --username admin --password admin</code></p>
+        <h2>Using Command Line Interface in Multi-Tenant Mode</h2>
+        <p>Triggering an action inside a tenant in the multi-tenant mode via command line interface requires providing a tenant ID as an argument:</p>
+        <p><code class="code_1">cli.bat --repository-detach&#160;</code><code class="code_2">[repo_id]</code><code class="code_1">&#160;--username&#160;</code><code class="code_2">[login]</code><code class="code_1">&#160;--password&#160;</code><code class="code_2">[password]</code><code class="code_1">&#160;--tenant&#160;</code><code class="code_2">[tenant-id]</code>
+        </p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

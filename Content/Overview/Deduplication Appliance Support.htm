@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Deduplication Appliance Support</h1>
+        <p>Deduplication appliances are solutions that implement specialized data reduction techniques to eliminate duplicate copies of repeated data. Deduplication appliances are leveraged across a range of data protection solutions, regardless of whether network-attached storage, disk, and/or tape is used. The biggest advantage of deduplication appliances is their ability to reduce datastore space used – sometimes by ratios of 20:1 or more.&#160;</p>
+        <p class="p_1">NAKIVO Backup &amp; Replication supports integration with deduplication appliances. For details, refer to the following sections:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Deduplication+Appliance+Support.doc#DeduplicationApplianceSupport-NAKIVOOpt">NAKIVO Optimization for Deduplication Appliances</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Deduplication+Appliance+Support.doc#DeduplicationApplianceSupport-Deduplica">Deduplication Appliance&#160;Configuration Details</a>
+                </p>
+            </li>
+        </ul>
+        <h2>NAKIVO Optimization for Deduplication Appliances</h2>
+        <p>NAKIVO Backup &amp; Replication provides a special type of Backup Repository (stream repository) optimized for high performance with deduplication appliances. With this type of Backup Repository, NAKIVO Backup &amp; Replication supports virtually any type of deduplication appliance as a primary or a secondary backup destination. The architecture of such Backup Repository is based on sequential block write operations through a restricted number of data streams and storing backup blocks in dedicated data files. Data blocks are stored in incremental backup files and full backup files.&#160;<span class="span_1">This means that the repository stores VM backup chains consisting of periodic full backups and several increments between these full backups.</span></p>
+        <p>
+            <img src="../Resources/Images/Deduplication+Appliance+Support/Deduplication Appliance Support.png" class="img_23" />
+        </p>
+        <p>In terms of integration with deduplication appliances, a stream repository:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2">Creates fewer data streams in read/write operations during VM backup and recovery;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Does not leverage the <a href="C:\display\NH\Global+Data+Deduplication+and+Compression">global data deduplication</a> feature of NAKIVO Backup &amp; Replication.</p>
+            </li>
+        </ul>
+        <h2>Deduplication Appliance&#160;Configuration Details</h2>
+        <p>When a Backup Repository is&#160;<a href="C:\display\NH\Creating+Backup+Repositories">created</a>&#160;in a deduplication appliance, NAKIVO's built-in data deduplication functionality is disabled. Additionally, the incremental-with-full-backups option is enabled by default. This configuration ensures that no extra resources are spent for double deduplication and&#160;<a href="C:\display\NH\Reclaiming+Backup+Repository+Space">reclaiming repository space</a>&#160;is not required.</p>
+    </body>
+</html>

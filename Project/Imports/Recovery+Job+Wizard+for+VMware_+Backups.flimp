@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Full Recovery\VMware VM Recovery"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-23T13:05:02.2010423+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+VMware_+Backups.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+VMware_+Backups.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+VMware_+Destination.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+VMware_+Destination.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+VMware_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+VMware_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+VMware+VM+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+VMware+VM+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/VMware+VM+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/VMware+VM+Recovery.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+VMware_+Backups/Recovery Job Wizard for VMware.png"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/VMware VM Recovery/Recovery Job Wizard for VMware.htm"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+VMware_+Destination/Recovery Job Wizard for VMware_1.png"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+VMware_+Destination/Recovery Job Wizard for VMware_1_1.png"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+VMware_+Destination/Recovery Job Wizard for VMware_1_2.png"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+VMware_+Destination/Recovery Job Wizard for VMware_1_3.png"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/VMware VM Recovery/Recovery Job Wizard for VMware_1.htm"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+VMware_+Options/Recovery Job Wizard for VMware_2.png"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+VMware_+Options/Recovery Job Wizard for VMware_2_1.png"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+VMware_+Options/Recovery Job Wizard for VMware_2_2.png"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+VMware_+Options/Recovery Job Wizard for VMware_2_3.png"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/VMware VM Recovery/Recovery Job Wizard for VMware_2.htm"
+      TimeStamp="Wed 23.09.20 1:05:00 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+VMware+VM+Recovery/Starting VMware VM Recovery_2.png"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+VMware+VM+Recovery/Starting VMware VM Recovery_3.png"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/VMware VM Recovery/Starting VMware VM Recovery.htm"
+      TimeStamp="Wed 23.09.20 1:05:00 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/VMware VM Recovery/VMware VM Recovery.htm"
+      TimeStamp="Wed 23.09.20 1:05:00 PM" />
+    <Url
+      Source="../TOCs/Recovery+Job+Wizard+for+VMware_+Backups.fltoc"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Recovery+Job+Wizard+for+VMware_+Backups.css"
+      TimeStamp="Wed 23.09.20 1:04:59 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Heading 3"
+      To="h3"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="cite"
+      Style="Flare" />
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

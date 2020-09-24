@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Granular Recovery\Object Recovery for Oracle Database"
+  LastImport="2020-09-17T13:25:38.0062438+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Object+Recovery+for+Oracle+Database.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Object+Recovery+for+Oracle+Database.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+Oracle+Database_+Backups.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Oracle+Database_+Backups.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+Oracle+Database_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Oracle+Database_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+Object+Recovery+for+Oracle+Database.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+Object+Recovery+for+Oracle+Database.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Oracle Database/Object Recovery for Oracle.htm"
+      TimeStamp="Thu 17.09.20 1:25:35 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Oracle+Database_+Backups/Recovery Job Wizard for Oracle.png"
+      TimeStamp="Thu 17.09.20 1:25:34 PM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Oracle Database/Recovery Job Wizard for Oracle.htm"
+      TimeStamp="Thu 17.09.20 1:25:35 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Oracle+Database_+Options/Recovery Job Wizard for Oracle_1.png"
+      TimeStamp="Thu 17.09.20 1:25:34 PM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Oracle Database/Recovery Job Wizard for Oracle_1.htm"
+      TimeStamp="Thu 17.09.20 1:25:35 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Object+Recovery+for+Oracle+Database/Starting Object Recovery for.png"
+      TimeStamp="Thu 17.09.20 1:25:34 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Object+Recovery+for+Oracle+Database/Starting Object Recovery for_1.png"
+      TimeStamp="Thu 17.09.20 1:25:34 PM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Oracle Database/Starting Object Recovery for.htm"
+      TimeStamp="Thu 17.09.20 1:25:35 PM" />
+    <Url
+      Source="../TOCs/Object+Recovery+for+Oracle+Database.fltoc"
+      TimeStamp="Thu 17.09.20 1:25:34 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Object+Recovery+for+Oracle+Database.css"
+      TimeStamp="Thu 17.09.20 1:25:34 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading3"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

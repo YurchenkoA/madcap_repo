@@ -1,0 +1,1177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfluenceImport
+  ImportFolder="Getting Started"
+  Server="https://beta-helpcenter.nakivo.com/"
+  SelectedSpace="NH"
+  KeepSourceLinks="false"
+  LastImport="2020-09-11T14:05:42.5320435+03:00"
+  ImportTopicsLocation="Content/Getting Started">
+  <Files>
+    <Url
+      Source="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24936892"
+      AbsoluteSource="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24936892" />
+    <Url
+      Source="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937408"
+      AbsoluteSource="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937408" />
+    <Url
+      Source="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937353"
+      AbsoluteSource="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937353" />
+    <Url
+      Source="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24936771"
+      AbsoluteSource="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24936771" />
+    <Url
+      Source="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937234"
+      AbsoluteSource="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937234" />
+    <Url
+      Source="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937377"
+      AbsoluteSource="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937377" />
+    <Url
+      Source="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937384"
+      AbsoluteSource="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937384" />
+    <Url
+      Source="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24936577"
+      AbsoluteSource="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24936577" />
+    <Url
+      Source="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24936576"
+      AbsoluteSource="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24936576" />
+    <Url
+      Source="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937383"
+      AbsoluteSource="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937383" />
+    <Url
+      Source="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937246"
+      AbsoluteSource="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937246" />
+    <Url
+      Source="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937373"
+      AbsoluteSource="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937373" />
+    <Url
+      Source="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937251"
+      AbsoluteSource="https://beta-helpcenter.nakivo.com/pages/viewpage.action?pageId=24937251" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Getting Started/Getting_Started.htm"
+      TimeStamp="Fri 11.09.20 2:05:04 PM" />
+    <Url
+      Source="../../Content/Getting Started/Logging_in_to_NAKIVO_Backup_and_Replication.htm"
+      TimeStamp="Fri 11.09.20 2:05:04 PM" />
+    <Url
+      Source="../../Content/Getting Started/First_Steps_with_NAKIVO_Backup___Replication.htm"
+      TimeStamp="Fri 11.09.20 2:05:04 PM" />
+    <Url
+      Source="../../Content/Getting Started/Web_Interface_Components.htm"
+      TimeStamp="Fri 11.09.20 2:05:04 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing_Jobs_and_Activities.htm"
+      TimeStamp="Fri 11.09.20 2:05:04 PM" />
+    <Url
+      Source="../../Content/Getting Started/Running_Jobs_on_Demand.htm"
+      TimeStamp="Fri 11.09.20 2:05:04 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing_Jobs.htm"
+      TimeStamp="Fri 11.09.20 2:05:04 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing_Job_Policies.htm"
+      TimeStamp="Fri 11.09.20 2:05:04 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing_Policy_Rules.htm"
+      TimeStamp="Fri 11.09.20 2:05:04 PM" />
+    <Url
+      Source="../../Content/Getting Started/Jobs_Alarms_and_Notifications.htm"
+      TimeStamp="Fri 11.09.20 2:05:04 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing_Activities.htm"
+      TimeStamp="Fri 11.09.20 2:05:04 PM" />
+    <Url
+      Source="../../Content/Getting Started/Using_Calendar.htm"
+      TimeStamp="Fri 11.09.20 2:05:04 PM" />
+    <Url
+      Source="../../Content/Getting Started/Using_Global_Search.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Email_Notifications.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Inventory.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Transporters.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Adding_Installed_Transporters.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_Backup_Repositories.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backup.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Replication.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Reclaiming_Backup_Repository_Space.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Running_Backup_Repository_Self_Healing.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/VM_Verification.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Transporter.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backup_Repository.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Licensing.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Settings.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/System_Settings.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Multi_Tenant_Mode.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_Backup_Copy_Jobs.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Planning_Disaster_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Site_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/General.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Multi_Tenant_Deployment.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Adding_VMware_vCenters_and_ESXi_hosts.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Adding_Hyper_V_Servers.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Adding_Amazon_EC2_Accounts.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Adding_Wasabi_Accounts.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Adding_Nutanix_AHV_Clusters.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Adding_Physical_Machines.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Adding_Microsoft_365_Accounts.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Adding_Oracle_Database.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing_Credentials.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing_Inventory.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Director.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Editing_Transporters.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Defining_Required_Number_of_Transporters.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Choosing_Transporter_Platform.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Choosing_Transporter_Options.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deploying_Transporter_as_VMware_Appliance.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deploying_Transporter_as_Nutanix_AHV_Appliance.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Local_Backup_Repository.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backup_Repository_on_CIFS_Share.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backup_Repository_on_NFS_Share.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backup_Repository_in_Amazon_EC2.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backup_Repository_in_Amazon_S3.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backup_Repository_in_Wasabi_Hot_Cloud_Storage.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/SaaS_Backup_Repository.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backup_Repository_on_Deduplication_Appliance.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backing_Up_According_to_3_2_1_Rule.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Using_Change_Tracking_Technologies.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deduplication_and_Compression_Considerations.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Self_Backup_Feature.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Choosing_Backup_Repository_Type.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Migrating_Backup_Repository.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_VMware_Replication_Jobs.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_Hyper_V_Replication_Jobs.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_Amazon_EC2_Replication_Jobs.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Staging__Seeding__VM_Replication.htm"
+      TimeStamp="Fri 11.09.20 2:04:12 PM" />
+    <Url
+      Source="../../Content/Getting Started/Protecting_Recovered_VMs.htm"
+      TimeStamp="Fri 11.09.20 2:04:12 PM" />
+    <Url
+      Source="../../Content/Getting Started/Recommendations_on_Recovering_Domain_Controller.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Recovering_with_VM_Replicas.htm"
+      TimeStamp="Fri 11.09.20 2:04:13 PM" />
+    <Url
+      Source="../../Content/Getting Started/Why_Chain_of_Recovery_Points_is_Recovered_Instead_of_One_Selected_Incremental_Point.htm"
+      TimeStamp="Fri 11.09.20 2:04:13 PM" />
+    <Url
+      Source="../../Content/Getting Started/How_to_Restore_a_VMware_vCenter_with_NAKIVO_Backup_and_Replication.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Screenshot_Verification_Fails_During_Flash_VM_Boot_Job.htm"
+      TimeStamp="Fri 11.09.20 2:04:13 PM" />
+    <Url
+      Source="../../Content/Getting Started/Instant_VM_Recovery___Flash_VM_Boot.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_VMware_Backup_Jobs.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_VMware_Flash_VM_Boot_Jobs.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_Hyper_V_Backup_Jobs.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_Hyper_V_Flash_VM_Boot_Jobs.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Automating_Backup_Repository_Copy.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Comparison_of_Backup_Repository_Types.htm"
+      TimeStamp="Fri 11.09.20 2:04:14 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_a_Backup_Repository_on_NFS__FTP__or_iSCSI.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Extending_Backup_Repository_on_Virtual_Appliance.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/How_Backup_Repository_Encryption_Works.htm"
+      TimeStamp="Fri 11.09.20 2:04:16 PM" />
+    <Url
+      Source="../../Content/Getting Started/How_Forever_Incremental_Backups_Are_Stored.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/How_to_Move_Backups_to_an_Incremental_with_Full_Backups_Repository.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Importing_a_Backup_Repository_in_Another_Instance_of_NAKIVO_Backup___Replication.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Integrating_with_EMC_DD_Boost.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Integrating_with_NEC_HYDRAstor.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Manual_Backup_Repository_Encryption.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Moving_a_Backup_Repository_to_a_New_Location.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/HPE_StoreOnce_Catalyst_Limitation.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backup_Repositories.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Tape.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Virtual_Appliance_Configuration.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Multi_Tenant_Mode_Configuration.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Support_Bundles.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Built_in_Support_Chat.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Replacing_License.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Refreshing_Inventory.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Tenant_Creation.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Tenant_Configuration.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Tenant_Management.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Granting_Self_Service_Access.htm"
+      TimeStamp="Fri 11.09.20 2:04:19 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backup_Copy.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Disaster_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Failover_to_Replica_for_VMware.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Failover_to_Replica_for_Microsoft_Hyper_V.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Failover_to_Replica_for_Amazon_EC2.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Replica_Failback_for_VMware_vSphere.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Replica_Failback_for_Microsoft_Hyper_V.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Replica_Failback_for_Amazon_EC2.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Site_Recovery_Job.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_Site_Recovery_Job.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Running_Site_Recovery_Job.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Bandwidth_Throttling.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Branding_Configuration.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Configuring_Events.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Self_Backup_Configuration.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/System_Migration.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Users_and_Roles.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backup_from_a_Remote_Site_to_a_Master_Site.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Replication_from_a_Remote_Site_to_a_Master_Site.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Local_Backup_at_Remote_Site.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Local_Replication_at_Remote_Site.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backup_at_Master_Site.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Replication_at_Master_Site.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Supported_Platforms.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Microsoft_365_Backup.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Required_API_Permissions_for_Microsoft_365.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Amazon_EC2_Backup.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Editing_Inventory_Items.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Removing_Items_from_Inventory.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Improving_Backup_Performance_over_WAN.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_Windows.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_Linux.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_Synology_NAS.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_QNAP_NAS.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_Western_Digital_NAS.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_ASUSTOR_NAS.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_NETGEAR_ReadyNAS.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_Generic_ARM_based_Device.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deploying_VMware_Virtual_Appliance.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deploying_Nutanix_AHV_Virtual_Appliance.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Detaching_Backup_Repositories.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Attaching_Backup_Repositories.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Required_AWS_IAM_Permissions_for_Amazon_S3_and_Wasabi.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Updating_NAKIVO_Backup_and_Replication.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deduplication_Appliance_Support.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Storage_Integration_Requirements.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Keeping_Recovery_Points.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Enabling_CBT_for_a_VM.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Viewing_Backup_Repository_Details.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Full_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_VMware_VM_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Performing_Flash_VM_Boot_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Virtual_Machine_Backup.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Command_Line_Interface.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Increasing_Backup_Repository_Size_on_Virtual_Appliance.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Removing_the_Disk_with_Backup_Repository_from_Virtual_Appliance.htm"
+      TimeStamp="Fri 11.09.20 2:04:27 PM" />
+    <Url
+      Source="../../Content/Getting Started/Removing_and_Deleting_Backup_Repositories.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Adding_Existing_Backup_Repositories.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deployment_Requirements.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Using_Command_Line_Interface.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Editing_Backup_Repositories.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backup_Repository___Insufficient_Permissions.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing_Backup_Repositories.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Tape_Cartridge_Disappears_From_Tapes_View_When_Moving_to_Mail_Slot_on_Amazon_VTL.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Tape_Cartridge_Has_no_Barcode_and_UUID.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Using_Cartridges_Without_Barcodes_to_Read_or_Write_Data.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Using_One_Tape_Device_by_Multiple_Directors.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/VTL_Discovery_Fails_if_Drives_are_Mounted_as_SCSI_Targets_in_Nonconsecutive_Order.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Configuring_Network_Settings_of_Virtual_Appliance.htm"
+      TimeStamp="Fri 11.09.20 2:04:30 PM" />
+    <Url
+      Source="../../Content/Getting Started/Configuring_General_Settings_in_Multi_Tenant_Mode.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing_User_Roles.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Using_Filters.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Using_Labels.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Viewing_Tenant_Information.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Opening_Tenant_Dashboard.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Disabling_Tenants.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Editing_Tenants.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deleting_Tenants.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Replication_From_Backup.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Replication_Types.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_VMware_Failover_to_Replica.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Microsoft_Hyper_V_Failover_to_Replica.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Amazon_EC2_Failover_to_Replica.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Replica_Failback_for_VMware_vSphere.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Replica_Failback_for_Microsoft_Hyper_V.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Replica_Failback_for_Amazon_EC2.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Site_Recovery_Job_Wizard.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Jobs_and_Concurrent_Tasks.htm"
+      TimeStamp="Fri 11.09.20 2:05:05 PM" />
+    <Url
+      Source="../../Content/Getting Started/Advanced_Bandwidth_Throttling.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_Nutanix_AHV_Backup_Jobs.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_Physical_Machine_Backup_Jobs.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/VMware_VM_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Hyper_V_VM_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Amazon_EC2_Instance_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Nutanix_AHV_VM_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing_Active_Directory_Users.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing_Local_Users.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Cannot_add_a_Hyper_V_Server_if_User_Is_not_Built_In_Administrator.htm"
+      TimeStamp="Fri 11.09.20 2:04:32 PM" />
+    <Url
+      Source="../../Content/Getting Started/Free_ESXi_Backup_Limitations.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Integrating_with_Azure_Cloud.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Transferring_Licenses_Between_ESXi_Hosts.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_Microsoft_365_Backup_Jobs.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deploying_Transporters_in_Amazon_EC2.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Changing_Login_and_Password_in_Multi_Tenant_Mode.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Updating_on_Amazon_EC2.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Uploading_Installer_from_Windows_Machine_to_Linux_Machine.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_Synology_NAS_via_Package_Center.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_Synology_NAS_Manually.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_QNAP_NAS_via_QNAP_Store.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_QNAP_NAS_Manually.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_ASUSTOR_NAS_via_App_Central.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_ASUSTOR_NAS_Manually.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_NETGEAR_ReadyNAS_via_Available_Apps.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_NETGEAR_ReadyNAS_Manually.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Auto_Updating_NAKIVO_Backup_and_Replication.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Updating_Virtual_Appliance.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Updating_on_Windows.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Updating_on_Linux.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Updating_on_Synology_NAS.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Updating_on_Western_Digital_NAS.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Updating_on_QNAP_NAS.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Updating_on_ASUSTOR_NAS.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Updating_on_NETGEAR_ReadyNAS.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Updating_on_FreeNAS.htm"
+      TimeStamp="Fri 11.09.20 2:04:37 PM" />
+    <Url
+      Source="../../Content/Getting Started/Updating_on_Generic_ARM_based_Device.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Global_Data_Deduplication_and_Compression.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Physical_Machine_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Recovery_From_Tape.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Performing_Cross_Platform_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_Flash_Boot_Jobs_for_Physical_Machines.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Migrating_Recovered_VMs_Using_Flash_Boot.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Available_Commands.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Exit_Codes.htm"
+      TimeStamp="Fri 11.09.20 2:04:39 PM" />
+    <Url
+      Source="../../Content/Getting Started/Transporter_Does_Not_Support_VMware_vSphere.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Running_Block_Level_Backup_Verification.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Refreshing_Backup_Repositories.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/How_to_Copy_Backup_Repository_to_Tape.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Adding_Robotic_Tape_Libraries_or_VTLs.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Configuring_Email_Settings_in_Multi_Tenant_Mode.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Configuring_Email_Notifications_in_Multi_Tenant_Mode.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Configuring_Branding_Settings_in_Multi_Tenant_Mode.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Configuring_System_Settings_in_Multi_Tenant_Mode.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Exporting_and_importing_Configuration_in_Multi_Tenant_Mode.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Overview_of_User_Roles.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Adding_User_Role.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Editing_User_Role.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Cloning_User_Role.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deleting_User_Role.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Physical_Machine_Backup.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Hyper_V_VM_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Amazon_EC2_Instance_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Nutanix_AHV_VM_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Adding_Active_Directory_User.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Assigning_Role_to_Active_Directory_User.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Configuring_Active_Directory_Integration.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deleting_Active_Directory_User.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Disabling_Active_Directory_User.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Editing_Active_Directory_User.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Adding_Local_User.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Assigning_Role_to_Local_User.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deleting_Local_User.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Disabling_Local_User.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Editing_Local_User.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Enabling_SSH_on_ESXi_Hosts.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Log_Truncation.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backup_to_Cloud.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_NAKIVO_Backup_and_Replication.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/System_Requirements.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Physical_to_Virtual_Machine_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Physical_Machine_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Recovery_from_Tape_Wizard.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Cross_Platform_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Opening_Backup_Export_Wizard.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deploying_Transporter_Connected_to_AWS_VTL.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Feature_Requirements.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing_Locations.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing_Media_Pools.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing_Tape_Cartridges.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Failed_to_Connect_to_Active_Directory_Domain.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Creating_Amazon_EC2_Backup_Jobs.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deploying_Amazon_Machine_Image_in_Amazon_EC2.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_FreeNAS.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Installing_on_Raspberry_Pi.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Required_Permissions_for_Linux_Recovery_Server.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Application_Aware_Mode_Requirements_for_Hyper_V.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Volume_Shadow_Copy_Service_Error_on_Nutanix.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v10_1__Beta___Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v10_0_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v10_0_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v9_4_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v9_3_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v9_2_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v9_2_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v9_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v9_0_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v8_5_2_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v8_5_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v8_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v8_0_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v7_5_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v7_4_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v7_4_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v7_3_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v7_3_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:57 PM" />
+    <Url
+      Source="../../Content/Getting Started/v7_2_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v7_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v7_0_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:58 PM" />
+    <Url
+      Source="../../Content/Getting Started/v7_0_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v6_2_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:58 PM" />
+    <Url
+      Source="../../Content/Getting Started/v6_1_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:58 PM" />
+    <Url
+      Source="../../Content/Getting Started/v6_1_0_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:58 PM" />
+    <Url
+      Source="../../Content/Getting Started/v6_0_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:58 PM" />
+    <Url
+      Source="../../Content/Getting Started/v6_0_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:58 PM" />
+    <Url
+      Source="../../Content/Getting Started/v5_9_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v5_8_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/v5_7_2_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:59 PM" />
+    <Url
+      Source="../../Content/Getting Started/v5_7_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:59 PM" />
+    <Url
+      Source="../../Content/Getting Started/v5_7_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:59 PM" />
+    <Url
+      Source="../../Content/Getting Started/v5_6_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:59 PM" />
+    <Url
+      Source="../../Content/Getting Started/v5_5_3_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:59 PM" />
+    <Url
+      Source="../../Content/Getting Started/v5_5_2_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:59 PM" />
+    <Url
+      Source="../../Content/Getting Started/v5_5_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:59 PM" />
+    <Url
+      Source="../../Content/Getting Started/v5_5_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:59 PM" />
+    <Url
+      Source="../../Content/Getting Started/v5_0_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:59 PM" />
+    <Url
+      Source="../../Content/Getting Started/v5_0_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:59 PM" />
+    <Url
+      Source="../../Content/Getting Started/v4_1_2_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:59 PM" />
+    <Url
+      Source="../../Content/Getting Started/v4_1_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:59 PM" />
+    <Url
+      Source="../../Content/Getting Started/v4_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:04:59 PM" />
+    <Url
+      Source="../../Content/Getting Started/v4_0_1_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:00 PM" />
+    <Url
+      Source="../../Content/Getting Started/v4_0_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:00 PM" />
+    <Url
+      Source="../../Content/Getting Started/v3_9_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:00 PM" />
+    <Url
+      Source="../../Content/Getting Started/v3_8_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:00 PM" />
+    <Url
+      Source="../../Content/Getting Started/v3_7_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:00 PM" />
+    <Url
+      Source="../../Content/Getting Started/v3_5_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:00 PM" />
+    <Url
+      Source="../../Content/Getting Started/v3_2_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:00 PM" />
+    <Url
+      Source="../../Content/Getting Started/v3_0_Release_Notes.htm"
+      TimeStamp="Fri 11.09.20 2:05:00 PM" />
+    <Url
+      Source="../../Content/Getting Started/Application_Aware_Mode_for_Linux_VMs.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Support.htm"
+      TimeStamp="Fri 11.09.20 2:05:00 PM" />
+    <Url
+      Source="../../Content/Getting Started/HPE_StoreOnce_Catalyst.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Skip_Unused_Blocks_Issue_in_v9_4.htm"
+      TimeStamp="Fri 11.09.20 2:05:01 PM" />
+    <Url
+      Source="../../Content/Getting Started/Aptare_IT_Analytics_Integration.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Tape_Backup.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Support_for_Legacy_ESXi_Versions.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Object_Recovery_for_Microsoft_SQL_Server.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Deleting_Backups.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Container_Protection.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Backing_Up_to_Tape.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_and_Stopping_Product_Services.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Instant_Object_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Object_Recovery_for_Microsoft_SQL_Server.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Granular_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/File_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Object_Recovery_for_Microsoft_Exchange.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Object_Recovery_for_Microsoft_Active_Directory.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Importing_Recovered_Objects_in_Active_Directory.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Object_Recovery_for_Microsoft_365.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Object_Recovery_for_Oracle_Database.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Performing_Universal_Object_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Instant_File_Recovery_to_Source.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Opening_File_Recovery_Wizard.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Object_Recovery_for_Microsoft_Exchange.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Object_Recovery_for_Microsoft_Active_Directory.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Object_Recovery_for_Microsoft_365.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Starting_Object_Recovery_for_Oracle_Database.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Universal_Object_Recovery.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../../Content/Getting Started/Opening_Universal_Object_Recovery_Wizard.htm"
+      TimeStamp="Fri 11.09.20 2:05:06 PM" />
+    <Url
+      Source="../TOCs/User Guide.fltoc"
+      TimeStamp="Fri 11.09.20 2:05:37 PM" />
+  </GeneratedFiles>
+</ConfluenceImport>

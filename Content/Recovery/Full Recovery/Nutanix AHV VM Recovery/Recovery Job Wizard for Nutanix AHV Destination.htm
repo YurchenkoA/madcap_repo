@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Nutanix+AHV+VM+Recovery.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Recovery Job Wizard for Nutanix AHV: Destination</h1>
+        <p>On the Destination page, select a location for the recovered VMs. Proceed as described in these sections:</p>
+        <ul style="padding-left: 0px;list-style-type: disc;margin-left: 36pt;">
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Nutanix+AHV_+Destination.doc#RecoveryJobWizardforNutanixAHV:Destinat">Setting the Same Cluster, Datastore and Network for All Recovered VMs</a>
+                </p>
+            </li>
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Nutanix+AHV_+Destination.doc#RecoveryJobWizardforNutanixAHV:Destinat">Setting Different Destination Options for Recovered VMs</a>
+                </p>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <h2>Setting the Same Cluster, Datastore and Network for All Recovered VMs</h2>
+        <p>To recover all VMs to the same cluster or storage container, and to connect all recovered VMs to the same networks, follow the steps below:</p>
+        <ol style="padding-left: 0px;list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">From the&#160;Cluster&#160;drop-down list, select a cluster.</p>
+            </li>
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">From the&#160;Datastore&#160;drop-down list, select a datastore.</p>
+            </li>
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">From the&#160;Network&#160;drop-down list, select&#160;a network.<br /><br /><img src="../../../Resources/Images/Recovery+Job+Wizard+for+Nutanix+AHV_+Destination/Recovery Job Wizard for Nutanix_1.png" style="visibility: visible;mso-wrap-style: square;width: 468px;height: 131px;" /></p>
+            </li>
+        </ol>
+        <p>With this setup, all VMs are recovered to the same cluster and storage container and they use the same network.</p>
+        <h2>Setting Different Destination Options for Recovered VMs</h2>
+        <p>To specify different options for recovered VMs, follow the steps below:</p>
+        <ol style="padding-left: 0px;list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">Click Advanced options.</p>
+            </li>
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">Click on the VM to expand its recovery options.</p>
+            </li>
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">Choose a target cluster, disks and network adapters for each VM.<br /><br /><img src="../../../Resources/Images/Recovery+Job+Wizard+for+Nutanix+AHV_+Destination/Recovery Job Wizard for Nutanix_1_1.png" style="visibility: visible;mso-wrap-style: square;width: 468px;height: 306px;" /></p>
+            </li>
+        </ol>
+        <p>If you selected groups or Backup Repositories on the Backups page, the advanced options allow you to specify the default destination options for all VMs contained in those groups or repositories.<br /><br /><img src="../../../Resources/Images/Recovery+Job+Wizard+for+Nutanix+AHV_+Destination/Recovery Job Wizard for Nutanix_1_2.png" style="visibility: visible;mso-wrap-style: square;width: 469px;height: 218px;" /><br /><br /><br />You can still define destination options individually for each VM within every group or repository by clicking the VM's name.</p>
+        <p>&#160;</p>
+    </body>
+</html>

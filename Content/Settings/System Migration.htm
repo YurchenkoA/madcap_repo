@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Adding+Active+Directory+User.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>System Migration</h1>
+        <p>NAKIVO Backup &amp; Replication provides you with the ability to migrate all your settings (including inventory, jobs, credentials,&#160;transporter settings, and so on) to a new instance (copy) of the product.</p>
+        <p>Important</p>
+        <p>System configuration export and import are designed for migration purposes only, and not to serve as a system configuration backup. After you have exported system configuration from an old instance of the product, do not run jobs in that old instance. Doing so will result in failed jobs in the new instance after the migration. All jobs will have to be recreated, and full initial job run will be required.</p>
+        <p>See the topics below for more information:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/settings/System+Migration.doc#SystemMigration-ExportingSystemConfigur">Exporting System Configuration</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/settings/System+Migration.doc#SystemMigration-ImportingSystemConfigur">Importing System Configuration</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Exporting System Configuration</h2>
+        <p>To export system configuration from the old deployment, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click<b>&#160;Settings</b>&#160;in the left pane of the product.</p>
+            </li>
+            <li class="li_1">
+                <p>Click <b>System Migration&#160;</b>in the <b>General</b> tab.</p>
+            </li>
+            <li>
+                <p>Click <b>Export system configuration</b>.</p>
+            </li>
+            <li class="li_2">
+                <p>In the dialog window that appears, click <b>Export</b>.<br /><br /><img src="../Resources/Images/System+Migration/System Migration.png" class="img_27" /></p>
+            </li>
+            <li>
+                <p>Click <b>Proceed</b> to confirm the operation.</p>
+                <p>Note</p>
+                <p>All activities in the old instance (such as jobs and recovery sessions) will be automatically stopped and all jobs will be disabled.</p>
+            </li>
+            <li>
+                <p>Wait until the export is completed and download the export bundle.</p>
+            </li>
+            <li class="li_1">
+                <p>Do not run jobs in the old instance.</p>
+            </li>
+        </ol>
+        <h2>Importing System Configuration</h2>
+        <p>To import system configuration into a new instance of the product, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click<b>&#160;Settings</b>&#160;in the left pane of the product.</p>
+            </li>
+            <li class="li_1">
+                <p>Click&#160;<b>System Migration&#160;</b>in the&#160;<b>General</b>&#160;tab.</p>
+            </li>
+            <li class="li_1">
+                <p>Click <b>Import system configuration</b>.</p>
+            </li>
+            <li class="li_2">
+                <p>In the dialog window that appears, locate the system configuration bundle using the <b>Browse</b> button.<br /><br /><img src="../Resources/Images/System+Migration/System Migration_1.png" class="img_12" /></p>
+            </li>
+            <li class="li_1">
+                <p>Click <b>Import</b>.</p>
+            </li>
+            <li>
+                <p>Click <b>Proceed</b> to confirm the operation.</p>
+                <p>Important</p>
+                <ul class="ul_3">
+                    <li class="li_1">
+                        <p>If there is any existing data in the new instance, it will be overwritten with the import operation.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>If a physical configuration of your source deployment differs from a target deployment, a Backup Repository may become inaccessible after the bundle import is completed.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p>Wait until the import is completed, and close the dialog window.</p>
+            </li>
+        </ol>
+        <p>Notes:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p>Backup Repositories are not migrated by the system configuration export and import. If you have a local Backup Repository on the old instance of the product, you may want to&#160;<a href="C:\display\KB\Moving+a+Backup+Repository+to+a+New+Location">move&#160;</a>it to the new location.&#160;After moving the Backup Repository, you may need to&#160;<a href="C:\display\NH\Editing+Backup+Repositories">edit&#160;</a>Backup Repository settings in the new instance, s that the new settings refer to the actual Backup Repository location.</p>
+            </li>
+            <li>
+                <p>In case a custom TLS/SSL certificate of the Web server was used in the old instance, a manual service restart will be required in the new deployment.</p>
+            </li>
+        </ul>
+    </body>
+</html>

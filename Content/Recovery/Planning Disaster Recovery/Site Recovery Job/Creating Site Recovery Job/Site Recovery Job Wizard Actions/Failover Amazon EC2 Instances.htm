@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../../../Resources/Stylesheets/Attach+_+Detach+Repository+Action.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Failover Amazon EC2 Instances Action</h1>
+        <p>Refer to the following sections on adding a&#160;<b>Failover EC2 Instances</b>&#160;action to your Site Recovery job:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failover+Amazon+EC2+Instances+Action.doc#FailoverAmazonEC2InstancesAction-Failov">Failover Amazon EC2 Instances: Instances</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failover+Amazon+EC2+Instances+Action.doc#FailoverAmazonEC2InstancesAction-Failov">Failover Amazon EC2 Instances: Destination</a> </p>
+                <ul class="ul_4">
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failover+Amazon+EC2+Instances+Action.doc#FailoverAmazonEC2InstancesAction-Single">Single Destination for Amazon EC2 Instances</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failover+Amazon+EC2+Instances+Action.doc#FailoverAmazonEC2InstancesAction-Differ">Different Destinations for Amazon EC2 Instances</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failover+Amazon+EC2+Instances+Action.doc#FailoverAmazonEC2InstancesAction-Failov">Failover Amazon EC2 Instances: Options</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Failover Amazon EC2 Instances: Instances</h2>
+        <p>On this page of the wizard, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_3">
+                <p class="p_3">In the left pane of the page, choose either of the following inventory views:</p>
+                <ul class="ul_4">
+                    <li class="li_1">
+                        <p class="p_1"><b class="b_1">Jobs &amp; Groups</b><span class="span_1">: When selected,&#160;the inventory tree displays groups, jobs, and backups of the appropriate AWS account. You can select the required replica from the list of replication jobs.</span>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b class="b_1">Policy</b><span class="span_1">:&#160;When selected, job policies can be used. Refer to&#160;</span><a href="https://beta-helpcenter.nakivo.com/display/NH/Job+Policies"><span class="span_2">Job Policies</span></a><span class="span_1">&#160;for details. If the items were selected in alternate views, a dialog box opens warning you that switching to the&#160;</span><b class="b_1">Policy&#160;</b><span class="span_1">view will reset your current selection. Click&#160;</span><b class="b_1">Switch View</b><span class="span_1">&#160;to confirm switching to the&#160;</span><b class="b_1">Policy&#160;</b><span class="span_1">view. Make sure that at least one item matches the available set of policy rules. Refer to&#160;</span><a href="https://beta-helpcenter.nakivo.com/display/NH/Policy+Rules"><span class="span_2">Policy Rules</span></a><span class="span_1">&#160;for details.</span>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Select one or more source Amazon EC2 instances from the inventory tree and then select a recovery point for each source Amazon EC2 instance in the right pane.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Next</b>&#160;to go to the<b>&#160;Destination&#160;</b>page.<br /><br /><img src="../../../../../Resources/Images/Failover+Amazon+EC2+Instances+Action/Failover Amazon EC2 Instances.png" class="img_14" /></p>
+            </li>
+        </ol>
+        <h2>Failover Amazon EC2 Instances: Destination</h2>
+        <p>On this page of the wizard, you can specify a failover destination for your Amazon EC2 instances.</p>
+        <h3>Single Destination for Amazon EC2 Instances</h3>
+        <p>To fail over all Amazon EC2 instances defined in the previous page of the wizard to the same AWS region and with the same options, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><b>Network</b>:&#160;Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">VPC</a>&#160;to which all Amazon EC2 instances will be connected.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Subnet</b>:&#160;Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Subnet&#160;</a>to which all Amazon EC2 instances will be connected.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Security group</b>:&#160;Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Security Group</a>&#160;for all Amazon EC2 instances.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Instance access</b>:<b>&#160;</b>Specify Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Key Pair</a>&#160;<a href="https://beta-helpcenter.nakivo.com/display/NH/AWS+EC2+Backup">Pair</a>&#160;options by choosing one of the following: </p>
+                <ul class="ul_4">
+                    <li class="li_1">
+                        <p class="p_1"><b>Use existing key pair</b>:&#160;An existing Amazon EC2 Key Pair will be used to connect to the recovered instances.</p>
+                    </li>
+                    <li>
+                        <p><b>Create a new key pair</b>:&#160;A new Amazon EC2 Key Pair will be created and assigned to all recovered EC2 instances. Type in a name for the new&#160;Amazon EC2 Key Pair in the&#160;<b>Key pair name</b>&#160;field and click&#160;<b>Download</b>.</p>
+                        <p>Important</p>
+                        <p>This is your only chance to save the private key file, so make sure you save the private key file in a safe place. You will need to provide the name of your key pair when you start recovered EC2 instances and the corresponding private key each time you connect to the instances.</p>
+                    </li>
+                    <li>
+                        <p><b>Proceed without key pair</b>:<b>&#160;</b>No AWS Key Pair will be assigned to the recovered Amazon EC2 instances.</p>
+                        <p>Important</p>
+                        <p>A key pair enables you to connect to Linux Instances via SSH. If you recover Linux Instances without a key pair, you will not be able to connect to them.</p>
+                        <p>&#160;</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Next</b>&#160;to go to the next page of the wizard.<br /><br /><img src="../../../../../Resources/Images/Failover+Amazon+EC2+Instances+Action/Failover Amazon EC2 Instances_1.png" class="img_15" /></p>
+            </li>
+        </ol>
+        <h3>Different Destinations for Amazon EC2 Instances</h3>
+        <p>To set different destination options for individual Amazon EC2 instances, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Advanced options</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click an Amazon EC2 Instance to expand it and set the options as follows: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1"><b>Region</b>:&#160;Select a target Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Region&#160;</a>for the Amazon EC2 instance.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Instance type</b>:&#160;Select a&#160;<a href="C:\display\NH\Amazon+EC2+Backup">type</a>&#160;for the recovered Amazon EC2 instance.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>EBS Volumes</b>:&#160;Choose whether to recover or skip recovering individual AWS&#160;<a href="C:\display\NH\Amazon+EC2+Backup">EBS Volumes</a>.&#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Network</b>:&#160;Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">VPC</a>&#160;to which the Amazon EC2 instance will&#160;be connected.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Subnet</b>:&#160;Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Subnet&#160;</a>to which&#160;the Amazon EC2 instance will be connected.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Security group</b>:&#160;Select an&#160;Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Security Group</a>&#160;for&#160;the Amazon EC2 instance.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Instance access</b>:<b>&#160;</b>Specify Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Key Pair</a>&#160;options as follows: </p>
+                        <ul class="ul_2">
+                            <li class="li_1">
+                                <p class="p_1"><b>Use existing key pair</b>:&#160;Choose an existing Amazon EC2 Key Pair that you&#160;want&#160;to use to connect to the recovered instance.</p>
+                            </li>
+                            <li>
+                                <p><b>Create a new key pair</b>:&#160;Select this option to create a new Amazon EC2 Key Pair and assign it to the recovered Amazon EC2 instance. Enter a name for the new Amazon EC2 Key Pair in the&#160;<b>Key pair name</b>&#160;box and click&#160;<b>Download</b>.</p>
+                                <p>Important</p>
+                                <p>This is your only chance to save the private key file, so make sure you save the private key file in a safe place. You will need to provide the name of your key pair when you start recovered EC2 instances and the corresponding private key each time you connect to the instances.</p>
+                            </li>
+                            <li>
+                                <p><b>Proceed without key pair</b>:&#160;Select this option if you do not want to assign an Amazon Key Pair to the recovered Amazon EC2 instance.</p>
+                                <p>Important</p>
+                                <p>A key pair enables you to connect to Linux Instances via SSH. If you recover Linux Instances without a key pair, you will not be able to connect to them.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click<b> Next</b> to go to the next page of the wizard.<br /><br />&#160;<img src="../../../../../Resources/Images/Failover+Amazon+EC2+Instances+Action/Failover Amazon EC2 Instances_2.png" class="img_16" /></p>
+            </li>
+        </ol>
+        <h2>Failover Amazon EC2 Instances: Options</h2>
+        <p>On this page of the wizard, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Select&#160;<b>Power off source Instances</b>&#160;to power off the production workloads during the failover. Please note that this will take place only in production mode; no workloads will be powered on in test mode.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">In the<b>&#160;Action options&#160;</b>section, set the options for your action. Refer to&#160;<a href="C:\display\NH\Site+Recovery+Job+Wizard:+Actions">Options Common to Most Actions</a>&#160;for details.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Save</b>.<br /><img src="../../../../../Resources/Images/Failover+Amazon+EC2+Instances+Action/Failover Amazon EC2 Instances_3.png" class="img_17" />&#160;</p>
+            </li>
+        </ol>
+        <p>The&#160;<b>Options</b><cite>&#160;</cite>page closes and your&#160;<b>Failover EC2 Instances</b>&#160;action is added to the Site Recovery job.</p>
+    </body>
+</html>

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/Creating+Amazon+EC2+Replication+Jobs1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Replication Job Wizard for Amazon EC2: Options</h1>
+        <p>On the <b>Options</b> page of the wizard, set up job options as described in the following sections:</p>
+        <p>&#160;</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Options.doc#ReplicationJobWizardforAmazonEC2:Option"><span class="span_1">· </span>Job Options</a> </p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Options.doc#ReplicationJobWizardforAmazonEC2:Option"><span class="span_4">o </span>Job Name</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Options.doc#ReplicationJobWizardforAmazonEC2:Option"><span class="span_1">· </span>Pre and Post Actions</a> </p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Options.doc#ReplicationJobWizardforAmazonEC2:Option"><span class="span_4">o </span>Email Notifications</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Options.doc#ReplicationJobWizardforAmazonEC2:Option"><span class="span_4">o </span>Microsoft Exchange Server Logs Truncation</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Options.doc#ReplicationJobWizardforAmazonEC2:Option"><span class="span_4">o </span>Truncation of&#160;Microsoft SQL Transaction Logs</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Options.doc#ReplicationJobWizardforAmazonEC2:Option"><span class="span_4">o </span>Running a Pre-Job Script</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Options.doc#ReplicationJobWizardforAmazonEC2:Option"><span class="span_4">o </span>Running a Post-Job Script</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Options.doc#ReplicationJobWizardforAmazonEC2:Option"><span class="span_1">· </span>Completing the New Replication Job Wizard for Amazon EC2</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Job Options</h2>
+        <p>In this section, you can specify a name for your replication job and enable <a href="C:\display\NH\Application+and+Database+Support">app-aware mode</a>.</p>
+        <h3>Job Name</h3>
+        <p>Specify a name for the replication job:</p>
+        <p class="p_3">App-aware Mode</p>
+        <p>With NAKIVO Backup &amp; Replication, you can create application-consistent replicas of Amazon EC2 Instances.</p>
+        <p>To set up application awareness:</p>
+        <ol class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">1. </span>Select one of the App-aware modes: </p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1"><b><span class="span_4">o </span>Enabled (proceed on error)</b>: With this option selected, the Instance replication continues to run even if application awareness fails.</p>
+                    </li>
+                    <li>
+                        <p><b><span class="span_4">o </span>Enabled (fail on error)</b>: With this option selected, Instance replication fails if application awareness fails.</p>
+                    </li>
+                    <li>
+                        <p><b><span class="span_4">o </span>Disabled</b>: With this option selected, application awareness is not used for Instance replication.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">2. </span>When enabling application-aware mode, specify the OS credentials that will be used to connect to Amazon EC2 Instances via SSH: </p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1"><span class="span_4">o </span>In the <b>Application-Aware Mode</b> dialog box that opens, select the checkbox next to each Instance that you want to replicate using the application-aware mode.</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_4"><span class="span_4">o </span>Select the appropriate credentials from the drop-down list next to each selected Amazon EC2&#160;Instance.</p>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <p>
+            <img src="../../Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Options/Replication Job Wizard for_1_5.png" class="img_4" />
+        </p>
+        <h2>Pre and Post Actions</h2>
+        <p>In the <cite>Pre and Post Actions</cite> section, you can set up email notifications, <a href="C:\display\NH\Log+Truncation">Exchange and SQL Server logs truncation</a>, and <a href="C:\display\NH\Pre+and+Post+Job+Scripts">pre- and post- job scripts</a>.</p>
+        <h3>Email Notifications</h3>
+        <p>NAKIVO Backup &amp; Replication can send email notifications&#160;about the job completion status to specified recipients. This feature complements&#160;<a href="C:\display\NH\Email+Notifications">global notifications</a>&#160;and allows you to configure notifications on a per-job level.</p>
+        <p>Note</p>
+        <p>To enable this option, make sure your&#160;<a href="C:\display\NH\Email+Notifications">Email settings</a>&#160;are configured.&#160;</p>
+        <p>To send email notifications, select the <b>Send job run reports to </b>option in the <cite>Pre and Post Actions</cite> section, and specify one or more email addresses in the text field. Use semicolons to separate multiple email addresses.</p>
+        <h3>Microsoft Exchange Server Logs Truncation</h3>
+        <p>NAKIVO Backup &amp; Replication allows you to delete (aka truncate) Microsoft Exchange Server logs on the source instances after job completion.</p>
+        <p>To set up Microsoft Exchange Server log truncation, do the following:</p>
+        <ol class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">1. </span>In the <b>Pre and Post Actions </b>section, select <b>Truncate Exchange</b> <b>logs</b>.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_4"><span class="span_3">2. </span>In the <b>Exchange Log Truncation</b> dialog box that opens, select the checkboxes next to the instances running Microsoft Exchange and then select the credentials next to each instance. These credentials are used to log into the instances that you have selected.<br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Options/Replication Job Wizard for_1_6.png" class="img_3" /></p>
+            </li>
+        </ol>
+        <h3>Truncation of&#160;Microsoft SQL Transaction Logs</h3>
+        <p>NAKIVO Backup &amp; Replication allows you to delete (aka truncate) Microsoft SQL Server logs on the source instances after job completion.</p>
+        <p>To set up Microsoft SQL log truncation, do the following:</p>
+        <ol class="ol_1">
+            <li>
+                <p><span class="span_3">1. </span>In the <b>Pre and Post Actions </b>section, select <b>Truncate SQL Server logs</b>.</p>
+            </li>
+            <li>
+                <p><span class="span_3">2. </span>In the <b>SQL Server Log Truncation</b> dialog box that opens, select the checkboxes next to the instances running Microsoft SQL and then select the credentials next to each instance. These credentials are used to log into the instances that you have selected.<br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Options/Replication Job Wizard for_1_7.png" class="img_5" /></p>
+            </li>
+        </ol>
+        <h3>Running a Pre-Job Script</h3>
+        <p>To run a script before the product begins replicating instances, do the following:</p>
+        <ol class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">1. </span>Place a script file on the machine where the Director is installed.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">2. </span>Select the&#160;<b>Run local pre job script</b>&#160;option.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">3. </span>Specify the following parameters in the dialog box&#160;that opens: </p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1"><b><span class="span_4">o </span>Script path</b>: Specify a local path to the script on the machine where the Director is installed. The script interpreter should be specified.<br />Example (Windows):&#160;<cite>cmd.exe /c D:\script.bat</cite><span class="span_5"><br /></span>Example (Linux):&#160;<cite>bash /root/script.sh</cite></p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b><span class="span_4">o </span>Job behavior</b>: Choose one of the following job behaviors in relation to script completion: </p>
+                        <ul class="ul_1">
+                            <li class="li_1">
+                                <p class="p_1"><b><span class="span_6">§ </span>Wait for the script to finish</b>: With this option selected, instance replication is started only after the script is completed.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b><span class="span_6">§ </span>Do not wait for the script to finish</b>: With this option selected, the product runs the script and starts replicating instances at the same time.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b><span class="span_4">o </span>Error handling</b>: Choose one of the following job behaviors in relation to script failure: </p>
+                        <ul class="ul_1">
+                            <li class="li_1">
+                                <p class="p_1"><b><span class="span_6">§ </span>Continue the job on script failure</b>: With this option selected, the job performs instance replication even if the script has failed.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b><span class="span_6">§ </span>Fail the job on script failure</b>: With this option selected, the job is failed and instance replication is not performed.<br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Options/Replication Job Wizard for_1_8.png" class="img_6" /></p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <h3>Running a Post-Job Script</h3>
+        <p>To run a script after the product has finished backing up all instances, do the following:</p>
+        <ol class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">1. </span>Place a script file on the machine where the Director is installed.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">2. </span>Select the&#160;<b>Run local post job script</b>&#160;option.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">3. </span>Specify the following parameters in the dialog box that opens: </p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1"><b><span class="span_4">o </span>Script path</b>: Specify a local path to the script on the machine where the Director is installed. The script interpreter should be specified.<br /><b>Example (Windows)</b>:&#160;<cite>cmd.exe /c D:\script.bat</cite><span class="span_5"><br /></span><b>Example (Linux)</b>:&#160;<cite>bash /root/script.sh</cite></p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b><span class="span_4">o </span>Job behavior</b>: Choose one of the following job behaviors in relation to script completion: </p>
+                        <ul class="ul_1">
+                            <li class="li_1">
+                                <p class="p_1"><b><span class="span_6">§ </span>Wait for the script to finish</b>: With this option selected, the job is in the “running” state until the script is completed.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b><span class="span_6">§ </span>Do not wait for the script to finish</b>: With this option selected, the job is completed even if the script execution is still in progress.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b><span class="span_4">o </span>Error handling</b>: Choose one of the following job behaviors in relation to script failure: </p>
+                        <ul class="ul_1">
+                            <li class="li_1">
+                                <p class="p_1"><b><span class="span_6">§ </span>Continue the job on script failure</b>: With this option selected, script failure does not influence the status of the job.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b><span class="span_6">§ </span>Fail the job on script failure</b>: With this option selected, if the script has failed, the job status is set to “failed” even if instance replication has been successful.<br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Options/Replication Job Wizard for_1_9.png" class="img_7" /></p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <h2>Completing the New Replication Job Wizard for Amazon EC2</h2>
+        <p class="p_2">Click&#160;<b>Finish</b>&#160;or&#160;<b>Finish &amp; Run</b>&#160;to complete job creation.</p>
+        <p>Note</p>
+        <p>If you click <b>Finish &amp; Run</b>, you will have to define the scope of your job. Refer to <a href="C:\display\NH\Running+Jobs+on+Demand">Running Jobs on Demand</a> for details.</p>
+        <p>&#160;</p>
+    </body>
+</html>

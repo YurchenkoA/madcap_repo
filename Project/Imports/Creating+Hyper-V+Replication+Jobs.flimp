@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Replication\Creating Hyper-V Replication Jobs"
+  LastImport="2020-09-15T20:15:48.3392240+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Creating+Hyper-V+Replication+Jobs.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Creating+Hyper-V+Replication+Jobs.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+Hyper-V_+Destination.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Hyper-V_+Destination.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+Hyper-V_+Networks.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Hyper-V_+Networks.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+Hyper-V_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Hyper-V_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+Hyper-V_+Re-IP.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Hyper-V_+Re-IP.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+Hyper-V_+Retention.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Hyper-V_+Retention.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+Hyper-V_+Schedule.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Hyper-V_+Schedule.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+Hyper-V_+Source.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Hyper-V_+Source.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Creating+Hyper-V+Replication+Jobs/Creating Hyper V Replication.png"
+      TimeStamp="Tue 15.09.20 8:14:54 PM" />
+    <Url
+      Source="../../Content/Replication/Creating Hyper-V Replication Jobs/Creating Hyper V Replication.htm"
+      TimeStamp="Tue 15.09.20 8:14:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Destination/Replication Job Wizard for.png"
+      TimeStamp="Tue 15.09.20 8:14:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Destination/Replication Job Wizard for_1.png"
+      TimeStamp="Tue 15.09.20 8:14:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Destination/Replication Job Wizard for_2.png"
+      TimeStamp="Tue 15.09.20 8:14:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Destination/Replication Job Wizard for_3.png"
+      TimeStamp="Tue 15.09.20 8:14:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Destination/Replication Job Wizard for_4.png"
+      TimeStamp="Tue 15.09.20 8:14:55 PM" />
+    <Url
+      Source="../../Content/Replication/Creating Hyper-V Replication Jobs/Replication Job Wizard for.htm"
+      TimeStamp="Tue 15.09.20 8:14:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Networks/Replication Job Wizard for_1.png"
+      TimeStamp="Tue 15.09.20 8:14:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Networks/Replication Job Wizard for_1_1.png"
+      TimeStamp="Tue 15.09.20 8:14:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Networks/Replication Job Wizard for_1_2.png"
+      TimeStamp="Tue 15.09.20 8:14:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Networks/Replication Job Wizard for_1_3.png"
+      TimeStamp="Tue 15.09.20 8:14:55 PM" />
+    <Url
+      Source="../../Content/Replication/Creating Hyper-V Replication Jobs/Replication Job Wizard for_1.htm"
+      TimeStamp="Tue 15.09.20 8:14:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Options/Replication Job Wizard for_2.png"
+      TimeStamp="Tue 15.09.20 8:14:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Options/Replication Job Wizard for_2_1.png"
+      TimeStamp="Tue 15.09.20 8:14:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Options/Replication Job Wizard for_2_2.png"
+      TimeStamp="Tue 15.09.20 8:14:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Options/Replication Job Wizard for_2_3.png"
+      TimeStamp="Tue 15.09.20 8:14:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Options/Replication Job Wizard for_2_4.png"
+      TimeStamp="Tue 15.09.20 8:14:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Options/Replication Job Wizard for_2_5.png"
+      TimeStamp="Tue 15.09.20 8:14:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Options/Replication Job Wizard for_2_6.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Replication/Creating Hyper-V Replication Jobs/Replication Job Wizard for_2.htm"
+      TimeStamp="Tue 15.09.20 8:14:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Re-IP/Replication Job Wizard for_3.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Re-IP/Replication Job Wizard for_3_1.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Re-IP/Replication Job Wizard for_3_2.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Re-IP/Replication Job Wizard for_3_3.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Replication/Creating Hyper-V Replication Jobs/Replication Job Wizard for_3.htm"
+      TimeStamp="Tue 15.09.20 8:14:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Retention/Replication Job Wizard for_4.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Replication/Creating Hyper-V Replication Jobs/Replication Job Wizard for_4.htm"
+      TimeStamp="Tue 15.09.20 8:14:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Schedule/Replication Job Wizard for_5.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Schedule/Replication Job Wizard for_5_1.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Schedule/Replication Job Wizard for_5_2.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Schedule/Replication Job Wizard for_5_3.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Schedule/Replication Job Wizard for_5_4.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Schedule/Replication Job Wizard for_5_5.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Replication/Creating Hyper-V Replication Jobs/Replication Job Wizard for_5.htm"
+      TimeStamp="Tue 15.09.20 8:14:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Source/Replication Job Wizard for_6.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Source/Replication Job Wizard for_6_1.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Source/Replication Job Wizard for_6.jpg"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Hyper-V_+Source/Replication Job Wizard for_6_2.png"
+      TimeStamp="Tue 15.09.20 8:14:56 PM" />
+    <Url
+      Source="../../Content/Replication/Creating Hyper-V Replication Jobs/Replication Job Wizard for_6.htm"
+      TimeStamp="Tue 15.09.20 8:14:57 PM" />
+    <Url
+      Source="../TOCs/Creating+Hyper-V+Replication+Jobs.fltoc"
+      TimeStamp="Tue 15.09.20 8:14:57 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Creating+Hyper-V+Replication+Jobs.css"
+      TimeStamp="Tue 15.09.20 8:14:57 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="_mce_tagged_br"
+      To="p._mce_tagged_br"
+      Style="Word" />
+    <Map
+      From="bullet1"
+      To="p.bullet1"
+      Style="Word" />
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading3"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="span.Emphasis"
+      Style="Word" />
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

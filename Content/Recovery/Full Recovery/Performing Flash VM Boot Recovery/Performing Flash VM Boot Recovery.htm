@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Performing+Flash+VM+Boot+Recovery.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 class="Heading1">Performing Flash VM Boot Recovery</h1>
+        <p class="NormalWeb_1">The <a href="C:\display\NH\Instant+VM+Recovery+-+Flash+VM+Boot" class="Hyperlink">Flash VM Boot</a> feature allows you to run (boot) VMware and Hyper-V VMs directly from compressed and deduplicated VM backups, without recovering entire VMs first. When you boot a VM from a backup, NAKIVO Backup &amp; Replication creates a new VM on the target server.&#160;</p>
+        <p class="NormalWeb">
+            <img src="../../../Resources/Images/Performing+Flash+VM+Boot+Recovery/Performing Flash VM Boot Recovery.png" class="img_1" />
+        </p>
+        <p class="NormalWeb_2">&#160;</p>
+        <p class="NormalWeb">When the VMware VM is created, NAKIVO Backup &amp; Replication takes a snapshot of the VM: this way all changes that occur to the VM are&#160;temporarily&#160;stored in the snapshot and discarded when you stop the job.&#160;When the Hyper-V VM is created, the application temporarily stores the changes to the VM in a disk-based write cache in the Backup Repository; changes are discarded when the job is stopped.&#160;For more information, refer to the following topics:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="C:\display\NH\Creating+VMware+Flash+VM+Boot+Jobs" class="Hyperlink">Creating VMware Flash VM Boot Jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="C:\display\NH\Creating+Hyper-V+Flash+VM+Boot+Jobs" class="Hyperlink">Creating Hyper-V Flash VM Boot Jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="C:\display\NH\Creating+Flash+Boot+Jobs+for+Physical+Machines" class="Hyperlink">Creating Flash Boot Jobs for Physical Machines</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="C:\display\NH\Migrating+Recovered+VMs+Using+Flash+Boot" class="Hyperlink">Migrating Recovered VMs Using Flash Boot</a>
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Backing+Up+to+Tape.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Backup Job Wizard for Nutanix AHV: VMs</h1>
+        <p>The first step in the creation of a backup job is selecting VMs you would like to back up.&#160;You can select individual VMs to be backed up by selecting the checkboxes next to their names, or you can select all VMs for backing up within the cluster by selecting a checkbox next to a cluster name. Adding a Nutanix cluster to the job ensures that important VMs are always protected. If you add a Nutanix cluster to the job, then all VMs currently available in the selected cluster will be backed up and all new VMs that are created in (or moved to) the cluster in the future will be automatically added to the job and backed up as well.&#160; If you cannot find a particular VM or cluster, make sure the corresponding Nutanix cluster is added to the Inventory or try refreshing the Inventory.&#160;</p>
+        <p>The selected VMs and clusters are displayed in the right&#160;pane of the page, and the total number of VMs added to the job is displayed at the top of the right pane.</p>
+        <p class="NormalWeb">
+            <img src="../Resources/Images/Backup+Job+Wizard+for+Nutanix+AHV_+VMs/Backup Job Wizard for Nutanix_4.png" class="img_30" />
+        </p>
+        <p>Note</p>
+        <p>Not all VMs can be added to the selection. The following restrictions apply to:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p>Some or all disks of a VM that belong to a Volume Group.</p>
+            </li>
+            <li class="li_1">
+                <p>VMs that have no disks at all.</p>
+            </li>
+        </ul>
+        <p>Such VMs appear dimmed and are not available for backing up. Hovering over a VM displays the reason in a tooltip.</p>
+        <p>The following operations are available with the selected items:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><span class="Strong">Exclusion</span>: If necessary, you can exclude VMs from the backup by deselecting them in the left pane or by clicking the <span class="Strong">Delete </span>icon to the right of the VM’s name in the right pane.</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Changing processing priority</span>: You can set the processing priority for the VM by dragging it to the higher or lower position—by doing so, you can specify to back up the most important VMs first. The processing priority of the whole cluster can also be changed by dragging.&#160;The order in which VMs are backed up is important if the Transporter performing the backup cannot process all VMs of the job simultaneously—either because the Transporter is processing other jobs at the same time or because the number of VM disks in the job exceeds the Transporter’s <span class="Strong">Maximum Load</span> specified during the Transporter creation.</p>
+            </li>
+        </ul>
+        <p>When you finish with VMs selection, click <span class="Strong">Next</span> to proceed to the next page.</p>
+    </body>
+</html>

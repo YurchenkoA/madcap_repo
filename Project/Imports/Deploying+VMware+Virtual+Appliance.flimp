@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Deployment"
+  LastImport="2020-09-11T13:23:54.1440835+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Deploying+VMware+Virtual+Appliance.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Deploying+VMware+Virtual+Appliance.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_1.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_2.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_3.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_4.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_5.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_6.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_7.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_8.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_9.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_10.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_11.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_12.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_13.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_14.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_15.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_16.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_17.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_1_18.png"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Deployment/Deploying VMware Virtual Appliance_1.htm"
+      TimeStamp="Fri 11.09.20 1:23:48 PM" />
+    <Url
+      Source="../TOCs/Deploying+VMware+Virtual+Appliance.fltoc"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Deploying+VMware+Virtual+Appliance.css"
+      TimeStamp="Fri 11.09.20 1:23:47 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="auto-cursor-target"
+      To="p.auto-cursor-target"
+      Style="Word" />
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="span.Emphasis"
+      Style="Word" />
+    <Map
+      From="HTML Code"
+      To="span.HTMLCode"
+      Style="Word" />
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

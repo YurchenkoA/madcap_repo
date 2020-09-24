@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Full Recovery\VMware VM Recovery"
+  LastImport="2020-09-17T16:12:55.0999471+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Starting+VMware+VM+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+VMware+VM+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Backups.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Backups.doc" />
+    <Url
+      Source="../../../../../Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Destination.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Destination.doc" />
+    <Url
+      Source="../../../../../Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Schedule.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Schedule.doc" />
+    <Url
+      Source="../../../../../Downloads/VMware+VM+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/VMware+VM+Recovery.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Starting+VMware+VM+Recovery/Starting VMware VM Recovery.png"
+      TimeStamp="Thu 17.09.20 4:12:49 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+VMware+VM+Recovery/Starting VMware VM Recovery_1.png"
+      TimeStamp="Thu 17.09.20 4:12:49 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/VMware VM Recovery/Starting VMware VM Recovery.htm"
+      TimeStamp="Thu 17.09.20 4:12:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Backups/VMware Flash VM Boot Job Wizard_2.png"
+      TimeStamp="Thu 17.09.20 4:12:49 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/VMware VM Recovery/VMware Flash VM Boot Job Wizard.htm"
+      TimeStamp="Thu 17.09.20 4:12:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Destination/VMware Flash VM Boot Job Wizard_1_4.png"
+      TimeStamp="Thu 17.09.20 4:12:49 PM" />
+    <Url
+      Source="../../Content/Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Destination/VMware Flash VM Boot Job Wizard_1_5.png"
+      TimeStamp="Thu 17.09.20 4:12:49 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/VMware VM Recovery/VMware Flash VM Boot Job Wizard_1.htm"
+      TimeStamp="Thu 17.09.20 4:12:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Options/VMware Flash VM Boot Job Wizard_2_8.png"
+      TimeStamp="Thu 17.09.20 4:12:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Options/VMware Flash VM Boot Job Wizard_2_9.png"
+      TimeStamp="Thu 17.09.20 4:12:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Options/VMware Flash VM Boot Job Wizard_2_10.png"
+      TimeStamp="Thu 17.09.20 4:12:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Options/VMware Flash VM Boot Job Wizard_2_11.png"
+      TimeStamp="Thu 17.09.20 4:12:50 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/VMware VM Recovery/VMware Flash VM Boot Job Wizard_2.htm"
+      TimeStamp="Thu 17.09.20 4:12:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Schedule/VMware Flash VM Boot Job Wizard_3_10.png"
+      TimeStamp="Thu 17.09.20 4:12:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Schedule/VMware Flash VM Boot Job Wizard_3_11.png"
+      TimeStamp="Thu 17.09.20 4:12:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Schedule/VMware Flash VM Boot Job Wizard_3_12.png"
+      TimeStamp="Thu 17.09.20 4:12:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Schedule/VMware Flash VM Boot Job Wizard_3_13.png"
+      TimeStamp="Thu 17.09.20 4:12:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Schedule/VMware Flash VM Boot Job Wizard_3_14.png"
+      TimeStamp="Thu 17.09.20 4:12:50 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/VMware VM Recovery/VMware Flash VM Boot Job Wizard_3.htm"
+      TimeStamp="Thu 17.09.20 4:12:51 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/VMware VM Recovery/VMware VM Recovery.htm"
+      TimeStamp="Thu 17.09.20 4:12:51 PM" />
+    <Url
+      Source="../TOCs/Starting+VMware+VM+Recovery.fltoc"
+      TimeStamp="Thu 17.09.20 4:12:50 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Starting+VMware+VM+Recovery.css"
+      TimeStamp="Thu 17.09.20 4:12:50 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="auto-cursor-target"
+      To="p.auto-cursor-target"
+      Style="Word" />
+    <Map
+      From="bullet1"
+      To="p.bullet1"
+      Style="Word" />
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading3"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="notenormal"
+      To="p.notenormal"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="span.Emphasis"
+      Style="Word" />
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

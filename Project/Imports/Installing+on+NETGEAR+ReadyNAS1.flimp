@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Deployment\Installing NAKIVO Backup and Replication\Installing on NETGEAR Ready NAS"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-18T13:49:05.6080475+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Installing+on+NETGEAR+ReadyNAS.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+NETGEAR+ReadyNAS.doc" />
+    <Url
+      Source="../../../../../Downloads/Installing+on+NETGEAR+ReadyNAS+Manually.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+NETGEAR+ReadyNAS+Manually.doc" />
+    <Url
+      Source="../../../../../Downloads/Installing+on+NETGEAR+ReadyNAS+via+Available+Apps.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+NETGEAR+ReadyNAS+via+Available+Apps.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on NETGEAR Ready NAS/Installing on NETGEAR ReadyNAS.htm"
+      TimeStamp="Fri 18.09.20 1:48:16 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+NETGEAR+ReadyNAS+Manually/Installing on NETGEAR ReadyNAS_1_2.png"
+      TimeStamp="Fri 18.09.20 1:48:15 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+NETGEAR+ReadyNAS+Manually/Installing on NETGEAR ReadyNAS_1_3.png"
+      TimeStamp="Fri 18.09.20 1:48:15 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on NETGEAR Ready NAS/Installing on NETGEAR ReadyNAS_1.htm"
+      TimeStamp="Fri 18.09.20 1:48:16 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+NETGEAR+ReadyNAS+via+Available+Apps/Installing on NETGEAR ReadyNAS_2_1.png"
+      TimeStamp="Fri 18.09.20 1:48:15 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on NETGEAR Ready NAS/Installing on NETGEAR ReadyNAS_2.htm"
+      TimeStamp="Fri 18.09.20 1:48:16 PM" />
+    <Url
+      Source="../TOCs/Installing+on+NETGEAR+ReadyNAS1.fltoc"
+      TimeStamp="Fri 18.09.20 1:48:16 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Installing+on+NETGEAR+ReadyNAS1.css"
+      TimeStamp="Fri 18.09.20 1:48:16 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="HTML Code"
+      To="code"
+      Style="Flare" />
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Site Recovery</h1>
+        <p>With&#160;<a href="C:\display\NH\Creating+Site+Recovery+Job">Site Recovery Jobs</a>&#160;introduced, NAKIVO Backup &amp; Replication allows you to automate the execution of one or more Actions. An Action refers to a single task that can be included in a Site Recovery Job. Refer to&#160;<a href="C:\display\NH\Site+Recovery+Job+Wizard:+Actions">Site Recovery Job Wizard: Actions</a>&#160;for the list of available actions.</p>
+        <p>
+            <img src="../Resources/Images/Site+Recovery/Site Recovery.png" class="img_49" />
+        </p>
+        <p>Special Actions that are used in recovering your IT environment with a Site Recovery Job are Failover and Failback:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><b>Failover</b>&#160;switches workloads from the primary location to a secondary recovery location. With Failover action, you can temporarily suspend workloads on the primary location, and start them from the recovery location.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><b>Failback</b>&#160;is the process of synchronizing data that has changed since Failover finished, back to the primary location. With Failback action, you can stop workloads on the secondary location and switch them back to the primary location.</p>
+            </li>
+        </ul>
+        <p>Failover and Failback actions are applicable to replicas, and switch replica states from&#160;<cite>Failover</cite>&#160;to&#160;<cite>Normal</cite>&#160;correspondingly. The Site Recovery Job can be executed in one of the following modes:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><b>Test mode</b>&#160;is designed to verify the Site Recovery Job workflow and results. You can execute a Site Recovery Job in the test mode on demand or on schedule. Refer to&#160;<a href="file:///C:/display/NH/Running+Site+Recovery+Job#RunningSiteRecoveryJob-RunningSiteRecoveryJobinTestMode">Running Site Recovery Job in Test Mode</a>&#160;for details.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><b>Production mode</b>&#160;is designed to recover the environment from a disaster. You can execute a Site Recovery Job in the production mode on demand only. Refer to&#160;<a href="file:///C:/display/NH/Running+Site+Recovery+Job#RunningSiteRecoveryJob-RunningSiteRecoveryJobinProductionMode">Running Site Recovery Job in Production mode</a>&#160;for details.</p>
+            </li>
+        </ul>
+        <p>When the Site Recovery Job is run in the production mode, Failover may be either of the following types:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><b>Planned failover</b>&#160;is designed to achieve zero data loss when disaster happens. The application will sync replica data with the source VM before switching workloads to the replica.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><b>Emergency failover</b>&#160;is designed to minimize downtime. The application will switch workloads from the source VM to the replica immediately.</p>
+            </li>
+        </ul>
+        <p class="p_1">The topic includes the following sections:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><a href="https://beta-helpcenter.nakivo.com/display/NH/Site+Recovery#SiteRecovery-WorkflowofSiteRecoveryJob">Workflow of Site Recovery Job</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="https://beta-helpcenter.nakivo.com/display/NH/Site+Recovery#SiteRecovery-CleanupofSiteRecoveryJobTesting">Cleanup of Site Recovery Job Testing</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Workflow of Site Recovery Job</h2>
+        <p>If your Site Recovery Job contains a Failover action, the action will be executed as follows:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2">Site Recovery Job is executed in&#160;<b>production</b>&#160;mode as&#160;<b>Emergency Failover</b>&#160;is being carried out: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_2">Replication from the source VM to the replica will be disabled.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The replica will be rolled back to a specified recovery point (optional, as the latest recovery point is used by default).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The replica will be connected to a new network (optional).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The static IP address of the replica will be modified (optional).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The source VM will be powered off (optional).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The replica will be powered on.</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_4">The replica will be switched to the Failover state.</p>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Site Recovery Job is executed in&#160;<b>production</b>&#160;mode as&#160;<b>Planned Failover</b>&#160;is being carried out: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_2">Replication from the source VM to the replica will be disabled.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">An incremental replication from the source VM to the replica will be run once.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The source VM will be powered off.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">An&#160;incremental replication from the source VM to the replica will be run once more.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The replica will be connected to a new network (optional).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The static IP address of the replica will be modified (optional).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The replica will be powered on.</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_4">The replica will be switched to the Failover state.</p>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Site Recovery Job is executed in&#160;<b>test</b>&#160;mode: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_2">Replication from the source VM to the replica will be disabled.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">An incremental replication from the source VM to the replica will be run once.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The replica will be connected to an isolated network (optional).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The static IP address of the replica will be modified (optional).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The replica will be powered on.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The replica will be switched to the Failover state.</p>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+        <p>If your Site Recovery Job contains a Failback action, the action will be executed as follows:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2">Site Recovery Job is executed in the&#160;<b>production</b>&#160;mode: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_2">The source VM will be powered off (if it exists and is powered on).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">A protective snapshot of the source VM will be created.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">An incremental or full replication from the replica to the source VM will be run once.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The replica will be powered off (optional).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">An incremental replication from replica to the source VM will be run once more.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The source VM will be connected to a new network (optional).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The static IP address of the source VM will be modified (optional).</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_4">The source VM will be powered on.</p>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Site Recovery Job is executed in&#160;<b>test</b>&#160;mode: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_2">The source VM will be powered off (if it exists and is powered on).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">A protective snapshot of the source VM will be created.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">An incremental or full replication from replica to the source VM will be run once.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The source VM will be connected to an isolated network (optional).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The static IP address of the source VM will be modified (optional).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The source VM will be powered on.</p>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+        <h2>Cleanup of Site Recovery Job Testing</h2>
+        <p>After executing a Site Recovery Job in test mode, the cleanup will be carried out as follows:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2">VMs that have been powered on during the Site Recovery Job testing will be powered off, and vice versa.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Repositories that have been attached during the Site Recovery Job testing will&#160;be detached, and vice versa.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Jobs that have been enabled during the Site Recovery Job testing will&#160;be disabled, and vice versa.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">If the&#160;<b>Failover</b>&#160;action was part of the Site Recovery Job testing: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_2">The replica will be powered off.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The replica will be reverted to the pre-Failover state via the snapshot.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The replica will be switched to the Normal state.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">Replication from the source VM to the replica will be enabled.</p>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_2">If the&#160;<b>Failback</b>&#160;action was part of the Site Recovery Job testing: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_2">The source VM will be removed (if it did not exist before the Site Recovery Job testing), or else:</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The source VM will be reverted to the protective snapshot.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The source VM will be powered on (if it exists and was powered off).</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2">The protective snapshot will be removed from the source VM.</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Deployment\Updating NAKIVO Backup and Replication"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-23T12:06:45.5289414+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Auto+Updating+NAKIVO+Backup+and+Replication.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Auto+Updating+NAKIVO+Backup+and+Replication.doc" />
+    <Url
+      Source="../../../../../Downloads/Connecting+to+an+Amazon+EC2+Instance+from+Windows.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Connecting+to+an+Amazon+EC2+Instance+from+Windows.doc" />
+    <Url
+      Source="../../../../../Downloads/Updating+NAKIVO+Backup+and+Replication.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Updating+NAKIVO+Backup+and+Replication.doc" />
+    <Url
+      Source="../../../../../Downloads/Updating+on+Amazon+EC2.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Updating+on+Amazon+EC2.doc" />
+    <Url
+      Source="../../../../../Downloads/Updating+on+ASUSTOR+NAS.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Updating+on+ASUSTOR+NAS.doc" />
+    <Url
+      Source="../../../../../Downloads/Updating+on+FreeNAS.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Updating+on+FreeNAS.doc" />
+    <Url
+      Source="../../../../../Downloads/Updating+on+Generic+ARM-based+Device.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Updating+on+Generic+ARM-based+Device.doc" />
+    <Url
+      Source="../../../../../Downloads/Updating+on+Linux.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Updating+on+Linux.doc" />
+    <Url
+      Source="../../../../../Downloads/Updating+on+NETGEAR+ReadyNAS.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Updating+on+NETGEAR+ReadyNAS.doc" />
+    <Url
+      Source="../../../../../Downloads/Updating+on+QNAP+NAS.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Updating+on+QNAP+NAS.doc" />
+    <Url
+      Source="../../../../../Downloads/Updating+on+Synology+NAS.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Updating+on+Synology+NAS.doc" />
+    <Url
+      Source="../../../../../Downloads/Updating+on+Western+Digital+NAS.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Updating+on+Western+Digital+NAS.doc" />
+    <Url
+      Source="../../../../../Downloads/Updating+on+Windows.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Updating+on+Windows.doc" />
+    <Url
+      Source="../../../../../Downloads/Updating+Virtual+Appliance.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Updating+Virtual+Appliance.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Auto+Updating+NAKIVO+Backup+and+Replication/Auto Updating NAKIVO Backup.jpg"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Auto+Updating+NAKIVO+Backup+and+Replication/Auto Updating NAKIVO Backup_1.jpg"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Auto+Updating+NAKIVO+Backup+and+Replication/Auto Updating NAKIVO Backup_2.jpg"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Auto+Updating+NAKIVO+Backup+and+Replication/Auto Updating NAKIVO Backup_3.jpg"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Auto+Updating+NAKIVO+Backup+and+Replication/Auto Updating NAKIVO Backup.png"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Auto+Updating+NAKIVO+Backup+and+Replication/Auto Updating NAKIVO Backup_4.jpg"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Auto+Updating+NAKIVO+Backup+and+Replication/Auto Updating NAKIVO Backup_5.jpg"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Auto+Updating+NAKIVO+Backup+and+Replication/Auto Updating NAKIVO Backup_6.jpg"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Auto+Updating+NAKIVO+Backup+and+Replication/Auto Updating NAKIVO Backup_7.jpg"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Auto+Updating+NAKIVO+Backup+and+Replication/Auto Updating NAKIVO Backup_8.jpg"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and Replication/Auto Updating NAKIVO Backup.htm"
+      TimeStamp="Wed 23.09.20 12:06:41 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Connecting+to+an+Amazon+EC2+Instance+from+Windows/Connecting to an Amazon EC2.png"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Connecting+to+an+Amazon+EC2+Instance+from+Windows/Connecting to an Amazon EC2_1.png"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Connecting+to+an+Amazon+EC2+Instance+from+Windows/Connecting to an Amazon EC2_2.png"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Connecting+to+an+Amazon+EC2+Instance+from+Windows/Connecting to an Amazon EC2_3.png"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Connecting+to+an+Amazon+EC2+Instance+from+Windows/Connecting to an Amazon EC2_4.png"
+      TimeStamp="Wed 23.09.20 12:06:39 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and Replication/Connecting to an Amazon EC2.htm"
+      TimeStamp="Wed 23.09.20 12:06:41 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and Replication/Updating NAKIVO Backup and.htm"
+      TimeStamp="Wed 23.09.20 12:06:41 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and Replication/Updating on Amazon EC2.htm"
+      TimeStamp="Wed 23.09.20 12:06:41 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+on+ASUSTOR+NAS/Updating on ASUSTOR NAS.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+on+ASUSTOR+NAS/Updating on ASUSTOR NAS_1.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and Replication/Updating on ASUSTOR NAS.htm"
+      TimeStamp="Wed 23.09.20 12:06:41 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and Replication/Updating on FreeNAS.htm"
+      TimeStamp="Wed 23.09.20 12:06:41 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and Replication/Updating on Generic ARM based.htm"
+      TimeStamp="Wed 23.09.20 12:06:41 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and Replication/Updating on Linux.htm"
+      TimeStamp="Wed 23.09.20 12:06:42 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+on+NETGEAR+ReadyNAS/Updating on NETGEAR ReadyNAS.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and Replication/Updating on NETGEAR ReadyNAS.htm"
+      TimeStamp="Wed 23.09.20 12:06:42 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+on+QNAP+NAS/Updating on QNAP NAS.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+on+QNAP+NAS/Updating on QNAP NAS_1.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+on+QNAP+NAS/Updating on QNAP NAS_2.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+on+QNAP+NAS/Updating on QNAP NAS_3.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and Replication/Updating on QNAP NAS.htm"
+      TimeStamp="Wed 23.09.20 12:06:42 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+on+Synology+NAS/Updating on Synology NAS.jpg"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+on+Synology+NAS/Updating on Synology NAS.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+on+Synology+NAS/Updating on Synology NAS_1.jpg"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and Replication/Updating on Synology NAS.htm"
+      TimeStamp="Wed 23.09.20 12:06:42 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+on+Western+Digital+NAS/Updating on Western Digital.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and Replication/Updating on Western Digital.htm"
+      TimeStamp="Wed 23.09.20 12:06:42 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and Replication/Updating on Windows.htm"
+      TimeStamp="Wed 23.09.20 12:06:42 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+Virtual+Appliance/Updating Virtual Appliance.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+Virtual+Appliance/Updating Virtual Appliance_1.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+Virtual+Appliance/Updating Virtual Appliance_2.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+Virtual+Appliance/Updating Virtual Appliance_3.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+Virtual+Appliance/Updating Virtual Appliance_4.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+Virtual+Appliance/Updating Virtual Appliance_5.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Updating+Virtual+Appliance/Updating Virtual Appliance_6.png"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and Replication/Updating Virtual Appliance.htm"
+      TimeStamp="Wed 23.09.20 12:06:42 PM" />
+    <Url
+      Source="../TOCs/Auto+Updating+NAKIVO+Backup+and+Replication.fltoc"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Auto+Updating+NAKIVO+Backup+and+Replication.css"
+      TimeStamp="Wed 23.09.20 12:06:40 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="cite"
+      Style="Flare" />
+    <Map
+      From="HTML Code"
+      To="code"
+      Style="Flare" />
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

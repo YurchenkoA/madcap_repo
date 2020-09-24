@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/Creating+Amazon+EC2+Replication+Jobs1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Replication Job Wizard for Amazon EC2: Source</h1>
+        <p>On the <b>Source </b>page of the wizard, you can add EC2 items to your replication job. Proceed as follows:</p>
+        <ol class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">1. </span>In the left pane of the page, select one of the&#160;following <a href="C:\display\NH\Inventory">inventory</a> views:</p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1"><b><span class="span_4">o </span>AWS Accounts</b>:&#160;If chosen, the inventory tree opens in the left pane and shows you all Amazon EC2 accounts along with their Regions and available Instances. Proceed as follows: </p>
+                        <ol class="ol_1">
+                            <li class="li_1">
+                                <p class="p_1"><span class="span_3">1. </span>Optionally, you can filter the inventory tree by entering a string into the <b>Search</b> box. You can enter a part of or the entire name of the item.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><span class="span_3">2. </span>Select EC2 items by selecting the checkbox next to each item.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><span class="span_3">3. </span>The selected items appear in the right pane of the page. You can reorder the selected items by dragging a VM or a container with the pointer to a new position. By doing that, you can specify to replicate the most important Instances first.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><span class="span_3">4. </span>Review the list of the selected EC2 items. You can remove a selected item or a container from the replication job using one of the following ways: </p>
+                                <ul class="ul_1">
+                                    <li class="li_1">
+                                        <p class="p_1"><span class="span_6">§ </span>Deselect the item in the left pane. This will remove the item from the right pane.</p>
+                                    </li>
+                                    <li class="li_1">
+                                        <p class="p_1"><span class="span_6">§ </span>In the right pane, hover the pointer over the item you want to remove and click the red “x” on the right. This will deselect the item in the left pane.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b><span class="span_4">o </span>Policy</b>: When selected, job policies can be used. Refer to <a href="C:\display\NH\Managing+Job+Policies">Managing Job Policies</a> for details. If the items were selected in alternate views, a dialog box opens warning you that switching to the <b>Policy </b>view will reset your current selection. Click <b>Switch View</b> to confirm switching to the <b>Policy </b>view. Make sure that at least one item matches the available set of policy rules. Refer to <a href="C:\display\NH\Managing+Policy+Rules">Managing Policy Rules</a> for details.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">2. </span>Click <b>Next</b> to confirm adding selected VMs to the replication job.<br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Source/Replication Job Wizard for_4_1.png" class="img_13" /></p>
+            </li>
+        </ol>
+        <p>The wizard will display the next page.</p>
+        <p>Notes:</p>
+        <ol class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">1. </span>If you cannot find an&#160;Instance, try the following: </p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1"><span class="span_4">o </span>Make sure that an appropriate AWS account (the one that was used to create the Instance) has been added to the&#160;<a href="C:\display\NH\Inventory">inventory</a>. &#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><a href="C:\display\NH\Refreshing+Inventory"><span class="span_4">o </span>Refresh&#160;</a>the Inventory.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">2. </span>After you add a Region or an Account to the job: </p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1"><span class="span_4">o </span>All Instances currently available in the selected Region/Account&#160;will be backed up by the job.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><span class="span_4">o </span>All new instances that will be created in (or moved to) the Region/Account&#160;in the future will be automatically added to the replication job and backed up.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">3. </span>To replicate Instances in a region, at least one&#160;<a href="C:\display\NH\Transporter">Transporter&#160;</a>must be&#160;<a href="C:\display\NH\Installing+NAKIVO+Backup+and+Replication">installed&#160;</a>in that region. If there are no Transporters in a particular region, that region will be disabled.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">4. </span>The order in which Instances are backed up is important if the Transporter performing the replication cannot process all Instances of the job simultaneously — either because the Transporter is loaded or because the number of disks in the job exceeds the Transporter’s maximum load specified during the Transporter creation.</p>
+            </li>
+        </ol>
+    </body>
+</html>

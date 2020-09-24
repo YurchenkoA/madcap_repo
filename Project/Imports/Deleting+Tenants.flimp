@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Multi-Tenant Mode\Tenant Management"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-21T11:10:07.7452554+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Deleting+Tenants.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Deleting+Tenants.doc" />
+    <Url
+      Source="../../../../../Downloads/Disabling+Tenants.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Disabling+Tenants.doc" />
+    <Url
+      Source="../../../../../Downloads/Editing+Tenants.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Editing+Tenants.doc" />
+    <Url
+      Source="../../../../../Downloads/Opening+Tenant+Dashboard.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Opening+Tenant+Dashboard.doc" />
+    <Url
+      Source="../../../../../Downloads/Tenant+Management.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Tenant+Management.doc" />
+    <Url
+      Source="../../../../../Downloads/Using+Filters.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Using+Filters.doc" />
+    <Url
+      Source="../../../../../Downloads/Using+Labels.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Using+Labels.doc" />
+    <Url
+      Source="../../../../../Downloads/Viewing+Tenant+Information.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Viewing+Tenant+Information.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Deleting+Tenants/Deleting Tenants.png"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Multi-Tenant Mode/Tenant Management/Deleting Tenants.htm"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Disabling+Tenants/Disabling Tenants.png"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Multi-Tenant Mode/Tenant Management/Disabling Tenants.htm"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Editing+Tenants/Editing Tenants.png"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Multi-Tenant Mode/Tenant Management/Editing Tenants.htm"
+      TimeStamp="Mon 21.09.20 11:10:05 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Opening+Tenant+Dashboard/Opening Tenant Dashboard.png"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Opening+Tenant+Dashboard/Opening Tenant Dashboard_1.png"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Multi-Tenant Mode/Tenant Management/Opening Tenant Dashboard.htm"
+      TimeStamp="Mon 21.09.20 11:10:05 AM" />
+    <Url
+      Source="../../Content/Multi-Tenant Mode/Tenant Management/Tenant Management.htm"
+      TimeStamp="Mon 21.09.20 11:10:05 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using+Filters/Using Filters.png"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using+Filters/Using Filters_1.png"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Multi-Tenant Mode/Tenant Management/Using Filters.htm"
+      TimeStamp="Mon 21.09.20 11:10:05 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using+Labels/Using Labels.png"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using+Labels/Using Labels_1.png"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using+Labels/Using Labels_2.png"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using+Labels/Using Labels_3.png"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Multi-Tenant Mode/Tenant Management/Using Labels.htm"
+      TimeStamp="Mon 21.09.20 11:10:05 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Viewing+Tenant+Information/Viewing Tenant Information.png"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Multi-Tenant Mode/Tenant Management/Viewing Tenant Information.htm"
+      TimeStamp="Mon 21.09.20 11:10:05 AM" />
+    <Url
+      Source="../TOCs/Deleting+Tenants.fltoc"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Deleting+Tenants.css"
+      TimeStamp="Mon 21.09.20 11:10:04 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

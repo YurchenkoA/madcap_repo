@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Backup to Cloud</h1>
+        <p>NAKIVO Backup &amp; Replication provides a great way for safeguarding your business-critical data by letting you send backup copies to Amazon EC2, Amazon S3, and Wasabi Hot Cloud Storage.</p>
+        <p>
+            <img src="../Resources/Images/Backup+to+Cloud/Backup to Cloud.png" class="img_19" />
+        </p>
+        <p>Keeping backups in the cloud provides a number of benefits, including:</p>
+        <ul class="ul_1">
+            <li>
+                <p>Safe Backup Storage – storing backups in the cloud keeps them safe even if local infrastructure becomes unavailable.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Flexible Backup Storage – cloud environments allow for expanding storage space as required, eliminating the need to&#160;choose, order, install, and configure new servers or hard drives for your growing environment.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Easy and quick Data Recovery – backups can be accessed at any time and from anywhere.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Affordable Backup Storage – instead of buying and configuring offsite backup infrastructure, you can simply use your existing hardware.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Simple Backup Management – the&#160;"set it and forget it" approach in NAKIVO Backup &amp; Replication allows for scheduling regular "backup to cloud" jobs.</p>
+            </li>
+        </ul>
+        <p>While cloud providers offer cloud storage at an affordable price, NAKIVO Backup &amp; Replication helps reduce offsite backup costs with features like incremental backup, skip swap files and partitions, backup deduplication, backup compression, and other.&#160;Using NAKIVO Backup &amp; Replication, you can keep the entire environment in the cloud or only use Amazon EC2, Amazon S3, or Wasabi as a storage for backups.</p>
+        <h2>Technology Behind "Backup to Cloud"</h2>
+        <p>A backup represents a point-in-time copy of a VM or physical machine that is stored in the Backup Repository. A Backup Repository is a destination designated for data storage. NAKIVO Backup &amp; Replication allows you to send backups or their copies to private/public clouds such as Amazon EC2, Amazon S3, or Wasabi. In NAKIVO Backup &amp; Replication, a backup job is performed as follows:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2">The product automatically creates temporary snapshots of the source VMs/physical machine.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">The data that was changed (since the last backup) is identified and sent to the Backup Repository.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">The temporary snapshots created in the process are removed.</p>
+            </li>
+        </ol>
+        <p>However, backups can also get lost or damaged as a result of unexpected events. With NAKIVO Backup &amp; Replication, you can run backup copy jobs, which allow you to create and manage copies of your VMware, Hyper-V, Amazon EC2 or physical machine backups. Creating copies of critical backups serves as an additional level of data protection.</p>
+        <p>NAKIVO Backup &amp; Replication enables you to copy backups from one Backup Repository to another without touching the source hosts or VMs. This decreases backup time and reduces network load. The process is entirely automatic, meaning that you are only required to create and set up a backup copy job. After the initial configuration, your secondary Backup Repository is automatically updated with all backups and recovery points from the primary Backup Repository.</p>
+        <p>NAKIVO Backup &amp; Replication includes an automated backup verification feature, which reads backups at the block level, compares the data written to the Backup Repository with the data from the source machine, then checks whether the data on both sites is identical and can be recovered in case of disaster.<br /><br />For more details, refer to the following topics:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Creating+Amazon+EC2+Backup+Jobs">Creating Amazon EC2 Backup Jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Backup+Repository+in+Amazon+EC2">Creating a Backup Repository in Amazon EC2</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Backup+Repository+in+Amazon+S3">Creating a Backup Repository in Amazon S3</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Backup+Repository+in+Wasabi+Hot+Cloud+Storage">Creating a Backup Repository in Wasabi</a>
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>

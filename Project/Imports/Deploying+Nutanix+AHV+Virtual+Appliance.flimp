@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Deployment"
+  LastImport="2020-09-11T13:42:47.0319171+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Deploying+Nutanix+AHV+Virtual+Appliance.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Deploying+Nutanix+AHV+Virtual+Appliance.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual.png"
+      TimeStamp="Fri 11.09.20 1:39:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_1.png"
+      TimeStamp="Fri 11.09.20 1:39:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_2.png"
+      TimeStamp="Fri 11.09.20 1:39:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_3.png"
+      TimeStamp="Fri 11.09.20 1:39:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_4.png"
+      TimeStamp="Fri 11.09.20 1:39:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_5.png"
+      TimeStamp="Fri 11.09.20 1:39:31 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_6.png"
+      TimeStamp="Fri 11.09.20 1:39:31 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_7.png"
+      TimeStamp="Fri 11.09.20 1:39:31 PM" />
+    <Url
+      Source="../../Content/Deployment/Deploying Nutanix AHV Virtual.htm"
+      TimeStamp="Fri 11.09.20 1:39:31 PM" />
+    <Url
+      Source="../TOCs/Deploying+Nutanix+AHV+Virtual+Appliance.fltoc"
+      TimeStamp="Fri 11.09.20 1:39:31 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Deploying+Nutanix+AHV+Virtual+Appliance.css"
+      TimeStamp="Fri 11.09.20 1:39:31 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="li"
+      To="p.li"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="nolink"
+      To="span.nolink"
+      Style="Word" />
+    <Map
+      From="ph"
+      To="span.ph"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

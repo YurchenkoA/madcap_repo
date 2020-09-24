@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Incremental Jobs</h1>
+        <h2>Backup Jobs</h2>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2">When a&#160;<b>forever incremental</b>&#160;Backup Repository is utilized as a destination, the full backup will be performed only on the first backup job run. All consequent job runs will send only changed data (increments) to the Backup Repository. This approach reduces backup time and network load.&#160;For example, if NAKIVO Backup &amp; Replication determines that the amount of data that has been changed on a 100 GB VM is just 1 MB, only 1 MB of data will be transferred to the Backup Repository, but the created recovery point will&#160;<a href="https://www.nakivo.com/helpcenter/display/KB/How+Forever+Incremental+Backups+Are+Stored">reference</a>&#160;all data blocks (from previous job runs) which are required to restore the entire 100 GB VM.&#160;With this approach, each recovery point "knows" all data blocks that are needed for recovery, so there is no need to apply increments one by one to get to a particular point or periodically transform backed up data blocks.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">When an&#160;<b>incremental with full backups</b>&#160;Backup Repository is utilized as a destination, NAKIVO Backup &amp; Replication performs a full backup on the first backup job run. Consequently, NAKIVO Backup &amp; Replication runs incremental backups and periodically creates full backups according to the specified settings. Every VM backed up to said Backup Repository will produce full backup files and incremental backup files.</p>
+            </li>
+        </ul>
+        <h2>Replication Jobs</h2>
+        <p>Replication jobs in NAKIVO Backup &amp; Replication are forever incremental. This means that after the initial full replication, all subsequent job runs will send only changed data (increments) to the replica. This approach reduces the replication time and network load.&#160;For example, if NAKIVO Backup &amp; Replication determines that the amount of changed data on a 100 GB VM constitutes just 1 MB, only 1 MB of data will be transferred to the replica VM.</p>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Integration</h1>
+        <p>NAKIVO Backup &amp; Replication provides support for enterprise-grade deduplication appliances, such as EMC Data Domain and NEC HYDRAstor. Deduplication appliances are servers designed to reduce data size, and can be used as backup targets. Deduplication appliances operate best with sequential large block I/O from backup software. Therefore, when backing up your VMs to a deduplication appliance, it is important to make sure that the architecture of your Backup Repository is optimized for these devices and your VM backups have a large block I/O. Only by doing this, you will be able to maximize your VM backup speeds.</p>
+        <p>NAKIVO Backup &amp; Replication offers you two different types of backup repositories to choose from:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2">The regular Backup Repository, which is optimized for generic storage systems and performs forever-incremental VM backups along with global data deduplication and compression.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_4">The special Backup Repository with an architecture optimized for efficient operation on deduplication appliances. This is known as “Incremental with full backups”, and the name truly speaks for itself. The repository performs incremental-with-full VM backups, and proprietary VM backup deduplication and compression by NAKIVO Backup &amp; Replication are turned off. The file structure is also improved, and each backup with its recovery points is stored in a separate folder for easier manageability.</p>
+            </li>
+        </ul>
+        <p>When tested in a customer environment on a high-end NEC HYDRAstor deduplication appliance, the product's special Backup Repository demonstrated a 53X boost in backup speed over the regular Backup Repository. NAKIVO Backup &amp; Replication backed up the customer's VMs at an incredible 3.2 GByte/s. NAKIVO Backup &amp; Replication ensures that you can use existing storage hardware while achieving top VM backup performance.</p>
+        <p>Integration with the following solutions allow NAKIVO Backup &amp; Replication to further increase backup speed and save storage space:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Active+Directory">Active Directory</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\EMC+DD+Boost">EMC DD Boost</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\HPE+StoreOnce+Catalyst">HPE StoreOnce Catalyst</a>
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>

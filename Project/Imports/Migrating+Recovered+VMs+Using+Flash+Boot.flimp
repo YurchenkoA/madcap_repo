@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Full Recovery\Performing Flash VM Boot Recovery"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-17T17:08:23.1781657+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Migrating+Recovered+VMs+Using+Flash+Boot.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Migrating+Recovered+VMs+Using+Flash+Boot.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Performing Flash VM Boot Recovery/Migrating Recovered VMs Using.htm"
+      TimeStamp="Thu 17.09.20 5:08:19 PM" />
+    <Url
+      Source="../TOCs/Migrating+Recovered+VMs+Using+Flash+Boot.fltoc"
+      TimeStamp="Thu 17.09.20 5:08:19 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Migrating+Recovered+VMs+Using+Flash+Boot.css"
+      TimeStamp="Thu 17.09.20 5:08:19 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

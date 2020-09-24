@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Deployment\Installing NAKIVO Backup and Replication\Installing on Synology NAS"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-18T13:23:52.5295779+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Installing+on+Synology+NAS.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+Synology+NAS.doc" />
+    <Url
+      Source="../../../../../Downloads/Installing+on+Synology+NAS+Manually.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+Synology+NAS+Manually.doc" />
+    <Url
+      Source="../../../../../Downloads/Installing+on+Synology+NAS+via+Package+Center.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+Synology+NAS+via+Package+Center.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on Synology NAS/Installing on Synology NAS.htm"
+      TimeStamp="Fri 18.09.20 1:22:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Synology+NAS+Manually/Installing on Synology NAS_1.png"
+      TimeStamp="Fri 18.09.20 1:22:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Synology+NAS+Manually/Installing on Synology NAS_1_1.png"
+      TimeStamp="Fri 18.09.20 1:22:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Synology+NAS+Manually/Installing on Synology NAS_1_2.png"
+      TimeStamp="Fri 18.09.20 1:22:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Synology+NAS+Manually/Installing on Synology NAS_1_3.png"
+      TimeStamp="Fri 18.09.20 1:22:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Synology+NAS+Manually/Installing on Synology NAS_1_4.png"
+      TimeStamp="Fri 18.09.20 1:22:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Synology+NAS+Manually/Installing on Synology NAS_1_5.png"
+      TimeStamp="Fri 18.09.20 1:22:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Synology+NAS+Manually/Installing on Synology NAS_1_6.png"
+      TimeStamp="Fri 18.09.20 1:22:51 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on Synology NAS/Installing on Synology NAS_1.htm"
+      TimeStamp="Fri 18.09.20 1:22:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Synology+NAS+via+Package+Center/Installing on Synology NAS_2.png"
+      TimeStamp="Fri 18.09.20 1:22:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Synology+NAS+via+Package+Center/Installing on Synology NAS_2_1.png"
+      TimeStamp="Fri 18.09.20 1:22:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Synology+NAS+via+Package+Center/Installing on Synology NAS_2_2.png"
+      TimeStamp="Fri 18.09.20 1:22:51 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on Synology NAS/Installing on Synology NAS_2.htm"
+      TimeStamp="Fri 18.09.20 1:22:52 PM" />
+    <Url
+      Source="../TOCs/Installing+on+Synology+NAS.fltoc"
+      TimeStamp="Fri 18.09.20 1:22:51 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Installing+on+Synology+NAS.css"
+      TimeStamp="Fri 18.09.20 1:22:51 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

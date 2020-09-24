@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Deployment\Installing NAKIVO Backup and Replication\Installing on QNAP NAS"
+  LastImport="2020-09-18T13:28:11.2330922+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Installing+on+QNAP+NAS.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+QNAP+NAS.doc" />
+    <Url
+      Source="../../../../../Downloads/Installing+on+QNAP+NAS+Manually.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+QNAP+NAS+Manually.doc" />
+    <Url
+      Source="../../../../../Downloads/Installing+on+QNAP+NAS+via+QNAP+Store.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+QNAP+NAS+via+QNAP+Store.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on QNAP NAS/Installing on QNAP NAS.htm"
+      TimeStamp="Fri 18.09.20 1:28:08 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+QNAP+NAS+Manually/Installing on QNAP NAS Manually.png"
+      TimeStamp="Fri 18.09.20 1:28:07 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+QNAP+NAS+Manually/Installing on QNAP NAS Manually_1.png"
+      TimeStamp="Fri 18.09.20 1:28:07 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+QNAP+NAS+Manually/Installing on QNAP NAS Manually_2.png"
+      TimeStamp="Fri 18.09.20 1:28:08 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on QNAP NAS/Installing on QNAP NAS Manually.htm"
+      TimeStamp="Fri 18.09.20 1:28:08 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+QNAP+NAS+via+QNAP+Store/Installing on QNAP NAS via.png"
+      TimeStamp="Fri 18.09.20 1:28:08 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+QNAP+NAS+via+QNAP+Store/Installing on QNAP NAS via_1.png"
+      TimeStamp="Fri 18.09.20 1:28:08 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on QNAP NAS/Installing on QNAP NAS via.htm"
+      TimeStamp="Fri 18.09.20 1:28:08 PM" />
+    <Url
+      Source="../TOCs/Installing+on+QNAP+NAS.fltoc"
+      TimeStamp="Fri 18.09.20 1:28:08 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Installing+on+QNAP+NAS.css"
+      TimeStamp="Fri 18.09.20 1:28:08 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="span.Emphasis"
+      Style="Word" />
+    <Map
+      From="HTML Code"
+      To="span.HTMLCode"
+      Style="Word" />
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="nolink"
+      To="span.nolink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

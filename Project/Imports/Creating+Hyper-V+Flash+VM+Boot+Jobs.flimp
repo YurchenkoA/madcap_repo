@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Full Recovery\Performing Flash VM Boot Recovery\Creating Hyper-V VM Boot Jobs"
+  LastImport="2020-09-17T16:05:00.5377907+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Creating+Hyper-V+Flash+VM+Boot+Jobs.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Creating+Hyper-V+Flash+VM+Boot+Jobs.doc" />
+    <Url
+      Source="../../../../../Downloads/Hyper-V+Flash+Boot+Job+Wizard_+Backups.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Hyper-V+Flash+Boot+Job+Wizard_+Backups.doc" />
+    <Url
+      Source="../../../../../Downloads/Hyper-V+Flash+Boot+Job+Wizard_+Destination.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Hyper-V+Flash+Boot+Job+Wizard_+Destination.doc" />
+    <Url
+      Source="../../../../../Downloads/Hyper-V+Flash+Boot+Job+Wizard_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Hyper-V+Flash+Boot+Job+Wizard_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Hyper-V+Flash+Boot+Job+Wizard_+Schedule.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Hyper-V+Flash+Boot+Job+Wizard_+Schedule.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Creating+Hyper-V+Flash+VM+Boot+Jobs/Creating Hyper V Flash VM.png"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Creating+Hyper-V+Flash+VM+Boot+Jobs/Creating Hyper V Flash VM_1.png"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Performing Flash VM Boot Recovery/Creating Hyper-V VM Boot Jobs/Creating Hyper V Flash VM.htm"
+      TimeStamp="Thu 17.09.20 4:04:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Hyper-V+Flash+Boot+Job+Wizard_+Backups/Hyper V Flash Boot Job Wizard.png"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Performing Flash VM Boot Recovery/Creating Hyper-V VM Boot Jobs/Hyper V Flash Boot Job Wizard.htm"
+      TimeStamp="Thu 17.09.20 4:04:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Hyper-V+Flash+Boot+Job+Wizard_+Destination/Hyper V Flash Boot Job Wizard_1.png"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Hyper-V+Flash+Boot+Job+Wizard_+Destination/Hyper V Flash Boot Job Wizard_1_1.png"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Performing Flash VM Boot Recovery/Creating Hyper-V VM Boot Jobs/Hyper V Flash Boot Job Wizard_1.htm"
+      TimeStamp="Thu 17.09.20 4:04:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Hyper-V+Flash+Boot+Job+Wizard_+Options/Hyper V Flash Boot Job Wizard_2.png"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Hyper-V+Flash+Boot+Job+Wizard_+Options/Hyper V Flash Boot Job Wizard_2_1.png"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Hyper-V+Flash+Boot+Job+Wizard_+Options/Hyper V Flash Boot Job Wizard_2_2.png"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Hyper-V+Flash+Boot+Job+Wizard_+Options/Hyper V Flash Boot Job Wizard_2_3.png"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Performing Flash VM Boot Recovery/Creating Hyper-V VM Boot Jobs/Hyper V Flash Boot Job Wizard_2.htm"
+      TimeStamp="Thu 17.09.20 4:04:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Hyper-V+Flash+Boot+Job+Wizard_+Schedule/Hyper V Flash Boot Job Wizard_3.png"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Hyper-V+Flash+Boot+Job+Wizard_+Schedule/Hyper V Flash Boot Job Wizard_3_1.png"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Hyper-V+Flash+Boot+Job+Wizard_+Schedule/Hyper V Flash Boot Job Wizard_3_2.png"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Hyper-V+Flash+Boot+Job+Wizard_+Schedule/Hyper V Flash Boot Job Wizard_3_3.png"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Hyper-V+Flash+Boot+Job+Wizard_+Schedule/Hyper V Flash Boot Job Wizard_3_4.png"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Performing Flash VM Boot Recovery/Creating Hyper-V VM Boot Jobs/Hyper V Flash Boot Job Wizard_3.htm"
+      TimeStamp="Thu 17.09.20 4:04:57 PM" />
+    <Url
+      Source="../TOCs/Creating+Hyper-V+Flash+VM+Boot+Jobs.fltoc"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Creating+Hyper-V+Flash+VM+Boot+Jobs.css"
+      TimeStamp="Thu 17.09.20 4:04:56 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="auto-cursor-target"
+      To="p.auto-cursor-target"
+      Style="Word" />
+    <Map
+      From="bullet1"
+      To="p.bullet1"
+      Style="Word" />
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading3"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="span.Emphasis"
+      Style="Word" />
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

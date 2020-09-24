@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Self-Backup Feature</h1>
+        <p>The Self-Backup feature provides automated protection of everything you have configured in NAKIVO Backup &amp; Replication.</p>
+        <p>A truly complete data protection solution needs to back up not only your VMs, but also itself. There are good reasons for that. For example, the VM running the product may become corrupted, struck by a virus attack, or accidentally deleted. Regardless of the cause, you will need to restore the disrupted product as quickly as possible. Fortunately, a new instance of NAKIVO Backup &amp; Replication can be installed in less than one minute. However, you will still need to restore the product configuration (such as jobs). Also, you do not want to lose the backup history. To save you time, NAKIVO Backup &amp; Replication automatically backs up the entire configuration, including all jobs, inventory, information about connected Transporters, repositories, etc.</p>
+        <p>The Self-Backup feature is enabled by default, and NAKIVO Backup &amp; Replication sends daily self-backups to the first five backup repositories available in the product. Each self-backup is kept for five days, by default. Should you like to, you can fine-tune the backup targets, schedule, and retention policy.</p>
+        <p>
+            <img src="../Resources/Images/Self-Backup+Feature/Self Backup Feature.png" class="img_48" />
+        </p>
+        <p>If you accidentally make some undesired changes in the product, you can easily roll back to a previous system state from the backup. Migrating the system configuration to a new product instance is simple: just install a new copy of NAKIVO Backup &amp; Replication, import a Backup Repository that contains a self-backup, and select a recovery point. The previous product configuration is restored along with all settings.</p>
+        <p>The Self-Backup feature saves you time and brings you peace of mind, ensuring reliable protection of everything you configure in NAKIVO Backup &amp; Replication.</p>
+        <p>For information on the Self-Backup configuration, refer to&#160;<a href="C:\display\NH\Self-Backup+Configuration">Self-Backup Configuration</a>.</p>
+    </body>
+</html>

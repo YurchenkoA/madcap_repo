@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/01. Overview.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Recovery Job Wizard for Amazon EC2: Destinaton</h1>
+        <p>On the Destination page, choose a recovery location for the selected Amazon EC2 instances. Proceed as described in the sections below:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_14"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Amazon+EC2_+Destinaton.doc#RecoveryJobWizardforAmazonEC2:Destinato">Setting the Same Recovery Location for All Amazon EC2 instances</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_14"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Amazon+EC2_+Destinaton.doc#RecoveryJobWizardforAmazonEC2:Destinato">Setting Different Recovery Locations for Amazon EC2 instances</a>
+                </p>
+            </li>
+        </ul>
+        <p>Important</p>
+        <p>You may be additionally charged for using a third-party resource. Refer to the third-party resource provider documentation for details.</p>
+        <h2>Setting the Same Recovery Location for All Amazon EC2 instances</h2>
+        <p>To recover all selected Amazon EC2 instances to the same Amazon region and with the same destination options, set up the following:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_14">Region:&#160;Select a target Amazon EC2 r<a href="C:\display\NH\Amazon+EC2+Backup">egion&#160;</a>to which all Amazon EC2 instances will be recovered.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_14">Network:&#160;Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">VPC</a>&#160;to which all Amazon EC2 instances will be connected.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_14">Subnet:&#160;Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Subnet&#160;</a>to which all Amazon EC2 instances will be connected.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_14">Security group:&#160;Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Security Group</a>&#160;for all Amazon EC2 instances.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_14">Instance access:&#160;Specify&#160; Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Key Pair</a>&#160;options as follows: </p>
+                <ul class="ul_4">
+                    <li class="li_1">
+                        <p class="p_14">Use existing key pair:&#160;Choose an existing Amazon EC2 Key Pair that you want use to connect to the recovered instances.</p>
+                    </li>
+                    <li>
+                        <p>Create a new key pair:&#160;Select this option to create a new Amazon EC2 Key Pair and assign it to all recovered Amazon EC2 instances. Type in a name for the new Amazon EC2 Key Pair in the&#160;Key pair name&#160;field and click&#160;Download.</p>
+                        <p>Important</p>
+                        <p>This is your only chance to save the private key file, so make sure you save the private key file in a safe place. You will need to provide the name of your key pair when you start the recovered Amazon EC2 instances and the corresponding private key each time you connect to the instances.</p>
+                    </li>
+                    <li>
+                        <p>Proceed without key pair:&#160;Select this option if you do not want to assign an Amazon Key Pair to the recovered Amazon EC2 instances.</p>
+                        <p>Important</p>
+                        <p>A key pair enables you to connect to Linux instances via SSH. If you recover Linux instances without a key pair, you will not be able to connect to them.</p>
+                        <p>&#160;</p>
+                        <p>
+                            <br />
+                            <img src="../../../Resources/Images/Recovery+Job+Wizard+for+Amazon+EC2_+Destinaton/Recovery Job Wizard for Amazon_1.png" class="img_54" />
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Setting Different Recovery Locations for Amazon EC2 instances</h2>
+        <p>To set different recovery options for individual Amazon EC2 instances, follow the steps below:</p>
+        <ol start="1" class="ol_5">
+            <li class="li_1">
+                <p class="p_14">Click Advanced options.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_14">Click an Instance box and set the options as follows: </p>
+                <ul class="ul_4">
+                    <li class="li_1">
+                        <p class="p_14">Region:&#160;Select a target Amazon EC2 region to which the Amazon EC2 instance will be recovered.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_14">Instance type:&#160;Select a&#160;type&#160;for recovered Amazon EC2 instance.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_14">EBS Volumes:&#160;Choose whether to recover or skip recovering individual Amazon&#160;EBS Volumes.&#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_14">Network:&#160;Select an Amazon EC2&#160;VPC&#160;to which the Amazon EC2 instance will be connected.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_14">Subnet:&#160;Select an Amazon EC2&#160;Subnet&#160;to which the Amazon EC2 instance&#160;will be connected.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_14">Security group:&#160;Select an Amazon EC2&#160;Security Group&#160;for&#160;the Amazon EC2 instance.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_14">Instance access:&#160;Specify&#160; Amazon EC2&#160;Key Pair&#160;options as follows: </p>
+                        <ul class="ul_5">
+                            <li class="li_1">
+                                <p class="p_14">Use existing key pair:&#160;Choose an existing Amazon EC2 Key Pair that you want to use to connect to the recovered instance.</p>
+                            </li>
+                            <li>
+                                <p>Create a new key pair:&#160;Select this option to create a new Amazon EC2 Key Pair and assign it to the recovered Amazon EC2 instance. Type in a name for the new Amazon EC2 Key Pair in the&#160;Key pair name&#160;field and click&#160;Download.&#160;</p>
+                                <p>Important</p>
+                                <p>This is your only chance to save the private key file, so make sure you save the private key file in a safe place. You will need to provide the name of your key pair when you start the recovered Amazon EC2 instance and the corresponding private key each time you connect to the instance.</p>
+                            </li>
+                            <li>
+                                <p>Proceed without key pair:&#160;Select this option if you do not want to assign an Amazon Key Pair to the recovered Amazon EC2 instance.</p>
+                                <p>Important</p>
+                                <p>&#160;A key pair enables you to connect to Linux instances via SSH. If you recover Linux instances without a key pair, you will not be able to connect to them.</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Recovery+Job+Wizard+for+Amazon+EC2_+Destinaton/Recovery Job Wizard for Amazon_1_1.png" class="img_55" />
+                                </p>
+                                <p>Click Next to go to the next page of the wizard.&#160;</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

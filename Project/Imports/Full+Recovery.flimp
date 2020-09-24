@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Full Recovery"
+  LastImport="2020-09-17T15:38:34.5845584+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Full+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Full+Recovery.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Full Recovery.htm"
+      TimeStamp="Thu 17.09.20 3:38:32 PM" />
+    <Url
+      Source="../TOCs/Full+Recovery.fltoc"
+      TimeStamp="Thu 17.09.20 3:38:31 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Full+Recovery.css"
+      TimeStamp="Thu 17.09.20 3:38:31 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

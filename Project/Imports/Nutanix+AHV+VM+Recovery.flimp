@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Full Recovery\Nutanix AHV VM Recovery"
+  InlineFormatting="Keep"
+  AutoFitTables="true"
+  UseHeaderRows="true"
+  TableStyles="NewTableStyleSheets"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-17T18:09:26.6936196+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Nutanix+AHV+VM+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Nutanix+AHV+VM+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+Nutanix+AHV_+Backups.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Nutanix+AHV_+Backups.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+Nutanix+AHV_+Destination.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Nutanix+AHV_+Destination.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+Nutanix+AHV_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Nutanix+AHV_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+Nutanix+AHV+VM+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+Nutanix+AHV+VM+Recovery.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Nutanix AHV VM Recovery/Nutanix AHV VM Recovery.htm"
+      TimeStamp="Thu 17.09.20 6:09:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Nutanix+AHV_+Backups/Recovery Job Wizard for Nutanix.png"
+      TimeStamp="Thu 17.09.20 6:09:14 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Nutanix AHV VM Recovery/Recovery Job Wizard for Nutanix.htm"
+      TimeStamp="Thu 17.09.20 6:09:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Nutanix+AHV_+Destination/Recovery Job Wizard for Nutanix_1.png"
+      TimeStamp="Thu 17.09.20 6:09:16 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Nutanix+AHV_+Destination/Recovery Job Wizard for Nutanix_1_1.png"
+      TimeStamp="Thu 17.09.20 6:09:16 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Nutanix+AHV_+Destination/Recovery Job Wizard for Nutanix_1_2.png"
+      TimeStamp="Thu 17.09.20 6:09:16 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Nutanix AHV VM Recovery/Recovery Job Wizard for Nutanix_1.htm"
+      TimeStamp="Thu 17.09.20 6:09:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Nutanix+AHV_+Options/Recovery Job Wizard for Nutanix_2.png"
+      TimeStamp="Thu 17.09.20 6:09:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Nutanix+AHV_+Options/Recovery Job Wizard for Nutanix_2_1.png"
+      TimeStamp="Thu 17.09.20 6:09:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Nutanix+AHV_+Options/Recovery Job Wizard for Nutanix_2_2.png"
+      TimeStamp="Thu 17.09.20 6:09:20 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Nutanix AHV VM Recovery/Recovery Job Wizard for Nutanix_2.htm"
+      TimeStamp="Thu 17.09.20 6:09:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Nutanix+AHV+VM+Recovery/Starting Nutanix AHV VM Recovery.png"
+      TimeStamp="Thu 17.09.20 6:09:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Nutanix+AHV+VM+Recovery/Starting Nutanix AHV VM Recovery_1.png"
+      TimeStamp="Thu 17.09.20 6:09:23 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Nutanix AHV VM Recovery/Starting Nutanix AHV VM Recovery.htm"
+      TimeStamp="Thu 17.09.20 6:09:23 PM" />
+    <Url
+      Source="../TOCs/Nutanix+AHV+VM+Recovery.fltoc"
+      TimeStamp="Thu 17.09.20 6:09:23 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Nutanix+AHV+VM+Recovery.css"
+      TimeStamp="Thu 17.09.20 6:09:23 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Heading 3"
+      To="h3"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

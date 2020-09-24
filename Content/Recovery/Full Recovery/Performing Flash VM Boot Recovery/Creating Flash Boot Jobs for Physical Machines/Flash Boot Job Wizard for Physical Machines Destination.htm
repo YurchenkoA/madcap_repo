@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../../Resources/Stylesheets/Creating+Flash+Boot+Jobs+for+Physical+Machines.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Flash Boot Job Wizard for Physical Machines: Destination</h1>
+        <p>On the Destination page, select a location for the recovered physical machines.&#160;</p>
+        <ul class="ul_1">
+            <li class="li_2">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Flash+Boot+Job+Wizard+for+Physical+Machines_+Destination.doc#FlashBootJobWizardforPhysicalMachines:D">Setting the Same Host, Datastore, and Network for All VMs</a>
+                </p>
+            </li>
+            <li class="li_2">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Flash+Boot+Job+Wizard+for+Physical+Machines_+Destination.doc#FlashBootJobWizardforPhysicalMachines:D">Setting the Default Destination for Recovered Machines</a>
+                </p>
+            </li>
+            <li class="li_2">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Flash+Boot+Job+Wizard+for+Physical+Machines_+Destination.doc#FlashBootJobWizardforPhysicalMachines:D">Setting Different Options for VMs</a>
+                </p>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <h2>Setting the Same Host, Datastore, and Network for All VMs</h2>
+        <p>To run all machines on the same host, container, and datastore, and to connect all VMs to the same network, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_2">
+                <p class="p_2">Choose a cluster, host, or a resource pool from the Container drop-down list.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Choose a datastore from the Datastore drop-down list.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Optionally, you can choose a target VM folder from the VM folder drop-down list.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click Next.<br /><br /><img src="../../../../Resources/Images/Flash+Boot+Job+Wizard+for+Physical+Machines_+Destination/Flash Boot Job Wizard for_1.png" class="img_4" /></p>
+            </li>
+        </ol>
+        <p>Note</p>
+        <p>By default, NAKIVO Backup &amp; Replication sets the same amount of resources for the created VMs as that set for the source physical machine, including the same number of CPUs, cores per socket, and amount of RAM.</p>
+        <h2>Setting the Default Destination for Recovered Machines</h2>
+        <p>If you have chosen a Backup Repository or a folder as a source for your recovery job on the&#160;Backups&#160;page, you can set the default container, datastore, and VM folder for the recovered machines. To do this, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_2">
+                <p class="p_2">Click&#160;Advanced options&#160;and then click on the name of the chosen host, cluster, folder, or a resource pool.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Choose a&#160;Default container.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">If you have chosen the backup job on the&#160;Source&#160;page, you can choose a&#160;Default Network.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Optionally, you can also choose a&#160;Default VM folder.<span class="span_2"><br /><br /><img src="../../../../Resources/Images/Flash+Boot+Job+Wizard+for+Physical+Machines_+Destination/Flash Boot Job Wizard for_1_1.png" class="img_5" /></span></p>
+            </li>
+        </ol>
+        <h2>
+            <br />Setting Different Options for VMs</h2>
+        <p>You can customize VM options for every machine.&#160;To do this, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_2">
+                <p class="p_2">Click Advanced options.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Hover over a VM and click Click to expand. Choose a target container, virtual machine, and VM folder in the corresponding boxes.</p>
+            </li>
+            <li>
+                <p>Set the number of virtual CPUs, cores per socket, and the amount of RAM in the corresponding boxes.</p>
+                <p>Note</p>
+                <p>The number of virtual CPUs and cores per socket&#160;and the amount of RAM cannot exceed the maximum value available on the destination host.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Select a target datastore for each disk and for each disk and for each VM file from the drop-down list.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Keep the source disk configuration by selecting&#160;Keep source configuration, or choose one of the following disk controller types:</p>
+                <ul class="ul_2">
+                    <li class="li_2">
+                        <p class="p_2">SCSI LSI Logic SAS</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">SCSI LSI Logic Parallel</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">SCSI VMware Paravirtual</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">SCSI BusLogic Parallel</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">IDE</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">SATA</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">NVMe</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Select network adapters from the Network adapters drop-down list</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click Next.<br /><br /><img src="../../../../Resources/Images/Flash+Boot+Job+Wizard+for+Physical+Machines_+Destination/Flash Boot Job Wizard for_1_2.png" class="img_6" /></p>
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,314 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	max-id: 1;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	type: Automatic;
+	name: Column;
+	id: 0;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	font-family: 'Times New Roman';
+	name: Body;
+	id: 1;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-TableNormal_1
+{
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-TableNormal_1-Column-Column
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadI-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadI-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadE-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadE-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadF-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadF-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadH-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadH-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadD-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadD-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadC-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadC-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadB-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadB-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadA-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadA-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadG-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-HeadG-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootI-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootI-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootE-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootE-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootF-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootF-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootH-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootH-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootD-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootD-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootC-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootC-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootB-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootB-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootA-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootA-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootG-Column-
+{
+	
+}
+
+.TableStyle-TableNormal_1-FootG-Column- p
+{
+	
+}
+
+.TableStyle-TableNormal_1-Body-Body
+{
+	
+}
+
+.TableStyle-TableNormal_1-BodyI-Column-Body
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyI-Column-Body p
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyE-Column-Body
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyE-Column-Body p
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyF-Column-Body
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyF-Column-Body p
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyH-Column-Body
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyH-Column-Body p
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyD-Column-Body
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyD-Column-Body p
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyC-Column-Body
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyC-Column-Body p
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyB-Column-Body
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyB-Column-Body p
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyA-Column-Body
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyA-Column-Body p
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyG-Column-Body
+{
+	font-family: 'Times New Roman';
+}
+
+.TableStyle-TableNormal_1-BodyG-Column-Body p
+{
+	font-family: 'Times New Roman';
+}
+
+

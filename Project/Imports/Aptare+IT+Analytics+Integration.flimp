@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Integration and Automation"
+  UseListBullets="true"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-18T12:09:46.1392396+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Aptare+IT+Analytics+Integration.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Aptare+IT+Analytics+Integration.doc" />
+    <Url
+      Source="../../../../../Downloads/Automation+with+HTTP+API.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Automation+with+HTTP+API.doc" />
+    <Url
+      Source="../../../../../Downloads/Integration+and+Automation.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Integration+and+Automation.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration.png"
+      TimeStamp="Fri 18.09.20 12:09:42 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_1.png"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_2.png"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_3.png"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_4.png"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_5.png"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_6.png"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_7.png"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_8.png"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_9.png"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_10.png"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_11.png"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../../Content/Integration and Automation/Aptare IT Analytics Integration.htm"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../../Content/Integration and Automation/Automation with HTTP API.htm"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../../Content/Integration and Automation/Integration and Automation.htm"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../TOCs/Aptare+IT+Analytics+Integration.fltoc"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Aptare+IT+Analytics+Integration.css"
+      TimeStamp="Fri 18.09.20 12:09:43 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="HTML Code"
+      To="code"
+      Style="Flare" />
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

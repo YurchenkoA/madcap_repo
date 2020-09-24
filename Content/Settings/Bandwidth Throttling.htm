@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Adding+Active+Directory+User.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Bandwidth Throttling</h1>
+        <p>With bandwidth throttling settings, you can configure how LAN/WAN bandwidth is consumed by NAKIVO Backup &amp; Replication <a href="C:\display\NH\Jobs+and+Concurrent+Tasks">jobs</a>. Bandwidth consumption is managed with bandwidth rules. When a bandwidth rule is applied to your job, the speed of data transfer from source to target will not exceed the specified limit.&#160;Refer to <a href="C:\display\NH\Advanced+Bandwidth+Throttling">Advanced Bandwidth Throttling</a>&#160;for&#160;a description of bandwidth rules.</p>
+        <p>This section contains the following topics:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/settings/Bandwidth+Throttling.doc#BandwidthThrottling-AccessingBandwidthT">Accessing Bandwidth Throttling Settings</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/settings/Bandwidth+Throttling.doc#BandwidthThrottling-CreatingBandwidthRu">Creating Bandwidth Rules</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/settings/Bandwidth+Throttling.doc#BandwidthThrottling-ManagingBandwidthRu">Managing Bandwidth Rules</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Accessing Bandwidth Throttling Settings</h2>
+        <p>To access bandwidth throttling settings, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click&#160;<b>Settings</b>&#160;in the left pane of the application to open the <b>Settings&#160;</b>dashboard.</p>
+            </li>
+            <li class="li_1">
+                <p>In the&#160;<b>General</b>&#160;tab of the <b>Settings&#160;</b>dashboard, click&#160;<b>Bandwidth throttling</b>.</p>
+                <p>
+                    <img src="../Resources/Images/Bandwidth+Throttling/Bandwidth Throttling.png" class="img_7" />
+                </p>
+            </li>
+        </ol>
+        <p>The <i>Bandwidth throttling</i> section opens.</p>
+        <h2>Creating Bandwidth Rules</h2>
+        <p>Please follow the steps below to create a bandwidth rule:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>In the <i>Bandwidth throttling</i> section of the <b>General</b> tab of <b>Settings</b><i>,</i> click <b>Create New Rule</b>.</p>
+            </li>
+            <li class="li_1">
+                <p>The New Bandwidth Rule dialog opens. Proceed as follows: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p>Choose a type for your bandwidth rule: </p>
+                        <ul class="ul_2">
+                            <li class="li_1">
+                                <p><b>Global</b>: The rule will be applied to the whole application.</p>
+                            </li>
+                            <li>
+                                <p><b>Per job</b>: The rule will be applied to the selected jobs.</p>
+                                <p>Note</p>
+                                <p>When applied to specific jobs,<b>&#160;Per job</b>&#160;bandwidth rules<b>&#160;</b>have higher priority over&#160;<b>Global</b>&#160;bandwidth rules.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p><b>Name</b>:&#160;Enter a name for your bandwidth rule.</p>
+                    </li>
+                    <li>
+                        <p><b>Throttle bandwidth to</b>:<b>&#160;</b>Enter the value of the bandwidth limit; and choose the measurement unit: kbit/s, Mbit/s, or Gbit/s.</p>
+                        <p>Notes:</p>
+                        <p>1.&#160;For your convenience, a description is available below the value you've entered, explaining what the value means.<br />2. In some cases, the actual data transfer speed may exceed the limit you set by up to 0.3 MByte/s or 2.4 Mbit/s.</p>
+                    </li>
+                    <li class="li_1">
+                        <p><b>Rule schedule</b>: Choose either of the following: </p>
+                        <ul class="ul_2">
+                            <li class="li_1">
+                                <p><b>Always active</b>:<b>&#160;</b>The rule will always be active.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><b>Active on schedule</b>:<b>&#160;</b>The rule will be active on schedule. When chosen, the following options are available: </p>
+                                <ol start="1" class="ol_1">
+                                    <li class="li_1">
+                                        <p><b>Starting at </b>and<b> ending at</b>:<b>&#160;</b>Enter the time, in hours and minutes, when the rule will be active.</p>
+                                    </li>
+                                    <li class="li_1">
+                                        <p><b>Days</b>:<b>&#160;</b>Select weekdays for which the rule will be active.</p>
+                                    </li>
+                                    <li class="li_1">
+                                        <p><b>Time zone</b>:&#160;Choose a time zone of your rule.</p>
+                                    </li>
+                                </ol>
+                            </li>
+                            <li class="li_1">
+                                <p><b>Disabled</b>: The rule will be disabled.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p><b>Show/Hide jobs</b>: This&#160;option is available for the <b>Per job</b> rule type only. Select jobs for which the rule will be active.</p>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p>Click <b>Save</b>.</p>
+                <p>&#160;&#160;<img src="../Resources/Images/Bandwidth+Throttling/Bandwidth Throttling_1.png" class="img_8" /></p>
+            </li>
+        </ol>
+        <h2>Managing Bandwidth Rules</h2>
+        <p>You can manage bandwidth rules with the following commands:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><b>Edit</b>: The Edit Bandwidth Rule dialog opens where you can modify your rule.</p>
+            </li>
+            <li class="li_1">
+                <p><b>Disable/Enable</b>: When applied, the command will disable/enable the rule.</p>
+            </li>
+            <li class="li_1">
+                <p><b>Remove</b>: When applied, a dialog will open asking you to confirm the operation. Click <b>Delete</b> to confirm that you wish to delete your rule.</p>
+                <p>&#160;&#160;<img src="../Resources/Images/Bandwidth+Throttling/Bandwidth Throttling_2.png" class="img_9" /></p>
+            </li>
+        </ul>
+        <p>Note</p>
+        <p><b>Per job</b> bandwidth rules can also be created/managed during creating/editing the corresponding jobs. Please refer to the topics:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><a href="C:\display\NH\Creating+VMware+Backup+Jobs">Creating VMware Backup Jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="C:\display\NH\Creating+Hyper-V+Backup+Jobs">Creating Hyper-V Backup Jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="C:\display\NH\Creating+Nutanix+AHV+Backup+Jobs">Creating Nutanix AHV Backup Jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="C:\display\NH\Creating+Physical+Machine+Backup+Jobs">Creating Physical Machine Backup Jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="C:\display\NH\Creating+Backup+Copy+Jobs">Creating Backup Copy Jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="C:\display\NH\Creating+VMware+Replication+Jobs">Creating VMware Replication Jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="C:\display\NH\Creating+Hyper-V+Replication+Jobs">Creating Hyper-V Replication Jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="C:\display\NH\VMware+VM+Recovery">VMware VM Recovery</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="C:\display\NH\Hyper-V+VM+Recovery">Hyper-V VM Recovery</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="C:\display\NH\Amazon+EC2+Instance+Recovery">Amazon EC2 Instance Recovery</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="C:\display\NH\Nutanix+AHV+VM+Recovery">Nutanix AHV VM Recovery</a>
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>

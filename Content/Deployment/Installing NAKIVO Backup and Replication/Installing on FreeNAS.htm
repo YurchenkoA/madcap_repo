@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/Deploying+Amazon+Machine+Image+in+Amazon+EC2.css" rel="stylesheet" />
+        <link href="../../Resources/TableStyles/TableNormal.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Installing on FreeNAS</h1>
+        <p>Make sure the following prerequisites are met:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">You have access to the FreeNAS system.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Your FreeNAS system meets <a href="C:\display\NH\Deployment+Requirements">system requirements</a> for installing NAKIVO Backup &amp; Replication.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">The&#160;<code class="code_1">iocage</code> jail/container manager is installed on your FreeNAS system. Refer to the <code class="code_1">iocage</code> <a href="https://github.com/iocage/iocage">README page</a> for a description.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">A storage pool is created on your FreeNAS system. Make sure the pool has enough storage for all NAKIVO Backup &amp; Replication functionality. Refer to <a href="https://www.ixsystems.com/documentation/freenas/11.2/storage.html">FreeNAS User Guide</a> for more details on creating storage pools.</p>
+            </li>
+        </ol>
+        <p>Follow the steps below to install NAKIVO Backup &amp; Replication on a FreeNAS system:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Log in to the FreeNAS system via SSH.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Go to the <code class="code_1">tmp</code> folder:&#160;&#160;<code class="code_1">cd /tmp</code></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Download the necessary&#160;<code class="code_1">json</code> file:</p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1">for the full NAKIVO Backup &amp; Replication installation on a FreeNAS v11.3:<br /><code class="code_1">wget&#160;</code><a href="https://github.com/NAKIVO/iocage-plugin-nbr/raw/master/nbr.json"><span class="span_4">https://github.com/NAKIVO/iocage-plugin-nbr/raw/master/nbr.json</span></a><span class="span_4">&#160;</span></p>
+                    </li>
+                    <li>
+                        <p>for the&#160;NAKIVO Backup &amp; Replication Transporter installation on a FreeNAS v11.3:<br /><code class="code_1">wget&#160;</code><a href="https://github.com/NAKIVO/iocage-plugin-nbr-transporter/raw/master/nbr-transporter.json"><span class="span_4">https://github.com/NAKIVO/iocage-plugin-nbr-transporter/raw/master/nbr-transporter.json</span></a></p>
+                        <p>Note</p>
+                        <p>If a utility for downloading files like <code class="code_1">wget</code> or <code class="code_1">curl</code> is missing on your FreeNAS system, you can first download the necessary file to your local machine and then upload it to FreeNAS with a third-party tool like WinSCP or FileZilla.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>Install NAKIVO Backup &amp; Replication with the <code class="code_1">iocage</code>&#160;jail/container manager:</p>
+                <p>Note</p>
+                <p><span class="span_5">Make sure that the jail IP address is not the IP address of your FreeNAS system.</span> </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1">For the full NAKIVO Backup &amp; Replication installation on a FreeNAS v11.3:<br /><code class="code_1">iocage fetch -P nbr.json vnet="off" ip4="inherit" ip4_addr="em0|x.x.x.x/24"</code></p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">For the NAKIVO Backup &amp; Replication Transporter installation on a FreeNAS v11.3:<br /><code class="code_1">iocage fetch -P nbr-transporter.json vnet="off" ip4="inherit" ip4_addr="em0|x.x.x.x/24"</code></p>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <p class="p_2">&#160; &#160; &#160; &#160;5. For the NAKIVO Backup &amp; Replication Transporter installation, add the Transporter to the Director. Refer to the <a href="C:\display\NH\Adding+Installed+Transporters">Adding Installed Transporters</a> topic for details.</p>
+    </body>
+</html>

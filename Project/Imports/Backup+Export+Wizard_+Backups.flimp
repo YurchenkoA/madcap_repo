@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Full Recovery\Performing Cross-Platform Recovery"
+  PreserveMappedStyles="false"
+  AutoFitTables="true"
+  UseHeaderRows="true"
+  InlineFormatting="Keep"
+  LastImport="2020-09-17T18:42:33.9748525+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Backup+Export+Wizard_+Backups.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Backup+Export+Wizard_+Backups.doc" />
+    <Url
+      Source="../../../../../Downloads/Backup+Export+Wizard_+Disks.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Backup+Export+Wizard_+Disks.doc" />
+    <Url
+      Source="../../../../../Downloads/Backup+Export+Wizard_+Finish.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Backup+Export+Wizard_+Finish.doc" />
+    <Url
+      Source="../../../../../Downloads/Backup+Export+Wizard_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Backup+Export+Wizard_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Opening+Backup+Export+Wizard.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Opening+Backup+Export+Wizard.doc" />
+    <Url
+      Source="../../../../../Downloads/Performing+Cross-Platform+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Performing+Cross-Platform+Recovery.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Backup+Export+Wizard_+Backups/Backup Export Wizard Backups.png"
+      TimeStamp="Thu 17.09.20 6:42:30 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Performing Cross-Platform Recovery/Backup Export Wizard Backups.htm"
+      TimeStamp="Thu 17.09.20 6:42:31 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Backup+Export+Wizard_+Disks/Backup Export Wizard Disks.png"
+      TimeStamp="Thu 17.09.20 6:42:30 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Performing Cross-Platform Recovery/Backup Export Wizard Disks.htm"
+      TimeStamp="Thu 17.09.20 6:42:31 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Performing Cross-Platform Recovery/Backup Export Wizard Finish.htm"
+      TimeStamp="Thu 17.09.20 6:42:31 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Backup+Export+Wizard_+Options/Backup Export Wizard Options.png"
+      TimeStamp="Thu 17.09.20 6:42:30 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Performing Cross-Platform Recovery/Backup Export Wizard Options.htm"
+      TimeStamp="Thu 17.09.20 6:42:31 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Opening+Backup+Export+Wizard/Opening Backup Export Wizard.png"
+      TimeStamp="Thu 17.09.20 6:42:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Opening+Backup+Export+Wizard/Opening Backup Export Wizard_1.png"
+      TimeStamp="Thu 17.09.20 6:42:31 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Performing Cross-Platform Recovery/Opening Backup Export Wizard.htm"
+      TimeStamp="Thu 17.09.20 6:42:31 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Performing Cross-Platform Recovery/Performing Cross Platform.htm"
+      TimeStamp="Thu 17.09.20 6:42:31 PM" />
+    <Url
+      Source="../TOCs/Backup+Export+Wizard_+Backups.fltoc"
+      TimeStamp="Thu 17.09.20 6:42:31 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Backup+Export+Wizard_+Backups.css"
+      TimeStamp="Thu 17.09.20 6:42:31 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Planning Disaster Recovery\Site Recovery Job\Creating Site Recovery Job\Site Recovery Job Wizard Actions"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-18T11:58:40.9986075+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Attach+_+Detach+Repository+Action.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Attach+_+Detach+Repository+Action.doc" />
+    <Url
+      Source="../../../../../Downloads/Check+Condition+Action.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Check+Condition+Action.doc" />
+    <Url
+      Source="../../../../../Downloads/Failback+Amazon+EC2+Instances+Action.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failback+Amazon+EC2+Instances+Action.doc" />
+    <Url
+      Source="../../../../../Downloads/Failback+Hyper-V+VMs+Action.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failback+Hyper-V+VMs+Action.doc" />
+    <Url
+      Source="../../../../../Downloads/Failback+VMware+VMs+Action.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failback+VMware+VMs+Action.doc" />
+    <Url
+      Source="../../../../../Downloads/Failover+Amazon+EC2+Instances+Action.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+Amazon+EC2+Instances+Action.doc" />
+    <Url
+      Source="../../../../../Downloads/Failover+Hyper-V+VMs+Action.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+Hyper-V+VMs+Action.doc" />
+    <Url
+      Source="../../../../../Downloads/Failover+VMware+VMs+Action.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+VMware+VMs+Action.doc" />
+    <Url
+      Source="../../../../../Downloads/Run+_+Stop+Jobs+Action.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Run+_+Stop+Jobs+Action.doc" />
+    <Url
+      Source="../../../../../Downloads/Run+Script+Action.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Run+Script+Action.doc" />
+    <Url
+      Source="../../../../../Downloads/Send+Email+Action.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Send+Email+Action.doc" />
+    <Url
+      Source="../../../../../Downloads/Site+Recovery+Job+Wizard_+Actions.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Site+Recovery+Job+Wizard_+Actions.doc" />
+    <Url
+      Source="../../../../../Downloads/Start+VMs+_+Instances+Action.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Start+VMs+_+Instances+Action.doc" />
+    <Url
+      Source="../../../../../Downloads/Stop+VMs+_+Instances+Action.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Stop+VMs+_+Instances+Action.doc" />
+    <Url
+      Source="../../../../../Downloads/Wait+Action.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Wait+Action.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Attach+_+Detach+Repository+Action/Attach Detach Repository Action.png"
+      TimeStamp="Fri 18.09.20 11:58:34 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Attach Detach Repository Action.htm"
+      TimeStamp="Fri 18.09.20 11:58:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Check+Condition+Action/Check Condition Action.png"
+      TimeStamp="Fri 18.09.20 11:58:34 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Check Condition Action.htm"
+      TimeStamp="Fri 18.09.20 11:58:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Amazon+EC2+Instances+Action/Failback Amazon EC2 Instances.png"
+      TimeStamp="Fri 18.09.20 11:58:34 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Amazon+EC2+Instances+Action/Failback Amazon EC2 Instances_1.png"
+      TimeStamp="Fri 18.09.20 11:58:34 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Amazon+EC2+Instances+Action/Failback Amazon EC2 Instances_2.png"
+      TimeStamp="Fri 18.09.20 11:58:34 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Amazon+EC2+Instances+Action/Failback Amazon EC2 Instances_3.png"
+      TimeStamp="Fri 18.09.20 11:58:35 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Failback Amazon EC2 Instances.htm"
+      TimeStamp="Fri 18.09.20 11:58:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Hyper-V+VMs+Action/Failback Hyper V VMs Action.png"
+      TimeStamp="Fri 18.09.20 11:58:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Hyper-V+VMs+Action/Failback Hyper V VMs Action_1.png"
+      TimeStamp="Fri 18.09.20 11:58:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Hyper-V+VMs+Action/Failback Hyper V VMs Action_2.png"
+      TimeStamp="Fri 18.09.20 11:58:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Hyper-V+VMs+Action/Failback Hyper V VMs Action_3.png"
+      TimeStamp="Fri 18.09.20 11:58:35 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Failback Hyper V VMs Action.htm"
+      TimeStamp="Fri 18.09.20 11:58:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+VMware+VMs+Action/Failback VMware VMs Action.png"
+      TimeStamp="Fri 18.09.20 11:58:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+VMware+VMs+Action/Failback VMware VMs Action_1.png"
+      TimeStamp="Fri 18.09.20 11:58:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+VMware+VMs+Action/Failback VMware VMs Action_2.png"
+      TimeStamp="Fri 18.09.20 11:58:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+VMware+VMs+Action/Failback VMware VMs Action_3.png"
+      TimeStamp="Fri 18.09.20 11:58:35 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Failback VMware VMs Action.htm"
+      TimeStamp="Fri 18.09.20 11:58:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Amazon+EC2+Instances+Action/Failover Amazon EC2 Instances.png"
+      TimeStamp="Fri 18.09.20 11:58:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Amazon+EC2+Instances+Action/Failover Amazon EC2 Instances_1.png"
+      TimeStamp="Fri 18.09.20 11:58:35 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Amazon+EC2+Instances+Action/Failover Amazon EC2 Instances_2.png"
+      TimeStamp="Fri 18.09.20 11:58:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Amazon+EC2+Instances+Action/Failover Amazon EC2 Instances_3.png"
+      TimeStamp="Fri 18.09.20 11:58:36 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Failover Amazon EC2 Instances.htm"
+      TimeStamp="Fri 18.09.20 11:58:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Hyper-V+VMs+Action/Failover Hyper V VMs Action.png"
+      TimeStamp="Fri 18.09.20 11:58:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Hyper-V+VMs+Action/Failover Hyper V VMs Action_1.png"
+      TimeStamp="Fri 18.09.20 11:58:36 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Failover Hyper V VMs Action.htm"
+      TimeStamp="Fri 18.09.20 11:58:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+VMware+VMs+Action/Failover VMware VMs Action.png"
+      TimeStamp="Fri 18.09.20 11:58:36 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+VMware+VMs+Action/Failover VMware VMs Action_1.png"
+      TimeStamp="Fri 18.09.20 11:58:36 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Failover VMware VMs Action.htm"
+      TimeStamp="Fri 18.09.20 11:58:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Run+_+Stop+Jobs+Action/Run Stop Jobs Action.png"
+      TimeStamp="Fri 18.09.20 11:58:36 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Run Stop Jobs Action.htm"
+      TimeStamp="Fri 18.09.20 11:58:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Run+Script+Action/Run Script Action.png"
+      TimeStamp="Fri 18.09.20 11:58:36 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Run Script Action.htm"
+      TimeStamp="Fri 18.09.20 11:58:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Send+Email+Action/Send Email Action.png"
+      TimeStamp="Fri 18.09.20 11:58:36 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Send Email Action.htm"
+      TimeStamp="Fri 18.09.20 11:58:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Actions/Site Recovery Job Wizard Actions.png"
+      TimeStamp="Fri 18.09.20 11:58:36 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Site Recovery Job Wizard Actions.htm"
+      TimeStamp="Fri 18.09.20 11:58:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Start+VMs+_+Instances+Action/Start VMs Instances Action.png"
+      TimeStamp="Fri 18.09.20 11:58:36 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Start VMs Instances Action.htm"
+      TimeStamp="Fri 18.09.20 11:58:37 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Stop+VMs+_+Instances+Action/Stop VMs Instances Action.png"
+      TimeStamp="Fri 18.09.20 11:58:36 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Stop VMs Instances Action.htm"
+      TimeStamp="Fri 18.09.20 11:58:38 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Wait+Action/Wait Action.png"
+      TimeStamp="Fri 18.09.20 11:58:36 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Actions/Wait Action.htm"
+      TimeStamp="Fri 18.09.20 11:58:38 AM" />
+    <Url
+      Source="../TOCs/Attach+_+Detach+Repository+Action.fltoc"
+      TimeStamp="Fri 18.09.20 11:58:36 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Attach+_+Detach+Repository+Action.css"
+      TimeStamp="Fri 18.09.20 11:58:37 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="_mce_tagged_br"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="auto-cursor-target"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Heading 3"
+      To="h3"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="cite"
+      Style="Flare" />
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

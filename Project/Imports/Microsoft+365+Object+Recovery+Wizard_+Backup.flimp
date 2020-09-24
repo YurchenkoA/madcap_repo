@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Granular Recovery\Object Recovery for Microsoft 365"
+  LastImport="2020-09-17T12:47:29.8498871+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Microsoft+365+Object+Recovery+Wizard_+Backup.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Microsoft+365+Object+Recovery+Wizard_+Backup.doc" />
+    <Url
+      Source="../../../../../Downloads/Microsoft+365+Object+Recovery+Wizard_+Objects.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Microsoft+365+Object+Recovery+Wizard_+Objects.doc" />
+    <Url
+      Source="../../../../../Downloads/Microsoft+365+Object+Recovery+Wizard_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Microsoft+365+Object+Recovery+Wizard_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Microsoft+365+Object+Recovery+Wizard_+Recovery+Account.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Microsoft+365+Object+Recovery+Wizard_+Recovery+Account.doc" />
+    <Url
+      Source="../../../../../Downloads/Object+Recovery+for+Microsoft+365.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Object+Recovery+for+Microsoft+365.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+Object+Recovery+for+Microsoft+365.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+Object+Recovery+for+Microsoft+365.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+365+Object+Recovery+Wizard_+Backup/Microsoft 365 Object Recovery.jpg"
+      TimeStamp="Thu 17.09.20 12:46:51 PM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft 365/Microsoft 365 Object Recovery.htm"
+      TimeStamp="Thu 17.09.20 12:46:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+365+Object+Recovery+Wizard_+Objects/Microsoft 365 Object Recovery_1.png"
+      TimeStamp="Thu 17.09.20 12:46:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+365+Object+Recovery+Wizard_+Objects/Microsoft 365 Object Recovery_1_1.png"
+      TimeStamp="Thu 17.09.20 12:46:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+365+Object+Recovery+Wizard_+Objects/Microsoft 365 Object Recovery_1_2.png"
+      TimeStamp="Thu 17.09.20 12:46:52 PM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft 365/Microsoft 365 Object Recovery_1.htm"
+      TimeStamp="Thu 17.09.20 12:46:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+365+Object+Recovery+Wizard_+Options/Microsoft 365 Object Recovery_2.png"
+      TimeStamp="Thu 17.09.20 12:46:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+365+Object+Recovery+Wizard_+Options/Microsoft 365 Object Recovery_2_1.png"
+      TimeStamp="Thu 17.09.20 12:46:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+365+Object+Recovery+Wizard_+Options/Microsoft 365 Object Recovery_2_2.png"
+      TimeStamp="Thu 17.09.20 12:46:52 PM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft 365/Microsoft 365 Object Recovery_2.htm"
+      TimeStamp="Thu 17.09.20 12:46:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+365+Object+Recovery+Wizard_+Recovery+Account/Microsoft 365 Object Recovery_3.jpg"
+      TimeStamp="Thu 17.09.20 12:46:52 PM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft 365/Microsoft 365 Object Recovery_3.htm"
+      TimeStamp="Thu 17.09.20 12:46:53 PM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft 365/Object Recovery for Microsoft.htm"
+      TimeStamp="Thu 17.09.20 12:46:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Object+Recovery+for+Microsoft+365/Starting Object Recovery for.png"
+      TimeStamp="Thu 17.09.20 12:46:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Object+Recovery+for+Microsoft+365/Starting Object Recovery for_1.png"
+      TimeStamp="Thu 17.09.20 12:46:52 PM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft 365/Starting Object Recovery for.htm"
+      TimeStamp="Thu 17.09.20 12:46:53 PM" />
+    <Url
+      Source="../TOCs/Microsoft+365+Object+Recovery+Wizard_+Backup.fltoc"
+      TimeStamp="Thu 17.09.20 12:46:52 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Microsoft+365+Object+Recovery+Wizard_+Backup.css"
+      TimeStamp="Thu 17.09.20 12:46:52 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

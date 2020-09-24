@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Planning Disaster Recovery\Site Recovery Job\Creating Site Recovery Job"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-18T11:29:33.8108253+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Creating+Site+Recovery+Job.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Creating+Site+Recovery+Job.doc" />
+    <Url
+      Source="../../../../../Downloads/Running+Site+Recovery+Job.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Running+Site+Recovery+Job.doc" />
+    <Url
+      Source="../../../../../Downloads/Site+Recovery+Job+Wizard_+Networks.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Site+Recovery+Job+Wizard_+Networks.doc" />
+    <Url
+      Source="../../../../../Downloads/Site+Recovery+Job+Wizard_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Site+Recovery+Job+Wizard_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Site+Recovery+Job+Wizard_+Re-IP.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Site+Recovery+Job+Wizard_+Re-IP.doc" />
+    <Url
+      Source="../../../../../Downloads/Site+Recovery+Job+Wizard_+Test+Schedule.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Site+Recovery+Job+Wizard_+Test+Schedule.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+Site+Recovery+Job+Wizard.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+Site+Recovery+Job+Wizard.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Creating Site Recovery Job.htm"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Running+Site+Recovery+Job/Running Site Recovery Job.png"
+      TimeStamp="Fri 18.09.20 11:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Running+Site+Recovery+Job/Running Site Recovery Job_1.png"
+      TimeStamp="Fri 18.09.20 11:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Running+Site+Recovery+Job/Running Site Recovery Job_2.png"
+      TimeStamp="Fri 18.09.20 11:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Running+Site+Recovery+Job/Running Site Recovery Job_3.png"
+      TimeStamp="Fri 18.09.20 11:29:23 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Running Site Recovery Job.htm"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Networks/Site Recovery Job Wizard Networks.png"
+      TimeStamp="Fri 18.09.20 11:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Networks/Site Recovery Job Wizard Networks_1.png"
+      TimeStamp="Fri 18.09.20 11:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Networks/Site Recovery Job Wizard Networks_2.png"
+      TimeStamp="Fri 18.09.20 11:29:23 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Networks.htm"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Options/Site Recovery Job Wizard Options.png"
+      TimeStamp="Fri 18.09.20 11:29:23 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Options.htm"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Re-IP/Site Recovery Job Wizard Re.png"
+      TimeStamp="Fri 18.09.20 11:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Re-IP/Site Recovery Job Wizard Re_1.png"
+      TimeStamp="Fri 18.09.20 11:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Re-IP/Site Recovery Job Wizard Re_2.png"
+      TimeStamp="Fri 18.09.20 11:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Re-IP/Site Recovery Job Wizard Re_3.png"
+      TimeStamp="Fri 18.09.20 11:29:23 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Re.htm"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Test+Schedule/Site Recovery Job Wizard Test.png"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Test+Schedule/Site Recovery Job Wizard Test_1.png"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Test+Schedule/Site Recovery Job Wizard Test_2.png"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Test+Schedule/Site Recovery Job Wizard Test_3.png"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Test+Schedule/Site Recovery Job Wizard Test_4.png"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery+Job+Wizard_+Test+Schedule/Site Recovery Job Wizard Test_5.png"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Site Recovery Job Wizard Test.htm"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Site+Recovery+Job+Wizard/Starting Site Recovery Job.png"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Site Recovery Job/Creating Site Recovery Job/Starting Site Recovery Job.htm"
+      TimeStamp="Fri 18.09.20 11:29:25 AM" />
+    <Url
+      Source="../TOCs/Creating+Site+Recovery+Job.fltoc"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Creating+Site+Recovery+Job.css"
+      TimeStamp="Fri 18.09.20 11:29:24 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="aui-icon"
+      To="i"
+      Style="Flare" />
+    <Map
+      From="Emphasis"
+      To="cite"
+      Style="Flare" />
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

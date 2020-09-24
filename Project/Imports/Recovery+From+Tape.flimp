@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Full Recovery\Recovery From Tape"
+  InlineFormatting="Keep"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-17T18:30:05.9279678+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Recovery+From+Tape.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+From+Tape.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+from+Tape+Wizard_+Backups.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+from+Tape+Wizard_+Backups.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+from+Tape+Wizard_+Destination.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+from+Tape+Wizard_+Destination.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+from+Tape+Wizard_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+from+Tape+Wizard_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+Recovery+from+Tape+Wizard.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+Recovery+from+Tape+Wizard.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Recovery+From+Tape/Recovery From Tape.png"
+      TimeStamp="Thu 17.09.20 6:30:02 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Recovery From Tape/Recovery From Tape.htm"
+      TimeStamp="Thu 17.09.20 6:30:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+from+Tape+Wizard_+Backups/Recovery from Tape Wizard.png"
+      TimeStamp="Thu 17.09.20 6:30:02 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Recovery From Tape/Recovery from Tape Wizard.htm"
+      TimeStamp="Thu 17.09.20 6:30:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+from+Tape+Wizard_+Destination/Recovery from Tape Wizard_1.png"
+      TimeStamp="Thu 17.09.20 6:30:02 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Recovery From Tape/Recovery from Tape Wizard_1.htm"
+      TimeStamp="Thu 17.09.20 6:30:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+from+Tape+Wizard_+Options/Recovery from Tape Wizard_2.png"
+      TimeStamp="Thu 17.09.20 6:30:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+from+Tape+Wizard_+Options/Recovery from Tape Wizard_2_1.png"
+      TimeStamp="Thu 17.09.20 6:30:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+from+Tape+Wizard_+Options/Recovery from Tape Wizard_2_2.png"
+      TimeStamp="Thu 17.09.20 6:30:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+from+Tape+Wizard_+Options/Recovery from Tape Wizard_2_3.png"
+      TimeStamp="Thu 17.09.20 6:30:03 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Recovery From Tape/Recovery from Tape Wizard_2.htm"
+      TimeStamp="Thu 17.09.20 6:30:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Recovery+from+Tape+Wizard/Starting Recovery from Tape.png"
+      TimeStamp="Thu 17.09.20 6:30:03 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Recovery From Tape/Starting Recovery from Tape.htm"
+      TimeStamp="Thu 17.09.20 6:30:03 PM" />
+    <Url
+      Source="../TOCs/Recovery+From+Tape.fltoc"
+      TimeStamp="Thu 17.09.20 6:30:03 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Recovery+From+Tape.css"
+      TimeStamp="Thu 17.09.20 6:30:03 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="auto-cursor-target"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Heading 3"
+      To="h3"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

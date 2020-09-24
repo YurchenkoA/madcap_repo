@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Adding+Active+Directory+User.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Configuring Active Directory Integration</h1>
+        <p>To configure Active Directory integration, follow these steps:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Go to <b>Settings &gt; General &gt; Users &amp; Roles</b>.</p>
+            </li>
+            <li class="li_1">
+                <p>The <b>Users &amp; Roles</b> page opens in the <b>Users</b> view. Click the <b>Configure AD Integration</b> button.</p>
+            </li>
+            <li class="li_1">
+                <p>The <b>Active Directory Configuration Wizard</b> opens on the <b>Settings</b> page. Proceed as follows: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p>In the <b>Domain name</b> box, enter the domain name.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>In the <b>Preferred DC hostname/IP</b> box, enter the name of the preferred domain controller or its IP address.</p>
+                    </li>
+                    <li>
+                        <p>Optionally, you can enter the name of the preferred Active Directory groups in the <b>Preferred prioritized groups</b> box.</p>
+                        <p>Note</p>
+                        <p>If a user is a member of two or more Active Directory groups, enter the prioritized group’s name in this field.</p>
+                        <p>&#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p>In the <b>Domain user login</b> box, enter the username that will be applied when integrating Active Directory.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>In the <b>Domain user password</b> box, enter the user password that will be applied when integrating Active Directory.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>Specify a periodicity of refreshing Active Directory information:</p>
+                    </li>
+                    <li class="li_2">
+                        <p>Click the <b>Test Integration</b> button to verify the successful integration with Active Directory.<br /><br /><img src="../Resources/Images/Configuring+Active+Directory+Integration/Configuring Active Directory.png" class="img_13" /></p>
+                    </li>
+                    <li>
+                        <p>If Active Directory integration is tested successfully, a checkmark appears beside the <b>Test Integration</b> button. Then click <b>Next</b> to go to the next page of the wizard.</p>
+                        <p>If you fail to connect to the AD domain, refer to the <a href="C:\display\KB\Failed+to+Connect+to+Active+Directory+Domain">Knowledge Base</a> article for possible causes.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>On the <b>Users</b> page of the wizard, proceed with <a href="C:\display\NH\Adding+Active+Directory+User">adding an Active Directory user</a>.</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <p>When the wizard closes, the <b>Users &amp; Roles</b>&#160;page opens, displaying the newly-added Active Directory users in the list of users.</p>
+    </body>
+</html>

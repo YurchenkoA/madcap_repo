@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Integration and Automation\Comman Line Interface"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-18T12:11:59.2951813+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Available+Commands.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Available+Commands.doc" />
+    <Url
+      Source="../../../../../Downloads/Command+Line+Interface.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Command+Line+Interface.doc" />
+    <Url
+      Source="../../../../../Downloads/Exit+Codes.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Exit+Codes.doc" />
+    <Url
+      Source="../../../../../Downloads/Using+Command+Line+Interface.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Using+Command+Line+Interface.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Integration and Automation/Comman Line Interface/Available Commands.htm"
+      TimeStamp="Fri 18.09.20 12:11:57 PM" />
+    <Url
+      Source="../../Content/Integration and Automation/Comman Line Interface/Command Line Interface.htm"
+      TimeStamp="Fri 18.09.20 12:11:57 PM" />
+    <Url
+      Source="../../Content/Integration and Automation/Comman Line Interface/Exit Codes.htm"
+      TimeStamp="Fri 18.09.20 12:11:57 PM" />
+    <Url
+      Source="../../Content/Integration and Automation/Comman Line Interface/Using Command Line Interface.htm"
+      TimeStamp="Fri 18.09.20 12:11:57 PM" />
+    <Url
+      Source="../TOCs/Available+Commands.fltoc"
+      TimeStamp="Fri 18.09.20 12:11:57 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Available+Commands.css"
+      TimeStamp="Fri 18.09.20 12:11:57 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="code"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Heading 4"
+      To="h4"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="cite"
+      Style="Flare" />
+    <Map
+      From="error"
+      To="code"
+      Style="Flare" />
+    <Map
+      From="HTML Code"
+      To="code"
+      Style="Flare" />
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

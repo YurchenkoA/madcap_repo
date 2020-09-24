@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Granular Recovery\Object Recovery for Microsoft Active Directory"
+  LastImport="2020-09-17T11:18:58.3810829+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Object+Recovery+for+Microsoft+Active+Directory.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Object+Recovery+for+Microsoft+Active+Directory.doc" />
+    <Url
+      Source="../../../../../Downloads/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Backup.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Backup.doc" />
+    <Url
+      Source="../../../../../Downloads/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Objects.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Objects.doc" />
+    <Url
+      Source="../../../../../Downloads/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Recovery+Server.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Recovery+Server.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+Object+Recovery+for+Microsoft+Active+Directory.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+Object+Recovery+for+Microsoft+Active+Directory.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft Active Directory/Object Recovery for Microsoft.htm"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Backup/Object Recovery Wizard for.png"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft Active Directory/Object Recovery Wizard for.htm"
+      TimeStamp="Thu 17.09.20 11:17:54 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Objects/Object Recovery Wizard for_1.png"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Objects/Object Recovery Wizard for_1.jpg"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Objects/Object Recovery Wizard for_1_1.png"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Objects/Object Recovery Wizard for_1_2.png"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft Active Directory/Object Recovery Wizard for_1.htm"
+      TimeStamp="Thu 17.09.20 11:17:54 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Options/Object Recovery Wizard for_2.png"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Options/Object Recovery Wizard for_2_1.png"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Options/Object Recovery Wizard for_2_2.png"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Options/Object Recovery Wizard for_2.jpg"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft Active Directory/Object Recovery Wizard for_2.htm"
+      TimeStamp="Thu 17.09.20 11:17:54 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Recovery+Server/Object Recovery Wizard for_3.png"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft Active Directory/Object Recovery Wizard for_3.htm"
+      TimeStamp="Thu 17.09.20 11:17:54 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Object+Recovery+for+Microsoft+Active+Directory/Starting Object Recovery for.png"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Object+Recovery+for+Microsoft+Active+Directory/Starting Object Recovery for_1.png"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft Active Directory/Starting Object Recovery for.htm"
+      TimeStamp="Thu 17.09.20 11:17:54 AM" />
+    <Url
+      Source="../TOCs/Object+Recovery+for+Microsoft+Active+Directory.fltoc"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Object+Recovery+for+Microsoft+Active+Directory.css"
+      TimeStamp="Thu 17.09.20 11:17:53 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="auto-cursor-target"
+      To="p.auto-cursor-target"
+      Style="Word" />
+    <Map
+      From="fig"
+      To="p.fig"
+      Style="Word" />
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="notenormal"
+      To="p.notenormal"
+      Style="Word" />
+    <Map
+      From="qowt-li-0_0"
+      To="p.qowt-li-0_0"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="HTML Code"
+      To="span.HTMLCode"
+      Style="Word" />
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="qowt-font2-timesnewroman"
+      To="span.qowt-font2-timesnewroman"
+      Style="Word" />
+    <Map
+      From="qowt-font3-couriernew"
+      To="span.qowt-font3-couriernew"
+      Style="Word" />
+    <Map
+      From="qowt-font4-timesnewroman"
+      To="span.qowt-font4-timesnewroman"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

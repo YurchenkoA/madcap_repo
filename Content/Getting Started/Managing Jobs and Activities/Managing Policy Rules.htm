@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/Managing+Policy+Rules4.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Managing Policy Rules</h1>
+        <p>Policy rules are an integral part of <a href="Managing Job Policies.htm">job policies</a>. Refer to the following sections for details:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1">
+                    <MadCap:xref href="#About">About Policy Rules</MadCap:xref>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">
+                    <MadCap:xref href="#Editing">Editing Policy Rule</MadCap:xref>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">
+                    <MadCap:xref href="#Adding">Adding Policy Rule</MadCap:xref>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">
+                    <MadCap:xref href="#Removing">Removing Policy Rule</MadCap:xref>
+                </p>
+            </li>
+        </ul>
+        <h2><a name="About"></a>About Policy Rules</h2>
+        <p>In the <b>Policy</b> view of the inventory tree, policy rules are numbered by NAKIVO Backup &amp; Replication for your convenience.</p>
+        <p>Every policy rule contains the following options:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><b>Search by</b>: A drop-down list with the following search criteria: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1"><b>VM name / Instance name / Backup name</b>: The rule is to be applied based on the name of the object.&#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>VM tag / Instance tag</b>: The rule is to be applied based on the tag of the object.&#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>VM location / Instance location</b>:&#160;The rule is to be applied based on the location of the object.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Name of VM datastore / VM Path</b>:&#160;The rule is to be applied based on the name of the VM datastore or the VM path.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Name of VM network / Name of Subnet</b>:&#160;The rule is to be applied based on the name of the VM network or instance network.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Size of VM / Size of instance</b>:&#160;The rule is to be applied based on the size of the object.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Amount of VM/Instance RAM</b>:&#160;The rule is to be applied based on the amount of VM/Instance RAM.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Number of VM CPU sockets / Number of VM processors / Number of Instance virtual CPUs</b>:&#160;The rule is to be applied based on the number of VM CPU sockets, VM processors, or Instance virtual CPUs correspondingly.</p>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <div>&#160;</div>
+        <p><b>Note</b>
+        </p>
+        <p>The criteria are available as follows:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><b>Number of VM CPU sockets</b>: This is for your VMware backup and replication jobs.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Number of VM processors</b>: This is for your Hyper-V backup and replication jobs.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Number of instance virtual CPUs</b>: This is for your Amazon EC2 backup and replication jobs.</p>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1"><b>VM power state / Instance power state</b>:&#160;The rule is to be applied based on the power state of the object.</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2"><b>IP Address</b>:&#160;The rule is to be applied based on the IP address of the object.<br /><br /><img src="../../Resources/Images/Managing+Policy+Rules/Managing Policy Rules_24.png" class="img_1" /></p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Search parameter</b>:&#160;You can choose either of the following: </p>
+                <ol start="1" class="ol_2">
+                    <li class="li_1">
+                        <p class="p_1">For <b>VM name / Instance name / Backup name, Name of VM network / Name of subnet, Name of VM datastore / VM Path, VM tag / Instance tag, and IP Address</b>: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p class="p_1"><b>Contains</b>
+                                </p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Does not Contain</b>
+                                </p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Equals </b>(always applied for the<b> VM tag</b>)</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Does not equal</b>
+                                </p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Starts with</b>
+                                </p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Ends with</b>
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">For <b>Amount of VM/Instance RAM, Number of VM CPU sockets / Number of VM processors / Number of Instance virtual CPUs, and Size of VM / Size of Instance</b>, you can choose any of the following search parameters: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p class="p_1"><b>Is more than</b>
+                                </p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Is less than</b>
+                                </p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Equals</b>
+                                </p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Does not equal</b>
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">For <b>VM Power State / Instance power state and VM Location / Instance location</b>: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p class="p_1"><b>Is</b>
+                                </p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2"><b>Is not</b><span class="span_1"><br /><br /><img src="../../Resources/Images/Managing+Policy+Rules/Managing Policy Rules_25.png" class="img_2" /></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><b>Search criteria</b>:&#160;A text string or a numeric value to be used by the policy rule.</p>
+            </li>
+        </ol>
+        <p class="p_3">When you enter or edit parameters, the changes are immediately reflected in the list of selected items.</p>
+        <h2><a name="Editing"></a>Editing Policy Rule</h2>
+        <p>Follow the steps below to edit a policy rule:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Make sure your job is opened in the<b> Policy </b>view.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Locate your policy rule in the left pane of the view. If necessary, use the scroll bar.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Change the necessary parameters of your policy rule. Make sure that at least one item matches an available set of policy rules.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click <b>Next</b>.</p>
+            </li>
+        </ol>
+        <h2><a name="Adding"></a>Adding Policy Rule</h2>
+        <p>Follow the steps below to add a policy rule:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Make sure your job is opened in the <b>Policy</b> view.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">In the left pane of the wizard, click <b>Add another rule</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">The wizard displays a new policy rule, <cite>Rule #N</cite>. Provide the necessary parameters of your policy rule. Make sure that at least one item matches the available set of policy rules.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click <b>Next</b> when all parameters are set.</p>
+                <p>
+                    <img src="../../Resources/Images/Managing+Policy+Rules/Managing Policy Rules_26.png" class="img_1" />
+                </p>
+            </li>
+        </ol>
+        <h2><a name="Removing"></a>Removing Policy Rule</h2>
+        <p>Follow the steps below to remove a policy rule:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Make sure your job is opened in the <b>Policy</b> view.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Locate your policy rule in the left pane of the view. If necessary, use the scroll bar.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click <b>Remove</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click <b>Next</b> when all parameters are set.<br /><br /><img src="../../Resources/Images/Managing+Policy+Rules/Managing Policy Rules_27.png" class="img_1" /></p>
+                <p>&#160;</p>
+            </li>
+        </ol>
+        <p><b>Note</b>
+        </p>
+        <p>You cannot remove all policy rules. A job policy must have at least one rule.</p>
+    </body>
+</html>

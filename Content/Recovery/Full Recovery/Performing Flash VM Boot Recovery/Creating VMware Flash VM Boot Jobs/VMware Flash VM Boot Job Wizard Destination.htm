@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../../Resources/Stylesheets/Creating+VMware+Flash+VM+Boot+Jobs3.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>VMware Flash VM Boot Job Wizard: Destination</h1>
+        <p>On the Destination page, select a destination for the recovered VMs.</p>
+        <p>Important</p>
+        <p>Due to vSphere storage limitations, only 256 VM disks can be flash-booted per host.</p>
+        <p class="p_3">
+            <br />Proceed as described in these sections:</p>
+        <ul class="ul_1">
+            <li class="li_2">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Destination.doc#VMwareFlashVMBootJobWizard:Destination-">Setting the Same Host, Datastore, and Network for all VMs</a>
+                </p>
+            </li>
+            <li class="li_2">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Destination.doc#VMwareFlashVMBootJobWizard:Destination-">Setting Different Options for Recovered VMs</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Setting the Same Host, Datastore, and Network for all VMs</h2>
+        <p class="p_3">To run all VMs on the same host (cluster, or resource pool), datastore and VM folder (optional),&#160;and to connect all recovered VMs to the same network, choose a target container, datastore, VM folder and network from the appropriate drop-down lists:<br /><br /><img src="../../../../Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Destination/VMware Flash VM Boot Job Wizard_1_6.png" class="img_4" /></p>
+        <p>If you choose the&#160;Connect to temporary isolated network&#160;option from the&#160;Network&#160;drop-down&#160;list, NAKIVO Backup &amp; Replication will create a new vSwitch and a new network on all hosts where VMs will be recovered. Recovered VMs will be connected to the newly created network.</p>
+        <h2>Setting Different Options for Recovered VMs</h2>
+        <p>To specify different options for VMs, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_2">
+                <p class="p_2">Click Advanced options.</p>
+            </li>
+            <li>
+                <p>Choose a target container, target datastore, and target network for each individual VM.&#160;</p>
+                <p>&#160;</p>
+                <p>
+                    <img src="../../../../Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Destination/VMware Flash VM Boot Job Wizard_1_7.png" class="img_5" />
+                </p>
+                <p>If you choose the&#160;Connect to temporary isolated network&#160;option for a NIC, NAKIVO Backup &amp; Replication will create a new vSwitch and a new network on the host where the VM will be recovered. The recovered VM will be connected to the network.&#160;</p>
+            </li>
+            <li>
+                <p>Click&#160;Next.</p>
+            </li>
+        </ol>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../../Resources/Stylesheets/Creating+Hyper-V+Flash+VM+Boot+Jobs.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 class="Heading1">Hyper-V Flash Boot Job Wizard: Destination</h1>
+        <p class="NormalWeb">On the<span class="Strong"> Destination</span> page, select a destination for the recovered VMs.</p>
+        <p class="title">Important</p>
+        <p class="NormalWeb">Due to&#160;<span class="span_2">Microsoft iSCSI Target Server limits on Windows Server, only 256&#160;iSCSI target instances (VM disks) can be flash-booted per iSCSI Target Server.&#160;</span></p>
+        <p class="NormalWeb">Proceed as described in the sections below.</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Hyper-V+Flash+Boot+Job+Wizard_+Destination.doc#Hyper-VFlashBootJobWizard:Destination-S" class="Hyperlink">Setting the Same Container, Path, and Network for all VMs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Hyper-V+Flash+Boot+Job+Wizard_+Destination.doc#Hyper-VFlashBootJobWizard:Destination-S" class="Hyperlink">Setting Different Options for Recovered VMs</a>
+                </p>
+            </li>
+        </ul>
+        <h2 class="Heading2">Setting the Same Container, Path, and Network for all VMs</h2>
+        <p class="NormalWeb">To run all VMs on the same container and path, and to connect all recovered VMs to the same network, choose a target container, path, and network from the appropriate drop-down lists.<br /><br /><img src="../../../../Resources/Images/Hyper-V+Flash+Boot+Job+Wizard_+Destination/Hyper V Flash Boot Job Wizard_1.png" class="img_4" /></p>
+        <p class="title">Note</p>
+        <p class="NormalWeb">If you choose the&#160;<span class="Strong">Connect to temporary isolated network</span>&#160;option from the&#160;<span class="Strong">Network</span>&#160;drop-down&#160;list, NAKIVO Backup &amp; Replication will create a new Hyper-V virtual switch&#160;and a new network on all hosts where VMs will be recovered. Recovered VMs will be connected to the newly created network.</p>
+        <h2 class="Heading2">Setting Different Options for Recovered VMs</h2>
+        <p class="NormalWeb">To specify different options for VMs, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Click&#160;<span class="Strong">Advanced options</span>.</p>
+            </li>
+            <li class="NormalWeb">
+                <p class="NormalWeb">Choose a target container and network adapter for each individual VM.</p>
+            </li>
+            <li class="NormalWeb_1">
+                <p class="NormalWeb_1">Click&#160;<span class="Strong">Next</span>.<br /><br /><img src="../../../../Resources/Images/Hyper-V+Flash+Boot+Job+Wizard_+Destination/Hyper V Flash Boot Job Wizard_1_1.png" class="img_5" /></p>
+            </li>
+        </ol>
+        <p class="title">Note</p>
+        <p class="NormalWeb">If you choose the&#160;<span class="Strong">Connect to temporary isolated network</span>&#160;option for a NIC, NAKIVO Backup &amp; Replication will create a new Hyper-V virtual switch&#160;and a new network on the host where the VM will be recovered. The recovered VM will be connected to the network.</p>
+    </body>
+</html>

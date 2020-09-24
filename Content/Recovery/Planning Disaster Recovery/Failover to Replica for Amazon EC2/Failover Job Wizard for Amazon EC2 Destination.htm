@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Failover+Job+Wizard+for+Amazon+EC2_+Destination1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Failover Job Wizard for Amazon EC2: Destination</h1>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="../../../../../../../Downloads/Failover+Job+Wizard+for+Amazon+EC2_+Destination.doc#FailoverJobWizardforAmazonEC2:Destinati">Single Destination for Amazon EC2 Instances</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="../../../../../../../Downloads/Failover+Job+Wizard+for+Amazon+EC2_+Destination.doc#FailoverJobWizardforAmazonEC2:Destinati">Different Destinations for Amazon EC2 Instances</a>
+                </p>
+            </li>
+        </ul>
+        <p>On the <b>Destination</b> page of the wizard, you can specify a failover destination for your Amazon EC2 instances.</p>
+        <p>Important</p>
+        <p>You may be additionally charged for using a third-party resource. Refer to the 3rd-party resource provider documentation for details.</p>
+        <h2>Single Destination for Amazon EC2 Instances</h2>
+        <p>To fail over all Amazon EC2 instances defined in the previous page in the wizard to the same AWS region and with the same options, set up the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><b>Network</b>: Select an Amazon EC2&#160;<a href="https://beta-helpcenter.nakivo.com/display/NH/AWS+EC2+Backup">VPC</a>&#160;to which all Amazon EC2 instances will be connected.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Subnet</b>: Select an Amazon EC2&#160;<a href="https://beta-helpcenter.nakivo.com/display/NH/AWS+EC2+Backup">Subnet&#160;</a>to which all Amazon EC2 instances will be connected.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Security group</b>: Select an Amazon EC2&#160;<a href="https://beta-helpcenter.nakivo.com/display/NH/AWS+EC2+Backup">Security Group</a>&#160;for all Amazon EC2 instances.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Instance access</b>:<b>&#160;</b>Specify Amazon EC2&#160;<a href="https://beta-helpcenter.nakivo.com/display/NH/AWS+EC2+Backup">Key Pair</a>&#160;options by choosing one of the following: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1"><b>Use existing key pair</b>: An existing Amazon EC2 Key Pair will be used to connect to the recovered instances.</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2"><b>Create a new key pair</b>: A new Amazon EC2 Key Pair will be created and assigned to all recovered Amazon EC2 instances. Enter a name for the new Amazon EC2 Key Pair in the&#160;<b>Key pair name</b>&#160;box and click&#160;<b>Download</b>.</p>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <p>Important</p>
+        <p>This is your only chance to save the private key file, so make sure you save the private key file in a safe place. You will need to provide the name of your key pair when you start recovered Amazon EC2 instances and the corresponding private key each time you connect to the instances.</p>
+        <ul class="ul_3">
+            <li class="li_2">
+                <p class="p_2"><b>Proceed without key pair</b>:<b>&#160;</b>No AWS Key Pair will be assigned to the recovered Amazon EC2 instances.</p>
+            </li>
+        </ul>
+        <p>Important</p>
+        <p>A key pair&#160;allows you to connect to Linux instances via SSH. If you recover Linux instances without a key pair, you will not be able to connect to them.</p>
+        <p class="p_3">5. Click <b>Next</b> to go to the next page in the wizard.</p>
+        <p class="p_3">
+            <br />
+            <img src="../../../Resources/Images/Failover+Job+Wizard+for+Amazon+EC2_+Destination/Failover Job Wizard for Amazon_2.png" class="img_1" />
+        </p>
+        <h2>Different Destinations for Amazon EC2 Instances</h2>
+        <p>To set different destination options for individual Amazon EC2 instances, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Advanced options</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click an EC2 instance to expand it. Set the options as follows: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1"><b>Region</b>: Select a target Amazon EC2&#160;<a href="https://beta-helpcenter.nakivo.com/display/NH/AWS+EC2+Backup">Region&#160;</a>for the Amazon EC2 instance.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Instance type</b>: Select a&#160;<a href="https://beta-helpcenter.nakivo.com/display/NH/AWS+EC2+Backup">type&#160;</a>for the recovered Amazon EC2 instance.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>EBS Volumes</b>: Choose whether to recover or skip recovering individual AWS&#160;<a href="https://beta-helpcenter.nakivo.com/display/NH/AWS+EC2+Backup">EBS Volumes</a>.&#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Network</b>: Select an Amazon EC2&#160;<a href="https://beta-helpcenter.nakivo.com/display/NH/AWS+EC2+Backup">VPC</a>&#160;to which the Amazon EC2 instance will be connected.</p>
+                    </li>
+                    <li>
+                        <p><b>Network adapter(s)</b>: Specify the Amazon EC2&#160;<a href="../../../../../../../../../display/NH/Amazon+EC2+Backup">network adapter</a> options for every network adapter:</p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p class="p_1"><b>Subnet</b>: Select an Amazon EC2 <a href="../../../../../../../../../display/NH/Amazon+EC2+Backup">subnet</a>&#160;to which the network adapter will be connected.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Security group</b>: Select an Amazon EC2 <a href="../../../../../../../../../display/NH/Amazon+EC2+Backup">security group</a>&#160;for the Amazon EC2 instance.</p>
+                            </li>
+                            <li>
+                                <p><b>Primary IP</b>: Assign a valid primary IP to a current adapter.</p>
+                                <p>Note</p>
+                                <p>If a source instance has more network adapters than a target one, the target network adapters exceeding the supported number will be disabled.</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Instance access</b>:<b>&#160;</b>Specify Amazon EC2&#160;<a href="https://beta-helpcenter.nakivo.com/display/NH/AWS+EC2+Backup"><span class="span_1">Key Pair</span></a>&#160;options as follows: </p>
+                        <ul class="ul_4">
+                            <li class="li_1">
+                                <p class="p_1"><b>Use existing key pair</b>: Choose an existing Amazon EC2 Key Pair to use to connect to the recovered instance.</p>
+                            </li>
+                            <li>
+                                <p><b>Create a new key pair</b>: Select this option to create a new Amazon EC2 Key Pair and assign it to the recovered Amazon EC2 instance. Enter a name for the new Amazon EC2 Key Pair in the&#160;<b>Key pair name</b>&#160;box and click&#160;<b>Download</b>.</p>
+                                <p>Important</p>
+                                <p>This is your only chance to save the private key file, so make sure you keep it in a safe place. You will need to provide the name of your key pair when you launch the recovered EC2 instance and the corresponding private key each time you connect to the instance.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">&#160;</p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1">&#160;</p>
+                        <ul class="ul_4">
+                            <li>
+                                <p><b>Proceed without key pair</b>:<b>&#160;</b>Select this option if you do not want to assign an AWS Key Pair to the recovered Amazon EC2 instance.</p>
+                                <p>Important</p>
+                                <p>A key pair enables you to connect to a Linux instance via SSH. If you recover Linux instances without a key pair, you will not be able to connect to them.</p>
+                                <p>&#160;</p>
+                                <p>
+                                    <img src="../../../Resources/Images/Failover+Job+Wizard+for+Amazon+EC2_+Destination/Failover Job Wizard for Amazon_3.png" class="img_2" />
+                                </p>
+                                <p>3. Click <b>Next</b> to go to the next page in the wizard.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </body>
+</html>

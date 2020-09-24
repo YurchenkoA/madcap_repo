@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Planning Disaster Recovery\Failover to Replica for Amazon EC2"
+  PreserveMappedStyles="false"
+  InlineFormatting="Keep"
+  LastImport="2020-09-17T19:21:18.0219688+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Failover+Job+Wizard+for+Amazon+EC2_+Destination.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+Job+Wizard+for+Amazon+EC2_+Destination.doc" />
+    <Url
+      Source="../../../../../Downloads/Failover+Job+Wizard+for+Amazon+EC2_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+Job+Wizard+for+Amazon+EC2_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Failover+Job+Wizard+for+Amazon+EC2_+Source.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+Job+Wizard+for+Amazon+EC2_+Source.doc" />
+    <Url
+      Source="../../../../../Downloads/Failover+to+Replica+for+Amazon+EC2.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+to+Replica+for+Amazon+EC2.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+Amazon+EC2+Failover+to+Replica.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+Amazon+EC2+Failover+to+Replica.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+Amazon+EC2_+Destination/Failover Job Wizard for Amazon.png"
+      TimeStamp="Thu 17.09.20 7:21:14 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+Amazon+EC2_+Destination/Failover Job Wizard for Amazon_1.png"
+      TimeStamp="Thu 17.09.20 7:21:15 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for Amazon EC2/Failover Job Wizard for Amazon.htm"
+      TimeStamp="Thu 17.09.20 7:21:15 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+Amazon+EC2_+Options/Failover Job Wizard for Amazon_1.png"
+      TimeStamp="Thu 17.09.20 7:21:15 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for Amazon EC2/Failover Job Wizard for Amazon_1.htm"
+      TimeStamp="Thu 17.09.20 7:21:15 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+Amazon+EC2_+Source/Failover Job Wizard for Amazon_2.png"
+      TimeStamp="Thu 17.09.20 7:21:15 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for Amazon EC2/Failover Job Wizard for Amazon_2.htm"
+      TimeStamp="Thu 17.09.20 7:21:15 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for Amazon EC2/Failover to Replica for Amazon.htm"
+      TimeStamp="Thu 17.09.20 7:21:15 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Amazon+EC2+Failover+to+Replica/Starting Amazon EC2 Failover.png"
+      TimeStamp="Thu 17.09.20 7:21:15 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for Amazon EC2/Starting Amazon EC2 Failover.htm"
+      TimeStamp="Thu 17.09.20 7:21:15 PM" />
+    <Url
+      Source="../TOCs/Failover+Job+Wizard+for+Amazon+EC2_+Destination.fltoc"
+      TimeStamp="Thu 17.09.20 7:21:15 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Failover+Job+Wizard+for+Amazon+EC2_+Destination.css"
+      TimeStamp="Thu 17.09.20 7:21:15 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="auto-cursor-target"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

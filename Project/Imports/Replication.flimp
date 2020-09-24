@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Replication"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-23T09:46:54.2947517+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Replication.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Replication/Replication.htm"
+      TimeStamp="Wed 23.09.20 9:46:52 AM" />
+    <Url
+      Source="../TOCs/Replication.fltoc"
+      TimeStamp="Wed 23.09.20 9:46:52 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Replication.css"
+      TimeStamp="Wed 23.09.20 9:46:52 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

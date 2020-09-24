@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Replication\Creating Amazon EC2 Replication Jobs"
+  LastImport="2020-09-15T20:29:05.7141698+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Creating+Amazon+EC2+Replication+Jobs.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Creating+Amazon+EC2+Replication+Jobs.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Destination.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Destination.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Retention.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Retention.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Schedule.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Schedule.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Source.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+Amazon+EC2_+Source.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Creating+Amazon+EC2+Replication+Jobs/Creating Amazon EC2 Replication.png"
+      TimeStamp="Tue 15.09.20 8:29:01 PM" />
+    <Url
+      Source="../../Content/Replication/Creating Amazon EC2 Replication Jobs/Creating Amazon EC2 Replication.htm"
+      TimeStamp="Tue 15.09.20 8:29:02 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Destination/Replication Job Wizard for.png"
+      TimeStamp="Tue 15.09.20 8:29:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Destination/Replication Job Wizard for_1.png"
+      TimeStamp="Tue 15.09.20 8:29:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Destination/Replication Job Wizard for_2.png"
+      TimeStamp="Tue 15.09.20 8:29:01 PM" />
+    <Url
+      Source="../../Content/Replication/Creating Amazon EC2 Replication Jobs/Replication Job Wizard for.htm"
+      TimeStamp="Tue 15.09.20 8:29:02 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Options/Replication Job Wizard for_1.png"
+      TimeStamp="Tue 15.09.20 8:29:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Options/Replication Job Wizard for_1_1.png"
+      TimeStamp="Tue 15.09.20 8:29:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Options/Replication Job Wizard for_1_2.png"
+      TimeStamp="Tue 15.09.20 8:29:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Options/Replication Job Wizard for_1_3.png"
+      TimeStamp="Tue 15.09.20 8:29:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Options/Replication Job Wizard for_1_4.png"
+      TimeStamp="Tue 15.09.20 8:29:01 PM" />
+    <Url
+      Source="../../Content/Replication/Creating Amazon EC2 Replication Jobs/Replication Job Wizard for_1.htm"
+      TimeStamp="Tue 15.09.20 8:29:02 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Retention/Replication Job Wizard for_2.png"
+      TimeStamp="Tue 15.09.20 8:29:01 PM" />
+    <Url
+      Source="../../Content/Replication/Creating Amazon EC2 Replication Jobs/Replication Job Wizard for_2.htm"
+      TimeStamp="Tue 15.09.20 8:29:02 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Schedule/Replication Job Wizard for_3.png"
+      TimeStamp="Tue 15.09.20 8:29:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Schedule/Replication Job Wizard for_3_1.png"
+      TimeStamp="Tue 15.09.20 8:29:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Schedule/Replication Job Wizard for_3_2.png"
+      TimeStamp="Tue 15.09.20 8:29:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Schedule/Replication Job Wizard for_3_3.png"
+      TimeStamp="Tue 15.09.20 8:29:02 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Schedule/Replication Job Wizard for_3_4.png"
+      TimeStamp="Tue 15.09.20 8:29:02 PM" />
+    <Url
+      Source="../../Content/Replication/Creating Amazon EC2 Replication Jobs/Replication Job Wizard for_3.htm"
+      TimeStamp="Tue 15.09.20 8:29:02 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+Amazon+EC2_+Source/Replication Job Wizard for_4.png"
+      TimeStamp="Tue 15.09.20 8:29:02 PM" />
+    <Url
+      Source="../../Content/Replication/Creating Amazon EC2 Replication Jobs/Replication Job Wizard for_4.htm"
+      TimeStamp="Tue 15.09.20 8:29:02 PM" />
+    <Url
+      Source="../TOCs/Creating+Amazon+EC2+Replication+Jobs.fltoc"
+      TimeStamp="Tue 15.09.20 8:29:02 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Creating+Amazon+EC2+Replication+Jobs.css"
+      TimeStamp="Tue 15.09.20 8:29:02 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading3"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="span.Emphasis"
+      Style="Word" />
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

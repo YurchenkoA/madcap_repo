@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../../Resources/Stylesheets/Creating+VMware+Flash+VM+Boot+Jobs3.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>VMware Flash VM Boot Job Wizard: Options</h1>
+        <p>On the Options page, set up job options as described in these sections:</p>
+        <ul class="ul_1">
+            <li class="li_2">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc#VMwareFlashVMBootJobWizard:Options-JobO">Job Options</a> </p>
+                <ul class="ul_2">
+                    <li class="li_2">
+                        <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc#VMwareFlashVMBootJobWizard:Options-JobN">Job Name</a>
+                        </p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc#VMwareFlashVMBootJobWizard:Options-VMVe">VM Verification</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_2">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc#VMwareFlashVMBootJobWizard:Options-Reco">Recovery Options</a> </p>
+                <ul class="ul_2">
+                    <li class="li_2">
+                        <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc#VMwareFlashVMBootJobWizard:Options-Spec">Specifying VM Names</a>
+                        </p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc#VMwareFlashVMBootJobWizard:Options-Gene">Generating VM MAC Addresses</a>
+                        </p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc#VMwareFlashVMBootJobWizard:Options-Powe">Powering Recovered VMs</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_2">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc#VMwareFlashVMBootJobWizard:Options-Prea">Pre and Post Actions</a> </p>
+                <ul class="ul_2">
+                    <li class="li_2">
+                        <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc#VMwareFlashVMBootJobWizard:Options-Sett">Setting up Email Notifications for the Job</a>
+                        </p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc#VMwareFlashVMBootJobWizard:Options-Sett">Setting Up a&#160;Pre-Job Script</a>
+                        </p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc#VMwareFlashVMBootJobWizard:Options-Sett">Setting Up a&#160;Post-Job Script</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_2">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc#VMwareFlashVMBootJobWizard:Options-Data">Data Routing</a>
+                </p>
+            </li>
+            <li class="li_2">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/VMware+Flash+VM+Boot+Job+Wizard_+Options.doc#VMwareFlashVMBootJobWizard:Options-Comp">Completing the New Flash VM Boot Job Wizard</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Job Options</h2>
+        <p>In this section, specify a job name and select a VM verification type.<br /><br /><img src="../../../../Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Options/VMware Flash VM Boot Job Wizard_2_12.png" class="img_6" /></p>
+        <h3>Job Name</h3>
+        <p>Enter a name for your job in the Job name box.</p>
+        <h3>VM Verification</h3>
+        <p>VM Verification&#160;allows you to check the integrity of the backup by starting it and interacting with it.&#160;For more details, refer to the <a href="C:\display\NH\VM+Verification">VM Verification</a> article.&#160;</p>
+        <p>You can choose one of the following VM verification options:&#160;</p>
+        <ul class="ul_1">
+            <li>
+                <p>Screenshot verification:&#160;When enabled, all VM backups created by the job will be verified as follows: After a backup of a VM is completed, the VM is recovered from the backup using Flash VM Boot (and is disconnected from networks), a screenshot of the recovered VM is taken once the VM OS has booted, after which the VM is discarded. VM screenshots will be included in email notifications (if they are&#160;<a href="C:\display\NH\Email+Notifications">configured</a>) and&#160;displayed on the Jobs dashboard.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Boot verification: When enabled, all VM backups created by the job will be verified as follows:&#160;After a VM backup is completed, NAKIVO Backup &amp; Replication recovers the VM using Flash VM Boot, disables networking to prevent network connections, and verifies successful system start<span class="span_2">.&#160;</span></p>
+            </li>
+        </ul>
+        <p>If you select the&#160;Screenshot verification&#160;option, provide verification options in the&#160;VM Boot Location dialog box that opens:</p>
+        <ul class="ul_1">
+            <li>
+                <p>Verify not more than x VMs simultaneously: Specify the maximum number of VMs that can be started on the target container simultaneously.</p>
+            </li>
+            <li>
+                <p>Recovery time objective:&#160;Specify an amount of time allocated for verification of each VM backup. If the VM OS does not start within the specified amount of time, verification will be considered failed.</p>
+            </li>
+            <li>
+                <p>Screenshot delay: Specify an amount of time that the product should wait after a Guest OS start before taking a screenshot.</p>
+            </li>
+        </ul>
+        <p>Note</p>
+        <p>The specified&#160;time must be sufficient to fully start the VM OS. Try increasing this amount if the default amount is not sufficient.</p>
+        <p>When&#160;Boot verification is selected, specify verification options in the dialog box that opens:&#160;</p>
+        <ul class="ul_1">
+            <li>
+                <p>Verify not more than x VMs simultaneously: Specify the maximum number of VMs that can be started on the target container simultaneously.&#160;</p>
+            </li>
+            <li>
+                <p>Recovery time objective:&#160;Specify the amount of time allocated for verification of each VM backup. If a VM OS does not start within the specified amount of time, verification will be considered failed.</p>
+            </li>
+        </ul>
+        <h2 class="h2_1">Recovery Options</h2>
+        <p>In this section, specify VM names, generate VM MAC addresses, and choose whether you want to power on recovered VMs or not.<br /><br /><img src="../../../../Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Options/VMware Flash VM Boot Job Wizard_2_13.png" class="img_6" /></p>
+        <h3>Specifying VM Names</h3>
+        <p>NAKIVO Backup &amp; Replication allows you to change the names of recovered VMs so you can distinguish between recovered VMs and source VMs. By default, the text “- recovered” is appended to the end of the recovered VM name.</p>
+        <p>To change VM replica names, choose one of the following&#160;Recovered VM names&#160;options in the Recovered VM Options section:</p>
+        <ul class="ul_1">
+            <li class="li_2">
+                <p class="p_2">Append “-recovered” in the end: Source VM names are used for recovered VM names and “-recovered” is added after the recovered VM name.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Leave recovered VM names as is: Recovered VM names are identical to the source VM names.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Enter custom recovered VM names: You can enter custom names for recovered VMs.</p>
+            </li>
+        </ul>
+        <h3>Generating VM MAC Addresses</h3>
+        <p>In the&#160;Recovered VM Options section, you can choose one of the following options in relation to recovered VM MAC addresses:</p>
+        <ul class="ul_1">
+            <li class="li_2">
+                <p class="p_2">Do not generate new MAC addresses: The recovered VMs will have the same MAC address as the source VMs</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Generate new MAC addresses: A&#160;new MAC address will be generated for each recovered VM.</p>
+            </li>
+        </ul>
+        <h3>Powering Recovered VMs</h3>
+        <p class="p_3">To power on the recovered VMs, please choose the VM power on option.</p>
+        <h2>Pre and Post Actions</h2>
+        <p>NAKIVO Backup &amp; Replication allows you to <a href="C:\display\NH\Pre+and+Post+Job+Scripts">run a script</a> before Flash VM boot begins (a pre-job script) and after the boot of all VMs in the job has completed (a post-job script). The scripts can only be executed on the machine where the Director is installed. You can also set up email notifications for the job.<br /><br /><img src="../../../../Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Options/VMware Flash VM Boot Job Wizard_2_14.png" class="img_7" /></p>
+        <h3>Setting up Email Notifications for the Job</h3>
+        <p>NAKIVO Backup &amp; Replication can send email notifications&#160;about job completion status to specified recipients. This feature complements<a href="C:\display\NH\Email+Notifications"> global notifications</a>&#160;and allows you to configure notifications on a per-job level.</p>
+        <p>To enable this option, make sure&#160;<a href="C:\display\NH\Email+Notifications">Email settings</a>&#160;are configured.</p>
+        <p>
+            <br />To send email notifications, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_2">
+                <p class="p_2">In the Pre and Post Actions section, select the Send job run reports to option.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">In the text box that becomes enabled, specify one or more email addresses. Use semicolons to separate multiple email addresses.</p>
+            </li>
+        </ol>
+        <h3>Setting Up a&#160;<span class="span_1">Pre-Job </span>Script</h3>
+        <p>To run a script before the product begins recovering VMs, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_2">
+                <p class="p_2">Place a script file on the machine where the Director is installed.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">In the Pre and Post Actions section, select the&#160;Run local pre job script&#160;option and click settings.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Specify the following parameters in the dialog that opens:</p>
+                <ol start="1" class="ol_1">
+                    <li class="li_2">
+                        <p class="p_2">Script path:&#160;Specify a local path to the script on the machine where the Director is installed. A script interpreter should be specified.<br />Example (Windows):&#160;cmd.exe /c D:\script.bat<span class="span_3"><br /></span>Example (Linux):&#160;bash /root/script.sh</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">Job behavior:&#160;Choose one of the following job behaviors in relation to script completion: </p>
+                        <ul class="ul_3">
+                            <li class="li_2">
+                                <p class="p_2">Wait for the script to finish:&#160;With this option selected, the job will be in the “running” state until the script is completed.</p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">Do not wait for the script to finish:&#160;With this option selected, the job will be completed even if the script execution is still in progress.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">Error handling: Choose one of the following job behaviors in relation to script failure: </p>
+                        <ul class="ul_3">
+                            <li class="li_2">
+                                <p class="p_2">Continue the job on script failure:&#160;With this option selected, script failure will not influence the status of the job.</p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">Fail the job on script failure:&#160;With this option selected, if the script fails, the job status will be set to “failed” even if VM backup has been successful.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <h3>Setting Up a&#160;<span class="span_1">Post-Job </span>Script</h3>
+        <p>To run a script after the product has finished recovering all VMs, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_2">
+                <p class="p_2">Place a script file on the machine where the Director is installed.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">In the Pre and Post Actions section, select the&#160;Run local post job script&#160;option and click settings.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Specify the following parameters in the dialog that opens:</p>
+                <ol start="1" class="ol_1">
+                    <li class="li_2">
+                        <p class="p_2">Script path:&#160;Specify a local path to the script on the machine where the Director is installed. A script interpreter should be specified.&#160;<br />Example (Windows):&#160;cmd.exe /c D:\script.bat<span class="span_3"><br /></span>Example (Linux):&#160;bash /root/script.sh</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">Job behavior:&#160;Choose one of the following job behaviors in relation to script completion: </p>
+                        <ul class="ul_3">
+                            <li class="li_2">
+                                <p class="p_2">Wait for the script to finish:&#160;With this option selected, the job will be in the “running” state until the script is completed.</p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">Do not wait for the script to finish:&#160;With this option selected, the job will be completed even if the script execution is still in progress.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">Error handling: Choose one of the following job behaviors in relation to script failure: </p>
+                        <ul class="ul_3">
+                            <li class="li_2">
+                                <p class="p_2">Continue the job on script failure:&#160;With this option selected, script failure will not influence the status of the job.</p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">Fail the job on script failure:&#160;With this option selected, if the script fails, the job status will be set to “failed” even if VM backup has been successful.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <h2>Data Routing</h2>
+        <p>If the Transporter assigned to the Backup Repository cannot use iSCSI port 3260 because it is occupied by other services, you can set data routing: a proxy transporter can be used to forward iSCSI target exposed from the Backup Repository to the target host.&#160;To set data routing, go to the Data routing section and choose a proxy transporter from the list of available Transporters.</p>
+        <p>
+            <img src="../../../../Resources/Images/VMware+Flash+VM+Boot+Job+Wizard_+Options/VMware Flash VM Boot Job Wizard_2_15.png" class="img_8" />
+        </p>
+        <h2>Completing the New Flash VM Boot Job Wizard</h2>
+        <p>Click&#160;Finish&#160;or Finish &amp; Run to complete the job creation.</p>
+        <p>Note</p>
+        <p>If you click Finish &amp; Run, you will have to define the scope of your job. Please refer to <a href="C:\display\NH\Running+Jobs+on+Demand">Running Jobs on Demand</a> for details.</p>
+        <p>&#160;</p>
+    </body>
+</html>

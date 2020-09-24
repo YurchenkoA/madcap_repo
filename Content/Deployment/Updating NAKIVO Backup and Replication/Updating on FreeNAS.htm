@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/Auto+Updating+NAKIVO+Backup+and+Replication.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Updating on FreeNAS</h1>
+        <p>Prerequisites:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1">You are logged in to&#160;the FreeNAS system with the FreeNAS GUI.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">The&#160;<b>Shell</b>&#160;button is enabled in the interface.</p>
+            </li>
+        </ul>
+        <p>Follow the steps below to update NAKIVO Backup &amp; Replication on your FreeNAS system:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Navigate to the&#160;<b>Jails</b>&#160;page of the FreeNAS GUI and click the jail of the NAKIVO Backup &amp; Replication plugin to select it.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click the <b>Shell</b> button to open a web shell.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">In the web shell prompt, download the latest Linux/VA updater from the&#160;<a href="https://www.nakivo.com/resources/download/update/">NAKIVO Backup &amp; Replication Update</a> page&#160;with the <code class="code_1">curl</code> command. For example:<br /><code class="code_1">curl -O&#160;https://d96i82q710b04.cloudfront.net/res/product/NAKIVO_Backup_Replication_vX.X.X_Updater.sh</code></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Change the updater file permission with the <code class="code_1">chmod</code> command:<br /><code class="code_1">chmod +x NAKIVO_Backup_&amp;_Replication_vX.X.X_Updater.sh</code></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Run the updater in silent mode:<br /><code class="code_1">./NAKIVO_Backup_&amp;_Replication_vX.X.X_Updater.sh&#160;-y -u --eula-accept</code></p>
+            </li>
+        </ol>
+    </body>
+</html>

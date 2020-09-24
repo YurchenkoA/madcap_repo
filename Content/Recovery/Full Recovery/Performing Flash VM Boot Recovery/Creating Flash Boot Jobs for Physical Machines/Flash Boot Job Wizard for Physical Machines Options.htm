@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../../Resources/Stylesheets/Creating+Flash+Boot+Jobs+for+Physical+Machines.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Flash Boot Job Wizard for Physical Machines: Options</h1>
+        <p>On the Options page of the wizard, specify a job name, set up recovered VM options, and choose data routing.&#160;</p>
+        <ul class="ul_1">
+            <li class="li_2">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Flash+Boot+Job+Wizard+for+Physical+Machines_+Options.doc#FlashBootJobWizardforPhysicalMachines:O">Recovered VM Options</a> </p>
+                <ul class="ul_2">
+                    <li class="li_2">
+                        <p class="p_2"><a href="file:///C:/Users/User/Downloads/Flash+Boot+Job+Wizard+for+Physical+Machines_+Options.doc#FlashBootJobWizardforPhysicalMachines:O">Specifying VM Names</a>
+                        </p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2"><a href="file:///C:/Users/User/Downloads/Flash+Boot+Job+Wizard+for+Physical+Machines_+Options.doc#FlashBootJobWizardforPhysicalMachines:O">Generating VM MAC Addresses</a>
+                        </p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2"><a href="file:///C:/Users/User/Downloads/Flash+Boot+Job+Wizard+for+Physical+Machines_+Options.doc#FlashBootJobWizardforPhysicalMachines:O">Powering Recovered VMs</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_2">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Flash+Boot+Job+Wizard+for+Physical+Machines_+Options.doc#FlashBootJobWizardforPhysicalMachines:O">Pre and Post Actions</a> </p>
+                <ul class="ul_2">
+                    <li class="li_2">
+                        <p class="p_2"><a href="file:///C:/Users/User/Downloads/Flash+Boot+Job+Wizard+for+Physical+Machines_+Options.doc#FlashBootJobWizardforPhysicalMachines:O">Setting Up Email Notifications&#160;</a>
+                        </p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2"><a href="file:///C:/Users/User/Downloads/Flash+Boot+Job+Wizard+for+Physical+Machines_+Options.doc#FlashBootJobWizardforPhysicalMachines:O">Setting Up a Pre Job Script</a>
+                        </p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2"><a href="file:///C:/Users/User/Downloads/Flash+Boot+Job+Wizard+for+Physical+Machines_+Options.doc#FlashBootJobWizardforPhysicalMachines:O">Setting Up a Post Job Script</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_2">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Flash+Boot+Job+Wizard+for+Physical+Machines_+Options.doc#FlashBootJobWizardforPhysicalMachines:O">Data Routing</a>
+                </p>
+            </li>
+            <li class="li_2">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Flash+Boot+Job+Wizard+for+Physical+Machines_+Options.doc#FlashBootJobWizardforPhysicalMachines:O">Completing Flash Boot Job Wizard for Physical Machines</a>
+                </p>
+            </li>
+        </ul>
+        <p>
+            <br /><span class="span_3">Job Options</span> </p>
+        <p>In this section, specify a job name.<br /><br /><img src="../../../../Resources/Images/Flash+Boot+Job+Wizard+for+Physical+Machines_+Options/Flash Boot Job Wizard for_2.png" class="img_7" />&#160;</p>
+        <h2 class="h2_1">Recovered VM Options</h2>
+        <p>In this section, specify VM names, generate VM MAC addresses, and choose whether you want to power on recovered VMs or not.</p>
+        <h3>Specifying VM Names</h3>
+        <p>NAKIVO Backup &amp; Replication allows you to change the names of recovered VMs so that you can distinguish between recovered VMs and the source physical machines. By default, the text “- recovered” is appended to the end of the recovered VM name.</p>
+        <p>To change VM names, choose one of the following&#160;options in the Recovered VM Options section:</p>
+        <ul class="ul_1">
+            <li class="li_2">
+                <p class="p_2">Append “-recovered” in the end: Source machine names are used for recovered VM names and “-recovered” is added after the recovered VM name.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Leave recovered VM names as is: Recovered VM names are identical to the source machine names.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Enter custom recovered VM names: Allows you to enter custom names for recovered VMs.</p>
+            </li>
+        </ul>
+        <h3>Generating VM MAC Addresses</h3>
+        <p>In the Recovered VM Options section, choose one of the following options in relation to recovered VM MAC addresses:</p>
+        <ul class="ul_1">
+            <li class="li_2">
+                <p class="p_2">Generate new MAC addresses: A new MAC address is generated for each recovered VM.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Do not generate new MAC addresses: The recovered VMs have the same MAC address as the source machines.</p>
+            </li>
+        </ul>
+        <h3>Powering Recovered VMs</h3>
+        <p class="p_3">To power on the recovered VMs, choose the VM power on&#160;option.<br /><br /><img src="../../../../Resources/Images/Flash+Boot+Job+Wizard+for+Physical+Machines_+Options/Flash Boot Job Wizard for_2_1.png" class="img_7" /></p>
+        <h2>Pre and Post Actions</h2>
+        <p>NAKIVO Backup &amp; Replication allows you to run a <a href="C:\display\NH\Pre+and+Post+Job+Scripts">script</a> before Flash VM boot begins (a pre-job script) and after the boot of all VMs in the job has completed (a post-job script). The scripts can only be executed on the machine where the Director is installed.&#160; Also, you can set up <a href="C:\display\NH\Email+Notifications">email notifications</a> for the job.</p>
+        <h3>Setting Up Email Notifications&#160;</h3>
+        <p>NAKIVO Backup &amp; Replication can send email notifications about the job completion status to specified recipients. This feature complements<a href="https://beta-helpcenter.nakivo.com/display/NH/Email+Notifications"> global notifications</a> and allows you to configure notifications on a per-job level.</p>
+        <p>Note</p>
+        <p>To enable this option, make sure your <a href="C:\display\NH\Email+Notifications">Email settings</a> are configured.&#160;</p>
+        <p>To send email notifications, do the following:&#160;</p>
+        <p>In the Pre and Post Actions section:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_2">
+                <p class="p_2">Select Send job run reports to.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Specify one or more email addresses in the text field. Use semicolons to separate multiple email addresses.</p>
+            </li>
+        </ol>
+        <h3>Setting Up a Pre Job Script</h3>
+        <p>To run a script before the product begins replicating VMs:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_2">
+                <p class="p_2">Place a script file on the machine where the Director is installed.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">In the Pre and Post Actions section, select the Run local pre job script option.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Specify the following parameters in the dialog box that opens:</p>
+                <ol start="1" class="ol_1">
+                    <li class="li_2">
+                        <p class="p_2">Script path: Specify a local path to the script on the machine where the Director is installed. A script interpreter should be specified.<br />Example (Windows): cmd.exe /c D:\script.bat<span class="span_4"><br /></span>Example (Linux): bash /root/script.sh</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">Job behavior: Choose one of the following job behaviors in relation to script completion:</p>
+                        <ul class="ul_3">
+                            <li class="li_2">
+                                <p class="p_2">Do not wait for the script to finish: With this option selected, the product runs the script and starts replicating VMs at the same time.</p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">Wait for the script to finish: With this option selected, VM replication is started only after the script is completed.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">Error handling: Choose one of the following job behaviors in relation to script failure:</p>
+                        <ul class="ul_3">
+                            <li class="li_2">
+                                <p class="p_2">Fail the job on script failure: With this option selected, the job is failed and VM replication is not performed if the script has failed.</p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">Continue the job on script failure: With this option selected, the job performs VM replication even if the script has failed.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <h3>Setting Up a Post Job Script</h3>
+        <p>To run a script after the product has finished backing up all VMs:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_2">
+                <p class="p_2">Place a script file on the machine where the Director is installed.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">In the Pre and Post Actions section, select the Run local post job script option.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Specify the following parameters in the dialog box that opens:</p>
+                <ol start="1" class="ol_1">
+                    <li class="li_2">
+                        <p class="p_2">Script path: Specify a local path to the script on the machine where the Director is installed. A script interpreter should be specified.<br />Example (Windows): cmd.exe /c D:\script.bat<span class="span_4"><br /></span>Example (Linux): bash /root/script.sh</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">Job behavior: Choose one of the following job behaviors in relation to script completion:</p>
+                        <ul class="ul_3">
+                            <li class="li_2">
+                                <p class="p_2">Wait for the script to finish: With this option selected, the job is in the “running” state until the script is completed.</p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">Do not wait for the script to finish: With this option selected, the job is completed even if the script execution is still in progress.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">Error handling: Choose one of the following job behaviors in relation to script failure:</p>
+                        <ul class="ul_3">
+                            <li class="li_2">
+                                <p class="p_2">Continue the job on script failure: With this option selected, script failure does not influence the status of the job.</p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">Fail the job on script failure: With this option selected, if the script has failed, the job status will be set to “failed” even if VM replication has been successful.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <p>
+            <img src="../../../../Resources/Images/Flash+Boot+Job+Wizard+for+Physical+Machines_+Options/Flash Boot Job Wizard for_2_2.png" class="img_7" />
+        </p>
+        <h2>Data Routing</h2>
+        <p class="p_3">In case the Transporter assigned to a Backup Repository cannot use iSCSI port 3260 because the port is occupied by other services, you can set data routing: a proxy Transporter can be used to forward the iSCSI target exposed from the Backup Repository to the target host.&#160;To set data routing, go to the Data routing section and choose a proxy Transporter from the list of available Transporters.</p>
+        <p>
+            <img src="../../../../Resources/Images/Flash+Boot+Job+Wizard+for+Physical+Machines_+Options/Flash Boot Job Wizard for_2_3.png" class="img_7" />
+        </p>
+        <h2>Completing Flash Boot Job Wizard for Physical Machines</h2>
+        <p>Click Finish or Finish &amp; Run to complete the job creation.</p>
+        <p>Note</p>
+        <p>If you click Finish &amp; Run, you will have to define the scope of your job. Refer to <a href="C:\display\NH\Running+Jobs+on+Demand">Running Jobs on Demand</a> for details.</p>
+        <p>&#160;</p>
+    </body>
+</html>

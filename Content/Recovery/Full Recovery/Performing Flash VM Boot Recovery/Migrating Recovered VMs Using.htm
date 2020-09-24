@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Migrating+Recovered+VMs+Using+Flash+Boot.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Migrating Recovered VMs Using Flash Boot</h1>
+        <p>Refer to the following sections for details:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Migrating+Recovered+VMs+Using+Flash+Boot.doc#MigratingRecoveredVMsUsingFlashBoot-Mig">Migrating VMware VMs Recovered Using Flash VM Boot</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Migrating+Recovered+VMs+Using+Flash+Boot.doc#MigratingRecoveredVMsUsingFlashBoot-Mig">Migrating Hyper-V VMs Recovered Using Flash VM Boot to Production</a>
+                </p>
+            </li>
+        </ul>
+        <h2 class="h2_1">Migrating VMware VMs Recovered Using Flash VM Boot</h2>
+        <p><span class="span_1">To migrate a booted VM from one datastore to another, do the following while the virtual machine is running:</span>
+        </p>
+        <ol start="1" class="ol_1">
+            <li>
+                <p>Open vSphere Client.</p>
+            </li>
+            <li>
+                <p>In the vSphere Client inventory, select the virtual machine recovered with Flash VM Boot that you want to migrate.</p>
+            </li>
+            <li>
+                <p>Right-click on the VM and select Migrate.</p>
+            </li>
+            <li>
+                <p>Select Change datastore and click Next.</p>
+            </li>
+            <li>
+                <p>Select <span class="span_2">the </span>format of your virtual hard disk. </p>
+            </li>
+            <li>
+                <p>Select the datastore where you want to store the VM.</p>
+            </li>
+            <li>
+                <p>Review the page and click Finish.</p>
+            </li>
+        </ol>
+        <p>Note</p>
+        <p>After migrating the booted VMs, you can click the&#160;Discard VMs&#160;button in the Flash VM Boot job. The job detects that the VMs were migrated and does not discard them.</p>
+        <p>Replicate booted VMs as described below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><a href="C:\display\NH\Refreshing+Inventory">Refresh</a> the Inventory in Settings (so that the VMs created by Flash VM Boot are added to the product).&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Create a new <a href="C:\display\NH\Creating+VMware+Replication+Jobs">replication job</a>&#160;for the VMs that you want to permanently recover.&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="https://beta-helpcenter.nakivo.com/display/NH/Components+of+User+Interface#ComponentsofUserInterface-RunningJobsonDemand">Run</a> the replication job.&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">After replication is finished, run the job once again. This is required because the recovered VMs were running (and obtaining some changes) while the initial replication was in progress.&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">To ensure zero data loss, power off the VMs created by Flash VM Boot in the VMware vSphere client and run the VM replication job one last time.&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Discard&#160;the VMs created by Flash VM Boot.</p>
+            </li>
+            <li>
+                <p>Power on the VMs created by the replication job.</p>
+            </li>
+        </ol>
+        <h2>Migrating Hyper-V VMs Recovered Using Flash VM Boot to Production</h2>
+        <p>Follow the steps below to migrate a Hyper-V VM recovered using Flash Boot to production:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Open the Hyper-V Manager and shut down the recovered VM.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Go to the VM settings and open the Hard Drive properties.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Make a note of the name of the physical disk from which the VM was booted. This is typically <span class="span_3">Disk N</span> where <span class="span_3">N</span> is the index number of your physical disk.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">In the Media section of the Hard Drive properties, click Virtual hard disk and then click New.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">The New Virtual Hard Disk wizard opens. Proceed as follows: </p>
+                <ol start="1" class="ol_1">
+                    <li>
+                        <p>On the Choose Disk Format&#160;step of the wizard, choose VHDX as the format of your virtual hard disk. This format supports virtual disks up to 64 TB. Click Next.</p>
+                        <p>Important</p>
+                        <p>On Hyper-V 2019, adding a new virtual hard disk may fail with an error message “Failed to convert the virtual disk”.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">On the Choose Disk Type&#160;step of the wizard, choose Dynamically expanding. This initially creates a virtual hard disk of a small size that changes as data is added. Click Next.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">On the Specify Name and Location&#160;step of the wizard, specify a name and a location&#160;for the virtual hard disk file and click Next.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">On the Configure Disk step of the wizard, click Copy the contents of the specified physical disk and choose the disk you previously noted from the list of physical hard disks. Click Next.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">On the Summary step of the wizard, review the information and click Finish.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Wait till the wizard creates the new virtual hard disk and closes. Click Finish.</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <p>Now the VM is ready for use in production.</p>
+        <p>Note</p>
+        <p>If you apply the Discard VMs command to the VM recovered via flash boot, the corresponding job will be stopped and the VM will NOT be deleted.</p>
+        <p>Alternatively, you can move your VM to another computer. Please follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">In the Hyper-V Manager, right-click on your VM and choose Move&#160;in the context menu.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">The Move VM Wizard opens. Proceed as follows: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1">On the Choose Move Type step, choose Move virtual machine and click Next.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">On the&#160;Specify Destinations page, choose the name of the computer to which to move the VM and click Next.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">On the Choose Move Option step, choose Move the virtual machine’s data to a single location and click Next.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">On the Virtual Machine step, specify the location of the VM on the destination computer. Then click Next.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">On the Summary step, check the configuration of your moving operation and click Finish.</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <p>When the VM has moved to the destination computer successfully, you can discard the VM with NAKIVO Backup &amp; Replication.</p>
+    </body>
+</html>

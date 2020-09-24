@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Encryption in Flight and at Rest</h1>
+        <p>VM backup encryption uses a mathematical algorithm that transforms source information into a non-readable cipher text. The goal of VM backup encryption is to make your data unintelligible to unauthorized readers and impossible to decipher when attacked. VM backups that are sent over the Internet should be encrypted before the first bit leaves your organization and travels over the WAN (backup encryption in flight). If the destination is not secure, your data should remain encrypted as well (backup encryption at rest).</p>
+        <p>
+            <img src="../Resources/Images/Encryption+in+Flight+and+at+Rest/Encryption in Flight and at.png" class="img_25" />
+        </p>
+        <p class="p_1">NAKIVO Backup &amp; Replication uses AES 256 encryption to protect VM backups, which is the de facto worldwide encryption standard that secures online information and transactions by financial institutions, banks, and e-commerce sites.</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Encryption+in+Flight+and+at+Rest.doc#EncryptioninFlightandatRest-VMBackupEnc">VM Backup Encryption in Flight</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Encryption+in+Flight+and+at+Rest.doc#EncryptioninFlightandatRest-VMBackupEnc">VM Backup Encryption at Rest</a>
+                </p>
+            </li>
+        </ul>
+        <h2 class="h2_1">VM Backup Encryption in Flight</h2>
+        <p>VM backup encryption in flight is performed by a pair of Transporters. The Transporter is a component of NAKIVO Backup &amp; Replication that performs all data protection and recovery tasks: data read, compression, deduplication, encryption, transfer, write, verification, granular and full VM recovery, and so on.</p>
+        <p class="p_1">The source Transporter for the offsite backup encrypts and sends the encrypted data. The target Transporter receives and decrypts data. For example, when you back up VMs over the WAN to an offsite location, the Transporter installed in the source site compresses and encrypts VM data before transferring it over WAN. Then, the Transporter installed in the Target site receives and unencrypts the data prior to writing it to the Backup Repository.</p>
+        <h2>VM Backup Encryption at Rest</h2>
+        <p class="p_1">It is equally important for the data at rest to be secured by encryption. NAKIVO Backup and Replication provides you with the ability to encrypt backup repositories so that backup data at rest, housed in the repository itself, is secure.</p>
+        <p>
+            <img src="../Resources/Images/Encryption+in+Flight+and+at+Rest/Encryption in Flight and at_1.png" class="img_26" />
+        </p>
+        <p>&#160;</p>
+    </body>
+</html>

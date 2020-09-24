@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Backup at Master Site</h1>
+        <ul>
+            <li><a href="#Deployme">Deployment Scenario</a>
+            </li>
+            <li><a href="#Deployme2">Deployment Diagram</a>
+            </li>
+            <li><a href="#Deployme3">Deployment Steps
+</a>
+            </li>
+            <li><a href="#Connecti">Connections
+</a>
+            </li>
+        </ul>
+        <h2><a name="Deployme"></a>Deployment Scenario</h2>
+        <p>In this scenario, tenant VMs are running at the master site and the backing up of tenant VMs is also performed at the master site.</p>
+        <p><b>Example</b>
+        </p>
+        <p>A service provider runs VMs of customer A and customer B in the service provider’s datacenter. The Service Provider seeks to offer Backup-as-a-Service to both customers. The customers should be able to recover their files and emails through a self-service interface without being able to see each other’s backups.</p>
+        <h2><a name="Deployme2"></a>Deployment Diagram</h2>
+        <p>The deployment diagram for the above scenario is as follows:</p>
+        <p class="p_112">
+            <img src="../../../Resources/Images/02. Deployment/Backup at Master Site.jpg" class="img_28" />
+        </p>
+        <h2><a name="Deployme3"></a>Deployment Steps</h2>
+        <p>To deploy the above scenario, perform the following steps:</p>
+        <ol>
+            <li>Install the Director in multi-tenant mode at the master site.</li>
+            <li>Install at least one Transporter at the master site.</li>
+            <li>For each tenant, prepare a separate folder at the master site for creating a Backup Repository. </li>
+        </ol>
+        <h2><a name="Connecti"></a>Connections</h2>
+        <p>The implementation of the above scenario requires that the following connections be available:</p>
+        <table>
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="font-size: 10pt;text-align: center;font-weight: bold;background-color: #dcdcdc;">Connection</td>
+                    <td style="font-size: 10pt;text-align: center;font-weight: bold;background-color: #dcdcdc;">Description</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;font-weight: bold;">A</td>
+                    <td style="font-size: 10pt;">Connection from the machine on which the Director is installed to the machine on which the Transporter is installed. The port used for communication with the Transporters (9446 by default) is open in firewalls.</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;font-weight: bold;">B</td>
+                    <td style="font-size: 10pt;">Connection from the machine on which the Director is installed to vCenter servers and ESXi hosts that run source VMs. The port used for communication with vCenter servers and ESXi hosts (443 by default) is open in firewalls.</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;font-weight: bold;">C</td>
+                    <td style="font-size: 10pt;">Connection from the machine on which the Transporter is installed to vCenter servers and ESXi hosts running source VMs.</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;font-weight: bold;">D</td>
+                    <td style="font-size: 10pt;">Connection from the machine on which the Transporter is installed to the folders where tenant Backup Repositories will be created.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><b>Note</b>
+        </p>
+        <p>For security purposes, a VPN connection should be established between the master site and remote sites.</p>
+    </body>
+</html>

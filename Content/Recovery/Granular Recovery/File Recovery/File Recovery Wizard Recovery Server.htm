@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/File+Recovery.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 class="Heading1">File Recovery Wizard: Recovery Server</h1>
+        <p class="NormalWeb">In this page of the wizard, choose one of the following recovery methods:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="../../../../../../../Downloads/File+Recovery+Wizard_+Recovery+Server.doc#FileRecoveryWizard:RecoveryServer-Recov" class="Hyperlink">Recovering Files to Server</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="../../../../../../../Downloads/File+Recovery+Wizard_+Recovery+Server.doc#FileRecoveryWizard:RecoveryServer-Downl" class="Hyperlink">Downloading Files to Browser or Sending Files via Email</a>
+                </p>
+            </li>
+        </ul>
+        <h2 class="Heading2">Recovering Files to Server</h2>
+        <p class="NormalWeb">Please do the following to recover files to a server:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">In the <span class="Strong">Recovery Method</span> section, choose <span class="Strong">Recover to the following server</span>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">The <span class="Strong">Recovery Server Settings</span> section opens. Set the following options: </p>
+                <ol start="1" class="ol_1">
+                    <li class="NormalWeb">
+                        <p class="NormalWeb"><span class="Strong">Recovery server</span>: Choose the target server&#160;from the drop-down list.</p>
+                        <p class="title">Note</p>
+                        <p class="NormalWeb">NAKIVO Backup &amp; Replication will try to auto-detect the IP address automatically.</p>
+                    </li>
+                    <li class="NormalWeb">
+                        <p class="NormalWeb"><span class="Strong">Server IP address</span>:&#160;Enter the IP address of the recovery server if it is not detected by the application based on the recovery server name.</p>
+                    </li>
+                    <li class="NormalWeb">
+                        <p class="NormalWeb"><span class="Strong">Use custom SSH port</span>: If necessary, enter an SSH port to be used for connecting to the recovery server. The default value is <span class="HTMLCode_1">22</span>.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><span class="Strong">Username</span>: Enter a username with administrative privileges for the recovery server entered above.&#160;Refer to <a href="../../../../../../../../../display/NH/System+Requirements" class="Hyperlink">System Requirements</a> for a full list of requirements for recovering files to server.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><span class="Strong">Password</span>: Enter a user password.</p>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click the <span class="Strong">Test Connection</span> button to test your credentials for the specified recovery server. If your credentials are correct, a checkmark appears to the right of the button.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<span class="Strong">Next</span>.<br /><br /><img src="../../../Resources/Images/File+Recovery+Wizard_+Recovery+Server/File Recovery Wizard Recovery.jpg" class="img_9" /></p>
+            </li>
+        </ol>
+        <p class="NormalWeb">After NAKIVO Backup &amp; Replication prepares a recovery point, the next page of the wizard opens.</p>
+        <h2 class="Heading2">Downloading Files to Browser or Sending Files via Email</h2>
+        <p class="NormalWeb">To download files to your browser or send them via email, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">In the <span class="Strong">Recovery Method</span> section, choose <span class="Strong">Download to browser or send via email</span>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">The <span class="Strong">Data Routing</span> section opens. In the <span class="Strong">Proxy transporter list</span>, the <span class="Strong">Do not use proxy transporter option</span> is chosen by default. You can also choose a proxy transporter from the list of available transporters.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click <span class="Strong">Next</span>.<br /><br /><img src="../../../Resources/Images/File+Recovery+Wizard_+Recovery+Server/File Recovery Wizard Recovery.png" class="img_10" /></p>
+            </li>
+        </ol>
+        <p class="NormalWeb_1">&#160;</p>
+        <p class="title">Note</p>
+        <p class="NormalWeb">NAKIVO Backup &amp; Replication will use a proxy transporter in the following cases:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1">The transporter assigned to the backup repository is missing support for some file systems.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">The transporter assigned to the backup repository is missing iSCSI packages.</p>
+            </li>
+        </ul>
+        <p class="NormalWeb">NAKIVO Backup &amp; Replication starts preparing a recovery point for the recovery. After the recovery point is prepared successfully, the next page of the wizard opens.</p>
+    </body>
+</html>

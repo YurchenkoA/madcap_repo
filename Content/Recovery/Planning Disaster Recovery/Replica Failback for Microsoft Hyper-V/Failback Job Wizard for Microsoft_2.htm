@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Failback+Job+Wizard+for+Microsoft+Hyper-V_+Destination.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Failback Job Wizard for Microsoft Hyper-V: Options</h1>
+        <p class="p_2">On the <b>Options</b> page of the wizard, specify the options for the Microsoft Hyper-V failback job as described in the following sections:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+Microsoft+Hyper-V_+Options.doc#FailbackJobWizardforMicrosoftHyper-V:Op">Job Options</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+Microsoft+Hyper-V_+Options.doc#FailbackJobWizardforMicrosoftHyper-V:Op">Pre and Post Actions</a>
+                </p>
+            </li>
+        </ul>
+        <h2 class="h2_1">Job Options</h2>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">In the <b>Job name</b> box, enter a string of 50 or fewer characters specifying the name of your failback job.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Select <b>Power off replica VMs</b>&#160;to power off the replica workloads during the failback.<br /><br /><img src="../../../Resources/Images/Failback+Job+Wizard+for+Microsoft+Hyper-V_+Options/Failback Job Wizard for Microsoft_2.png" class="img_5" /></p>
+            </li>
+        </ol>
+        <h2>Pre and Post Actions</h2>
+        <p>If needed, enable pre and post actions for the failback job:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><b>Send job run reports to</b>: When selected, a job report is sent to the specified recipients each time the failback job is completed. This overrides the default setting specified in the NAKIVO Backup &amp; Replication <b>Settings</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Run local pre job script</b>: When selected, a dialog box opens in which you can specify the following options of the&#160;<a href="C:\display\NH\Pre+and+Post+Job+Scripts">pre-job script&#160;</a>to be run: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1"><b>Script path</b>: A local path to the script on the machine where the Director is installed. A script interpreter should be specified as well.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Job behavior</b>: The following options are available: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p class="p_1"><b>Wait for the script to finish</b>: This is the default option.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Do not wait for the script to finish</b>.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Error handling</b>: The following options are available: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p class="p_1"><b>Continue the job on script failure</b>: This is the default option.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Fail the job on script failure</b>.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Run local post job script</b>: When selected, a dialog box opens in which you can specify options of the&#160;<a href="C:\display\NH\Pre+and+Post+Job+Scripts">post-job script</a>&#160;to be run on the machine where the product is installed. Proceed to set the options as described for pre-job scripts.<br /><br /><img src="../../../Resources/Images/Failback+Job+Wizard+for+Microsoft+Hyper-V_+Options/Failback Job Wizard for Microsoft_2_1.png" class="img_5" /></p>
+            </li>
+        </ol>
+        <p>&#160;</p>
+        <p>Note</p>
+        <p>If you click&#160;<b>Finish &amp; Run</b>, you will have to define the scope of your job. Please refer to&#160;<a href="C:\display\NH\Running+Jobs+on+Demand">Running Jobs on Demand</a>&#160;for details.</p>
+    </body>
+</html>

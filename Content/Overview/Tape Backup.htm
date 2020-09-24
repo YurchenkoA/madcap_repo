@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Tape Backup</h1>
+        <p>NAKIVO Backup &amp; Replication provides native tape support for automated tape libraries, including virtual tape libraries (VTL), as well as standalone tape drives.</p>
+        <p><a href="C:\display\NH\Backing+Up+to+Tape">Tape backup</a> is the process of backing up critical data to a tape cartridge. In essence, backing up to tape means creating a backup, storing it in the repository and then moving it to the tape cartridge for safekeeping. NAKIVO Backup &amp; Replication supports backups of the following platforms: VMware, Hyper-V, Nutanix AHV, Amazon AWS EC2, and physical servers. The backups can be sent to physical tape libraries or VTL&#160;for storing. NAKIVO Backup &amp; Replication allows for realizing the Disk Staging (D2D2T) backup strategy, where&#160;disks are used as an additional, temporary stage of the backup process before finally storing backup to tape.</p>
+        <p>In NAKIVO Backup &amp; Replication, the process of storing backups to tape consists of two stages:</p>
+        <p class="p_8"><b>Stage 1</b> – creating backups and storing them in the Backup Repository:<br /><br /><img src="../Resources/Images/Tape+Backup/Tape Backup.png" class="img_51" /><br /><br /><b>Stage 2</b> – copying backups from the repository to the tape library:<br /><br /><img src="../Resources/Images/Tape+Backup/Tape Backup_1.png" class="img_52" /></p>
+        <p><a href="C:\display\NH\Recovery+From+Tape">Recovering from tape</a> is the reverse of backing up: the backups stored on the tape cartridges are first recovered to the Backup Repository and then recovered using NAKIVO Backup &amp; Replication's tools.</p>
+        <p>Before you back up/recover to/from tape (physical or VTL), you need to <a href="C:\display\NH\Tape">configure </a>NAKIVO Backup &amp; Replication by adding tape libraries, discovering cartridges, etc.</p>
+        <p><span class="span_5">The Native Tape support is fully integrated into&#160;NAKIVO Backup &amp; Replication solution and&#160;allows you to administer all backup and restore operations on tapes directly from the application's user interface.&#160;Saving data on tapes presents you with the same data managing options as disk repositories: you can store full and incremental backups, apply user-defined retention settings to the archived data, select restore points and so on.&#160;</span>
+        </p>
+        <p><span class="span_5">NAKIVO Backup &amp; Replication supports Linear Tape-Open tape libraries and standalone tape drives starting from generation 3 (LTO3) or later as well as VTL. Using the solution, you can discover not only tape libraries and standalone devices, but also the tape cartridges in those devices.</span>
+        </p>
+        <p>Note</p>
+        <p>All the tape cartridges discovered within a Robotic Tape Library should have barcodes for the best performance of the product. For standalone tape devices, this is not essential.</p>
+        <p>Also, any changes to the tape infrastructure (moving or removing cartridges, changing their order, etc.) made by any other means (i.e. manually or via command line) rather than with NAKIVO Backup &amp; Replication is the user's responsibility, since the system is unaware of such changes.</p>
+        <p>NAKIVO Backup &amp; Replication&#160;supports writing/reading backups to/from discovered tape cartridges, as well as other operations, like moving cartridges between slots, erasing, scanning, etc.</p>
+        <p>The table below provides a description of some of the tape-related terms:</p>
+        <table class="table_1">
+            <col class="col_9" />
+            <col class="col_10" />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_6">Term</p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p><b>Tape Library</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p><span class="span_1">A storage device that includes one or more tape drives, a number of slots and a media changer (robot).</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>Tape Drive</b><span class="span_1">&#160;</span>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_9">A device component (or a standalone device) used to read and write the tape cartridge.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>Slot</b><span class="span_1">&#160;</span>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_9">A place in the tape library designed to hold a single cartridge.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>Mail Slot</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_9">A slot in the tape library that allows you to physically add or remove a tape cartridge without disturbing the operation of the tape library.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>Media Changer</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p><span class="span_1">A device component used to move a single tape cartridge between slots and load/unload the cartridge to/from the tape drive.</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>Tape Cartridge (Tape)</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_9">A unit of sequential magnetic medium and an optional barcode used for identification.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>Media Pool</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p><span class="span_1">A logical container that contains tape cartridges.</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>Backup</b><span class="span_1">&#160;</span><b>(Tape)</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>A logical entity containing one or more recovery points on one or more tape cartridge(s) that belong to a single source object.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>Recovery Point (Tape)</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>A complete or incomplete data set required to rebuild a VM or instance as of a particular moment in time.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Amazon EC2 Backup</h1>
+        <p>NAKIVO Backup &amp; Replication allows you to create native backups of Amazon EC2 Instances. An Amazon EC2 instance backup is a point in time copy of an entire instance that is stored in a special folder called a&#160;<a href="C:\display\NH\Backup+Repository">Backup Repository</a>.</p>
+        <p>
+            <img src="../Resources/Images/Amazon+EC2+Backup/Amazon EC2 Backup.png" class="img_10" />
+        </p>
+        <p>Here is how NAKIVO Backup &amp; Replication performs Amazon EC2 instance backup:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2">Takes snapshots of the EBS volumes&#160;attached&#160;to the Amazon EC2 instance.&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Converts snapshots to temporary volumes and attaches them to the&#160;<a href="C:\display\NH\Transporter">Transporter</a>&#160;instance.&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Reads data from the temporary volumes and sends it to the backup repository.&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Detaches and removes the volumes.</p>
+            </li>
+        </ol>
+        <p>To back up VMware VMs to Amazon EC2 you need to do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Adding+Amazon+EC2+Accounts">Add an Amazon EC2 Account</a>&#160;to the product's Inventory.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Deploying+Transporters+in+Amazon+EC2">Deploy a Transporter to the Amazon EC2 Region</a>&#160;where you wish to create a Backup Repository.</p>
+            </li>
+            <li>
+                <p><a href="C:\display\NH\Backup+Repository+in+Amazon+EC2">Create a Backup Repository</a>&#160;in the&#160;Amazon EC2 Region.</p>
+            </li>
+        </ol>
+        <p>&#160;</p>
+        <p><b class="expand-control-text">Amazon EC2 concepts</b> </p>
+        <h2>Instance</h2>
+        <p>An&#160;<cite>Amazon&#160;EC2 Instance</cite>&#160;is a virtual server in&#160;Amazon's&#160;Elastic Compute Cloud (EC2).&#160;Amazon EC2 provides different Instance types so you can choose the CPU, memory, storage, and networking capacity you need.</p>
+        <h2>EBS Volume</h2>
+        <p>An&#160;<cite>Amazon EBS Volume</cite>&#160;is a virtual disk that can be attached to any Amazon EC2 Instance that is in the same Availability Zone. Amazon EBS volumes persist independently from the life of the instance, i.e. deleting an Amazon EC2 Instance does not delete EBS Volumes that were connected to it.</p>
+        <h2>Region</h2>
+        <p>An&#160;<cite>Amazon EC2</cite>&#160;<cite>Region&#160;</cite>is a geographic area where an&#160;Amazon EC2 Instance is hosted.&#160;Amazon EC2 provides multiple Regions so you can create and run your Amazon EC2 Instances in locations that meet your requirements.&#160;Each Region is completely independent and isolated from others.&#160;</p>
+        <h2>Availability Zone</h2>
+        <p>An&#160;<cite>Amazon EC2 Availability Zone</cite>&#160;is a location within an Amazon EC2 Region. Each Availability Zone is isolated from failures in other Availability Zones, yet all&#160;Availability&#160;Zones within the same region are&#160;connected with low-latency network connectivity to others in the same Region.&#160;</p>
+        <h2>VPC</h2>
+        <p>A&#160;<cite>virtual private cloud</cite>&#160;(VPC) is a virtual network in Amazon EC2. A VPC is dedicated to your AWS Account and is logically isolated from other virtual networks in the AWS cloud. Similar to regular networks, you can configure your VPCs: select IP address ranges, create subnets, configure route tables, network gateways, and security settings. After you have created and configured a VPC, you can connect your Amazon EC2 Instances to the VPC.</p>
+        <h2>Subnet</h2>
+        <p>A&#160;<cite>subnet</cite>&#160;is a range of IP addresses in a VPC. You can connect Amazon EC2 Instances to a subnet that you select: public subnets provide access to the Internet, while private subnets don't.&#160;</p>
+        <h2>Security Group</h2>
+        <p>A&#160;<cite>security group</cite>&#160;is a virtual firewall that controls the traffic for one or more instances. When you create an Amazon EC2 Instance, you associate one or more security groups with the Instance. You add rules to each security group that allows traffic to or from its associated instances. You can modify the rules for a security group at any time; the new rules are automatically applied to all instances that are associated with the security group. When we decide whether to allow traffic to reach an instance, we evaluate all the rules from all the security groups that are associated with the instance.</p>
+        <h2>Key Pair</h2>
+        <p>Amazon EC2 uses key pairs to encrypt and decrypt login information. A key pair consists of a Public Key that is used to encrypt passwords, and a Private Key is used to decrypt them.&#160;When creating a new Amazon EC2 Instance, you need to either create a new Key Pair for it&#160;or assign an existing key pair for the Instance.&#160;To log in to your Amazon EC2 Instance, you must provide the private key for it. Note that Linux instances have no password, and you use a key pair to log in using SSH.&#160;With Windows instances, you use a key pair to obtain the administrator password and then log in using RDP.</p>
+        <h2>Elastic Network Adapter</h2>
+        <p>Elastic Network Adapter (ENA) is a custom network interface with accompanying drivers providing Enhanced Networking on EC2 instances. ENA is optimized to deliver high throughput and packet per second performance and consistently low latencies on EC2 instances. Depending on the type of EC2 instance, you can utilize up to 20 Gbit/s of network bandwidth with ENA. For more information, refer to the corresponding <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/enhanced-networking.html">article</a> on the AWS website.&#160;</p>
+    </body>
+</html>

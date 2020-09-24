@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Storage Integration Requirements</h1>
+        <p>NAKIVO Backup &amp; Replication can be integrated with many <a href="../../Overview/Deduplication Appliance Support.htm">deduplication appliances</a> by using a stream repository. The product also offers advanced integration with Dell EMC Data Domain, NEC HYDRAstor, and HP StoreOnce Catalyst appliances. Deduplication appliances are servers designed to reduce data size and can be used as backup targets. Deduplication appliances operate best with sequential large block I/O from backup software. Therefore, when backing to a deduplication appliance, it is important to make sure that the architecture of your Backup Repository is optimized for these devices and your backups have a large block I/O. Only by doing this, you will be able to maximize your backup speed. NAKIVO Backup &amp; Replication provides advanced integration with the following storage solutions:</p>
+        <h2>Dell-EMC Data Domain</h2>
+        <p>Supported versions:</p>
+        <ul>
+            <li> Dell-EMC Data Domain 6.1</li>
+            <li>Dell-EMC Data Domain 6.2</li>
+        </ul>
+        <h2>NEC HYDRAstor</h2>
+        <p>Supported systems:</p>
+        <ul>
+            <li> NEC HYDRAstor v 5.5.1</li>
+            <li>NEC Storage HS Universal Express I/O Module Version 1.8.0 </li>
+        </ul>
+        <h2>HP StoreOnce Catalyst</h2>
+        <p>Supported versions:</p>
+        <ul>
+            <li>HPE StoreOnce 3.18.18 </li>
+            <li>HPE StoreOnce 4.2.3</li>
+        </ul>
+        <p>Integration requirements:</p>
+        <p>NAKIVO Backup &amp;&#160;Replication installed on Windows (x64) and Linux (x64) machines must have HPE StoreOnce Catalyst API Library.</p>
+        <p>Supported Maximums:</p>
+        <table style="width: 100%;">
+            <col style="width: 196px;" />
+            <col style="width: 149px;" />
+            <col style="width: 157px;" />
+            <col style="width: 157px;" />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;background-color: #dcdcdc;font-weight: bold;font-size: 10pt;">
+                        <p>StoreOnce</p>
+                        <p> model</p>
+                    </td>
+                    <td style="text-align: center;background-color: #dcdcdc;font-weight: bold;font-size: 10pt;">
+                        <p>Maximum</p>
+                        <p> sessions</p>
+                    </td>
+                    <td style="text-align: center;background-color: #dcdcdc;font-weight: bold;font-size: 10pt;">
+                        <p>Maximum </p>
+                        <p>Transporter load</p>
+                    </td>
+                    <td style="text-align: center;background-color: #dcdcdc;font-weight: bold;font-size: 10pt;">
+                        <p>Maximum</p>
+                        <p> recovery points</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="font-size: 10pt;"><b>VSA</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;font-size: 10pt;">
+                        <p>VSA Gen 4</p>
+                        <p>(128+sessions)</p>
+                    </td>
+                    <td style="text-align: right;font-size: 10pt;">128-256</td>
+                    <td style="text-align: right;font-size: 10pt;">6</td>
+                    <td style="text-align: right;font-size: 10pt;">7</td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="font-size: 10pt;"><b>HPE ProLiant Gen 10 (StoreOnce 4.2.3)</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;font-size: 10pt;">3620</td>
+                    <td style="text-align: right;font-size: 10pt;">128</td>
+                    <td style="text-align: right;font-size: 10pt;">6</td>
+                    <td style="text-align: right;font-size: 10pt;">7</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;font-size: 10pt;">3640</td>
+                    <td style="text-align: right;font-size: 10pt;">192</td>
+                    <td style="text-align: right;font-size: 10pt;">6</td>
+                    <td style="text-align: right;font-size: 10pt;">14</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;font-size: 10pt;">5200</td>
+                    <td style="text-align: right;font-size: 10pt;">512</td>
+                    <td style="text-align: right;font-size: 10pt;">10</td>
+                    <td style="text-align: right;font-size: 10pt;">21</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;font-size: 10pt;">5250</td>
+                    <td style="text-align: right;font-size: 10pt;">512</td>
+                    <td style="text-align: right;font-size: 10pt;">10</td>
+                    <td style="text-align: right;font-size: 10pt;">21</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;font-size: 10pt;">5650</td>
+                    <td style="text-align: right;font-size: 10pt;">1024</td>
+                    <td style="text-align: right;font-size: 10pt;">16</td>
+                    <td style="text-align: right;font-size: 10pt;">30</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;font-size: 10pt;font-weight: bold;" colspan="4">HPE ProLiant Gen 9 (StoreOnce 3.18.18)</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;font-size: 10pt;">3500</td>
+                    <td style="text-align: right;font-size: 10pt;">192</td>
+                    <td style="text-align: right;font-size: 10pt;">6</td>
+                    <td style="text-align: right;font-size: 10pt;">14</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;font-size: 10pt;">5100</td>
+                    <td style="text-align: right;font-size: 10pt;">320</td>
+                    <td style="text-align: right;font-size: 10pt;">10</td>
+                    <td style="text-align: right;font-size: 10pt;">14</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;font-size: 10pt;">5500</td>
+                    <td style="text-align: right;font-size: 10pt;">1000</td>
+                    <td style="text-align: right;font-size: 10pt;">16</td>
+                    <td style="text-align: right;font-size: 10pt;">30</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;font-size: 10pt;">6600</td>
+                    <td style="text-align: right;font-size: 10pt;">1024</td>
+                    <td style="text-align: right;font-size: 10pt;">16</td>
+                    <td style="text-align: right;font-size: 10pt;">30</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;font-size: 10pt;" colspan="4"><b>HPE ProLiant Gen 8 (StoreOnce 3.18.18)</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;font-size: 10pt;">4500</td>
+                    <td style="text-align: right;font-size: 10pt;">128</td>
+                    <td style="text-align: right;font-size: 10pt;">6</td>
+                    <td style="text-align: right;font-size: 10pt;">7</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;font-size: 10pt;">4700</td>
+                    <td style="text-align: right;font-size: 10pt;">192</td>
+                    <td style="text-align: right;font-size: 10pt;">6</td>
+                    <td style="text-align: right;font-size: 10pt;">14</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;font-size: 10pt;">4900</td>
+                    <td style="text-align: right;font-size: 10pt;">500</td>
+                    <td style="text-align: right;font-size: 10pt;">10</td>
+                    <td style="text-align: right;font-size: 10pt;">21</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;font-size: 10pt;">6500</td>
+                    <td style="text-align: right;font-size: 10pt;">512</td>
+                    <td style="text-align: right;font-size: 10pt;">10</td>
+                    <td style="text-align: right;font-size: 10pt;">21</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p class="p_15">&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

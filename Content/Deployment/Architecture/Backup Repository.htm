@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Backup Repository</h1>
+        <ul>
+            <li>
+                <MadCap:xref href="#What">What is a Backup Repository?</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#How">How Much Data can be Stored in a Backup Repository?</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#How2">How is a Backup Repository Managed?</MadCap:xref>
+            </li>
+        </ul>
+        <h2><a name="What"></a>What is a Backup Repository?</h2>
+        <p>A Backup Repository is a folder used by NAKIVO Backup &amp; Replication to store backups. When you add a Backup Repository to the product, NAKIVO Backup &amp; Replication creates a folder named “NakivoBackup” in the specified location and keeps all backed up data and Backup Repository metadata in that folder.</p>
+        <p><b>Important</b>
+        </p>
+        <ol>
+            <li>Do not modify or delete any files inside the “NakivoBackup” folder. Modifying or deleting any file inside the “NakivoBackup” folder may irreversibly damage an entire Backup Repository.</li>
+            <li>To avoid disrupting NAKIVO Backup &amp; Replication processes and data corruption, add the application to the whitelist/exclusions list of the antivirus software running on the machine on which the NAKIVO Backup Repository is set up.</li>
+        </ol>
+        <p>By default, a Backup Repository is created when the full solution (both Director and Transporter) is installed. The default Backup Repository is named “Onboard repository”.</p>
+        <p>&#160;</p>
+        <h2><a name="How"></a>How Much Data can be Stored in a Backup Repository?</h2>
+        <p>NAKIVO Backup &amp; Replication can store up to 128 TB of data in a single Backup Repository. The number of Backup Repositories per installation is unlimited.By default, backups are compressed and deduplicated at the block level across the entire Backup Repository to save storage space.</p>
+        <h2><a name="How2"></a>How is a Backup Repository Managed?</h2>
+        <p>Each Backup Repository is managed by a single Transporter called an Assigned Transporter. In other words, only one Transporter can read data from and write data to a particular Backup Repository. </p>
+        <p class="p_15">
+            <img src="../../Resources/Images/02. Deployment/Backup Repository.jpg" class="img_10" />
+        </p>
+        <p>The Assigned Transporter is responsible for all interaction with its Backup Repository. A single Transporter can be assigned to and manage multiple Backup Repositories.</p>
+    </body>
+</html>

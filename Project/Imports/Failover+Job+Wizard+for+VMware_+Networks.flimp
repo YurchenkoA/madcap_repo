@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Planning Disaster Recovery\Failover to Replica for VMware"
+  InlineFormatting="Keep"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-17T18:52:37.8501154+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Failover+Job+Wizard+for+VMware_+Networks.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+Job+Wizard+for+VMware_+Networks.doc" />
+    <Url
+      Source="../../../../../Downloads/Failover+Job+Wizard+for+VMware_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+Job+Wizard+for+VMware_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Failover+Job+Wizard+for+VMware_+Re-IP.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+Job+Wizard+for+VMware_+Re-IP.doc" />
+    <Url
+      Source="../../../../../Downloads/Failover+Job+Wizard+for+VMware_+Source.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+Job+Wizard+for+VMware_+Source.doc" />
+    <Url
+      Source="../../../../../Downloads/Failover+to+Replica+for+VMware.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+to+Replica+for+VMware.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+VMware+Failover+to+Replica.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+VMware+Failover+to+Replica.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+VMware_+Networks/Failover Job Wizard for VMware.png"
+      TimeStamp="Thu 17.09.20 6:52:33 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+VMware_+Networks/Failover Job Wizard for VMware_1.png"
+      TimeStamp="Thu 17.09.20 6:52:33 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+VMware_+Networks/Failover Job Wizard for VMware_2.png"
+      TimeStamp="Thu 17.09.20 6:52:33 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for VMware/Failover Job Wizard for VMware.htm"
+      TimeStamp="Thu 17.09.20 6:52:34 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+VMware_+Options/Failover Job Wizard for VMware_1.png"
+      TimeStamp="Thu 17.09.20 6:52:33 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for VMware/Failover Job Wizard for VMware_1.htm"
+      TimeStamp="Thu 17.09.20 6:52:34 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+VMware_+Re-IP/Failover Job Wizard for VMware_2.png"
+      TimeStamp="Thu 17.09.20 6:52:33 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+VMware_+Re-IP/Failover Job Wizard for VMware_2_1.png"
+      TimeStamp="Thu 17.09.20 6:52:33 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+VMware_+Re-IP/Failover Job Wizard for VMware_2_2.png"
+      TimeStamp="Thu 17.09.20 6:52:33 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for VMware/Failover Job Wizard for VMware_2.htm"
+      TimeStamp="Thu 17.09.20 6:52:34 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+VMware_+Source/Failover Job Wizard for VMware_3.png"
+      TimeStamp="Thu 17.09.20 6:52:33 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for VMware/Failover Job Wizard for VMware_3.htm"
+      TimeStamp="Thu 17.09.20 6:52:34 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for VMware/Failover to Replica for VMware.htm"
+      TimeStamp="Thu 17.09.20 6:52:34 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+VMware+Failover+to+Replica/Starting VMware Failover to.png"
+      TimeStamp="Thu 17.09.20 6:52:33 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for VMware/Starting VMware Failover to.htm"
+      TimeStamp="Thu 17.09.20 6:52:34 PM" />
+    <Url
+      Source="../TOCs/Failover+Job+Wizard+for+VMware_+Networks.fltoc"
+      TimeStamp="Thu 17.09.20 6:52:33 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Failover+Job+Wizard+for+VMware_+Networks.css"
+      TimeStamp="Thu 17.09.20 6:52:33 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

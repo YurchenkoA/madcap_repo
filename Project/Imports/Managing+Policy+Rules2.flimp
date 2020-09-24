@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Getting Started\Managing Jobs and Activities"
+  InlineFormatting="Keep"
+  UseListBullets="false"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-24T11:11:50.9113148+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Managing+Policy+Rules.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Managing+Policy+Rules.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Managing+Policy+Rules/Managing Policy Rules_16.png"
+      TimeStamp="Thu 24.09.20 11:11:49 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Policy+Rules/Managing Policy Rules_17.png"
+      TimeStamp="Thu 24.09.20 11:11:49 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Policy+Rules/Managing Policy Rules_18.png"
+      TimeStamp="Thu 24.09.20 11:11:49 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Policy+Rules/Managing Policy Rules_19.png"
+      TimeStamp="Thu 24.09.20 11:11:49 AM" />
+    <Url
+      Source="../../Content/Getting Started/Managing Jobs and Activities/Managing Policy Rules.htm"
+      TimeStamp="Thu 24.09.20 11:11:49 AM" />
+    <Url
+      Source="../TOCs/Managing+Policy+Rules2.fltoc"
+      TimeStamp="Thu 24.09.20 11:11:49 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Managing+Policy+Rules2.css"
+      TimeStamp="Thu 24.09.20 11:11:49 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="cite"
+      Style="Flare" />
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Creating+Site+Recovery+Job.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Running Site Recovery Job</h1>
+        <p>The section includes the following topics:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="../../../../../../../Downloads/Running+Site+Recovery+Job.doc#RunningSiteRecoveryJob-testModeRunningS">Running Site Recovery Job in Test Mode</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="../../../../../../../Downloads/Running+Site+Recovery+Job.doc#RunningSiteRecoveryJob-productionModeRu">Running Site Recovery Job in Production Mode</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Running Site Recovery Job in Test Mode</h2>
+        <p>Running your Site Recovery Job in the test mode allows you to verify the site recovery workflow and results.</p>
+        <p>Please follow the steps below to run your Site Recovery Job in the test mode:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">In the&#160;<b>Jobs</b>&#160;dashboard, select your Site Recovery Job and then click the&#160;<b>Run Job</b>&#160;button.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">In the dialog that opens, click&#160;<b>Test site recovery job</b>.<br /><br /><img src="../../../Resources/Images/Running+Site+Recovery+Job/Running Site Recovery Job.png" class="img_1" /></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">The&#160;<b>Recovery time objective</b>&#160;dialog opens. Here you can: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1">Disable/enable the&#160;<b>Recovery time objective</b>&#160;option.</p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">If the&#160;<b>Recovery time objective</b>&#160;is enabled, modify the amount of time allowed for the job to be completed.<br /><br /><img src="../../../Resources/Images/Running+Site+Recovery+Job/Running Site Recovery Job_1.png" class="img_2" />&#160;</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Test</b>&#160;when ready.</p>
+            </li>
+        </ol>
+        <p>The Site Recovery Job starts running in the test mode.</p>
+        <p>Note</p>
+        <p>in addition to testing the site recovery job on demand, testing can also be scheduled. Refer to <a href="../../../../../../../../../display/NH/Site+Recovery+Job+Wizard:+Test+Schedule">Site Recovery Job Wizard: Test Schedule</a> for details.</p>
+        <h2>Running Site Recovery Job in Production Mode</h2>
+        <p>Running your Site Recovery Job in the production mode allows you to recover your environment from disaster.</p>
+        <p>Please follow the steps below to run your Site Recovery Job in the production mode:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">In the&#160;<b>Jobs</b>&#160;dashboard, select your Site Recovery Job and then click the&#160;<b>Run Job</b>&#160;button.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">In the dialog that opens, click&#160;<b>Run site recovery job</b>.<br /><br /><img src="../../../Resources/Images/Running+Site+Recovery+Job/Running Site Recovery Job_2.png" class="img_1" /></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">The&#160;<b>Failover type</b>&#160;dialog opens. Choose either of the following failover types: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1"><b>Planned failover</b>:&#160;The application will sync replica data with the source VM before switching workloads to the replica.</p>
+                    </li>
+                    <li>
+                        <p><b>Emergency failover</b>:&#160;The application will switch workloads from the source VM to the replica immediately.</p>
+                        <p>Note</p>
+                        <p>The&#160;<b>Failover type</b>&#160;option is only available for Site Recovery Jobs containing a Failover action.</p>
+                        <p class="p_3">
+                            <img src="../../../Resources/Images/Running+Site+Recovery+Job/Running Site Recovery Job_3.png" class="img_3" />
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Run</b>.</p>
+            </li>
+        </ol>
+        <p>The Site Recovery Job starts running in the production mode.</p>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Virtual Machine Backup</h1>
+        <p>NAKIVO Backup &amp; Replication works in a virtual environment and uses an image-based approach to VM backup. It is an agentless application that does not require you to install any additional software inside the VM guest OS to retrieve VM data. It exploits virtualization platforms' snapshot capabilities to back up VMs. When you initiate a VM backup, NAKIVO Backup &amp; Replication requests a virtualization platform to create a VM snapshot which is basically a point-in-time copy of a VM including its configuration, OS, applications, associated data, system state, and so on. The snapshot is used as a source of data for backup. Copying of the data from the source datastore is performed at a block level. NAKIVO Backup &amp; Replication fetches the VM data, performs compression and deduplication, and finally stores the backup files in the repository.</p>
+        <p>In NAKIVO Backup &amp; Replication, backing up is performed via a job that must be created and configured prior to the backup itself. A backup job is a configuration unit of the backup activity that defines when, what, how and where is to be backed up. One or several VMs can be processed by a single backup job. A job can be started manually or scheduled for execution. The initial job's run always produces a complete backup of the VM image. The following sessions can create full or incremental backups. During incremental backups, NAKIVO Backup &amp; Replication copies only blocks of data that have changed since the last backup job session. Tracking of changed data blocks is performed using the virtualization platforms' capabilities (CBT/RCT/CRT) or with NAKIVO Backup &amp; Replication's proprietary method.</p>
+        <p>Technically, the VM backup process is performed according to the following flow depicted below:</p>
+        <p>
+            <img src="../Resources/Images/Virtual+Machine+Backup/Virtual Machine Backup.png" class="img_53" />
+        </p>
+        <p>&#160;</p>
+        <p>&#160;To learn how to create VM backups with NAKIVO Backup &amp; Replication, refer to <a href="C:\display\NH\Backup">Backup</a>.&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Backing+Up+to+Tape.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Backup Job Wizard for Oracle Database: Options</h1>
+        <p>On the <span class="Strong">Options</span> page of the wizard, you can name the job, choose to back up and truncate Oracle database archived redo logs, set full backups as well as pre and post job actions.</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Oracle+Database_+Options.doc#BackupJobWizardforOracleDatabase:Option" class="Hyperlink">Job Options</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Oracle+Database_+Options.doc#BackupJobWizardforOracleDatabase:Option" class="Hyperlink">Full Backup Settings</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Oracle+Database_+Options.doc#BackupJobWizardforOracleDatabase:Option" class="Hyperlink">Pre and Post Actions</a> </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Oracle+Database_+Options.doc#BackupJobWizardforOracleDatabase:Option" class="Hyperlink">Email Notifications</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Oracle+Database_+Options.doc#BackupJobWizardforOracleDatabase:Option" class="Hyperlink">Pre Job Script</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Oracle+Database_+Options.doc#BackupJobWizardforOracleDatabase:Option" class="Hyperlink">Post Job Script</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Job Options</h2>
+        <p>In this section, you can set the following options:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><span class="Strong">Job name</span>: Specify a name for the backup job.</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Back up Oracle database archived redo logs</span>: If selected, the Oracle database archived redo logs will be backed up on the specified databases.</p>
+            </li>
+            <li class="li_2">
+                <p><span class="Strong">Truncate Oracle database archived redo logs</span>: If selected, the Oracle database archived redo logs will be truncated on the specified databases immediately after backup is complete.&#160;<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+Oracle+Database_+Options/Backup Job Wizard for Oracle_1.png" class="img_64" /></p>
+            </li>
+        </ul>
+        <h2>Full Backup Settings</h2>
+        <p>In this section, you can set time and frequency for full backups.&#160;</p>
+        <p>Select one of the following options:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><span class="Strong">Always</span>: If selected, the product will always make full backups</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Every</span> Monday/Tuesday/Wednesday/Thursday/Friday/Saturday/Sunday.</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Every 2nd</span> Monday/Tuesday/Wednesday/Thursday/Friday/Saturday/Sunday.</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">First</span> Monday/Tuesday/Wednesday/Thursday/Friday/Saturday/Sunday of the month.</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Second</span> Monday/Tuesday/Wednesday/Thursday/Friday/Saturday/Sunday of the month.</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Third</span> Monday/Tuesday/Wednesday/Thursday/Friday/Saturday/Sunday of the month.</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Fourth</span> Monday/Tuesday/Wednesday/Thursday/Friday/Saturday/Sunday of the month.</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Last</span> Monday/Tuesday/Wednesday/Thursday/Friday/Saturday/Sunday of the month.</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Day#</span>: Specify the day when you would like the product to make a full backup.</p>
+            </li>
+            <li class="auto-cursor-target">
+                <p><span class="Strong">Job run#</span>: Specify the number of the job run when you would like the product to make a full backup.&#160;<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+Oracle+Database_+Options/Backup Job Wizard for Oracle_1_1.png" class="img_64" /></p>
+                <p>Note</p>
+                <p>If your current job or the immediate parent job does not run daily/weekly at least once a week, only the <span class="Strong">Always</span> and <span class="Strong">Job run#</span> options will be available.&#160;</p>
+            </li>
+        </ul>
+        <h2>Pre and Post Actions</h2>
+        <p>NAKIVO Backup &amp; Replication provides you with the ability to enable certain actions before a backup job begins and after it has been completed. You can choose to send job run reports, and run local <a href="C:\display\NH\Pre+and+Post+Job+Scripts" class="Hyperlink">pre and post job scripts</a>.</p>
+        <p class="NormalWeb">
+            <img src="../Resources/Images/Backup+Job+Wizard+for+Oracle+Database_+Options/Backup Job Wizard for Oracle_1_2.png" class="img_65" />
+        </p>
+        <h3>Email Notifications</h3>
+        <p>NAKIVO Backup &amp; Replication can send email notifications on job completion status to specified recipients. This feature complements global notification and provides you with the ability to configure notifications on a per-job level.</p>
+        <p>Note</p>
+        <p>To enable this option, configure your <a href="C:\display\NH\Email+Notifications" class="Hyperlink">email settings</a>.&#160;</p>
+        <p>
+            <br />To send email notifications, select <span class="Strong">Send job run reports to</span> and specify one or more email addresses in the text box. The semi-colon character (;) should be used to separate multiple email addresses.</p>
+        <h3>Pre Job Script</h3>
+        <p>To run a script before the product begins backing up databases, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Place a script file on the machine on which the Director is installed.</p>
+            </li>
+            <li class="li_1">
+                <p>Select the&#160;<span class="Strong">Run local pre job script</span>&#160;option.</p>
+            </li>
+            <li class="li_1">
+                <p>Specify the following options in the dialog box that opens: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><span class="Strong">Script path</span>:&#160;Specify a local path to the script on the machine on which the Director is installed. Script interpreter should be specified.&#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Job behavior</span>: Choose either of the following job behaviors in relation to script completion: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p><span class="Strong">Wait for the script to finish</span>:&#160;If this option is selected, the backup will not be started until the script is completed.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><span class="Strong">Do not wait for the script to finish</span>:<span class="Strong">&#160;</span>If this option is selected, the product will run the script and will start backing up databases at the same time.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Error handling</span>: Choose either of the following job behaviors in relation to script failure: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p><span class="Strong">Continue the job on script failure</span>:<span class="Strong">&#160;</span>If this option is selected, the job will perform backup even if the script has failed.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><span class="Strong">Fail the job on script failure</span>:<span class="Strong">&#160;</span>If this option is selected and the script fails, the job will be failed and backup will not be performed.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <h3>Post Job Script</h3>
+        <p>To run a script after the product has finished backing up all databases, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Place a script file on the machine on which the Director is installed.</p>
+            </li>
+            <li class="li_1">
+                <p>Select the&#160;<span class="Strong">Run local post job script</span>&#160;option.</p>
+            </li>
+            <li class="li_1">
+                <p>Specify the following options in the dialog box that opens: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><span class="Strong">Script path</span>:<span class="Strong">&#160;</span>Specify a local path to the script on the machine on which the Director is installed. Script interpreter should be specified.&#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Job behavior</span>: Choose either of the following job behaviors in relation to script completion: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p><span class="Strong">Wait for the script to finish</span>:<span class="Strong">&#160;</span>If this option is selected, the job will be in the “running” state until the script is completed.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><span class="Strong">Do not wait for the script to finish</span>:<span class="Strong">&#160;</span>If this option is selected, the job will be completed even if the script execution is still in progress.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Error handling</span>:<span class="Strong">&#160;</span>Choose either of the following job behaviors in relation to script failure: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p><span class="Strong">Continue the job on script failure</span>:<span class="Strong">&#160;</span>If this option is selected, script failure will not influence the status of the job.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><span class="Strong">Fail the job on script failure</span>:<span class="Strong">&#160;</span>If this option is selected and the script has failed, the job status will be set to “failed” even if the backup has been successful.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </body>
+</html>

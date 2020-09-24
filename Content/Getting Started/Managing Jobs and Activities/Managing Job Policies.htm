@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/Jobs+Alarms+and+Notifications1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Managing Job Policies</h1>
+        <p>With policies, you can create rules that easily add matching items to NAKIVO Backup &amp; Replication jobs. For example, you can create a backup job that meets the following criteria: (a) size of VM is more than 4 GB, (b) number of VM CPU sockets is more than 2, and (c) VM name contains "Ubuntu". Any policy is applied to a single job. In the&#160;NAKIVO Backup &amp; Replication job wizard, job policy is accessible from the <b>Policy</b> view of the VMs / Instances / Backup page.</p>
+        <p>
+            <img src="../../Resources/Images/Managing+Job+Policies/Managing Job Policies_1.jpg" class="img_8" />
+        </p>
+        <p>Every job policy contains at least one rule. Refer to <MadCap:xref href="Managing Policy Rules.htm">Managing Policy Rules</MadCap:xref> for details.</p>
+        <p>Job policies are available for the following job types:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="../../Backup/Backup.htm">Backup jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="../../Replication/Replication.htm"><p class="p_1">Replication jobs</p></a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="../../Backup/Creating Backup Copy Jobs.htm">Backup copy jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="../../Recovery/Planning Disaster Recovery/Planning Disaster Recovery.htm">Failover jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="../../Recovery/Planning Disaster Recovery/Planning Disaster Recovery.htm">Failback jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Several actions of the <a href="../../Recovery/Planning Disaster Recovery/Site Recovery Job/Site Recovery Job.htm">Site Recovery</a> job</p>
+            </li>
+        </ul>
+        <p>Learn how to save, edit, and remove job policies in these sections:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1">
+                    <MadCap:xref href="#Saving">Saving Job Policy</MadCap:xref>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">
+                    <MadCap:xref href="#Editing">Editing Job Policy</MadCap:xref>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">
+                    <MadCap:xref href="#Removing">Removing Job Policy</MadCap:xref>
+                </p>
+            </li>
+        </ul>
+        <h2><a name="Saving"></a>Saving Job Policy</h2>
+        <p>Follow the steps below to save a policy rule:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Make sure your job is opened in the <b>Policy&#160;</b>view.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Choose either of the following <b>Condition</b> for your job policy: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1"><b>Include items if ALL rules are matched</b>: If selected, the logical AND will be applied to the set of policy rules.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Include items if ANY rule is matched</b>:<b>&#160;</b>If selected, the logical OR will be applied to the set of policy rules.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Provide the necessary policy rules. Refer to <MadCap:xref href="Managing Policy Rules.htm">Managing Policy Rules</MadCap:xref> for details. Make sure that at least one item matches the available set of policy rules.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Save your job.<br /><br /><img src="../../Resources/Images/Managing+Job+Policies/Managing Job Policies_2.png" class="img_9" /></p>
+            </li>
+        </ol>
+        <h2><a name="Editing"></a>Editing Job Policy</h2>
+        <p>Follow the steps below to edit a job policy:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Make sure your job is opened in the <b>Policy</b> view.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Change the necessary parameters of your job policy: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1"><b>Condition</b>.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Add, edit or delete policy rules. Refer to <MadCap:xref href="Managing Policy Rules.htm">Managing Policy Rules</MadCap:xref> for details.</p>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Save your job.</p>
+            </li>
+        </ol>
+        <h2><a name="Removing"></a>Removing Job Policy</h2>
+        <p>Follow the steps below to remove an entire job policy:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Make sure your job is opened in the <b>Policy</b> view.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Switch to any other inventory view available on the list.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">A dialog opens warning you that switching to a different view will reset your selection for the current job. Click <b>Switch View</b> to confirm your operation.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Save your job.<br /><br /><img src="../../Resources/Images/Managing+Job+Policies/Managing Job Policies_3.png" class="img_10" /></p>
+            </li>
+        </ol>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

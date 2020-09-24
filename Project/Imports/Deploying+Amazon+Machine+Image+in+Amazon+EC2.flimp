@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Deployment\Installing NAKIVO Backup and Replication"
+  AutoFitTables="true"
+  UseHeaderRows="true"
+  TableStyles="NewTableStyleSheets"
+  LastImport="2020-09-18T12:49:50.9202993+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Deploying+Amazon+Machine+Image+in+Amazon+EC2.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Deploying+Amazon+Machine+Image+in+Amazon+EC2.doc" />
+    <Url
+      Source="../../../../../Downloads/Deploying+Nutanix+AHV+Virtual+Appliance.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Deploying+Nutanix+AHV+Virtual+Appliance.doc" />
+    <Url
+      Source="../../../../../Downloads/Deploying+VMware+Virtual+Appliance.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Deploying+VMware+Virtual+Appliance.doc" />
+    <Url
+      Source="../../../../../Downloads/Installing+NAKIVO+Backup+and+Replication.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+NAKIVO+Backup+and+Replication.doc" />
+    <Url
+      Source="../../../../../Downloads/Installing+on+FreeNAS.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+FreeNAS.doc" />
+    <Url
+      Source="../../../../../Downloads/Installing+on+Generic+ARM-based+Device.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+Generic+ARM-based+Device.doc" />
+    <Url
+      Source="../../../../../Downloads/Installing+on+Raspberry+Pi.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+Raspberry+Pi.doc" />
+    <Url
+      Source="../../../../../Downloads/Installing+on+Western+Digital+NAS.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+Western+Digital+NAS.doc" />
+    <Url
+      Source="../../../../../Downloads/Installing+on+Windows.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+Windows.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/TableStyles/TableNormal.css"
+      TimeStamp="Fri 18.09.20 12:49:20 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Deploying Amazon Machine Image.htm"
+      TimeStamp="Fri 18.09.20 12:49:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_8.png"
+      TimeStamp="Fri 18.09.20 12:49:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_9.png"
+      TimeStamp="Fri 18.09.20 12:49:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_10.png"
+      TimeStamp="Fri 18.09.20 12:49:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_11.png"
+      TimeStamp="Fri 18.09.20 12:49:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_12.png"
+      TimeStamp="Fri 18.09.20 12:49:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_13.png"
+      TimeStamp="Fri 18.09.20 12:49:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_14.png"
+      TimeStamp="Fri 18.09.20 12:49:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+Nutanix+AHV+Virtual+Appliance/Deploying Nutanix AHV Virtual_15.png"
+      TimeStamp="Fri 18.09.20 12:49:23 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Deploying Nutanix AHV Virtual.htm"
+      TimeStamp="Fri 18.09.20 12:49:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_2.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_3.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_4.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_5.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_6.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_7.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_8.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_9.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_10.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_11.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_12.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_13.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_14.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_15.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_16.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_17.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_18.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_19.png"
+      TimeStamp="Fri 18.09.20 12:49:27 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Deploying VMware Virtual Appliance.htm"
+      TimeStamp="Fri 18.09.20 12:49:45 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing NAKIVO Backup and.htm"
+      TimeStamp="Fri 18.09.20 12:49:45 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on FreeNAS.htm"
+      TimeStamp="Fri 18.09.20 12:49:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Generic+ARM-based+Device/Installing on Generic ARM.png"
+      TimeStamp="Fri 18.09.20 12:49:36 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on Generic ARM.htm"
+      TimeStamp="Fri 18.09.20 12:49:45 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on Raspberry Pi.htm"
+      TimeStamp="Fri 18.09.20 12:49:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Western+Digital+NAS/Installing on Western Digital.png"
+      TimeStamp="Fri 18.09.20 12:49:41 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on Western Digital.htm"
+      TimeStamp="Fri 18.09.20 12:49:45 PM" />
+    <Url
+      Source="../../Content/Resources/TableStyles/TableNormal_1.css"
+      TimeStamp="Fri 18.09.20 12:49:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Windows/Installing on Windows.png"
+      TimeStamp="Fri 18.09.20 12:49:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Windows/Installing on Windows.jpg"
+      TimeStamp="Fri 18.09.20 12:49:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Windows/Installing on Windows_1.jpg"
+      TimeStamp="Fri 18.09.20 12:49:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Windows/Installing on Windows_1.png"
+      TimeStamp="Fri 18.09.20 12:49:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Windows/Installing on Windows_2.jpg"
+      TimeStamp="Fri 18.09.20 12:49:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Windows/Installing on Windows_3.jpg"
+      TimeStamp="Fri 18.09.20 12:49:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Windows/Installing on Windows_4.jpg"
+      TimeStamp="Fri 18.09.20 12:49:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Windows/Installing on Windows_5.jpg"
+      TimeStamp="Fri 18.09.20 12:49:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Windows/Installing on Windows_6.jpg"
+      TimeStamp="Fri 18.09.20 12:49:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+Windows/Installing on Windows_7.jpg"
+      TimeStamp="Fri 18.09.20 12:49:45 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on Windows.htm"
+      TimeStamp="Fri 18.09.20 12:49:45 PM" />
+    <Url
+      Source="../TOCs/Deploying+Amazon+Machine+Image+in+Amazon+EC2.fltoc"
+      TimeStamp="Fri 18.09.20 12:49:45 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Deploying+Amazon+Machine+Image+in+Amazon+EC2.css"
+      TimeStamp="Fri 18.09.20 12:49:45 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="auto-cursor-target"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="confluence-link"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Heading 3"
+      To="h3"
+      Style="Flare" />
+    <Map
+      From="li"
+      To="p.li"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="notenormal"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="style4"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="cite"
+      Style="Flare" />
+    <Map
+      From="HTML Code"
+      To="code"
+      Style="Flare" />
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Skipping Unused Blocks</h1>
+        <p>In addition to skipping swap files and partitions, NAKIVO Backup &amp; Replication allows you to skip unused disk blocks during the backup or replication process. This includes the following fragments within the file system:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2">Never used volume area.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">File area used by deleted files (without hard reference).</p>
+            </li>
+        </ul>
+        <p>Enabling this option reduces the size of backups and replicas, ensuring that only relevant data is copied. Skipping these blocks of data also means that less processing power and time are required for the workflow to finish.</p>
+        <p>This option can be configured on a per-job basis on the <b>Options </b>page of backup and replication jobs and is enabled by default. The feature supports processing source objects running on Windows OS. It is available for the NTFS file system.</p>
+    </body>
+</html>

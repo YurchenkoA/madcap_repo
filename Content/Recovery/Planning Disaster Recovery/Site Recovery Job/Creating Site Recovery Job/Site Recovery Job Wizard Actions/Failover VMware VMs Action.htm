@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../../../Resources/Stylesheets/Attach+_+Detach+Repository+Action.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Failover VMware VMs Action</h1>
+        <p>Please refer to the following sections on adding a&#160;<cite>Failover VMware VMs</cite>&#160;action to your&#160;Site Recovery job:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failover+VMware+VMs+Action.doc#FailoverVMwareVMsAction-FailoverVMwareV">Failover VMware VMs: VMs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failover+VMware+VMs+Action.doc#FailoverVMwareVMsAction-FailoverVMwareV">Failover VMware VMs: Options</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Failover VMware VMs: VMs</h2>
+        <p>On this step of the wizard, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_3">
+                <p class="p_3">In the left pane of the page, choose either of the following inventory views:</p>
+                <ul class="ul_4">
+                    <li class="li_1">
+                        <p class="p_1"><b class="b_1">Jobs &amp; Groups</b><span class="span_1">: When selected,&#160;the inventory tree displays groups, jobs, and backups of the appropriate hypervisor. You can select the required replica from the list of replication jobs.</span>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b class="b_1">Policy</b><span class="span_1">:&#160;When selected, job policies can be used. Refer to&#160;</span><a href="https://beta-helpcenter.nakivo.com/display/NH/Job+Policies"><span class="span_2">Job Policies</span></a><span class="span_1">&#160;for details. If the items were selected in alternate views, a dialog box opens warning you that switching to the&#160;</span><b class="b_1">Policy&#160;</b><span class="span_1">view will reset your current selection. Click&#160;</span><b class="b_1">Switch View</b><span class="span_1">&#160;to confirm switching to the&#160;</span><b class="b_1">Policy&#160;</b><span class="span_1">view. Make sure that at least one item matches the available set of policy rules. Refer to&#160;</span><a href="https://beta-helpcenter.nakivo.com/display/NH/Policy+Rules"><span class="span_2">Policy Rules</span></a><span class="span_1">&#160;for details.</span>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Select one or more source VMware VMs in the left pane and then select a recovery point for each source VM in the right pane.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Next</b>&#160;to go to the&#160;<b>Options&#160;</b>page.<br /><br /><img src="../../../../../Resources/Images/Failover+VMware+VMs+Action/Failover VMware VMs Action.png" class="img_20" />&#160;&#160;</p>
+            </li>
+        </ol>
+        <h2>Failover VMware VMs: Options</h2>
+        <p>On this page of the wizard, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Select&#160;<b>Power off source VMs</b>&#160;to power off the production workloads during the failover. Note that this will take place only in production mode; no workloads will be powered on in test mode.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">In the&#160;<b>Action options&#160;</b>section, set the options for your action. Refer&#160;to&#160;<a href="C:\display\NH\Site+Recovery+Job+Wizard:+Actions">Options Common to Most Actions</a>&#160;for details.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Save</b>.<br /><br /><img src="../../../../../Resources/Images/Failover+VMware+VMs+Action/Failover VMware VMs Action_1.png" class="img_21" />&#160;</p>
+            </li>
+        </ol>
+        <p>The&#160;<b>Options</b><cite>&#160;</cite>page closes and your&#160;<b>Failover VMware VMs</b>&#160;action is added to the Site Recovery Job.</p>
+    </body>
+</html>

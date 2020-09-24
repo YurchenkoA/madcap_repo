@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Backup from a Remote Site to a Master Site</h1>
+        <ul>
+            <li><a href="#Deployme">Deployment Scenario</a>
+            </li>
+            <li><a href="#Deployme2">Deployment Diagram</a>
+            </li>
+            <li><a href="#Deployme3">Deployment Steps</a>
+            </li>
+            <li><a href="#Connecti">Connections</a>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <h2><a name="Deployme"></a>Deployment Scenario</h2>
+        <p>In this scenario, tenant VMs are running at remote sites and are backed up to a single master site.</p>
+        <p><b>Example</b>
+        </p>
+        <p>A service provider needs to back up customers' VMs to the service provider’s datacenter so that the customers don’t see each other’s backups and can recover their own files and emails through a self-service interface.</p>
+        <h2><a name="Deployme2"></a>Deployment Diagram</h2>
+        <p>The deployment diagram for the above scenario is as follows:</p>
+        <p class="p_112">
+            <img src="../../../Resources/Images/02. Deployment/Backup from a Remote Site.jpg" class="img_22" />
+        </p>
+        <h2><a name="Deployme3"></a>Deployment Steps</h2>
+        <p>To deploy the above scenario, perform the following steps:</p>
+        <ol>
+            <li>Install the Director in multi-tenant mode at the master site.</li>
+            <li>Install at least one Transporter at the master site.</li>
+            <li>Install at least one Transporter at each remote site.</li>
+            <li>For each tenant, prepare a separate folder at the master site for creating separate Backup Repositories. </li>
+        </ol>
+        <h2><a name="Connecti"></a>Connections</h2>
+        <p class="p_50">The implementation of the above scenario requires that the following connections be available:</p>
+        <table>
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;background-color: #dcdcdc;font-size: 10pt;font-weight: bold;">Connection</td>
+                    <td style="text-align: center;background-color: #dcdcdc;font-size: 10pt;font-weight: bold;">Description</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;font-weight: bold;">A</td>
+                    <td style="font-size: 10pt;text-align: left;">Connection from the machine on which the Director is installed to vCenter servers and ESXi hosts that run source VMs at remote sites. The port used for communication with vCenter servers and ESXi hosts (443 by default) is open in firewalls.</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;font-weight: bold;">B</td>
+                    <td style="font-size: 10pt;text-align: left;">Connection from the machine on which the Director is installed to machines at remote sites on which Transporters are installed. The port used for communication with the Transporters (9446 by default) is open in firewalls.</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;font-weight: bold;">C</td>
+                    <td style="font-size: 10pt;text-align: left;">Connection from the machine on which the Director is installed to vCenter servers and ESXi hosts at the master site where VM replicas will be created. The port used for communication with vCenter servers and ESXi hosts (443 by default) is open in firewalls.</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;font-weight: bold;">D</td>
+                    <td style="font-size: 10pt;text-align: left;">Connection from the machine on which the Director is installed to the machine at the master site where the Transporter is installed. The port used for communication with the Transporters (9446 by default) is open in firewalls.</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;font-weight: bold;">E</td>
+                    <td style="font-size: 10pt;text-align: left;">Connection from the machine at the Master site where the Transporter is installed to ESXi hosts at the master site where VM replicas will be created.</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;font-weight: bold;">F</td>
+                    <td style="font-size: 10pt;text-align: left;">Connection from the machine at the Master site where the Transporter is installed to machines at remote sites where Transporters are installed. The ports used for data transfer between a pair of Transporters are open in firewalls.</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;font-weight: bold;">G</td>
+                    <td style="font-size: 10pt;text-align: left;">At remote sites, connections from machines on which Transporters are installed to vCenter servers and ESXi hosts running source VMs.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><b>Note</b>
+        </p>
+        <p>For security purposes, a VPN connection should be established between the master site and master sites.</p>
+        <ol start="1" class="ol_5">
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p style="text-align: left;">&#160;</p>
+        </ol>
+    </body>
+</html>

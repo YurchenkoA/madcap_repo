@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Physical+Machine+Recovery.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Recovery Job Wizard for Physical Machines: Destination</h1>
+        <p>Choose the location for storing the recovered physical machines.</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Destination.doc#RecoveryJobWizardforPhysicalMachines:De">Setting the Same Host, Datastore, and Network for All Recovered VMs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Destination.doc#RecoveryJobWizardforPhysicalMachines:De">Setting Different Options for Each Recovered VM</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Setting the Same Host, Datastore, and Network for All Recovered VMs</h2>
+        <p>To recover all machines to the same container/folder and datastore, and to connect all recovered VMs to the same networks, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Choose a cluster, host, or resource pool from the Container drop-down list.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Choose a datastore from the Datastore drop-down list.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Choose a network from the Network drop-down list.</p>
+            </li>
+        </ol>
+        <p>Optionally, you can choose a folder from the VM folder drop-down list if there is one in the container.</p>
+        <p>
+            <img src="../../../Resources/Images/Recovery+Job+Wizard+for+Physical+Machines_+Destination/Recovery Job Wizard for Physical_1.png" class="img_2" />
+        </p>
+        <h2>Setting Different Options for Each Recovered VM</h2>
+        <p>To specify different options for each recovered physical machine, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Click Advanced options.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click on the backup to expand its recovery options.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Choose a target location by selecting the necessary container, virtual machine, and folder.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Configure VM resources: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1">Virtual CPU</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Cores per socket</p>
+                    </li>
+                    <li>
+                        <p>RAM<span class="span_1"><br /></span>By default, the displayed VM resources correspond to the source physical machine configuration.</p>
+                        <p>Important</p>
+                        <p>If the default CPU configuration has been changed, the target VM might become unstable. In addition, the modified configuration might not comply with the licensing policy of the Guest OS.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">&#160;Select a disk from the Disks drop-down list.&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Keep a source disk controller configuration by selecting Keep source configuration from the Disk Controller drop-down list (recommended option) or select one of these types of disk controllers:&#160; </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1">SCSI LSI Logic SAS</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">SCSI LSI Logic Parallel</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">SCSI VMware Paravirtual</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">SCSI BusLogic Parallel</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">IDE</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">SATA</p>
+                    </li>
+                    <li>
+                        <p>NVME</p>
+                        <p>Important</p>
+                        <p>If for the target VM you select a disk controller type that differs from a source machine, the recovery may fail with an error and the emergency mode will be turned on on the recovered machine.</p>
+                        <p>&#160;</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Select a VM file from the VM file drop-down list.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Select network adapters from the Network adapters drop-down list. For each physical network adapter, a virtual network adapter is created. The other available options are:&#160; </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1">Skip this network adapter</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Not connect to any virtual network</p>
+                    </li>
+                    <li>
+                        <p>Connect to temporary isolated network</p>
+                        <p>Important</p>
+                        <p><span class="span_2">VMware allows you to assign no more than 10 network adapters (NICs) per one VM. Therefore, if the source machine has more than 10 NICs, you need to manually skip some NICs to make sure that the machine has no more than 10 NICs.</span>
+                        </p>
+                        <p>&#160;</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Click Next to go to the next page of the wizard.&#160;<br /><br /><img src="../../../Resources/Images/Recovery+Job+Wizard+for+Physical+Machines_+Destination/Recovery Job Wizard for Physical_1_1.png" class="img_3" /><br /></p>
+            </li>
+        </ol>
+    </body>
+</html>

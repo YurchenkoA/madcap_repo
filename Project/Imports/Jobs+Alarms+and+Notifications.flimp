@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Getting Started"
+  LastImport="2020-09-11T17:04:51.7195097+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Jobs+Alarms+and+Notifications.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Jobs+Alarms+and+Notifications.doc" />
+    <Url
+      Source="../../../../../Downloads/Managing+Activities.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Managing+Activities.doc" />
+    <Url
+      Source="../../../../../Downloads/Managing+Job+Policies.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Managing+Job+Policies.doc" />
+    <Url
+      Source="../../../../../Downloads/Managing+Jobs.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Managing+Jobs.doc" />
+    <Url
+      Source="../../../../../Downloads/Managing+Jobs+and+Activities.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Managing+Jobs+and+Activities.doc" />
+    <Url
+      Source="../../../../../Downloads/Managing+Policy+Rules.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Managing+Policy+Rules.doc" />
+    <Url
+      Source="../../../../../Downloads/Running+Jobs+on+Demand.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Running+Jobs+on+Demand.doc" />
+    <Url
+      Source="../../../../../Downloads/Using+Calendar.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Using+Calendar.doc" />
+    <Url
+      Source="../../../../../Downloads/Using+Global+Search.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Using+Global+Search.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Jobs+Alarms+and+Notifications/Jobs Alarms and Notifications.png"
+      TimeStamp="Fri 11.09.20 5:04:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Jobs+Alarms+and+Notifications/Jobs Alarms and Notifications_1.png"
+      TimeStamp="Fri 11.09.20 5:04:28 PM" />
+    <Url
+      Source="../../Content/Getting Started/Jobs Alarms and Notifications.htm"
+      TimeStamp="Fri 11.09.20 5:04:31 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Activities/Managing Activities.png"
+      TimeStamp="Fri 11.09.20 5:04:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Activities/Managing Activities_1.png"
+      TimeStamp="Fri 11.09.20 5:04:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Activities/Managing Activities_2.png"
+      TimeStamp="Fri 11.09.20 5:04:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Activities/Managing Activities_3.png"
+      TimeStamp="Fri 11.09.20 5:04:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Activities/Managing Activities_4.png"
+      TimeStamp="Fri 11.09.20 5:04:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Activities/Managing Activities_5.png"
+      TimeStamp="Fri 11.09.20 5:04:28 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing Activities.htm"
+      TimeStamp="Fri 11.09.20 5:04:31 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Job+Policies/Managing Job Policies.jpg"
+      TimeStamp="Fri 11.09.20 5:04:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Job+Policies/Managing Job Policies.png"
+      TimeStamp="Fri 11.09.20 5:04:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Job+Policies/Managing Job Policies_1.png"
+      TimeStamp="Fri 11.09.20 5:04:29 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing Job Policies.htm"
+      TimeStamp="Fri 11.09.20 5:04:31 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Jobs/Managing Jobs.png"
+      TimeStamp="Fri 11.09.20 5:04:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Jobs/Managing Jobs_1.png"
+      TimeStamp="Fri 11.09.20 5:04:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Jobs/Managing Jobs_2.png"
+      TimeStamp="Fri 11.09.20 5:04:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Jobs/Managing Jobs_3.png"
+      TimeStamp="Fri 11.09.20 5:04:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Jobs/Managing Jobs_4.png"
+      TimeStamp="Fri 11.09.20 5:04:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Jobs/Managing Jobs_5.png"
+      TimeStamp="Fri 11.09.20 5:04:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Jobs/Managing Jobs_6.png"
+      TimeStamp="Fri 11.09.20 5:04:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Jobs/Managing Jobs_7.png"
+      TimeStamp="Fri 11.09.20 5:04:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Jobs/Managing Jobs_8.png"
+      TimeStamp="Fri 11.09.20 5:04:29 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing Jobs.htm"
+      TimeStamp="Fri 11.09.20 5:04:31 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing Jobs and Activities.htm"
+      TimeStamp="Fri 11.09.20 5:04:32 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Policy+Rules/Managing Policy Rules.png"
+      TimeStamp="Fri 11.09.20 5:04:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Policy+Rules/Managing Policy Rules_1.png"
+      TimeStamp="Fri 11.09.20 5:04:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Policy+Rules/Managing Policy Rules_2.png"
+      TimeStamp="Fri 11.09.20 5:04:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Managing+Policy+Rules/Managing Policy Rules_3.png"
+      TimeStamp="Fri 11.09.20 5:04:30 PM" />
+    <Url
+      Source="../../Content/Getting Started/Managing Policy Rules.htm"
+      TimeStamp="Fri 11.09.20 5:04:32 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Running+Jobs+on+Demand/Running Jobs on Demand.png"
+      TimeStamp="Fri 11.09.20 5:04:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Running+Jobs+on+Demand/Running Jobs on Demand_1.png"
+      TimeStamp="Fri 11.09.20 5:04:30 PM" />
+    <Url
+      Source="../../Content/Getting Started/Running Jobs on Demand.htm"
+      TimeStamp="Fri 11.09.20 5:04:32 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Using+Calendar/Using Calendar.png"
+      TimeStamp="Fri 11.09.20 5:04:30 PM" />
+    <Url
+      Source="../../Content/Getting Started/Using Calendar.htm"
+      TimeStamp="Fri 11.09.20 5:04:33 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Using+Global+Search/Using Global Search.png"
+      TimeStamp="Fri 11.09.20 5:04:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Using+Global+Search/Using Global Search_1.png"
+      TimeStamp="Fri 11.09.20 5:04:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Using+Global+Search/Using Global Search_2.png"
+      TimeStamp="Fri 11.09.20 5:04:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Using+Global+Search/Using Global Search_3.png"
+      TimeStamp="Fri 11.09.20 5:04:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Using+Global+Search/Using Global Search_4.png"
+      TimeStamp="Fri 11.09.20 5:04:30 PM" />
+    <Url
+      Source="../../Content/Getting Started/Using Global Search.htm"
+      TimeStamp="Fri 11.09.20 5:04:33 PM" />
+    <Url
+      Source="../TOCs/Jobs+Alarms+and+Notifications.fltoc"
+      TimeStamp="Fri 11.09.20 5:04:30 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Jobs+Alarms+and+Notifications.css"
+      TimeStamp="Fri 11.09.20 5:04:30 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading3"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="span.Emphasis"
+      Style="Word" />
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

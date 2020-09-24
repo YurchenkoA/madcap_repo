@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Full Recovery\Physical Machine Recovery"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-17T17:55:09.8185625+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Physical+Machine+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Physical+Machine+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Backups.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Backups.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Destination.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Destination.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+Physical+Machine+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+Physical+Machine+Recovery.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Physical Machine Recovery/Physical Machine Recovery.htm"
+      TimeStamp="Thu 17.09.20 5:55:07 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Physical+Machines_+Backups/Recovery Job Wizard for Physical.jpg"
+      TimeStamp="Thu 17.09.20 5:55:06 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Physical Machine Recovery/Recovery Job Wizard for Physical.htm"
+      TimeStamp="Thu 17.09.20 5:55:07 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Physical+Machines_+Destination/Recovery Job Wizard for Physical_1.png"
+      TimeStamp="Thu 17.09.20 5:55:06 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Physical+Machines_+Destination/Recovery Job Wizard for Physical_1_1.png"
+      TimeStamp="Thu 17.09.20 5:55:06 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Physical Machine Recovery/Recovery Job Wizard for Physical_1.htm"
+      TimeStamp="Thu 17.09.20 5:55:07 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Physical+Machines_+Options/Recovery Job Wizard for Physical_2.png"
+      TimeStamp="Thu 17.09.20 5:55:07 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Physical+Machines_+Options/Recovery Job Wizard for Physical_2_1.png"
+      TimeStamp="Thu 17.09.20 5:55:07 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Physical+Machines_+Options/Recovery Job Wizard for Physical_2_2.png"
+      TimeStamp="Thu 17.09.20 5:55:07 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Physical+Machines_+Options/Recovery Job Wizard for Physical_2_3.png"
+      TimeStamp="Thu 17.09.20 5:55:07 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Physical Machine Recovery/Recovery Job Wizard for Physical_2.htm"
+      TimeStamp="Thu 17.09.20 5:55:07 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Physical+Machine+Recovery/Starting Physical Machine.png"
+      TimeStamp="Thu 17.09.20 5:55:07 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Physical+Machine+Recovery/Starting Physical Machine_1.png"
+      TimeStamp="Thu 17.09.20 5:55:07 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Physical Machine Recovery/Starting Physical Machine.htm"
+      TimeStamp="Thu 17.09.20 5:55:07 PM" />
+    <Url
+      Source="../TOCs/Physical+Machine+Recovery.fltoc"
+      TimeStamp="Thu 17.09.20 5:55:07 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Physical+Machine+Recovery.css"
+      TimeStamp="Thu 17.09.20 5:55:07 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="auto-cursor-target"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Heading 3"
+      To="h3"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

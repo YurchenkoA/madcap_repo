@@ -1,0 +1,772 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Deployment Requirements</h1>
+        <p>NAKIVO Backup &amp; Replication can be deployed as a virtual appliance (VA) or installed directly onto a supported machine or network-attached storage (NAS). Below is the list of deployment requirements.</p>
+        <ul>
+            <li><a href="#Hardware">Hardware</a>
+                <ul>
+                    <li><a href="#VM">VM of Physical Machine</a>
+                    </li>
+                    <li><a href="#Networki">Network Attached Storage</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#Operatin">Operating Systems</a>
+            </li>
+            <li><a href="#Networki">Networking Requirements</a>
+                <ul>
+                    <li><a href="#Required">Required TCP Ports</a>
+                    </li>
+                    <li><a href="#Network">Network Conditions</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#Web">Web Browsers</a>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <h2><a name="Hardware"></a>Hardware</h2>
+        <h3><a name="VM"></a>VM or Physical Machine</h3>
+        <p>NAKIVO Backup &amp; Replication can be installed on a machine with the following minimum hardware characteristics:</p>
+        <p>Director and Onboard Transporter:</p>
+        <ul>
+            <li><span class="span_2">CPU:</span> x86-64, 2 cores&#160; </li>
+            <li><span class="span_2">RAM:</span> 4 GB + 250 MB for each concurrent job</li>
+            <li><span class="span_2">Free space:</span> 10 GB Transporter only:</li>
+            <li><span class="span_2">CPU:</span> x86-64, 2 cores</li>
+            <li><span class="span_2">RAM:</span> 2 GB + 250 MB for each concurrent job </li>
+            <li><span class="span_2">Free space:</span> 5 GB</li>
+        </ul>
+        <h3>Network Attached Storage</h3>
+        <p>NAKIVO Backup &amp; Replication can be installed on supported NAS with the following minimum hardware characteristics:</p>
+        <p>Director and Onboard Transporter:</p>
+        <ul>
+            <li><span class="span_2">CPU:</span> x86-64, 2 cores&#160; </li>
+            <li><span class="span_2">RAM:</span> 1 GB</li>
+            <li><span class="span_2">Free space:</span> 10 GB Transporter only:</li>
+            <li><span class="span_2">CPU:</span> x86-64, 2 cores </li>
+            <li><span class="span_2">RAM: </span>512 MB</li>
+            <li><b>Free space</b>: 5 GB</li>
+        </ul>
+        <p>NAKIVO Backup &amp; Replication supports the following NAS models:</p>
+        <p><b>Note</b>
+        </p>
+        <p><a href="https://helpcenter.nakivo.com/display/NH/Transporter">Onboard Transporters</a> installed on NAS devices with ARM CPU do not support VMware infrastructures. Refer to <a href="https://helpcenter.nakivo.com/display/KB/Transporter+Does+Not+Support+VMware+vSphere">Transporter Does Not Support VMware vSphere</a> for a solution.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>(<b style="font-size: 10pt; font-family: Arial;">Synology</b>)</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>(</p>
+                <table>
+                    <col />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td style="background-color: #dcdcdc;font-size: 10pt;font-weight: bold;text-align: center;">Director and Onboard Transporter</td>
+                            <td style="background-color: #dcdcdc;font-size: 10pt;font-weight: bold;text-align: center;">Transporter Only</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 10pt;font-weight: bold;background-color: #ffffff;text-align: left;">
+                                <p style="font-weight: normal;">FS3017</p>
+                                <p style="font-weight: normal;">FS2017</p>
+                                <p style="font-weight: normal;">FS1018</p>
+                                <p style="font-weight: normal;">RS18017xs+</p>
+                                <p style="font-weight: normal;">RS18016xs+</p>
+                                <p style="font-weight: normal;">RS10613xs+</p>
+                                <p style="font-weight: normal;">RS4017xs+</p>
+                                <p style="font-weight: normal;">RS3618xs</p>
+                                <p style="font-weight: normal;">RS3617xs+</p>
+                                <p style="font-weight: normal;">RS3617RPxs</p>
+                                <p style="font-weight: normal;">RS3617xs</p>
+                                <p style="font-weight: normal;">RS3614xs+</p>
+                                <p style="font-weight: normal;">RS3614RPxs</p>
+                                <p style="font-weight: normal;">RS3614xs</p>
+                                <p style="font-weight: normal;">RS3413xs+</p>
+                                <p style="font-weight: normal;">RS3412RPxs</p>
+                                <p style="font-weight: normal;">RS3412xs</p>
+                                <p style="font-weight: normal;">RS3411RPxs</p>
+                                <p style="font-weight: normal;">RS3411xs</p>
+                                <p style="font-weight: normal;">RS2818RP+</p>
+                                <p style="font-weight: normal;">RS2418RP+</p>
+                                <p style="font-weight: normal;">RS2418+</p>
+                                <p style="font-weight: normal;">RS2416RP+</p>
+                                <p style="font-weight: normal;">RS2416+</p>
+                                <p style="font-weight: normal;">RS2414RP+</p>
+                                <p style="font-weight: normal;">RS2414+</p>
+                                <p style="font-weight: normal;">RS2212RP+</p>
+                                <p style="font-weight: normal;">RS2212+</p>
+                                <p style="font-weight: normal;">RS2211RP+</p>
+                                <p style="font-weight: normal;">RS2211+</p>
+                                <p style="font-weight: normal;">RS1619xs+</p>
+                                <p style="font-weight: normal;">RS1219+</p>
+                                <p style="font-weight: normal;">RS818RP+</p>
+                                <p style="font-weight: normal;">RS818+</p>
+                                <p style="font-weight: normal;">RS816</p>
+                                <p style="font-weight: normal;">RS815RP+</p>
+                                <p style="font-weight: normal;">RS815+</p>
+                                <p style="font-weight: normal;">RS815</p>
+                                <p style="font-weight: normal;">RS814RP+</p>
+                                <p style="font-weight: normal;">RS814+</p>
+                                <p style="font-weight: normal;">RS814</p>
+                                <p style="font-weight: normal;">RS812RP+</p>
+                                <p style="font-weight: normal;">RS812+</p>
+                                <p style="font-weight: normal;">RS812</p>
+                                <p style="font-weight: normal;">RS810RP+</p>
+                                <p style="font-weight: normal;">RS810+</p>
+                                <p style="font-weight: normal;">RC18015xs+</p>
+                                <p style="font-weight: normal;">DS3617xs</p>
+                                <p style="font-weight: normal;">DS3615xs</p>
+                                <p style="font-weight: normal;">DS3612xs</p>
+                                <p style="font-weight: normal;">DS3611xs</p>
+                                <p style="font-weight: normal;">DS3018xs</p>
+                                <p style="font-weight: normal;">DS2415+</p>
+                                <p style="font-weight: normal;">DS2413+</p>
+                                <p style="font-weight: normal;">DS2411+</p>
+                                <p style="font-weight: normal;">DS2015xs</p>
+                                <p style="font-weight: normal;">DS1819+</p>
+                                <p style="font-weight: normal;">DS1817+</p>
+                                <p style="font-weight: normal;">DS1817</p>
+                                <p style="font-weight: normal;">DS1815+</p>
+                                <p style="font-weight: normal;">DS1813+</p>
+                                <p style="font-weight: normal;">DS1812+</p>
+                                <p style="font-weight: normal;">DS1618+</p>
+                                <p style="font-weight: normal;">DS1517+</p>
+                                <p style="font-weight: normal;">DS1517</p>
+                                <p style="font-weight: normal;">DS1515+</p>
+                                <p style="font-weight: normal;">DS1515</p>
+                                <p style="font-weight: normal;">DS1513+</p>
+                                <p style="font-weight: normal;">DS1512+</p>
+                                <p style="font-weight: normal;">DS1511+</p>
+                                <p style="font-weight: normal;">DS1010+</p>
+                                <p style="font-weight: normal;">DS918+</p>
+                                <p style="font-weight: normal;">DS916+</p>
+                                <p style="font-weight: normal;">DS718+</p>
+                                <p style="font-weight: normal;">DS716+II</p>
+                                <p style="font-weight: normal;">DS716+</p>
+                                <p style="font-weight: normal;">DS715</p>
+                                <p style="font-weight: normal;">DS713+</p>
+                                <p style="font-weight: normal;">DS712+</p>
+                                <p style="font-weight: normal;">DS710+</p>
+                                <p style="font-weight: normal;">DS418</p>
+                                <p style="font-weight: normal;">DS418play</p>
+                                <p style="font-weight: normal;">DS418j</p>
+                                <p style="font-weight: normal;">DS416</p>
+                                <p style="font-weight: normal;">DS416play</p>
+                                <p style="font-weight: normal;">DS415+</p>
+                                <p style="font-weight: normal;">DS414</p>
+                                <p style="font-weight: normal;">DS412+</p>
+                                <p style="font-weight: normal;">DS411+II</p>
+                                <p style="font-weight: normal;">DS411+</p>
+                                <p style="font-weight: normal;">DS218+</p>
+                                <p style="font-weight: normal;">DS218</p>
+                                <p style="font-weight: normal;">DS218play</p>
+                                <p style="font-weight: normal;">DS216+II</p>
+                                <p style="font-weight: normal;">DS216+</p>
+                                <p style="font-weight: normal;">DS216play</p>
+                                <p style="font-weight: normal;">DS215+</p>
+                                <p style="font-weight: normal;">DS214+</p>
+                                <p style="font-weight: normal;">DS118</p>
+                                <p style="font-weight: normal;">DS116</p>
+                                <p style="font-weight: normal;">DS1019+</p>
+                                <p style="font-weight: normal;">DS2419+</p>
+                                <p style="font-weight: normal;">DS420+</p>
+                                <p style="font-weight: normal;">DS420j</p>
+                                <p style="font-weight: normal;">DS620slim</p>
+                                <p style="font-weight: normal;">DS720+</p>
+                                <p style="font-weight: normal;">DS920+</p>
+                                <p style="font-weight: normal;">FS3400</p>
+                                <p style="font-weight: normal;">FS3600</p>
+                                <p style="font-weight: normal;">FS6400</p>
+                                <p style="font-weight: normal;">RS819</p>
+                                <p style="font-weight: normal;">RS820+</p>
+                                <p style="font-weight: normal;">RS820RP+</p>
+                                <p style="font-weight: normal;">SA3200D</p>
+                                <p style="font-weight: normal;">SA3400</p>
+                                <p style="font-weight: normal;">SA3600</p>
+                            </td>
+                            <td style="font-size: 10pt;background-color: #ffffff;text-align: left;font-weight: bold;">
+                                <p style="font-weight: normal;">RS217</p>
+                                <p style="font-weight: normal;">RS214</p>
+                                <p style="font-weight: normal;">DS416slim</p>
+                                <p style="font-weight: normal;">DS416j</p>
+                                <p style="font-weight: normal;">DS414slim</p>
+                                <p style="font-weight: normal;">DS414j</p>
+                                <p style="font-weight: normal;">DS218j</p>
+                                <p style="font-weight: normal;">DS216</p>
+                                <p style="font-weight: normal;">DS216j</p>
+                                <p style="font-weight: normal;">DS215j</p>
+                                <p style="font-weight: normal;">DS214</p>
+                                <p style="font-weight: normal;">DS213j</p>
+                                <p style="font-weight: normal;">DS115</p>
+                                <p style="font-weight: normal;">DS114</p>
+                                <p style="font-weight: normal;">DS220j</p>
+                                <p style="font-weight: normal;">DS419slim</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>(<b style="font-family: Arial; font-size: 10pt;">QNAP</b>)</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>(</p>
+                <table>
+                    <col style="width: 264px;" />
+                    <col />
+                    <thead>
+                        <tr>
+                            <th style="text-align: left;background-color: #dcdcdc;">Director and Onboard Transporter </th>
+                            <th style="background-color: #dcdcdc;">Transporter Only</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>HS-251+</p>
+                                <p>HS-453DX</p>
+                                <p>TS-251</p>
+                                <p>TS-251+</p>
+                                <p>TS-251A</p>
+                                <p>TS-251B</p>
+                                <p>TS-253Be</p>
+                                <p>TS-328</p>
+                                <p>TS-332X</p>
+                                <p>TS-351</p>
+                                <p>TS-431P</p>
+                                <p>TS-431P2</p>
+                                <p>TS-431X</p>
+                                <p>TS-431X2</p>
+                                <p>TS-431XeU</p>
+                                <p>TS-432XU</p>
+                                <p>TS-432XU-RP</p>
+                                <p>TS-451</p>
+                                <p>TS-451+</p>
+                                <p>TS-451A</p>
+                                <p>IS-400 Pro</p>
+                                <p>IS-453S</p>
+                                <p>TBS-453A</p>
+                                <p>TBS-453DX</p>
+                                <p>TS-128A</p>
+                                <p>TS-131P</p>
+                                <p>TS-231P</p>
+                                <p>TS-231P2</p>
+                                <p>TS-253 Pro</p>
+                                <p>TS-253A</p>
+                                <p>TS-253B</p>
+                                <p>TS-228A</p>
+                                <p>TS-451U</p>
+                                <p>TS-453 mini</p>
+                                <p>TS-453 Pro</p>
+                                <p>TS-453A</p>
+                                <p>TS-453B</p>
+                                <p>TS-453Be</p>
+                                <p>TS-453Bmini</p>
+                                <p>TS-453BT3</p>
+                                <p>TS-453BU</p>
+                                <p>TS-453BU-RP</p>
+                                <p>TS-453U</p>
+                                <p>TS-453U-RP</p>
+                                <p>TS-463U</p>
+                                <p>TS-463U-RP</p>
+                                <p>TS-463XU</p>
+                                <p>TS-463XU-RP</p>
+                                <p>TS-473</p>
+                                <p>TS-563</p>
+                                <p>TS-653 Pro</p>
+                                <p>TS-653A</p>
+                                <p>TS-653B</p>
+                                <p>TS-653B</p>
+                                <p>TS-673</p>
+                                <p>TS-677</p>
+                                <p>TS-832X</p>
+                                <p>TS-832XU</p>
+                                <p>TS-832XU-RP</p>
+                                <p>TS-853 Pro</p>
+                                <p>TS-853A</p>
+                                <p>TS-853BU</p>
+                                <p>TS-853BU-RP</p>
+                                <p>TS-853U</p>
+                                <p>TS-853U-RP</p>
+                                <p>TS-863U</p>
+                                <p>TS-863U-RP</p>
+                                <p>TS-863XU</p>
+                                <p>TS-863XU-RP</p>
+                                <p>TS-873</p>
+                                <p>TS-873U</p>
+                                <p>TS-873U-RP</p>
+                                <p>TS-877</p>
+                                <p>TS-877XU</p>
+                                <p>TS-877XU-RP</p>
+                                <p>TS-883XU</p>
+                                <p>TS-883XU-RP</p>
+                                <p>TS-932X</p>
+                                <p>TS-963X</p>
+                                <p>TS-977XU</p>
+                                <p>TS-977XU-RP</p>
+                                <p>TS-983XU</p>
+                                <p>TS-983XU-RP</p>
+                                <p>TS-1232XU</p>
+                                <p>TS-1232XU-RP</p>
+                                <p>TS-1253BU</p>
+                                <p>TS-1253BU-RP</p>
+                                <p>TS-1253U</p>
+                                <p>TS-1253U-RP</p>
+                                <p>TS-1263U-RP</p>
+                                <p>TS-1263U</p>
+                                <p>TS-1263XU</p>
+                                <p>TS-1263XU-RP</p>
+                                <p>TS-1273U</p>
+                                <p>TS-1273U-RP</p>
+                                <p>TS-1277</p>
+                                <p>TS-1277XU-RP</p>
+                                <p>TS-1283XU-RP</p>
+                                <p>TS-1635AX</p>
+                                <p>TS-1673U</p>
+                                <p>TS-1673U-RP</p>
+                                <p>TS-1677X</p>
+                                <p>TS-1677XU-RP</p>
+                                <p>TS-1683XU-RP</p>
+                                <p>TS-1685</p>
+                                <p>TS-2477XU-RP</p>
+                                <p>TS-2483XU-RP</p>
+                                <p>TVS-463</p>
+                                <p>TVS-471</p>
+                                <p>TVS-472XT</p>
+                                <p>TVS-473e</p>
+                                <p>TVS-473</p>
+                                <p>TVS-663</p>
+                                <p>TVS-671</p>
+                                <p>TVS-672XT</p>
+                                <p>TVS-673</p>
+                                <p>TVS-673e</p>
+                                <p>TVS-682</p>
+                                <p>TVS-682T</p>
+                                <p>TVS-863</p>
+                                <p>TVS-863+</p>
+                                <p>TVS-871</p>
+                                <p>TVS-871T</p>
+                                <p>TVS-871U-RP</p>
+                                <p>TVS-872XT</p>
+                                <p>TVS-872XU</p>
+                                <p>TVS-872XU-RP</p>
+                                <p>TVS-873e</p>
+                                <p>TVS-873</p>
+                                <p>TVS-882</p>
+                                <p>TVS-882T</p>
+                                <p>TVS-882ST2</p>
+                                <p>TVS-882BR</p>
+                                <p>TVS-882BRT3</p>
+                                <p>TVS-882ST3</p>
+                                <p>TVS-951X</p>
+                                <p>TVS-972XU</p>
+                                <p>TVS-972XU-RP</p>
+                                <p>TVS-1271U-RP</p>
+                                <p>TVS-1272XU-RP</p>
+                                <p>TVS-1282</p>
+                                <p>TVS-1282T</p>
+                                <p>TVS-1282T3</p>
+                                <p>TVS-1582TU</p>
+                                <p>TVS-1672XU-RP</p>
+                                <p>TVS-2472XU-RP</p>
+                                <p>SS-EC1279U-SAS-RP</p>
+                                <p>SS-EC1879U-SAS-RP</p>
+                                <p>SS-EC2479U-SAS-RP</p>
+                                <p>TDS-16489U</p>
+                                <p>TES-3085U</p>
+                                <p>TES-1885U</p>
+                                <p>TS-EC880U</p>
+                                <p>TS-EC880U R2</p>
+                                <p>TS-EC1280U</p>
+                                <p>TS-EC1280U R2</p>
+                                <p>TS-EC1680U</p>
+                                <p>TS-EC1680U R2</p>
+                                <p>TS-EC2480U</p>
+                                <p>TS-EC2480U R2</p>
+                                <p>TVS-EC880</p>
+                                <p>TVS-EC1080</p>
+                                <p>TVS-EC1080+</p>
+                                <p>TVS-EC1280U-SAS-RP</p>
+                                <p>TVS-EC1580MU-SAS-RP</p>
+                                <p>TVS-EC1680U-SAS-RP</p>
+                                <p>TVS-EC1680U-SAS-RP R2</p>
+                                <p>TVS-EC2480U-SAS-RP</p>
+                                <p>TVS-EC2480U-SAS-RP R2</p>
+                                <p>TVS-EC2480U-SAS-RP R2</p>
+                                <p>TVS-EC1580MU-SAS-RP R2</p>
+                                <p>TVS-EC1280U-SAS-RP R2</p>
+                                <p>TDS-16489U-SE1-R2</p>
+                                <p>TDS-16489U-SE2-R2</p>
+                                <p>TDS-16489U-SF2-R2</p>
+                                <p>TDS-16489U-SF3-R2</p>
+                                <p>TS-2888X-W2195-512G</p>
+                                <p>TS-2888X-W2195-256G</p>
+                                <p>TS-2888X-W2195-128G</p>
+                                <p>TS-2888X-W2175-512G</p>
+                                <p>TS-2888X-W2175-256G</p>
+                                <p>TS-2888X-W2175-128G</p>
+                                <p>TS-2888X-W2145-512G</p>
+                                <p>TS-2888X-W2145-256G</p>
+                                <p>TS-2888X-W2145-128G</p>
+                                <p>TS-2888X-W2133-64G</p>
+                                <p>TS-2888X-W2123-32G</p>
+                                <p>ES2486dc</p>
+                                <p>TS-1886XU-RP</p>
+                                <p>TS-230</p>
+                                <p>TS-251C</p>
+                                <p>TS-251D</p>
+                                <p>TS-253D</p>
+                                <p>TS-451DeU</p>
+                                <p>TS-453D</p>
+                                <p>TS-653B</p>
+                                <p>TS-653D</p>
+                                <p>TS-h1277XU-RP</p>
+                                <p>TS-h1283XU-RP</p>
+                                <p>TS-h977XU-RP</p>
+                                <p>TVS-472XT-PT</p>
+                                <p>TVS-672N</p>
+                                <p>TVS-872N</p>
+                                <p>TVS-EC2480U-SAS-RP-R2</p>
+                            </td>
+                            <td>
+                                <p>TS-131P</p>
+                                <p>TS-231P</p>
+                                <p>TS-431P</p>
+                                <p>TS-431X</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>(<b style="font-family: Arial; font-size: 10pt;">ASUSTOR</b>)</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>(</p>
+                <table>
+                    <col style="width: 313px;" />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td style="font-size: 10pt;background-color: #dcdcdc;font-weight: bold;">Director and Onboard Transporter</td>
+                            <td style="font-size: 10pt;background-color: #dcdcdc;font-weight: bold;">Transporter Only</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>AS3102T</p>
+                                <p>AS3102T v2</p>
+                                <p>AS3104T</p>
+                                <p>AS3202T</p>
+                                <p>AS3204T</p>
+                                <p>AS3204T v2</p>
+                                <p>AS4002T</p>
+                                <p>AS4004T</p>
+                                <p>AS5202T</p>
+                                <p>AS5304T</p>
+                                <p>AS5002T</p>
+                                <p>AS5004T</p>
+                                <p>AS5008T</p>
+                                <p>AS5010T</p>
+                                <p>AS6102T</p>
+                                <p>AS6104T</p>
+                                <p>AS6302T</p>
+                                <p>AS5102T</p>
+                                <p>AS5104T</p>
+                                <p>AS5108T</p>
+                                <p>AS5110T</p>
+                                <p>AS6202T</p>
+                                <p>AS6204T</p>
+                                <p>AS6208T</p>
+                                <p>AS6210T</p>
+                                <p>AS6404T</p>
+                                <p>AS6204RS / AS6204RD</p>
+                                <p>AS-609RS / AS-609RD</p>
+                                <p>AS7004T</p>
+                                <p>AS7008T</p>
+                                <p>AS7010T</p>
+                                <p>AS6212RD</p>
+                                <p>AS7009RD / AS7009RDX</p>
+                                <p>AS7012RD / AS7012RDX</p>
+                                <p>AS-602T</p>
+                                <p>AS-604RS / AS-604RD</p>
+                                <p>AS-604T</p>
+                                <p>AS-606T</p>
+                                <p>AS-608T</p>
+                                <p>AS6508T</p>
+                                <p>AS6510T</p>
+                                <p>AS7110T</p>
+                            </td>
+                            <td>
+                                <p>AS1002T</p>
+                                <p>AS1002T v2</p>
+                                <p>AS1004T</p>
+                                <p>AS1004T v2</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>(<b style="font-family: Arial; font-size: 10pt;">Western Digital</b>)</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>(</p>
+                <table>
+                    <col style="width: 314px;" />
+                    <tbody>
+                        <tr>
+                            <td style="font-size: 10pt;font-weight: bold;background-color: #dcdcdc;">Director and Onboard Transporter</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>MyCloud DL2100</p>
+                                <p>MyCloud DL4100</p>
+                                <p>MyCloud PR2100</p>
+                                <p>MyCloud PR4100</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p> </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>(<b><span style="font-family: Arial; font-size: 10pt;">NETGEAR</span>)</b></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>(</p>
+                <table>
+                    <col style="width: 315px;" />
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td style="background-color: #dcdcdc;"><span style="font-size: 10pt; font-weight: bold;">Director and Onboard Transporter</span>
+                            </td>
+                            <td style="background-color: #dcdcdc;"><b style="font-size: 10pt;">Transporter</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>RN51600</p>
+                                <p>RN51661D</p>
+                                <p>RN51661E</p>
+                                <p>RN51662D</p>
+                                <p>RN51662E</p>
+                                <p>RN51663D</p>
+                                <p>RN51663E</p>
+                                <p>RN51664E</p>
+                                <p>ReadyNAS 524X</p>
+                                <p>ReadyNAS 526X</p>
+                                <p>ReadyNAS 528X</p>
+                                <p>ReadyNAS 626X</p>
+                                <p>ReadyNAS 628X</p>
+                                <p>RN716X</p>
+                                <p>RN628X</p>
+                                <p>RN626X</p>
+                                <p>RN528X</p>
+                                <p>RN526X</p>
+                                <p>RN524X</p>
+                                <p>RN31600</p>
+                                <p>RN31661D</p>
+                                <p>RN31661E</p>
+                                <p>RN31662D</p>
+                                <p>RN31662E</p>
+                                <p>RN31663D</p>
+                                <p>RN31663E</p>
+                                <p>RN31664E</p>
+                                <p>ReadyNAS 422</p>
+                                <p>ReadyNAS 424</p>
+                                <p>ReadyNAS 426</p>
+                                <p>ReadyNAS 428</p>
+                                <p>RN516</p>
+                                <p>RN426</p>
+                                <p>RN424</p>
+                                <p>RN422</p>
+                                <p>RN31400</p>
+                                <p>RN31421D</p>
+                                <p>RN31441D</p>
+                                <p>RN31441E</p>
+                                <p>RN31442D</p>
+                                <p>RN31442E</p>
+                                <p>RN31443D</p>
+                                <p>RN31443E</p>
+                                <p>RN316</p>
+                                <p>RN31200</p>
+                                <p>RN31211D</p>
+                                <p>RN31212D</p>
+                                <p>RN31221D</p>
+                                <p>RN31221E</p>
+                                <p>RN31222D</p>
+                                <p>RN31222E</p>
+                                <p>RN31223D</p>
+                                <p>RN314</p>
+                                <p>RN312</p>
+                                <p>RN322121E</p>
+                                <p>RN322122E</p>
+                                <p>RN322123E</p>
+                                <p>RN322124E</p>
+                                <p>RN32261E</p>
+                                <p>RN32262E</p>
+                                <p>RN32263E</p>
+                                <p>RN4220S</p>
+                                <p>RN4220X</p>
+                                <p>RN422X122</p>
+                                <p>RN422X123</p>
+                                <p>RN422X124</p>
+                                <p>RN422X62E</p>
+                                <p>RN422X63E</p>
+                                <p>RN422X64E</p>
+                                <p>RR2304</p>
+                                <p>RN21241D</p>
+                                <p>RN21241E</p>
+                                <p>RN21243D</p>
+                                <p>RN21243E</p>
+                                <p>RN3130</p>
+                                <p>RN31342E</p>
+                                <p>RN3138</p>
+                                <p>RN3220</p>
+                                <p>RR2312</p>
+                                <p>RR3312</p>
+                                <p>RN4220</p>
+                                <p>RR4312X</p>
+                                <p>RR4312S</p>
+                                <p>RR4360X</p>
+                                <p>RR4360S</p>
+                            </td>
+                            <td>
+                                <p>RN102</p>
+                                <p>RN10200</p>
+                                <p>RN10211D</p>
+                                <p>RN10221D</p>
+                                <p>RN10222D</p>
+                                <p>RN10223D</p>
+                                <p>RN104</p>
+                                <p>RN10400</p>
+                                <p>RN10421D</p>
+                                <p>RN10441D</p>
+                                <p>RN10442D</p>
+                                <p>RN10443D</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p style="font-weight: bold;">Generic ARM-based NAS devices</p>
+        <p>The device for installing NAKIVO Backup &amp; Replication should meet the following requirements:</p>
+        <ul>
+            <li>Single-board computer with ARMv7/ARMv8 CPU (e.g. Raspberry Pi 3 Model B+)</li>
+            <li>32/64-bit Linux-based OS supported by NAKIVO Backup &amp; Replication</li>
+            <li>Minimum 16GB of onboard memory or microSD card for OS &amp; software installation</li>
+            <li>RAM: minimum 512MB for Transporter-only installation; minimum 1GB for full installation</li>
+            <li>Separate microSD/HDD/SSD card for Repository storage</li>
+            <li>Open ports for Director and Transporter (see Required TCP Ports)</li>
+            <li>Enabled SSH protocol</li>
+            <li>Active network connection</li>
+        </ul>
+        <p><b>Raspberry Pi</b>
+        </p>
+        <p>NAKIVO Backup &amp; Replication can be installed on a Raspberry Pi 3 Model B+ machine with the following minimum hardware characteristics:</p>
+        <p>Director and Onboard Transporter:</p>
+        <ul>
+            <li><span class="span_2">RAM:</span> 1 GB + 250 MB for each concurrent job</li>
+            <li><span class="span_2">Free space:</span> 16 GB Transporter only:</li>
+            <li><span class="span_2">RAM:</span> 512 MB + 250 MB for each concurrent job</li>
+            <li> <span class="span_2">Free space:</span> 16 GB</li>
+        </ul>
+        <h2 class="Heading2"><a name="Operatin"></a>Operating Systems</h2>
+        <p>NAKIVO Backup &amp; Replication can be installed on the following operating systems:</p>
+        <p><span class="span_2">Windows</span>
+        </p>
+        <ul>
+            <li>Windows Server 2019 Standard (x64)</li>
+            <li>Windows Server 2016 Standard (x64)</li>
+            <li>Windows Server 2012 R2 Standard (x64)</li>
+            <li>Windows Server 2012 Standard (x64)</li>
+            <li>Windows Server 2008 R2 Standard (x64)</li>
+            <li>Windows 10 Professional (x64)</li>
+            <li>Windows 8 Professional (x64)</li>
+            <li>Windows 7 Professional (x64)</li>
+        </ul>
+        <p><b>Linux</b>
+        </p>
+        <ul>
+            <li>Ubuntu 18.04 Server (x64)</li>
+            <li>Ubuntu 16.04 Server (x64)</li>
+            <li>SUSE Linux Enterprise Server 12 SP3 (x64)</li>
+            <li>SUSE Linux Enterprise Server 12 SP2 (x64)</li>
+            <li>SUSE Linux Enterprise Server 12 SP1 (x64)</li>
+            <li>Red Hat Enterprise Linux 7.6 (x64)</li>
+            <li>Red Hat Enterprise Linux 7.5 (x64)</li>
+            <li>Red Hat Enterprise Linux 7.4 (x64)</li>
+            <li>CentOS Linux 7.6 (x64)</li>
+            <li>CentOS Linux 7.5 (x64)</li>
+            <li>CentOS Linux 7.4 (x64)</li>
+            <li>CentOS Linux 7.3 (x64)</li>
+            <li>CentOS Linux 7.2 (x64)</li>
+            <li>CentOS Linux 7.1 (x64)</li>
+            <li>CentOS Linux 7.0 (x64)</li>
+        </ul>
+        <p><b>NAS</b>
+        </p>
+        <ul>
+            <li>ASUSTOR ADM v3.0</li>
+            <li>ASUSTOR ADM v3.1</li>
+            <li>ASUSTOR ADM v3.2</li>
+            <li>FreeNAS 11.3</li>
+            <li>Netgear ReadyNAS OS v6.9</li>
+            <li>Synology DSM v6.0</li>
+            <li>Synology DSM v6.1</li>
+            <li>Synology DSM v6.2</li>
+            <li>QNAP QTS v4.3</li>
+            <li>QNAP QTS v4.4</li>
+            <li>WD MyCloud v3 </li>
+        </ul>
+        <p style="font-weight: bold;">Supported Operating System Localizations</p>
+        <p>NAKIVO Backup &amp; Replication can be installed on a supported OS with the following OS localization:</p>
+        <ul>
+            <li>English</li>
+            <li>Italian</li>
+            <li>German French</li>
+            <li>Spanish</li>
+        </ul>
+        <h2><a name="Networki"></a>Networking Requirements</h2>
+        <h3><a name="Required"></a>Required TCP Ports</h3>
+        <p>NAKIVO Backup &amp; Replication requires the following TCP ports to be open for a successful operation:</p>
+        <p>&#160;</p>
+        <p class="p_74">
+            <img src="../../Resources/Images/02. Deployment/Deployment Requirements.png" class="img_17" />
+        </p>
+        <h3><a name="Network"></a>Network Conditions</h3>
+        <p>NAKIVO Backup &amp; Replication has been tested to work in the following minimal network conditions:</p>
+        <ul>
+            <li><b>Latency (RTT)</b>: Up to 250 ms</li>
+            <li><b>Packet loss</b>: Up to 1 %</li>
+            <li><span class="span_2">Bandwidth: </span>1 Mb/s or higher</li>
+            <li><span class="span_2">ICMP ping traffic: </span>It should be allowed on all hosts on which NAKIVO Backup &amp; Replication components are installed as well as on all source and target hosts.</li>
+        </ul>
+        <p>&#160;</p>
+        <h2><a name="Web"></a>Web Browsers</h2>
+        <p>NAKIVO Backup &amp; Replication user interface can be accessed through the following web browsers:</p>
+        <ul>
+            <li> Google Chrome: Version 80 </li>
+            <li>Mozilla Firefox: Version 74</li>
+        </ul>
+    </body>
+</html>

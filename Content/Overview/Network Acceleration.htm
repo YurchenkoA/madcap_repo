@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Network Acceleration</h1>
+        <p>Whether you run VM backup and replication jobs during business hours or send VM backups and replicas offsite over the Internet, saving network bandwidth is of the essence. NAKIVO Backup &amp; Replication provides the Network Acceleration feature to speed up VM backup and replication jobs, shorten backup windows, and reduce network load at the same time. With network acceleration enabled, you can increase VM backup, replication, and recovery speed by 2X in WAN and busy LAN networks.</p>
+        <p>Network acceleration is achieved by the use of two instances of&#160;<a href="C:\display\NH\Transporter">Transporter</a>. Transporter is the product component that performs all data protection and recovery tasks, such as backup, replication, recovery, encryption, and so on. To simplify deployment and configuration, one instance of Transporter is automatically installed with NAKIVO Backup &amp; Replication.</p>
+        <p>To enable Network Acceleration, you just need to&#160;<a href="C:\display\AR\Add+Transporter">install another Transporter</a>&#160;instance locally or offsite and then enable Network acceleration in your job. When the job is executed, the source Transporter will read the data, compress and optimize it, and then send the data to the target Transporter.&#160;By using Network Acceleration, you can reduce the amount of data that is transferred over the network, which also means that your jobs will complete faster.</p>
+        <p><b>Network Acceleration for Backup</b>
+        </p>
+        <p>
+            <img src="../Resources/Images/Network+Acceleration/Network Acceleration.png" class="img_8" />
+        </p>
+        <p><b>Network Acceleration for Replication</b>
+        </p>
+        <p>
+            <img src="../Resources/Images/Network+Acceleration/Network Acceleration_1.png" class="img_38" />
+        </p>
+    </body>
+</html>

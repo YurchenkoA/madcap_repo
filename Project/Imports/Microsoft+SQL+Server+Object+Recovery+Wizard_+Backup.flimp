@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Granular Recovery\Object Recovery for Microsoft SQL Server"
+  LastImport="2020-09-17T11:42:17.8029651+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Microsoft+SQL+Server+Object+Recovery+Wizard_+Backup.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Microsoft+SQL+Server+Object+Recovery+Wizard_+Backup.doc" />
+    <Url
+      Source="../../../../../Downloads/Microsoft+SQL+Server+Object+Recovery+Wizard_+Objects.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Microsoft+SQL+Server+Object+Recovery+Wizard_+Objects.doc" />
+    <Url
+      Source="../../../../../Downloads/Microsoft+SQL+Server+Object+Recovery+Wizard_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Microsoft+SQL+Server+Object+Recovery+Wizard_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Microsoft+SQL+Server+Object+Recovery+Wizard_+Recovery+Server.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Microsoft+SQL+Server+Object+Recovery+Wizard_+Recovery+Server.doc" />
+    <Url
+      Source="../../../../../Downloads/Object+Recovery+for+Microsoft+SQL+Server.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Object+Recovery+for+Microsoft+SQL+Server.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+Object+Recovery+for+Microsoft+SQL+Server.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+Object+Recovery+for+Microsoft+SQL+Server.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+SQL+Server+Object+Recovery+Wizard_+Backup/Microsoft SQL Server Object.png"
+      TimeStamp="Thu 17.09.20 11:40:23 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft SQL Server/Microsoft SQL Server Object.htm"
+      TimeStamp="Thu 17.09.20 11:40:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+SQL+Server+Object+Recovery+Wizard_+Objects/Microsoft SQL Server Object_1.png"
+      TimeStamp="Thu 17.09.20 11:40:24 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft SQL Server/Microsoft SQL Server Object_1.htm"
+      TimeStamp="Thu 17.09.20 11:40:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+SQL+Server+Object+Recovery+Wizard_+Options/Microsoft SQL Server Object_2.png"
+      TimeStamp="Thu 17.09.20 11:40:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+SQL+Server+Object+Recovery+Wizard_+Options/Microsoft SQL Server Object_2.jpg"
+      TimeStamp="Thu 17.09.20 11:40:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+SQL+Server+Object+Recovery+Wizard_+Options/Microsoft SQL Server Object_2_1.png"
+      TimeStamp="Thu 17.09.20 11:40:24 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft SQL Server/Microsoft SQL Server Object_2.htm"
+      TimeStamp="Thu 17.09.20 11:40:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+SQL+Server+Object+Recovery+Wizard_+Recovery+Server/Microsoft SQL Server Object_3.png"
+      TimeStamp="Thu 17.09.20 11:40:24 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft SQL Server/Microsoft SQL Server Object_3.htm"
+      TimeStamp="Thu 17.09.20 11:40:25 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft SQL Server/Object Recovery for Microsoft.htm"
+      TimeStamp="Thu 17.09.20 11:40:25 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Object+Recovery+for+Microsoft+SQL+Server/Starting Object Recovery for.png"
+      TimeStamp="Thu 17.09.20 11:40:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Object+Recovery+for+Microsoft+SQL+Server/Starting Object Recovery for_1.png"
+      TimeStamp="Thu 17.09.20 11:40:24 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft SQL Server/Starting Object Recovery for.htm"
+      TimeStamp="Thu 17.09.20 11:40:25 AM" />
+    <Url
+      Source="../TOCs/Microsoft+SQL+Server+Object+Recovery+Wizard_+Backup.fltoc"
+      TimeStamp="Thu 17.09.20 11:40:24 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Microsoft+SQL+Server+Object+Recovery+Wizard_+Backup.css"
+      TimeStamp="Thu 17.09.20 11:40:24 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading3"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="HTML Code"
+      To="span.HTMLCode"
+      Style="Word" />
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

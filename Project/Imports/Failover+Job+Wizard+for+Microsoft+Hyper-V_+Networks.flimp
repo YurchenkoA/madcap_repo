@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Planning Disaster Recovery\Failover to Replica for Hyper-V"
+  InlineFormatting="Keep"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-17T19:08:13.8185677+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Networks.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Networks.doc" />
+    <Url
+      Source="../../../../../Downloads/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Re-IP.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Re-IP.doc" />
+    <Url
+      Source="../../../../../Downloads/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Source.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Source.doc" />
+    <Url
+      Source="../../../../../Downloads/Failover+to+Replica+for+Microsoft+Hyper-V.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failover+to+Replica+for+Microsoft+Hyper-V.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+Microsoft+Hyper-V+Failover+to+Replica.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+Microsoft+Hyper-V+Failover+to+Replica.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Networks/Failover Job Wizard for Microsoft.png"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Networks/Failover Job Wizard for Microsoft_1.png"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Networks/Failover Job Wizard for Microsoft_2.png"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for Hyper-V/Failover Job Wizard for Microsoft.htm"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Options/Failover Job Wizard for Microsoft_1.png"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for Hyper-V/Failover Job Wizard for Microsoft_1.htm"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Re-IP/Failover Job Wizard for Microsoft_2.png"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Re-IP/Failover Job Wizard for Microsoft_2_1.png"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Re-IP/Failover Job Wizard for Microsoft_2_2.png"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for Hyper-V/Failover Job Wizard for Microsoft_2.htm"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Source/Failover Job Wizard for Microsoft_3.png"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for Hyper-V/Failover Job Wizard for Microsoft_3.htm"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for Hyper-V/Failover to Replica for Microsoft.htm"
+      TimeStamp="Thu 17.09.20 7:08:02 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Microsoft+Hyper-V+Failover+to+Replica/Starting Microsoft Hyper V.png"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Failover to Replica for Hyper-V/Starting Microsoft Hyper V.htm"
+      TimeStamp="Thu 17.09.20 7:08:02 PM" />
+    <Url
+      Source="../TOCs/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Networks.fltoc"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Networks.css"
+      TimeStamp="Thu 17.09.20 7:08:01 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

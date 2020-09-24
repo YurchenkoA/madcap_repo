@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Backing+Up+to+Tape.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Backup Job Wizard for Amazon EC2: Source</h1>
+        <p>On the <span class="Strong">Source&#160;</span>page of the wizard, you can add EC2 Instances to your backup job.&#160;Proceed as follows:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>In the left pane of the page, choose either of the following <a href="C:\display\NH\Inventory" class="Hyperlink">inventory</a> views: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><span class="Strong">AWS Accounts</span>: If chosen, the inventory tree opens in the left pane and shows you Amazon EC2 accounts along with their Regions and available Instances. Proceed as follows: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p>Optionally, filter the inventory tree by entering a string to the <span class="Strong">Search</span> box. You can enter a part or the entire item name.</p>
+                            </li>
+                            <li class="NormalWeb">
+                                <p>Select EC2 items by ticking the checkbox next to the item.</p>
+                                <p>Important</p>
+                                <p>If you add a paid AWS EC2 instance, you may be double-charged for that instance for the duration of the backup. For more information, refer to the&#160;<a href="C:\display\KB\Backing+Up+Paid+(Marketplace)+EC2+Instances" class="Hyperlink">Knowledge Base article.</a></p>
+                                <p class="NormalWeb_1">
+                                    <img src="../Resources/Images/Backup+Job+Wizard+for+Amazon+EC2_+Source/Backup Job Wizard for Amazon_4.png" class="img_30" />
+                                </p>
+                            </li>
+                            <li class="li_2">
+                                <p>The selected items appear in the right pane of the page. If necessary, reorder the selected items by dragging an Instance, Region, or Account to a new position. By doing so, you can specify that you wish to back up the most important Instances first.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+Amazon+EC2_+Source/Backup Job Wizard for Amazon_4_1.png" class="img_31" /></p>
+                            </li>
+                            <li class="li_1">
+                                <p>Review the list of selected EC2 items. If needed, remove a selected Image or a Region from the backup job in either of the following ways: </p>
+                                <ul class="ul_3">
+                                    <li class="li_1">
+                                        <p>Deselect the item in the left pane. This will remove the item from the right pane.</p>
+                                    </li>
+                                    <li class="li_2">
+                                        <p>In the right pane, hover over the item you want to remove and click the red “X” to the right. This will deselect the item in the left pane.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+Amazon+EC2_+Source/Backup Job Wizard for Amazon_4_2.png" class="img_32" /></p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Policy</span>: If selected, this allows you to use job policies; refer to <a href="C:\display\NH\Managing+Job+Policies" class="Hyperlink">Managing Job Policies</a> for details. Please follow the steps below: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p>If items were selected in the alternate view, a dialog opens warning you that switching to the <span class="Strong">Policy</span> view will reset your current selection. Click <span class="Strong">Switch View</span> to confirm switching to the <span class="Strong">Policy</span> view.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>Make sure that at least one item matches the available set of policy rules. Refer to <a href="C:\display\NH\Managing+Policy+Rules" class="Hyperlink">Managing Policy Rules</a> for details.</p>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p>Click <span class="Strong">Next</span> to confirm that you wish to add selected EC2 items to the backup job.</p>
+            </li>
+        </ol>
+        <p>The wizard will display the next page.</p>
+        <p>Notes:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>If you cannot find an&#160;Instance, try the following: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p>Make sure that an appropriate Amazon account (that which was used to create the Instance) is added to the&#160;<a href="C:\display\NH\Inventory" class="Hyperlink">inventory</a>. &#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p><a href="C:\display\NH\Refreshing+Inventory" class="Hyperlink">Refresh&#160;</a>the Inventory.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p>If you add a Region or an Account&#160;to the job, the following will occur: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p>&#160;All Instances currently available in the selected Region/Account&#160;will be backed up by the job.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>All new instances&#160;that are created in (or moved to) the Region/Account&#160;in the future will be automatically added to the backup job and backed up.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p>The order in which Instances are backed is important if the Transporter performing the backup cannot process all Instances of the job simultaneously – either because the Transporter is loaded or because the number of disks in the job exceeds the Transporter’s maximum load specified during the Transporter’s creation.</p>
+            </li>
+            <li class="li_1">
+                <p>To back up Instances in a Region, at least one&#160;<a href="C:\display\NH\Transporter" class="Hyperlink">Transporter&#160;</a>must be&#160;<a href="C:\display\NH\Installing+NAKIVO+Backup+and+Replication" class="Hyperlink">installed&#160;</a>in that region. If there are no Transporters in a particular Region, the product will suggest that you automatically install a Transporter with the default options.</p>
+            </li>
+        </ol>
+    </body>
+</html>

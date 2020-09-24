@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Advanced Bandwidth Throttling</h1>
+        <p>NAKIVO Backup &amp; Replication was designed to transfer data at the maximum available speeds for the purposes of completing VM backup, replication, and recovery jobs as quickly as possible. However, if you run data protection jobs during business hours, your LAN or WAN networks risk being overloaded. This can affect the performance of applications and degrade user experience (think of email messages taking too long to be sent, excessive load times for websites, etc.). NAKIVO Backup &amp; Replication addresses this issue with the flexible Advanced Bandwidth Throttling feature. With Advanced Bandwidth Throttling, you can set limits for your data protection jobs and make sure they don't take more bandwidth than you can afford to allocate.</p>
+        <p>Advanced Bandwidth Throttling allows you to set <cite>global rules</cite> that limit the data transfer speeds of your backup processes. Such rules can apply to different jobs and on different schedules. For instance, you can create a global rule preventing your backup jobs from consuming more than 50 MByte/s during business hours, but leave the bandwidth unrestricted for Sunday backups. You can also create bandwidth throttling rules on a per-job basis, if you want to have more granular control over the whole process. Individual limits override global rules, sparing you the need to adjust the global rule for every job.</p>
+        <p class="p_1">The Advanced Bandwidth Throttling feature of NAKIVO Backup &amp; Replication is an effective means of optimizing backup operations and controlling your network traffic. With global and individual limits on data transfer speeds, the feature can help you ensure the performance of your business applications is never affected by backup workloads – even if you have little bandwidth to spare. With bandwidth rules, usage of LAN/WAN bandwidth by NAKIVO Backup &amp; Replication jobs may be restricted to a specific amount.</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Advanced+Bandwidth+Throttling.doc#AdvancedBandwidthThrottling-AboutBandwi">About Bandwidth Rules</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Advanced+Bandwidth+Throttling.doc#AdvancedBandwidthThrottling-Distributin">Distributing Bandwidth between Tasks</a>
+                </p>
+            </li>
+        </ul>
+        <h2>About Bandwidth Rules</h2>
+        <p>A bandwidth rule specifies the bandwidth amount that can be used by one job, by multiple jobs, or by all applicable jobs.</p>
+        <p>A bandwidth rule can be:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><b>Global Rule</b> – a bandwidth rule applied to all applicable Jobs.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><b>Per Job Rule</b> – a bandwidth rule only applied to specific Jobs.</p>
+            </li>
+        </ul>
+        <p><b>Per Job</b> rules have higher priority than <b>Global Rules</b>. A per job rule will be applied to the job when both the per job rule and a global rule are active for the same job. In case multiple per job rules are active for the same job, the bandwidth rule with the lowest bandwidth amount will be applied. In case there are multiple global rules – and no per job bandwidth rules,– &#160;the global rule with the lowest bandwidth amount will be applied. When a NAKIVO Backup &amp; Replication job is running and a bandwidth rule is applied to this job, the job will get bandwidth amount that is allowed by the bandwidth rule (for example 10 MByte/s).</p>
+        <p>
+            <img src="../Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling.png" class="img_1" />
+        </p>
+        <p>When a NAKIVO Backup &amp; Replication job is running with a bandwidth rule applied and the bandwidth rule becomes disabled for this job – and there are no other bandwidth rules applied to the job,– the job will get unlimited bandwidth.</p>
+        <p>
+            <img src="../Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_1.png" class="img_1" />
+        </p>
+        <p>Bandwidth rules may be always active, active on schedule, or disabled. Refer to <a href="C:\display\NH\Bandwidth+Throttling">Bandwidth Throttling</a> for details.</p>
+        <p>When a job containing multiple VMs starts running with a bandwidth rule active, the rule divides bandwidth between <a href="C:\display\NH\Jobs+and+Concurrent+Tasks">tasks</a>. Incremental backup tasks receive significantly less bandwidth than full backup tasks; this ensures that no tasks receive too little bandwidth to be processed in a reasonable time. When the <a href="C:\display\NH\Transporter">Transporter</a> is ready and there is enough unallocated bandwidth, the tasks start to be processed. Any change to the bandwidth amount will only be applied to the tasks not yet started for processing. Once started for processing, the tasks do not change the consumed bandwidth amount. It means there will be no dynamic change in the bandwidth amount for the tasks already being processed.</p>
+        <p>Bandwidth rules are applicable to the following types of NAKIVO Backup &amp; Replication jobs:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Backup">Backup Job</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Creating+Backup+Copy+Jobs">Backup Copy Job</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Replication">Replication Job, except AWS EC2 Replication Job</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Recovery">Recovery Job</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Failover+to+Replica+for+VMware">Failover Job</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Distributing Bandwidth between Tasks</h2>
+        <p>To illustrate distribution of bandwidth between tasks, one can take a backup job – Job A,– of 5 VMs; the 3<sup>rd</sup> VM backup is a full backup and the rest are incremental backups.</p>
+        <p>Job A starts running with the 30 Mbit/s bandwidth rule activated&#160; &#160;as follows:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2">The bandwidth amount is split into 3 chunks&#160;10 Mbit/s each.<br /><img src="../Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_2.png" class="img_2" /></p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">VM 1 and VM 2 backups receive 10 Mbit/s each. One bandwidth chunk remains unassigned since the full backup&#160;usually requires all the bandwidth to start.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">The remaining bandwidth is distributed from the start of the queue, so VM 1 backup receives additional 10 Mbit/s.</p>
+            </li>
+            <li>
+                <p>VM 1 backup and VM 2 backup start running.<br /><img src="../Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_3.png" class="img_3" /></p>
+                <p>Note</p>
+                <p>The Transporter can process a <a href="C:\display\NH\Editing+Transporters">limited number</a> of concurrent tasks.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">When VM 1 backup finishes execution, it frees two bandwidth chunks 10 Mbit/s each. However, VM 3 full backup still cannot start because it requires all the available bandwidth to start running. Hence, these two bandwidth chunks&#160;are left idle.<br /><img src="../Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_4.png" class="img_4" /></p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">When VM 2 backup finishes running, it frees another bandwidth chunk, and full backup of VM 3&#160;starts running with all the bandwidth assigned.<br /><img src="../Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_5.png" class="img_5" /></p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">When full backup of VM 3 is finished, three bandwidth chunks are now available for the two remaining&#160;VM backups.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">VM 4 backup receives the 20 Mbit/s bandwidth in total and VM 5 backup receives a 10 Mbit/s bandwidth chunk.<br /><img src="../Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_6.png" class="img_6" /></p>
+            </li>
+        </ol>
+        <p>When the rule changes the bandwidth to 80 Mbit/s and is also activated for another Job B consisting of two VM incremental backups, the Transporter starts distributing bandwidth as follows:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2">The 80 Mbit/s amount is split into 4 chunks of 20 Mbit/s.<br /><img src="../Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_7.png" class="img_7" /></p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">VM 6 backup and VM 7 backup of Job B receive a 20 Mbit/s bandwidth chunk each and start running, with 10 Mbit/s remaining unassigned.<br /><img src="../Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_8.png" class="img_7" /></p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">When VM 4 backup and VM 5 backup of Job A are finished, two 20 Mbit/s bandwidth chunks are freed. However there are no queued tasks to assign them to, so the bandwidth is left idle.<br /><img src="../Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_9.png" class="img_8" /></p>
+            </li>
+        </ol>
+        <p>When the bandwidth rule changes the bandwidth amount back to 30 Mbit/s and is also activated for another Job C consisting of one VM incremental backup, the Transporter starts distributing bandwidth as follows:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2">The 30 Mbit/s amount is split into three chunks of 10 Mbit/s.</p>
+            </li>
+            <li>
+                <p>The currently running tasks occupy 40 Mbit/s of bandwidth, which is three 10 Mbit/s bandwidth chunks and one 10 Mbit/s bandwidth chunk over the limit. Therefore, there is no free bandwidth for VM 8 backup of Job C to use.<br /><img src="../Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_10.png" class="img_9" /></p>
+                <p>Note</p>
+                <p>Jobs and tasks may wait for a long time until bandwidth is available for them to start.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">When VM 6 backup is finished, freeing up 20 Mbit/s of bandwidth, of which 10 Mbit/s was exceeding the 30 Mbit/s limit, VM 8 backup of Job C starts executing using another 10 Mbit/s bandwidth chunk.<br /><img src="../Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_11.png" class="img_9" /></p>
+            </li>
+        </ol>
+    </body>
+</html>

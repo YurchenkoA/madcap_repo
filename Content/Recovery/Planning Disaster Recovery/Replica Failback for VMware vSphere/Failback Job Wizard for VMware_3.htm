@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Failback+Job+Wizard+for+VMware+vSphere_+Destination.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Failback Job Wizard for VMware vSphere: Re-IP</h1>
+        <p>On the&#160;<b>Re-IP&#160;</b>page of the&#160;wizard, you can map a source VM IP address to a specific target IP address.</p>
+        <p>Please proceed as follows:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Select&#160;<b>Enable Re-IP</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">The&#160;<b>Re-IP Rules&#160;</b>section opens. Click the&#160;<b>Select VMs </b>link<b>.</b></p>
+            </li>
+            <li>
+                <p>The&#160;<b>Re-IP</b>&#160;dialog box opens. In the list of your source VMs, select at least one VM. Select the credentials to be used for each VM and close the dialog box.</p>
+                <p>Note</p>
+                <p>Re-IP rules will be applied only to VMs that have a static IPv4 address configured.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">You have the following options: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1">Create a new rule: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p class="p_1">Click&#160;<b>Create new rule</b>.</p>
+                            </li>
+                            <li>
+                                <p>The&#160;<b>New Re-IP Rule&#160;</b>dialog opens. Enter source and target settings for the Re-IP rule and click&#160;<b>Save</b>.&#160;</p>
+                                <p>Note</p>
+                                <p>You can use wildcards for IP addresses.</p>
+                                <p><b>Example</b>
+                                </p>
+                                <p>When you enter 192.168.1.* -&gt; 10.30.30.* Re-IP rule, the source VM IP address such as192.168.1.50 will be changed to the 10.30.30.50 IP address for your replica failback job. When there are several Re-IP rules applicable to your source VM, the application will define the most suitable one and apply it to the source VM IP address.</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Add an existing rule: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p class="p_1">Click&#160;<b>Add existing rule</b>.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1">The&#160;<b>Re-IP Rules&#160;</b>dialog opens. Choose an appropriate Re-IP rule and close the dialog.</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Edit an existing Re-IP rule: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p class="p_1">Hover the pointer over the required item in the&#160;<b>Re-IP Rules&#160;</b>list.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1">A toolbar with icons opens to the right of the item. Click the&#160;<b>Edit&#160;</b>button.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1">The&#160;<b>Edit Re-IP Rule&#160;</b>dialog opens. Edit the required properties of the Re-IP rule and click&#160;<b>Save</b>.</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Delete an existing mapping: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p class="p_1">Hover the pointer over the required item in the&#160;<b>Re-IP Rules&#160;</b>list.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1">A toolbar with icons opens to the right of the item.&#160;Click the&#160;<b>Delete</b>&#160;icon.</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">To leave the list of existing Re-IP rules intact, go to the next page of the wizard.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Next&#160;</b>to go to the next page of the wizard.<br /><br /><img src="../../../Resources/Images/Failback+Job+Wizard+for+VMware+vSphere_+Re-IP/Failback Job Wizard for VMware_3.png" class="img_6" /></p>
+            </li>
+        </ol>
+    </body>
+</html>

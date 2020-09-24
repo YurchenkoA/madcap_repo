@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/Auto+Updating+NAKIVO+Backup+and+Replication.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Updating on Generic ARM-based Device</h1>
+        <p>If <a href="C:\display\NH\Auto+Updating+NAKIVO+Backup+and+Replication">auto updating of NAKIVO Backup &amp; Replication</a>&#160;is not supported, follow the steps below&#160;to update the product on a&#160;Generic ARM-based device manually:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Download the latest&#160;Generic ARM-based NAS updater from&#160;&#160;<a href="https://www.nakivo.com/resources/download/update/">www.nakivo.com/resources/download/update/</a>.</p>
+            </li>
+            <li>
+                <p>Upload the updater to the machine on which the Director is installed.&#160;</p>
+                <p>Important</p>
+                <p>Make sure you are using the&#160;<cite>binary transfer mode&#160;</cite>when uploading the<cite>&#160;</cite>updater to the machine with a Linux OS<cite>.</cite>&#160;For example:</p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1"><a href="C:\display\NH\Uploading+Installer+from+Windows+Machine+to+Linux+Machine">Upload the installer from a Windows-based machine</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Upload the product from a Linux-based machine: run the following command:<code class="code_1">&#160;wget 'server_ip/shared/NAKIVO_Backup_&amp;_Replication_TRIAL.sh'</code></p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Log in to the&#160;Generic ARM-based NAS machine and allow the execution of the updater file.&#160;For example:&#160;<code class="code_1">chmod +x&#160;NAKIVO_Backup_&amp;_Replication_vX.X.X_Updater.sh</code></p>
+            </li>
+            <li>
+                <p>Make sure that no jobs or repository maintenance tasks are running in the product.</p>
+                <p>If NAKIVO Backup &amp; Replication is installed on a VM, create a snapshot of the VM prior to updating the product.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Execute the updater file with root privileges. For example:<code class="code_1">&#160;sudo ./NAKIVO_Backup_&amp;_Replication_vX.X.X_Updater.sh</code></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Review the license agreement (press&#160;<b>Space</b>&#160;to go to the next page of the agreement). If you agree to the terms of the license agreement, press “Y” and then press&#160;<b>Enter</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Press the “Y” key and then press&#160;<b>Enter&#160;</b>to confirm that you wish to stop the services and begin the update process.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Update all machines on which you have additionally deployed a&#160;<a href="C:\display\NH\Transporter">Transporter</a>.</p>
+            </li>
+        </ol>
+    </body>
+</html>

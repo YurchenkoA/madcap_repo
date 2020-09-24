@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Failback+Job+Wizard+for+VMware+vSphere_+Destination.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Failback Job Wizard for VMware vSphere: Options</h1>
+        <p>On the <b>Options</b> page of the wizard, specify options for the VMware Failback job as described in the following sections:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Options.doc#FailbackJobWizardforVMwarevSphere:Optio">Job Options</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Options.doc#FailbackJobWizardforVMwarevSphere:Optio">Pre and Post Actions</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Options.doc#FailbackJobWizardforVMwarevSphere:Optio">Data Transfer</a> </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Options.doc#FailbackJobWizardforVMwarevSphere:Optio">Transport Mode</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Options.doc#FailbackJobWizardforVMwarevSphere:Optio">Transporters</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2 class="h2_1">Job Options</h2>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">In the <b>Job name</b> box, enter a string of 50 or fewer characters specifying the name of your failback job.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Select <b>Power off replica VMs</b>&#160;to power off the replica workloads during the failback.<br /><br /><img src="../../../Resources/Images/Failback+Job+Wizard+for+VMware+vSphere_+Options/Failback Job Wizard for VMware_2.png" class="img_5" /></p>
+            </li>
+        </ol>
+        <h2>Pre and Post Actions</h2>
+        <p>If needed, enable pre and post actions:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><b>Send job run reports to</b>: When selected, a job report is sent to specified recipients each time the failback job has completed. This overrides the default setting in the NAKIVO Backup &amp; Replication <a href="C:\display\NH\Settings">Settings</a> dashboard.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Run local pre job script:</b>&#160;When selected, a dialog box open in which you can specify the following options of the <a href="C:\display\NH\Pre+and+Post+Job+Scripts">pre-job script</a> to be run: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1"><b>Script path</b>: A local path to the script on the machine where the Director is installed. A script interpreter should be specified as well.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Job behavior:</b> The following options are available: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p class="p_1"><b>Wait for the script to finish</b>: This is the default option.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Do not wait for the script to finish.</b>
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Error handling</b>: The following options are available: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p class="p_1"><b>Continue the job on script failure</b>: This is the default option.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Fail the job on script failure.</b>
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Run local post job script</b>: When selected, a dialog box opens in which you can specify options of the <a href="C:\display\NH\Pre+and+Post+Job+Scripts">post-job script</a> to be executed on the machine where the product is installed. Proceed with setting the options as described for&#160;<b>Run local pre job script</b>.|<br /><br /><img src="../../../Resources/Images/Failback+Job+Wizard+for+VMware+vSphere_+Options/Failback Job Wizard for VMware_2_1.png" class="img_5" /></p>
+            </li>
+        </ol>
+        <h2>Data Transfer</h2>
+        <p><span class="span_1">In the&#160;</span><i>Data Transfer</i><span class="span_1">&#160;section of the </span><b class="b_1">Options</b><span class="span_1"> page, you can select a transport mode and select a Transporter to be used for reading data. Proceed as described in the sections below.</span>
+        </p>
+        <h3 class="h3_1">Transport Mode</h3>
+        <p><span class="span_2">Transport mode defines the method of VM data retrieval by a source Transporter. Do one of the following:</span>
+        </p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><span class="span_2">Select </span><b class="b_2">Automatic selection </b><span class="span_2">to allow the product to choose the best transport mode available.&#160;If the product cannot use SAN or Hot Add, LAN mode will be used.</span>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><span class="span_2">Manually select one of the available transport mode options:</span> </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1"><a href="C:\display\NH\Direct+SAN+Access+for+VMware" class="a_1">SAN</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><a href="C:\display\NH\Hot+Add+for+VMware" class="a_1">Hot Add</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b class="b_1">LAN</b>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h3 class="h3_1">Transporters</h3>
+        <p>By default, the product automatically determines which Transporter should be used to read data from the source VM. However, you can manually specify which Transporters should be used for the job. Here’s how:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">In the&#160;<i>Data Transfer</i>&#160;section, choose one of the following options: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1"><b>Automatic selection</b>:&#160;The product will automatically determine which Transporters are the closest to source hosts (the hosts that run selected VMs) and will use those Transporters to retrieve data from source VMs.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Manual - configured for all VMs</b>:&#160;Select this option to manually specify a single Transporter that will be used to retrieve data from source VMs.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Manual - configured per host</b>:&#160;Select this option to manually specify which Transporter should be used to retrieve data from each source host.&#160;<span class="span_1">&#160;When selected, the&#160;</span><b class="b_1">Replacement Transporter</b><span class="span_1">&#160;drop-down list becomes available.&#160;</span><span class="span_2">In case a primary Transporter is unavailable, a replacement Transporter will be used. Note that the&#160;product selects what Transporter to use (primary or replacement) at the beginning of the job run, not while the job is running.&#160; &#160;</span></p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Click <b>Finish</b> or <b>Finish &amp;</b> <b>Run</b> to complete the job creation.<br /><br /><img src="../../../Resources/Images/Failback+Job+Wizard+for+VMware+vSphere_+Options/Failback Job Wizard for VMware_2_2.png" class="img_5" /><br /></p>
+            </li>
+        </ol>
+        <p>Note</p>
+        <p>If you click&#160;<b>Finish &amp; Run</b>,&#160;you will have to define the scope of your job. Refer to&#160;<a href="C:\display\NH\Running+Jobs+on+Demand">Running Jobs on Demand</a>&#160;for details.</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

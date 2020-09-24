@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Backing+Up+to+Tape.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Backup Job Wizard for Microsoft 365: Options</h1>
+        <p>On the <span class="Strong">Options </span>page, you can specify the job’s name, define pre and post actions, and limit the Transporter load. Proceed as described in these sections:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Microsoft+365_+Options.doc#BackupJobWizardforMicrosoft365:Options-" class="Hyperlink">Job Options</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Microsoft+365_+Options.doc#BackupJobWizardforMicrosoft365:Options-" class="Hyperlink">Pre and Post Actions</a> </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Microsoft+365_+Options.doc#BackupJobWizardforMicrosoft365:Options-" class="Hyperlink">Email Notifications</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Microsoft+365_+Options.doc#BackupJobWizardforMicrosoft365:Options-" class="Hyperlink">Pre Job Script</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Microsoft+365_+Options.doc#BackupJobWizardforMicrosoft365:Options-" class="Hyperlink">Post Job Script</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Microsoft+365_+Options.doc#BackupJobWizardforMicrosoft365:Options-" class="Hyperlink">Data Transfer</a> </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Microsoft+365_+Options.doc#BackupJobWizardforMicrosoft365:Options-" class="Hyperlink">Transporter Load</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Microsoft+365_+Options.doc#BackupJobWizardforMicrosoft365:Options-" class="Hyperlink">Completing the New Backup Job Wizard for Microsoft 365</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Job Options</h2>
+        <p>Enter a name for the job into the <span class="Strong">Job name </span>box.</p>
+        <p class="NormalWeb">
+            <img src="../Resources/Images/Backup+Job+Wizard+for+Microsoft+365_+Options/Backup Job Wizard for Microsoft_1.png" class="img_51" />
+        </p>
+        <h2>Pre and Post Actions</h2>
+        <p>NAKIVO Backup &amp; Replication provides you with the ability to enable certain actions before a backup job begins and after it has completed. You can choose to send job run reports and run local <a href="C:\display\NH\Pre+and+Post+Job+Scripts" class="Hyperlink">pre- and post-job scripts</a>.&#160;</p>
+        <p class="NormalWeb">
+            <img src="../Resources/Images/Backup+Job+Wizard+for+Microsoft+365_+Options/Backup Job Wizard for Microsoft_1_1.png" class="img_51" />
+        </p>
+        <h3><span class="Strong">Email Notifications</span>
+        </h3>
+        <p>NAKIVO Backup &amp; Replication can send email notifications on job completion status to specified recipients. This feature complements global notification and provides you with the ability to configure notifications on a per-job level.</p>
+        <p>Note</p>
+        <p>To enable this option, configure your <a href="C:\display\NH\Email+Notifications" class="Hyperlink">Email settings</a>.</p>
+        <p>To send email notifications, select <span class="Strong">Send job run reports to</span> and specify one or more email addresses in the text box. The semi-colon character (;) should be used to separate multiple email addresses.</p>
+        <h3><span class="Strong">Pre Job Script</span>
+        </h3>
+        <p>To run a script before the product begins backing up your items, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Place a script file on the machine where the Director is installed.</p>
+            </li>
+            <li class="li_1">
+                <p>Select the <span class="Strong">Run local pre job script</span> option.</p>
+            </li>
+            <li class="li_1">
+                <p>Specify the following parameters in the dialog box that opens: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><span class="Strong">Script path</span>: Specify a local path to the script on the machine where the Director is installed. The script interpreter should be specified.&#160;<br /><span class="Strong">Example&#160;</span>(Windows): <span class="Emphasis">cmd.exe /c D:\script.bat</span><span class="Emphasis"><br /></span><span class="Strong">Example</span>&#160;(Linux): <span class="Emphasis">bash /root/script.sh</span></p>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Job behavior</span>: Choose one of the following job behaviors in relation to script completion: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p><span class="Strong">Wait for the script to finish</span>: When selected, the backup is started only after the script is completed.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><span class="Strong">Do not wait for the script to finish</span>: When selected, the product runs the script and starts backing up your items at the same time.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Error handling</span>: Choose one of the following job behaviors in relation to script failure: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p><span class="Strong">Continue the job on script failure</span>: When selected, the product performs the backup job even if the script has failed.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><span class="Strong">Fail the job on script failure</span>: When this option is selected and the script fails, the job fails and the backup is not performed.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <h3><span class="Strong">Post Job Script</span>
+        </h3>
+        <p>To run a script after the product has finished backing up all items, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Place a script file on the machine where the Director is installed.</p>
+            </li>
+            <li class="li_1">
+                <p>Select the <span class="Strong">Run local post job script</span> option.</p>
+            </li>
+            <li class="li_1">
+                <p>Specify the following parameters in the dialog box that opens: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><span class="Strong">Script path</span>: Specify a local path to the script on the machine where the Director is installed. The script interpreter should be specified. <br /><span class="Strong">Example</span> (Windows): <span class="Emphasis">cmd.exe /c D:\script.bat</span><span class="Emphasis"><br /></span><span class="Strong">Example</span> (Linux): <span class="Emphasis">bash /root/script.sh</span></p>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Job behavior</span>: Choose one of the following job behaviors in relation to script completion: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p><span class="Strong">Wait for the script to finish</span>: When selected, the job remains in the “running” state until the script is completed.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><span class="Strong">Do not wait for the script to finish</span>: When selected, the job is completed even if the script execution is still in progress.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Error handling</span>: Choose one of the following job behaviors in relation to script failure: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p><span class="Strong">Continue the job on script failure</span>: When this option is selected, script failure does not influence the status of the job.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><span class="Strong">Fail the job on script failure</span>: When this option is selected and the script fails, the job status is set to “failed” even if backup has been successful.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <p>Note</p>
+        <p>Pre and post job scripts can be executed only on the machine on which the Director is installed.</p>
+        <h2>Data Transfer</h2>
+        <p>In the <span class="Emphasis">Data Transfer</span> section, you can specify a Transporter load.</p>
+        <p class="NormalWeb">
+            <img src="../Resources/Images/Backup+Job+Wizard+for+Microsoft+365_+Options/Backup Job Wizard for Microsoft_1_2.png" class="img_51" />
+        </p>
+        <h3><span class="Strong">Transporter Load</span>
+        </h3>
+        <p>You can limit the maximum number of Transporter tasks used by the job. By default, the number is set to 3 concurrent tasks.&#160;For a Microsoft 365 backup job, one task is equal to processing one mailbox or one OneDrive instance.&#160;</p>
+        <p>To change the default number of tasks, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>In the <span class="Emphasis">Data Transfer</span> section, select the <span class="Strong">Limit transporter load to </span>checkbox.</p>
+            </li>
+            <li class="li_1">
+                <p>Specify the number of concurrent tasks in the corresponding box.</p>
+            </li>
+        </ol>
+        <h2>Completing the New Backup Job Wizard for Microsoft 365</h2>
+        <p>Click <span class="Strong">Finish</span> or <span class="Strong">Finish &amp; Run</span> to complete the job creation.</p>
+        <p>Note</p>
+        <p>If you click <span class="Strong">Finish &amp; Run</span>, you will have to define the scope of your job. Please refer to <a href="C:\display\NH\Running+Jobs+on+Demand" class="Hyperlink">Running Jobs on Demand</a> for details.</p>
+        <p class="NormalWeb">&#160;</p>
+        <p class="NormalWeb">&#160;</p>
+        <p class="NormalWeb">&#160;</p>
+    </body>
+</html>

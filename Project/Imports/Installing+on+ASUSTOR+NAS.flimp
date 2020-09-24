@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Deployment\Installing NAKIVO Backup and Replication\Installing on ASUSTOR NAS"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-18T13:36:28.7484048+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Installing+on+ASUSTOR+NAS.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+ASUSTOR+NAS.doc" />
+    <Url
+      Source="../../../../../Downloads/Installing+on+ASUSTOR+NAS+Manually.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+ASUSTOR+NAS+Manually.doc" />
+    <Url
+      Source="../../../../../Downloads/Installing+on+ASUSTOR+NAS+via+App+Central.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+ASUSTOR+NAS+via+App+Central.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on ASUSTOR NAS/Installing on ASUSTOR NAS.htm"
+      TimeStamp="Fri 18.09.20 1:35:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+ASUSTOR+NAS+Manually/Installing on ASUSTOR NAS_1.png"
+      TimeStamp="Fri 18.09.20 1:35:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+ASUSTOR+NAS+Manually/Installing on ASUSTOR NAS_1_1.png"
+      TimeStamp="Fri 18.09.20 1:35:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+ASUSTOR+NAS+Manually/Installing on ASUSTOR NAS_1_2.png"
+      TimeStamp="Fri 18.09.20 1:35:57 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on ASUSTOR NAS/Installing on ASUSTOR NAS_1.htm"
+      TimeStamp="Fri 18.09.20 1:35:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+ASUSTOR+NAS+via+App+Central/Installing on ASUSTOR NAS_2.png"
+      TimeStamp="Fri 18.09.20 1:35:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+ASUSTOR+NAS+via+App+Central/Installing on ASUSTOR NAS_2_1.png"
+      TimeStamp="Fri 18.09.20 1:35:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing+on+ASUSTOR+NAS+via+App+Central/Installing on ASUSTOR NAS_2_2.png"
+      TimeStamp="Fri 18.09.20 1:35:57 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on ASUSTOR NAS/Installing on ASUSTOR NAS_2.htm"
+      TimeStamp="Fri 18.09.20 1:35:57 PM" />
+    <Url
+      Source="../TOCs/Installing+on+ASUSTOR+NAS.fltoc"
+      TimeStamp="Fri 18.09.20 1:35:57 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Installing+on+ASUSTOR+NAS.css"
+      TimeStamp="Fri 18.09.20 1:35:57 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="HTML Code"
+      To="code"
+      Style="Flare" />
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Backing+Up+to+Tape.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Backup Job Wizard for Hyper-V: Source</h1>
+        <p>On the <span class="Strong">Source&#160;</span>page of the wizard, you can add Hyper-V VMs to your backup job.&#160;Proceed as follows:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>In the left pane of the page, choose either of the following <a href="C:\display\NH\Inventory" class="Hyperlink">inventory</a> views: </p>
+                <ul class="ul_2">
+                    <li class="li_2">
+                        <p><span class="Strong">Hosts &amp; Clusters</span>: If chosen, the inventory tree opens in the left pane and shows all of the Hyper-V items: clusters, servers, and VMs. Proceed as follows:<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+Hyper-V_+Source/Backup Job Wizard for Hyper_4.png" class="img_46" /></p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p>Optionally, filter the inventory tree by entering a string to the <span class="Strong">Search</span> box. You can enter a part or the whole item name.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>Select Hyper-V items by selecting the checkbox next to the item.</p>
+                            </li>
+                            <li class="li_2">
+                                <p>The selected items appear in the right pane of the page. If necessary, reorder the selected items by dragging a VM or a container to a new position.&#160;By doing so, you can specify that you wish to back up the most&#160;important VMs first.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+Hyper-V_+Source/Backup Job Wizard for Hyper_4_1.png" class="img_47" /></p>
+                            </li>
+                            <li class="li_1">
+                                <p>Review the list of selected Hyper-V items. If needed, remove a selected VM or a container from the backup job in either of the following ways: </p>
+                                <ul class="ul_3">
+                                    <li class="li_1">
+                                        <p>Cancel the selection of the item in the left pane. This will remove the item from the right pane.</p>
+                                    </li>
+                                    <li class="li_2">
+                                        <p>In the right pane, hover over the item you wish to remove and click the red “X” to the right. This will cancel the selection of the item in the left pane.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+Hyper-V_+Source/Backup Job Wizard for Hyper_4_2.png" class="img_48" /></p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Policy</span>: If selected, this allows you to use job policies; refer to <a href="C:\display\NH\Managing+Job+Policies" class="Hyperlink">Managing Job Policies</a> for details. Please follow the steps below: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p>If items are selected in the alternate view, a dialog opens warning you that switching to the <span class="Strong">Policy</span> view will reset your current selection. Click <span class="Strong">Switch View</span> to confirm switching to the <span class="Strong">Policy</span> view.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>Make sure that at least one item matches the available set of policy rules. Refer to <a href="C:\display\NH\Managing+Policy+Rules" class="Hyperlink">Managing Policy Rules</a> for details.</p>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p>Click <span class="Strong">Next</span> to&#160;confirm that you wish to add the selected VMs to the backup job.</p>
+            </li>
+        </ol>
+        <p>The wizard will display the next page.</p>
+        <p>Notes:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>If you cannot find a particular VM or container, try the following: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p>Make sure the corresponding Hyper-V server or cluster is added to the&#160;<a href="C:\display\NH\Inventory" class="Hyperlink">inventory</a>. &#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p><a href="C:\display\NH\Refreshing+Inventory" class="Hyperlink">Refresh the Inventory</a>.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p>If you add a Hyper-V server or clusters to the job: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p>All VMs currently available on the selected server or cluster will be backed up</p>
+                    </li>
+                    <li class="li_1">
+                        <p>All new VMs that will be created in (or moved to) the server or cluster in the future will be automatically added to the job and backed up.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p>The order in&#160;which VMs are backed up is important if the Transporter performing the backup cannot process all VMs of the job simultaneously – either because the Transporter is processing other jobs at the same time or because the number of VM disks in the job exceeds the Transporter’s Maximum Load specified during the Transporter creation.</p>
+            </li>
+            <li class="notenormal">
+                <p>If all disks of a given VM are&#160;unsupported, said VM will be disabled in the inventory tree, and it will not be possible to select that VM.</p>
+            </li>
+        </ol>
+    </body>
+</html>

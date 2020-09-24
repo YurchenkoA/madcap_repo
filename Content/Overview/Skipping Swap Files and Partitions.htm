@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Skipping Swap Files and Partitions</h1>
+        <p>Swap files on Windows OS and swap partitions on Linux OS serve as “virtual memory” and store temporary runtime data that is not in use by RAM. Swap files and partitions improve OS performance: Once the physical memory is full, the OS can send less frequently used data to a swap file/partition and use the freed-up physical memory to perform high priority tasks. While this approach is great for OS and application performance, it has a negative effect on VM backup and replication.</p>
+        <p>The contents of the swap file change constantly, so each time you run a VM backup or VM replication, the swap file/partition is included in the backup/replica. Since the swap file can automatically grow up to 3x the size of RAM, gigabytes of unnecessary data are processed, transferred and stored each time you back up a VM. The impact of swap files and partitions on backup and replication is significant even in small environments. For example, if you run a backup for 10 VMs and each VM has just 2 GB of swap data, you will transfer and store: 10 VMs x 2 GB x 22 working days = 440 GB of useless data in one month alone.&#160;</p>
+        <p>NAKIVO Backup &amp; Replication automatically skips swap files and partitions in VMware VMs, Hyper-V VMs, and AWS EC2 instances, which results in faster and smaller backups and replicas. Note that the application-aware mode instructs applications and databases running inside VMs to flush their data from memory to disk, which means that all important data will be included in your VM backups and replicas. This option can be enabled on a per-job basis.</p>
+        <p>
+            <img src="../Resources/Images/Skipping+Swap+Files+and+Partitions/Skipping Swap Files and Partitions.png" class="img_50" />
+        </p>
+    </body>
+</html>

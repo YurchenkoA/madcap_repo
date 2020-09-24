@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Backing+Up+to+Tape.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Backup Job Wizard for Amazon EC2: Destination</h1>
+        <p>On the <span class="Strong">Destination</span> page, select a Backup Repository for backing up all AWS EC2 instances or select a different repository for each AWS EC2 instance.</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Amazon+EC2_+Destination.doc#BackupJobWizardforAmazonEC2:Destination" class="Hyperlink">Setting the Same Backup Repository for All AWS EC2 Instances</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Amazon+EC2_+Destination.doc#BackupJobWizardforAmazonEC2:Destination" class="Hyperlink">Setting a Different Backup Repository for Each AWS EC2 Instance</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Amazon+EC2_+Destination.doc#BackupJobWizardforAmazonEC2:Destination" class="Hyperlink">Mapping Instances to Existing Backups</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Amazon+EC2_+Destination.doc#BackupJobWizardforAmazonEC2:Destination" class="Hyperlink">Excluding EBS Volumes from the Backup Job</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Setting the Same Backup Repository for All AWS EC2 Instances</h2>
+        <p>To back up all Amazon EC2 instances selected on&#160;<a href="C:\display\NH\Backup+Job+Wizard+for+Amazon+EC2:+Source" class="Hyperlink">the previous page</a>&#160;to the same Backup Repository, choose a Backup Repository from the&#160;<span class="Strong">Destination</span>&#160;drop-down list.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+Amazon+EC2_+Destination/Backup Job Wizard for Amazon.png" class="img_18" /></p>
+        <h2>Setting a Different Backup Repository for Each AWS EC2 Instance</h2>
+        <p>To set up different Backup Repositories for individual Amazon EC2 instances, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click&#160;<span class="Strong">Advanced options.</span></p>
+            </li>
+            <li class="li_1">
+                <p>In the instance boxes, choose a Backup Repository for each instance.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+Amazon+EC2_+Destination/Backup Job Wizard for Amazon_1.png" class="img_11" /></p>
+            </li>
+        </ol>
+        <h2>Mapping Instances to Existing Backups</h2>
+        <p>If you have previously backed up an instance and then lost the backup job due to accidental job deletion or because you need to recreate jobs in a new copy of the product, you can map the instance&#160;to its existing backup so as to avoid running the full backup again.</p>
+        <p>To map instances to existing backups, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click&#160;<span class="Strong">Advanced options</span>.</p>
+            </li>
+            <li class="li_1">
+                <p>From the <span class="Strong">Target destination</span>&#160;drop-down list, choose a Backup Repository that contains an existing instance backup.</p>
+            </li>
+            <li class="li_1">
+                <p>Select the&#160;<span class="Strong">Use existing backup as a target</span>&#160;option and choose an existing backup from the drop-down list.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+Amazon+EC2_+Destination/Backup Job Wizard for Amazon_2.png" class="img_11" /></p>
+            </li>
+        </ol>
+        <p>When you run the job, the product will analyze the backup you have selected, determine how different it is from the instance, and transfer only the differential data.</p>
+        <p>Note</p>
+        <p>Instance backup mapping can be a time-consuming process that can be equal to the time required to create a full backup.</p>
+        <p>After job completion, a new recovery point will be created and existing recovery points will&#160;<span class="Emphasis">not</span>&#160;be changed or overwritten.</p>
+        <h2>Excluding EBS Volumes from the Backup Job</h2>
+        <p>If you do not want to back up certain EBS volumes, you can exclude them from the backup job by following the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click&#160;<span class="Strong">Advanced options</span>.</p>
+            </li>
+            <li class="NormalWeb_1">
+                <p>In the instance box, deselect the checkbox next to the EBS volumes that you do not need to back up.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+Amazon+EC2_+Destination/Backup Job Wizard for Amazon_3.png" class="img_11" /><br /><br /></p>
+                <p class="NormalWeb">&#160;</p>
+            </li>
+        </ol>
+    </body>
+</html>

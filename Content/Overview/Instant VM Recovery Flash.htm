@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Instant VM Recovery - Flash VM Boot</h1>
+        <p>The Flash VM Boot feature allows you to boot a VM directly from compressed and deduplicated backups for fast recovery during an outage. When a business-critical machine goes down, every minute of downtime has costly and damaging consequences. With NAKIVO Backup &amp; Replication, you can recover entire machines from their backups in minutes. The Flash Boot feature allows you to boot machines directly from compressed and deduplicated backups without recovering entire machines first. This feature works right out of the box without any special setup. Just choose a backup, a recovery point, and a recovery location (a host, a resource pool, or a cluster where you want to run the recovered machine). Then press the button and your machine is booted in no time.</p>
+        <p>Once the machine is running, you can migrate it to production for permanent recovery. Note that the backup from which the VM is booted is not affected. Changes you make to the running VM will not modify or remove the data in your VM backup. In addition to the VM recovery capabilities, the Flash VM Boot feature offers other useful functionalities. For example, it allows you:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2">Access the files, folders, and application objects of any application on any OS.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Test system updates and application patches before applying them to your production machine.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Verify the backup to ensure that the OS and applications run properly.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Copy a VMDK or VHDX file, and then delete the virtual machine.</p>
+            </li>
+        </ul>
+        <p>This is how the Flash VM Boot feature works:</p>
+        <p>NAKIVO Backup &amp; Replication consists of two main components: the Director, which is the management component, and the Transporter, which performs actual data protection and recovery tasks. By default, both components are automatically installed to enable all features out of the box.</p>
+        <p>When you run a Flash VM Boot job, the Director creates a new VM without any disks on the target server, then commands the Transporter to expose the machine disks from the Backup Repository as iSCSI targets. Finally, the Director mounts the exposed disks to the newly created VM.</p>
+        <p>.</p>
+        <p>
+            <img src="../Resources/Images/Instant+VM+Recovery+-+Flash+VM+Boot/Instant VM Recovery Flash.png" class="img_33" />
+        </p>
+        <p>This process is fully automated and takes mere seconds to complete, after which the machine OS boot is started. Once booted, the machine can be migrated to the production environment using the hypervisor’s native live migration feature.</p>
+        <p>With NAKIVO Backup &amp; Replication you can also perform Flash VM Boot to run VMware VMs directly from physical machine backups. If a business-critical physical machine goes down, you can use Cross-Platform Flash Boot for instant recovery without having to manually install a new OS and applications on the new machine. The machine recovered this way can be used as a testing environment and can later be migrated for permanent use.</p>
+        <p>To learn how to create recovery jobs using the Flash VM Boot feature, refer to the <a href="C:\display\NH\Performing+Flash+VM+Boot+Recovery">Performing Flash VM Boot Recovery</a> section of the User Guide.&#160;&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

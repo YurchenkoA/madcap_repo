@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Backing+Up+to+Tape.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Deleting Backups</h1>
+        <p>With NAKIVO Backup &amp; Replication, you can permanently delete a backup (including all of its recovery points) if it is available in a Backup Repository. Also, you can delete specific recovery points of a backup without affecting any of the others.</p>
+        <p>Note</p>
+        <p>You can only delete a backup if you have deleted the corresponding backup job or edited the backup job so that it does not include the backup’s source VM or a physical machine.</p>
+        <p>Refer to one of the following sections:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Deleting+Backups.doc#DeletingBackups-DeletingaSingleBackup" class="Hyperlink">Deleting a Single Backup</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Deleting+Backups.doc#DeletingBackups-DeletingBackupsinBulk" class="Hyperlink">Deleting Backups in Bulk</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Deleting+Backups.doc#DeletingBackups-DeletingRecoveryPoints" class="Hyperlink">Deleting Recovery Points</a> </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Deleting+Backups.doc#DeletingBackups-DeletingaSingleRecovery" class="Hyperlink">Deleting a Single Recovery Point</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Deleting+Backups.doc#DeletingBackups-BulkRecoveryPointsDelet" class="Hyperlink">Bulk Recovery Points Deletion</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Deleting a Single Backup</h2>
+        <p>To delete a backup permanently, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click <span class="Strong">Settings</span>&#160;in the main menu of the product.</p>
+            </li>
+            <li class="li_1">
+                <p>Go to the&#160;<span class="Strong">Repositories</span>&#160;tab and click a Backup Repository.</p>
+            </li>
+            <li class="li_1">
+                <p>Click the backup you want to delete.</p>
+            </li>
+            <li class="li_1">
+                <p>In the backup page, click <span class="Strong">Delete</span>.</p>
+            </li>
+            <li class="li_1">
+                <p>Click <span class="Strong">Delete </span>in the dialog box that opens.</p>
+            </li>
+        </ol>
+        <p>Note</p>
+        <p>For a forever-incremental Backup Repository, the space occupied by the backup will be marked as “free” and reused by new data blocks on the next job runs, though the actual size of the Backup Repository may not change. To free up the space occupied by the backup, you can&#160;<a href="C:\display\NH\Reclaiming+Backup+Repository+Space" class="Hyperlink">reclaim free space</a>.</p>
+        <h2 class="Heading2">
+            <img src="../Resources/Images/Deleting+Backups/Deleting Backups.png" class="img_95" />
+        </h2>
+        <h2>Deleting Backups in Bulk</h2>
+        <p>To permanently delete a number of backups that match particular criteria, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click <span class="Strong">Settings</span>&#160;in the main menu.</p>
+            </li>
+            <li class="li_1">
+                <p>Go to the&#160;<span class="Strong">Repositories</span>&#160;tab and hover over a Backup Repository.</p>
+            </li>
+            <li class="li_2">
+                <p>Click <span class="Strong">Manage</span>&#160;and then click <span class="Strong">Delete backups in bulk</span>.<br /><br /><span class="Strong"><img src="../Resources/Images/Deleting+Backups/Deleting Backups_1.png" class="img_96" /><br /><br /></span>The&#160;<span class="Strong">Bulk Delete Backups</span> dialog box opens.<br /><br /><img src="../Resources/Images/Deleting+Backups/Deleting Backups_2.png" class="img_97" /></p>
+            </li>
+            <li class="li_1">
+                <p>Select one of the available options: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><span class="Strong">All backups not belonging to any job</span>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">All backups not belonging to any job and older than&#160;</span><span class="HTMLCode_2">X </span><span class="Strong">&lt;time_units&gt;,</span> where&#160;<span class="HTMLCode_2">X&#160;</span>is an integer and <span class="Strong">&lt;time_units&gt; </span>is either<span class="Strong"> Days, Weeks, or Months</span><br />The dialog shows the number of backups to be deleted.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p>Click <span class="Strong">Next</span>.</p>
+            </li>
+            <li class="li_2">
+                <p>A list of backups/recovery points to be deleted opens. Click <span class="Strong">Delete</span>.</p>
+            </li>
+        </ol>
+        <p>Note</p>
+        <p>For a forever-incremental Backup Repository, the space occupied by the backup will be marked as “free” and reused by new data blocks on the next job runs, though the actual size of the Backup Repository may not change. To free up space occupied by the backup, you can&#160;<a href="C:\display\NH\Reclaiming+Backup+Repository+Space" class="Hyperlink">reclaim free space</a>.</p>
+        <h2>Deleting Recovery Points</h2>
+        <p>You can delete either a single recovery point, all corrupted recovery points, or all recovery points older than the specified number of days.</p>
+        <p>Notes:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>If a backup is used by a VM/AWS EC2/physicl machine backup job,&#160;you cannot delete its last recovery point.</p>
+            </li>
+            <li class="li_1">
+                <p>A recovery point cannot be deleted while the source VM/physical machine backup job is running.</p>
+            </li>
+        </ol>
+        <h3>Deleting a Single Recovery Point</h3>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click&#160;<span class="Strong">Settings</span>&#160;in the main menu.</p>
+            </li>
+            <li class="li_1">
+                <p>Go to the&#160;<span class="Strong">Repositories</span>&#160;tab.</p>
+            </li>
+            <li class="li_1">
+                <p>Click a Backup Repository.</p>
+            </li>
+            <li class="li_1">
+                <p>Click the backup where you want to delete a recovery point.</p>
+            </li>
+            <li class="NormalWeb">
+                <p>Hover over the recovery point you want to delete.</p>
+            </li>
+            <li class="NormalWeb_1">
+                <p>Click&#160;<span class="Strong">Delete</span>.<br /><span class="Strong"><br /><img src="../Resources/Images/Deleting+Backups/Deleting Backups_3.png" class="img_98" /></span></p>
+            </li>
+            <li class="li_1">
+                <p>Click&#160;<span class="Strong">Delete Recovery Point</span>&#160;in the message box that opens.</p>
+            </li>
+        </ol>
+        <p>For forever-incremental Backup Repository, the space occupied by the recovery point will be marked as “free” and reused by new data blocks on the next job runs, though the actual size of the Backup Repository may not change. To free up space occupied by the recovery point, you can&#160;<a href="C:\display\NH\Reclaiming+Backup+Repository+Space" class="Hyperlink">reclaim free space</a>.</p>
+        <h3>Bulk Recovery Points Deletion</h3>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click&#160;<span class="Strong">Settings</span>&#160;in the main menu of the product.</p>
+            </li>
+            <li class="li_1">
+                <p>Go to the&#160;<span class="Strong">Repositories</span>&#160;tab.</p>
+            </li>
+            <li class="li_1">
+                <p>Click a Backup Repository.</p>
+            </li>
+            <li class="li_1">
+                <p>Click <span class="Strong">Manage</span>.</p>
+            </li>
+            <li class="li_1">
+                <p>Click <span class="Strong">Delete backups in bulk</span>.</p>
+            </li>
+            <li class="li_1">
+                <p>The <span class="Strong">Bulk Delete Backups</span> dialog box opens.&#160;Select criteria for recovery points to be deleted: </p>
+                <ul class="ul_2">
+                    <li class="NormalWeb">
+                        <p><span class="Strong">All recovery points older than</span><span class="HTMLCode_2"> X </span><span class="Strong">&lt;time_units&gt;</span>, where <span class="HTMLCode_2">X</span> is an integer and <span class="Strong">&lt;time_units&gt;</span> is either <span class="Strong">Days</span>, <span class="Strong">Weeks</span>, or <span class="Strong">Months</span>: When selected, the recovery points that are older than the specified time interval will be deleted.</p>
+                        <p>Note</p>
+                        <p>The following deletion exclusions are applicable:</p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p>For forever-incremental repositories: if all recovery points of a backup match the deletion criteria, the latest recovery point – no matter whether it is corrupted or not – will not be deleted.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>For incremental-with-full backups repositories: </p>
+                                <ul class="ul_3">
+                                    <li class="li_1">
+                                        <p>Recovery points that are older than the end of the time interval, but have dependent recovery points that are newer than the beginning of the time interval, will not be deleted.</p>
+                                    </li>
+                                    <li class="li_1">
+                                        <p>If all recovery points of a backup match the deletion criteria, the latest full recovery point – no matter&#160;whether it is corrupted or not – will not be deleted.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="NormalWeb">
+                        <p><span class="Strong">All corrupted recovery points</span>: If selected, all recovery points that are corrupted will be deleted. For incremental-with-full Backup Repositories, this will delete all recovery points that are dependent on corrupted recovery points.&#160;The following deletion exclusions are applicable:</p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p>For forever-incremental repositories: if a backup is used by a backup job and&#160;all its recovery points are corrupted, the latest recovery point will not be deleted.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>For incremental-with-full-backups repositories: if all recovery points of a backup are corrupted or depend on a corrupted recovery point, and match the deletion criteria, the latest full recovery point will not be deleted.</p>
+                                <p>Note</p>
+                                <p>This option is unavailable for Microsoft 365 backups. </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="NormalWeb">
+                <p>The <span class="Strong">Bulk Delete Recovery Points</span>&#160;dialog box opens displaying the list of recovery points to be deleted. Click <span class="Strong">Delete</span> to<span class="Emphasis"> c</span>onfirm the deletion of recovery points.</p>
+            </li>
+        </ol>
+    </body>
+</html>

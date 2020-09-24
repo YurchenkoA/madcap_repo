@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Backing+Up+to+Tape.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Backup Copy Job Wizard: Backups</h1>
+        <p>On&#160;the&#160;<span class="Strong">Backups</span>page of the wizard, you can add items to your backup copy job using one of the inventory views.&#160;Proceed as described in the sections below:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Copy+Job+Wizard_+Backups.doc#BackupCopyJobWizard:Backups-CreatingBac" class="Hyperlink">Creating Backup Copies Using Jobs and Groups</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Copy+Job+Wizard_+Backups.doc#BackupCopyJobWizard:Backups-CreatingBac" class="Hyperlink">Creating Backup Copies Using Backup Repositories</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Copy+Job+Wizard_+Backups.doc#BackupCopyJobWizard:Backups-CreatingBac" class="Hyperlink">Creating Backup Copies Using Policies</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Creating Backup Copies Using Jobs and Groups</h2>
+        <p>In the left pane of the page, select the<span class="Strong">&#160;Jobs &amp; Groups</span> view to use existing backup jobs and groups. The inventory tree opens in the left pane and displays the backup groups along with backups. Proceed as follows:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Optionally, filter the inventory tree by entering a string into the <span class="Strong">Search</span> box. You can enter a part of the entire name of the item.</p>
+            </li>
+            <li class="li_1">
+                <p>Select backup items by selecting the checkbox next to the item.</p>
+            </li>
+            <li class="li_1">
+                <p>The selected items appear in the right pane of the page. If necessary, reorder the selected items by dragging them to a new position. By doing so, you can specify what items you wish to back up first.</p>
+            </li>
+            <li class="li_1">
+                <p>Review the list of the selected items. If needed, remove a selected backup from the backup copy job in either of the following ways: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p>Cancel the selection of the item(s) in the left pane. This will remove the item(s) from the right pane.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>In the right pane, hover over the item you wish to remove and click the red “X” to the right. This will cancel the selection of the item(s) in the left pane.<br /><br /><img src="../Resources/Images/Backup+Copy+Job+Wizard_+Backups/Backup Copy Job Wizard Backups.png" class="img_2" /></p>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <h2>Creating Backup Copies Using Backup Repositories</h2>
+        <p>If the <span class="Strong">Backup Repositories</span> view is selected, the inventory tree displays the Backup Repositories along with backups. Proceed as described for the <span class="Strong">Jobs &amp; Groups</span> view above.<br /><br /><img src="../Resources/Images/Backup+Copy+Job+Wizard_+Backups/Backup Copy Job Wizard Backups_1.png" class="img_3" /></p>
+        <h2>Creating Backup Copies Using Policies</h2>
+        <p>If the<span class="Strong"> Policy</span>&#160;view is selected, it allows you to use job policies; refer to <a href="C:\display\NH\Managing+Job+Policies" class="Hyperlink">Managing Job Policies</a> for details. Please follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>If the items were selected in alternate views, a dialog box opens, warning you that switching to the <span class="Strong">Policy</span> view will reset your current selection. Click <span class="Strong">Switch View</span> to confirm that you wish to switch to the <span class="Strong">Policy</span> view.</p>
+            </li>
+            <li class="li_1">
+                <p>Make sure that at least one item matches the available set of policy rules. Refer to <a href="C:\display\NH\Managing+Policy+Rules" class="Hyperlink">Managing Policy Rules</a> for details.<br /><br /><img src="../Resources/Images/Backup+Copy+Job+Wizard_+Backups/Backup Copy Job Wizard Backups_2.png" class="img_4" /></p>
+            </li>
+        </ol>
+        <p>Click <span class="Strong">Next</span> to confirm that you wish to add selected items to the backup copy job. The wizard will display the next page.</p>
+        <p>Notes:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>If you add a container – a group, job, or a backup repository,– to the backup copy job, the following will happen: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p>All backups currently available in the selected container will be backed up.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>All new backups that will be created in (or moved to) the container in the future will be automatically added to the job and backed up.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p>The order in which backups are copied is important if the Transporter running the job cannot process all items simultaneously: either because the Transporter is processing other tasks at the same time or because the number of backups in the job exceeds the Transporter’s Maximum Load specified during the Transporter creation.</p>
+            </li>
+        </ol>
+        <p class="NormalWeb">&#160;</p>
+    </body>
+</html>

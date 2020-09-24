@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Global Data Deduplication and Compression</h1>
+        <p class="p_1">Backup deduplication is a method for reducing backup size by excluding duplicate data blocks from the backup. In any given organization, VMs contain duplicates of data, such as VMs deployed from the same template, VMs with the same OS, and VMs that have some (semi)identical files, such as database entries. Block-level data deduplication enables you to reduce backup size by saving only unique data blocks to the Backup Repository while replacing duplicated blocks with references to existing ones.</p>
+        <p class="p_1">
+            <img src="../Resources/Images/Global+Data+Deduplication+and+Compression/Global Data Deduplication.png" class="img_29" />
+        </p>
+        <p>NAKIVO Backup &amp; Replication automatically deduplicates all backups across an entire Backup Repository. This means that all data blocks are taken into account by backup deduplication, even if you back up your VMware VMs, Hyper-V VMs, and AWS EC2 instances to the same backup repository. While backup deduplication is turned on by default, you can disable it if, for example, you want to use a hardware-based data deduplication device such as an EMC Data Domain.</p>
+        <p>VM backup deduplication can provide a 10X to 30X reduction in storage capacity requirements. For example, you have 10 VMs running Windows Server 2016, which occupies 10 GB each. While the total amount of data is 100 GB, only one copy of OS data (10 GB) will be written to a backup repository with data deduplication, which provides 10 to 1 storage space savings.</p>
+        <p>More efficient disk space utilization allows for storing more recovery points per VM backup. In addition, lower storage space requirements save money on direct storage costs (as fewer disks are needed to store the same amount of information) and on related costs (such as cooling, electricity, and maintenance).</p>
+    </body>
+</html>

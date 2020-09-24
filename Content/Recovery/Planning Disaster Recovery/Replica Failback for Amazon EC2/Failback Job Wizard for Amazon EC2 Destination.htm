@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Failback+Job+Wizard+for+Amazon+EC2_+Destination2.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Failback Job Wizard for Amazon EC2: Destination</h1>
+        <p>On this page of the wizard, you can specify a failback destination for your Amazon EC2 instances. Failback to the original location will update/replace the existing source instance in the original location; failback to the new location will create a new instance.&#160;<span class="span_1">Refer to the following subsections on providing a destination for your Amazon EC2 replica failback job:</span></p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+Amazon+EC2_+Destination.doc#FailbackJobWizardforAmazonEC2:Destinati">Setting Original EC2 Failback Destination</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+Amazon+EC2_+Destination.doc#FailbackJobWizardforAmazonEC2:Destinati">Setting Single New EC2 Failback Destination</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+Amazon+EC2_+Destination.doc#FailbackJobWizardforAmazonEC2:Destinati">Setting Multiple New Failback Destinations for EC2 Instances</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Setting Original EC2 Failback Destination</h2>
+        <p>To use the original location as a destination for your Amazon EC2 failback job, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li>
+                <p>In the <b>Failback location</b> list, choose <b>Original Location</b>.</p>
+                <p>Important</p>
+                <p>To successfully failback an Amazon EC2 instance to its original location, the source instance should not exist.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click <b>Next</b> to go to the <b>Options</b> page.<br /><br /><img src="../../../Resources/Images/Failback+Job+Wizard+for+Amazon+EC2_+Destination/Failback Job Wizard for Amazon_6.png" class="img_1" /></p>
+            </li>
+        </ol>
+        <h2>Setting Single New EC2 Failback Destination</h2>
+        <p>To create a new destination for all instances of your&#160;Amazon EC2 failback job, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">In the&#160;<b>Failback location</b>&#160;list, choose&#160;<b>New Location</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">A set of fields opens for editing:</p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1"><b>Region</b>:&#160;Select an EC2 region from the list of available regions.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Network</b>:&#160;Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">VPC</a>&#160;to which all EC2 instances will be connected.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Subnet</b>:&#160;Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Subnet&#160;</a>to which all EC2 instances will be connected.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Security group</b>:&#160;Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Security Group</a>&#160;for all EC2 instances.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Instance access</b>:<b>&#160;</b>Specify&#160;Amazon EC2&#160;<a href="https://beta-helpcenter.nakivo.com/display/NH/AWS+EC2+Backup">Key Pair</a>&#160;options by choosing one of the following follows: </p>
+                        <ul class="ul_2">
+                            <li class="li_1">
+                                <p class="p_1"><b>Use existing key pair</b>:&#160;An existing Amazon EC2 Key Pair will be used to connect to the instances.</p>
+                            </li>
+                            <li>
+                                <p><b>Create a new key pair</b>:&#160;A new Amazon EC2 Key Pair will be created and assigned to all recovered EC2 instances. Type in a name for the new Amazon EC2 Key Pair in the&#160;<b>Key pair name&#160;</b>field and click<b>Download</b>.</p>
+                                <p>Important</p>
+                                <p>This is your only chance to save the private key file, so make sure you save the private key file in a safe place. You will need to provide the name of your key pair when you start recovered EC2 instances and the corresponding private key each time you connect to the instances.</p>
+                            </li>
+                            <li>
+                                <p><b>Proceed without key pair</b>: No AWS Key Pair will be assigned to the recovered EC2 instances.</p>
+                                <p>Important</p>
+                                <p>A key pair enables you to connect to Linux Instances via SSH. If you recover Linux Instances without a key pair, you will not be able to connect to them.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click <b>Next</b>.<br /><br /><img src="../../../Resources/Images/Failback+Job+Wizard+for+Amazon+EC2_+Destination/Failback Job Wizard for Amazon_7.png" class="img_2" /></p>
+            </li>
+        </ol>
+        <h2>Setting Multiple New Failback Destinations for EC2 Instances</h2>
+        <p>To set multiple destinations for&#160;the instances of your&#160;Amazon EC2 failback job, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">In the&#160;<b>Failback location&#160;</b>list, choose&#160;<b>New Location</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">A list of options opens for setting up. Click on the required instances to expand them.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">For the required instance, set the options as follows: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1"><b>Region</b>: Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">region</a> to which the Amazon EC2 instance will failback.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Instance type</b>: Select a <a href="C:\display\NH\Amazon+EC2+Backup">type</a> for your failback EC2 instance.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>EBS Volumes</b>:&#160;Choose whether to fail back or skip individual Amazon&#160;<a href="C:\display\NH\Amazon+EC2+Backup">EBS Volumes</a>.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Network</b>:&#160;Select an Amazon EC2 VPC to which the EC2 instance will fail back.</p>
+                    </li>
+                    <li>
+                        <p><b>Network adapter(s)</b>: Specify the&#160;<a href="https://beta-helpcenter.nakivo.com/display/NH/AWS+EC2+Backup"><span class="span_2">Amazon EC2 network adapter</span></a>&#160;options for every network adapter:</p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p class="p_1"><b>Subnet</b>: Select an Amazon EC2 <a href="C:\display\NH\Amazon+EC2+Backup">subnet</a>&#160;to which the network adapter will be connected.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Security group</b>: Select an Amazon EC2 <a href="C:\display\NH\Amazon+EC2+Backup">security group</a>&#160;for the Amazon EC2 instance.</p>
+                            </li>
+                            <li>
+                                <p><b>Primary IP</b>: Assign a valid primary IP to a current adapter.</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Instance access</b>:&#160;Specify Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">key pair</a> options as follows: </p>
+                        <ul class="ul_2">
+                            <li class="li_1">
+                                <p class="p_1"><b>Use existing key pair</b>:&#160;Choose an existing Amazon EC2 Key Pair that&#160;you want to use to connect to the failback EC2 instance.</p>
+                            </li>
+                            <li>
+                                <p><b>Create a new key pair</b>:&#160;Select this option to create a new Amazon EC2 Key Pair and assign it to the failback EC2 instance. Enter a name for the new Amazon EC2 Key Pair in the key pair name box and click&#160;<b>Download</b>.</p>
+                                <p>Important</p>
+                                <p>This is your only chance to save the private key file, so make sure to save the private key file in a safe place. You will need to provide the name of your key pair when you launch the recovered Amazon EC2 instance and the corresponding private key each time you connect to the instance.</p>
+                            </li>
+                            <li>
+                                <p><b>Proceed without key pair</b>:&#160;Select this option if you do not want to assign an AWS Key Pair to the failback EC2 instance.</p>
+                                <p>Important</p>
+                                <p>A key pair enables you to connect to Linux Instances via SSH. If you recover Linux Instances without a key pair, you will not be able to connect to them.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <ol start="4" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Next&#160;</b>to go to the&#160;<b>Options </b>page.<br /><br /><img src="../../../Resources/Images/Failback+Job+Wizard+for+Amazon+EC2_+Destination/Failback Job Wizard for Amazon_8.png" class="img_3" /></p>
+            </li>
+        </ol>
+        <p>&#160;</p>
+    </body>
+</html>

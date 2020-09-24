@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Deployment\Installing NAKIVO Backup and Replication\Installing on Linux"
+  AutoFitTables="false"
+  UseHeaderRows="true"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-18T13:07:54.4046968+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Installing+on+Linux.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+on+Linux.doc" />
+    <Url
+      Source="../../../../../Downloads/Uploading+Installer+from+Windows+Machine+to+Linux+Machine.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Uploading+Installer+from+Windows+Machine+to+Linux+Machine.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on Linux/Installing on Linux.htm"
+      TimeStamp="Fri 18.09.20 1:07:33 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Uploading+Installer+from+Windows+Machine+to+Linux+Machine/Uploading Installer from Windows.png"
+      TimeStamp="Fri 18.09.20 1:07:33 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Uploading+Installer+from+Windows+Machine+to+Linux+Machine/Uploading Installer from Windows_1.png"
+      TimeStamp="Fri 18.09.20 1:07:33 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing on Linux/Uploading Installer from Windows.htm"
+      TimeStamp="Fri 18.09.20 1:07:33 PM" />
+    <Url
+      Source="../TOCs/Installing+on+Linux.fltoc"
+      TimeStamp="Fri 18.09.20 1:07:33 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Installing+on+Linux.css"
+      TimeStamp="Fri 18.09.20 1:07:33 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Heading 3"
+      To="h3"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="style4"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="cite"
+      Style="Flare" />
+    <Map
+      From="HTML Code"
+      To="code"
+      Style="Flare" />
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

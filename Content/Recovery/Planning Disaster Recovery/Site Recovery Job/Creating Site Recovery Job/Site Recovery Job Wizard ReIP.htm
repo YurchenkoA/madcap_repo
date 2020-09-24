@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../../Resources/Stylesheets/Creating+Site+Recovery+Job.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Site Recovery Job Wizard: Re-IP</h1>
+        <p>In the&#160;<b>Re-IP</b>&#160;page of the&#160;<b>Site&#160;Recovery Job Wizard</b>&#160;you can map a source VM IP address to a specific target IP address.</p>
+        <p>Please proceed as follows:</p>
+        <ol start="1" class="ol_1">
+            <li>
+                <p>Select&#160;<b>Enable Re-IP</b>.</p>
+                <p>Note</p>
+                <p>&#160;A failover or a failback action needs to be in the actions list to allow enabling Re-IP for your site recovery job.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">The&#160;<cite>Re-IP Rules</cite>&#160;section opens. Click the&#160;<b>Select VMs</b>&#160;link.</p>
+            </li>
+            <li>
+                <p>The&#160;<b>Re-IP</b>&#160;dialog opens. In the list of your source VMs, select at least one, select the credentials to be used for each VM, and close the dialog.</p>
+                <p>Note</p>
+                <p>Re-IP rules will be applied only to VMs that have a static IPv4 address configured.</p><i class="i_1">&#160;</i> </li>
+            <li class="li_1">
+                <p class="p_1">You have the following options: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1">Create a new rule: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p class="p_1">Click&#160;<b>Create new rule</b>.</p>
+                            </li>
+                            <li>
+                                <p>The&#160;<b>New Re-IP Rule</b>&#160;dialog opens. Enter source and target settings for the Re-IP rule and click&#160;<b>Save</b>.<br /><br />&#160;<img src="../../../../Resources/Images/Site+Recovery+Job+Wizard_+Re-IP/Site Recovery Job Wizard Re.png" class="img_8" /></p>
+                                <p>Note</p>
+                                <p>You can use wildcards for IP addresses. For example, when the 192.168.1.* -&gt; 10.30.30.* Re-IP rule is available, it will change the source VM IP address like 192.168.1.50 to the 10.30.30.50 IP address, for your site recovery job.<br />When there are several Re-IP rules applicable to your source VM, the application will define the most suitable one and apply it to the source VM IP address.</p><i class="i_1">&#160;</i> </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Add an existing rule: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p class="p_1">Click&#160;<b>Add existing rule</b>.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1">The&#160;<b>Re-IP Rules</b>&#160;dialog box opens. Choose an appropriate Re-IP rule and close the dialog.<br /><img src="../../../../Resources/Images/Site+Recovery+Job+Wizard_+Re-IP/Site Recovery Job Wizard Re_1.png" class="img_9" /><br />&#160;</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Edit an existing Re-IP rule: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p class="p_1">Hover the pointer over the necessary item in the&#160;<b>Re-IP Rules</b>&#160;list and then click the&#160;<b>Edit</b>&#160;button to the right of the item.</p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">The<b>&#160;Edit Re-IP Rule</b>&#160;dialog opens. Edit the necessary properties of the Re-IP rule and then click&#160;<b>Save</b>.<br /><br /><img src="../../../../Resources/Images/Site+Recovery+Job+Wizard_+Re-IP/Site Recovery Job Wizard Re_2.png" class="img_10" /></p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">Delete an existing mapping: hover the pointer over the necessary item in the&#160;<b>Re-IP Rules</b>&#160;list and then click the&#160;<b>Delete</b>&#160;icon to the right of the item.<br /><br />&#160;<img src="../../../../Resources/Images/Site+Recovery+Job+Wizard_+Re-IP/Site Recovery Job Wizard Re_3.png" class="img_11" /></p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">To leave the list of existing Re-IP rules intact, go to the next page of the wizard.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Next&#160;</b>to go to the next page of the wizard.</p>
+            </li>
+        </ol>
+    </body>
+</html>

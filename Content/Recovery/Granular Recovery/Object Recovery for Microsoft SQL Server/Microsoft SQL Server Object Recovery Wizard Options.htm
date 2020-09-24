@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Microsoft+SQL+Server+Object+Recovery+Wizard_+Backup.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 class="Heading1">Microsoft SQL Server Object Recovery Wizard: Options</h1>
+        <p class="NormalWeb">On the <span class="Strong">Options</span> page of the wizard, set the options for the recovery job.</p>
+        <h2 class="Heading2_1">Recovery Scope</h2>
+        <p class="NormalWeb"><span class="span_1">Set the recovery scope by selecting either </span><span class="Strong_1">Recovery schema and data</span><span class="span_1"> or </span><span class="Strong_1">Recover only schema</span><span class="span_1">.<br /><br /><img src="../../../Resources/Images/Microsoft+SQL+Server+Object+Recovery+Wizard_+Options/Microsoft SQL Server Object_2.png" class="img_3" /></span>
+        </p>
+        <h2 class="Heading2_1">Recovery Settings</h2>
+        <p class="NormalWeb_2">Set up the recovery type and overwrite behavior.</p>
+        <h3 class="Heading3_1">Recovery Type</h3>
+        <ul class="ul_2">
+            <li class="NormalWeb">
+                <p class="NormalWeb"><span class="Strong">Recover to original location</span>:&#160;Recover objects to the same server and SQL instance where they were originally located.</p>
+            </li>
+            <li class="NormalWeb">
+                <p class="NormalWeb"><span class="Strong">Recover to custom location</span>:&#160;Recover objects to a different instance.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><span class="Strong">Export</span>:&#160;Export objects as files to a specified location.</p>
+                <ul class="ul_1">
+                    <li class="NormalWeb">
+                        <p class="NormalWeb"><span class="Strong">SQL instance</span>:&#160;Select the target SQL instance.</p>
+                    </li>
+                    <li class="NormalWeb">
+                        <p class="NormalWeb"><span class="Strong">Target database</span>:&#160;Select the target database of the selected instance.</p>
+                    </li>
+                    <li class="NormalWeb">
+                        <p class="NormalWeb"><span class="Strong">Local folder on Recovery Server</span>:&#160;Specify a path to save objects.</p>
+                    </li>
+                    <li class="NormalWeb">
+                        <p class="NormalWeb"><span class="Strong">CIFS share</span>: Specify a remote CIFS (Windows) file share and your credentials for it (or select them from the Manage credentials list).<br /><br /><img src="../../../Resources/Images/Microsoft+SQL+Server+Object+Recovery+Wizard_+Options/Microsoft SQL Server Object_2.jpg" class="img_4" /></p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <p class="NormalWeb"><span class="span_1">If you are using a domain name, enter it in the following format: </span><span class="HTMLCode_1">domain\username</span>
+        </p>
+        <h3 class="Heading3"><span class="span_2">Overwrite Behavior</span>
+        </h3>
+        <p class="NormalWeb_3">Select what to do if the recovered item conflicts with an existing one:</p>
+        <ul class="ul_2">
+            <li class="li_1">
+                <p class="p_1"><span class="Strong">Rename recovered item if such item exists</span>
+                </p>
+            </li>
+            <li class="NormalWeb">
+                <p class="NormalWeb"><span class="Strong">Skip recovered item if such item exists</span>
+                </p>
+            </li>
+            <li class="NormalWeb_1">
+                <p class="NormalWeb_1"><span class="Strong">Overwrite the original item if such item exists.</span>
+                    <br />
+                    <br />
+                    <img src="../../../Resources/Images/Microsoft+SQL+Server+Object+Recovery+Wizard_+Options/Microsoft SQL Server Object_2_1.png" class="img_5" />
+                </p>
+            </li>
+        </ul>
+        <p class="NormalWeb">Click <span class="Strong">Recover</span> to start the object recovery process. The <span class="Strong">Finish</span> page opens.</p>
+        <p class="NormalWeb_1">&#160;</p>
+        <p>&#160;</p>
+        <p class="NormalWeb">&#160;</p>
+    </body>
+</html>

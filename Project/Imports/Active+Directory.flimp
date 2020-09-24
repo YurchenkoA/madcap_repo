@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Overview"
+  LastImport="2020-09-23T14:33:59.9194932+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Active+Directory.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Active+Directory.doc" />
+    <Url
+      Source="../../../../../Downloads/Advanced+Bandwidth+Throttling.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Advanced+Bandwidth+Throttling.doc" />
+    <Url
+      Source="../../../../../Downloads/Amazon+EC2+Backup.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Amazon+EC2+Backup.doc" />
+    <Url
+      Source="../../../../../Downloads/Application+and+Database+Support.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Application+and+Database+Support.doc" />
+    <Url
+      Source="../../../../../Downloads/Automation.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Automation.doc" />
+    <Url
+      Source="../../../../../Downloads/BaaS.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/BaaS.doc" />
+    <Url
+      Source="../../../../../Downloads/Backup+Copy.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Backup+Copy.doc" />
+    <Url
+      Source="../../../../../Downloads/Backup+Size+Reduction.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Backup+Size+Reduction.doc" />
+    <Url
+      Source="../../../../../Downloads/Backup+to+Cloud.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Backup+to+Cloud.doc" />
+    <Url
+      Source="../../../../../Downloads/Branding.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Branding.doc" />
+    <Url
+      Source="../../../../../Downloads/Calendar.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Calendar.doc" />
+    <Url
+      Source="../../../../../Downloads/Container+Protection.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Container+Protection.doc" />
+    <Url
+      Source="../../../../../Downloads/Copy of Active+Directory.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Copy of Active+Directory.doc" />
+    <Url
+      Source="../../../../../Downloads/Cross-Platform+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Cross-Platform+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/Data+Protection.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Data+Protection.doc" />
+    <Url
+      Source="../../../../../Downloads/Data+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Data+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/Deduplication+Appliance+Support.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Deduplication+Appliance+Support.doc" />
+    <Url
+      Source="../../../../../Downloads/Deployment+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Deployment+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Direct+SAN+Access+for+VMware.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Direct+SAN+Access+for+VMware.doc" />
+    <Url
+      Source="../../../../../Downloads/Disaster+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Disaster+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/EMC+DD+Boost.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/EMC+DD+Boost.doc" />
+    <Url
+      Source="../../../../../Downloads/Encryption+in+Flight+and+at+Rest.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Encryption+in+Flight+and+at+Rest.doc" />
+    <Url
+      Source="../../../../../Downloads/Full+Synthetic+Data+Storage.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Full+Synthetic+Data+Storage.doc" />
+    <Url
+      Source="../../../../../Downloads/Global+Data+Deduplication+and+Compression.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Global+Data+Deduplication+and+Compression.doc" />
+    <Url
+      Source="../../../../../Downloads/Global+Search.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Global+Search.doc" />
+    <Url
+      Source="../../../../../Downloads/Hot+Add+for+VMware.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Hot+Add+for+VMware.doc" />
+    <Url
+      Source="../../../../../Downloads/HPE+StoreOnce+Catalyst.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/HPE+StoreOnce+Catalyst.doc" />
+    <Url
+      Source="../../../../../Downloads/HTTP+APIs.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/HTTP+APIs.doc" />
+    <Url
+      Source="../../../../../Downloads/Incremental+Jobs.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Incremental+Jobs.doc" />
+    <Url
+      Source="../../../../../Downloads/Instant+File+Recovery+to+Source.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Instant+File+Recovery+to+Source.doc" />
+    <Url
+      Source="../../../../../Downloads/Instant+Object+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Instant+Object+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/Instant+VM+Recovery+-+Flash+VM+Boot.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Instant+VM+Recovery+-+Flash+VM+Boot.doc" />
+    <Url
+      Source="../../../../../Downloads/Integration.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Integration.doc" />
+    <Url
+      Source="../../../../../Downloads/Job+Chaining.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Job+Chaining.doc" />
+    <Url
+      Source="../../../../../Downloads/Jobs+and+Concurrent+Tasks.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Jobs+and+Concurrent+Tasks.doc" />
+    <Url
+      Source="../../../../../Downloads/LAN-Free+Data+Transfer.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/LAN-Free+Data+Transfer.doc" />
+    <Url
+      Source="../../../../../Downloads/License+Delegation.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/License+Delegation.doc" />
+    <Url
+      Source="../../../../../Downloads/Licensing.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Licensing.doc" />
+    <Url
+      Source="../../../../../Downloads/Log+Truncation.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Log+Truncation.doc" />
+    <Url
+      Source="../../../../../Downloads/Microsoft+365+Backup.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Microsoft+365+Backup.doc" />
+    <Url
+      Source="../../../../../Downloads/Multi-Tenancy.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Multi-Tenancy.doc" />
+    <Url
+      Source="../../../../../Downloads/NEC+HYDRAstor.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/NEC+HYDRAstor.doc" />
+    <Url
+      Source="../../../../../Downloads/Network+Acceleration.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Network+Acceleration.doc" />
+    <Url
+      Source="../../../../../Downloads/Oracle+Database+Backup.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Oracle+Database+Backup.doc" />
+    <Url
+      Source="../../../../../Downloads/Overview.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Overview.doc" />
+    <Url
+      Source="../../../../../Downloads/Performance.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Performance.doc" />
+    <Url
+      Source="../../../../../Downloads/Physical+Machine+Backup.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Physical+Machine+Backup.doc" />
+    <Url
+      Source="../../../../../Downloads/Physical+to+Virtual+Machine+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Physical+to+Virtual+Machine+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/Policy-Based+Data+Protection.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Policy-Based+Data+Protection.doc" />
+    <Url
+      Source="../../../../../Downloads/Pre+and+Post+Job+Scripts.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Pre+and+Post+Job+Scripts.doc" />
+    <Url
+      Source="../../../../../Downloads/Reliability.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Reliability.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+From+Backup.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+From+Backup.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Types.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Types.doc" />
+    <Url
+      Source="../../../../../Downloads/Self-Backup+Feature.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Self-Backup+Feature.doc" />
+    <Url
+      Source="../../../../../Downloads/Self-Service.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Self-Service.doc" />
+    <Url
+      Source="../../../../../Downloads/Site+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Site+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/Skipping+Swap+Files+and+Partitions.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Skipping+Swap+Files+and+Partitions.doc" />
+    <Url
+      Source="../../../../../Downloads/Skipping+Unused+Blocks.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Skipping+Unused+Blocks.doc" />
+    <Url
+      Source="../../../../../Downloads/Tape+Backup.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Tape+Backup.doc" />
+    <Url
+      Source="../../../../../Downloads/Universal+Object+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Universal+Object+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/Usability.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Usability.doc" />
+    <Url
+      Source="../../../../../Downloads/Virtual+Machine+Backup.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Virtual+Machine+Backup.doc" />
+    <Url
+      Source="../../../../../Downloads/VM+Verification.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/VM+Verification.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Overview/Active Directory.htm"
+      TimeStamp="Wed 23.09.20 2:33:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling.png"
+      TimeStamp="Wed 23.09.20 2:33:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_1.png"
+      TimeStamp="Wed 23.09.20 2:33:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_2.png"
+      TimeStamp="Wed 23.09.20 2:33:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_3.png"
+      TimeStamp="Wed 23.09.20 2:33:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_4.png"
+      TimeStamp="Wed 23.09.20 2:33:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_5.png"
+      TimeStamp="Wed 23.09.20 2:33:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_6.png"
+      TimeStamp="Wed 23.09.20 2:33:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_7.png"
+      TimeStamp="Wed 23.09.20 2:33:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_8.png"
+      TimeStamp="Wed 23.09.20 2:33:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_9.png"
+      TimeStamp="Wed 23.09.20 2:33:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_10.png"
+      TimeStamp="Wed 23.09.20 2:33:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Advanced+Bandwidth+Throttling/Advanced Bandwidth Throttling_11.png"
+      TimeStamp="Wed 23.09.20 2:33:39 PM" />
+    <Url
+      Source="../../Content/Overview/Advanced Bandwidth Throttling.htm"
+      TimeStamp="Wed 23.09.20 2:33:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Amazon+EC2+Backup/Amazon EC2 Backup.png"
+      TimeStamp="Wed 23.09.20 2:33:39 PM" />
+    <Url
+      Source="../../Content/Overview/Amazon EC2 Backup.htm"
+      TimeStamp="Wed 23.09.20 2:33:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Application+and+Database+Support/Application and Database Support.png"
+      TimeStamp="Wed 23.09.20 2:33:39 PM" />
+    <Url
+      Source="../../Content/Overview/Application and Database Support.htm"
+      TimeStamp="Wed 23.09.20 2:33:50 PM" />
+    <Url
+      Source="../../Content/Overview/Automation.htm"
+      TimeStamp="Wed 23.09.20 2:33:50 PM" />
+    <Url
+      Source="../../Content/Overview/BaaS.htm"
+      TimeStamp="Wed 23.09.20 2:33:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Backup+Copy/Backup Copy.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Backup+Copy/Backup Copy_1.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Backup+Copy/Backup Copy_2.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Backup+Copy/Backup Copy_3.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Backup+Copy/Backup Copy_4.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Backup+Copy/Backup Copy_5.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Backup+Copy/Backup Copy_6.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Overview/Backup Copy.htm"
+      TimeStamp="Wed 23.09.20 2:33:51 PM" />
+    <Url
+      Source="../../Content/Overview/Backup Size Reduction.htm"
+      TimeStamp="Wed 23.09.20 2:33:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Backup+to+Cloud/Backup to Cloud.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Overview/Backup to Cloud.htm"
+      TimeStamp="Wed 23.09.20 2:33:51 PM" />
+    <Url
+      Source="../../Content/Overview/Branding.htm"
+      TimeStamp="Wed 23.09.20 2:33:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Calendar/Calendar.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Overview/Calendar.htm"
+      TimeStamp="Wed 23.09.20 2:33:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Container+Protection/Container Protection.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Container+Protection/Container Protection_1.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Overview/Container Protection.htm"
+      TimeStamp="Wed 23.09.20 2:33:51 PM" />
+    <Url
+      Source="../../Content/Overview/Active Directory_1.htm"
+      TimeStamp="Wed 23.09.20 2:33:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Cross-Platform+Recovery/Cross Platform Recovery.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Overview/Cross Platform Recovery.htm"
+      TimeStamp="Wed 23.09.20 2:33:51 PM" />
+    <Url
+      Source="../../Content/Overview/Data Protection.htm"
+      TimeStamp="Wed 23.09.20 2:33:51 PM" />
+    <Url
+      Source="../../Content/Overview/Data Recovery.htm"
+      TimeStamp="Wed 23.09.20 2:33:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Deduplication+Appliance+Support/Deduplication Appliance Support.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Overview/Deduplication Appliance Support.htm"
+      TimeStamp="Wed 23.09.20 2:33:51 PM" />
+    <Url
+      Source="../../Content/Overview/Deployment Options.htm"
+      TimeStamp="Wed 23.09.20 2:33:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Direct+SAN+Access+for+VMware/Direct SAN Access for VMware.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Overview/Direct SAN Access for VMware.htm"
+      TimeStamp="Wed 23.09.20 2:33:52 PM" />
+    <Url
+      Source="../../Content/Overview/Disaster Recovery.htm"
+      TimeStamp="Wed 23.09.20 2:33:52 PM" />
+    <Url
+      Source="../../Content/Overview/EMC DD Boost.htm"
+      TimeStamp="Wed 23.09.20 2:33:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Encryption+in+Flight+and+at+Rest/Encryption in Flight and at.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Encryption+in+Flight+and+at+Rest/Encryption in Flight and at_1.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Overview/Encryption in Flight and at.htm"
+      TimeStamp="Wed 23.09.20 2:33:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Full+Synthetic+Data+Storage/Full Synthetic Data Storage.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Full+Synthetic+Data+Storage/Full Synthetic Data Storage_1.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Overview/Full Synthetic Data Storage.htm"
+      TimeStamp="Wed 23.09.20 2:33:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Global+Data+Deduplication+and+Compression/Global Data Deduplication.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Overview/Global Data Deduplication.htm"
+      TimeStamp="Wed 23.09.20 2:33:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Global+Search/Global Search.png"
+      TimeStamp="Wed 23.09.20 2:33:40 PM" />
+    <Url
+      Source="../../Content/Overview/Global Search.htm"
+      TimeStamp="Wed 23.09.20 2:33:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Hot+Add+for+VMware/Hot Add for VMware.png"
+      TimeStamp="Wed 23.09.20 2:33:41 PM" />
+    <Url
+      Source="../../Content/Overview/Hot Add for VMware.htm"
+      TimeStamp="Wed 23.09.20 2:33:52 PM" />
+    <Url
+      Source="../../Content/Overview/HPE StoreOnce Catalyst.htm"
+      TimeStamp="Wed 23.09.20 2:33:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/HTTP+APIs/HTTP APIs.png"
+      TimeStamp="Wed 23.09.20 2:33:41 PM" />
+    <Url
+      Source="../../Content/Overview/HTTP APIs.htm"
+      TimeStamp="Wed 23.09.20 2:33:52 PM" />
+    <Url
+      Source="../../Content/Overview/Incremental Jobs.htm"
+      TimeStamp="Wed 23.09.20 2:33:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Instant+File+Recovery+to+Source/Instant File Recovery to Source.png"
+      TimeStamp="Wed 23.09.20 2:33:41 PM" />
+    <Url
+      Source="../../Content/Overview/Instant File Recovery to Source.htm"
+      TimeStamp="Wed 23.09.20 2:33:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Instant+Object+Recovery/Instant Object Recovery.png"
+      TimeStamp="Wed 23.09.20 2:33:41 PM" />
+    <Url
+      Source="../../Content/Overview/Instant Object Recovery.htm"
+      TimeStamp="Wed 23.09.20 2:33:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Instant+VM+Recovery+-+Flash+VM+Boot/Instant VM Recovery Flash.png"
+      TimeStamp="Wed 23.09.20 2:33:41 PM" />
+    <Url
+      Source="../../Content/Overview/Instant VM Recovery Flash.htm"
+      TimeStamp="Wed 23.09.20 2:33:53 PM" />
+    <Url
+      Source="../../Content/Overview/Integration.htm"
+      TimeStamp="Wed 23.09.20 2:33:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Job+Chaining/Job Chaining.png"
+      TimeStamp="Wed 23.09.20 2:33:41 PM" />
+    <Url
+      Source="../../Content/Overview/Job Chaining.htm"
+      TimeStamp="Wed 23.09.20 2:33:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Jobs+and+Concurrent+Tasks/Jobs and Concurrent Tasks.png"
+      TimeStamp="Wed 23.09.20 2:33:41 PM" />
+    <Url
+      Source="../../Content/Overview/Jobs and Concurrent Tasks.htm"
+      TimeStamp="Wed 23.09.20 2:33:53 PM" />
+    <Url
+      Source="../../Content/Overview/LAN Free Data Transfer.htm"
+      TimeStamp="Wed 23.09.20 2:33:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/License+Delegation/License Delegation.png"
+      TimeStamp="Wed 23.09.20 2:33:41 PM" />
+    <Url
+      Source="../../Content/Overview/License Delegation.htm"
+      TimeStamp="Wed 23.09.20 2:33:53 PM" />
+    <Url
+      Source="../../Content/Overview/Licensing.htm"
+      TimeStamp="Wed 23.09.20 2:33:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Log+Truncation/Log Truncation.png"
+      TimeStamp="Wed 23.09.20 2:33:41 PM" />
+    <Url
+      Source="../../Content/Overview/Log Truncation.htm"
+      TimeStamp="Wed 23.09.20 2:33:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Microsoft+365+Backup/Microsoft 365 Backup.png"
+      TimeStamp="Wed 23.09.20 2:33:41 PM" />
+    <Url
+      Source="../../Content/Overview/Microsoft 365 Backup.htm"
+      TimeStamp="Wed 23.09.20 2:33:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Multi-Tenancy/Multi Tenancy.png"
+      TimeStamp="Wed 23.09.20 2:33:41 PM" />
+    <Url
+      Source="../../Content/Overview/Multi Tenancy.htm"
+      TimeStamp="Wed 23.09.20 2:33:53 PM" />
+    <Url
+      Source="../../Content/Overview/NEC HYDRAstor.htm"
+      TimeStamp="Wed 23.09.20 2:33:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Network+Acceleration/Network Acceleration.png"
+      TimeStamp="Wed 23.09.20 2:33:41 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Network+Acceleration/Network Acceleration_1.png"
+      TimeStamp="Wed 23.09.20 2:33:41 PM" />
+    <Url
+      Source="../../Content/Overview/Network Acceleration.htm"
+      TimeStamp="Wed 23.09.20 2:33:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Oracle+Database+Backup/Oracle Database Backup.jpg"
+      TimeStamp="Wed 23.09.20 2:33:42 PM" />
+    <Url
+      Source="../../Content/Overview/Oracle Database Backup.htm"
+      TimeStamp="Wed 23.09.20 2:33:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Overview/Overview.png"
+      TimeStamp="Wed 23.09.20 2:33:42 PM" />
+    <Url
+      Source="../../Content/Overview/Overview.htm"
+      TimeStamp="Wed 23.09.20 2:33:54 PM" />
+    <Url
+      Source="../../Content/Overview/Performance.htm"
+      TimeStamp="Wed 23.09.20 2:33:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Physical+Machine+Backup/Physical Machine Backup.jpg"
+      TimeStamp="Wed 23.09.20 2:33:42 PM" />
+    <Url
+      Source="../../Content/Overview/Physical Machine Backup.htm"
+      TimeStamp="Wed 23.09.20 2:33:54 PM" />
+    <Url
+      Source="../../Content/Overview/Physical to Virtual Machine.htm"
+      TimeStamp="Wed 23.09.20 2:33:54 PM" />
+    <Url
+      Source="../../Content/Overview/Policy Based Data Protection.htm"
+      TimeStamp="Wed 23.09.20 2:33:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Pre+and+Post+Job+Scripts/Pre and Post Job Scripts.png"
+      TimeStamp="Wed 23.09.20 2:33:49 PM" />
+    <Url
+      Source="../../Content/Overview/Pre and Post Job Scripts.htm"
+      TimeStamp="Wed 23.09.20 2:33:54 PM" />
+    <Url
+      Source="../../Content/Overview/Reliability.htm"
+      TimeStamp="Wed 23.09.20 2:33:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+From+Backup/Replication From Backup.png"
+      TimeStamp="Wed 23.09.20 2:33:49 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+From+Backup/Replication From Backup_1.png"
+      TimeStamp="Wed 23.09.20 2:33:49 PM" />
+    <Url
+      Source="../../Content/Overview/Replication From Backup.htm"
+      TimeStamp="Wed 23.09.20 2:33:54 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Types/Replication Types.png"
+      TimeStamp="Wed 23.09.20 2:33:49 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Types/Replication Types_1.png"
+      TimeStamp="Wed 23.09.20 2:33:49 PM" />
+    <Url
+      Source="../../Content/Overview/Replication Types.htm"
+      TimeStamp="Wed 23.09.20 2:33:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Self-Backup+Feature/Self Backup Feature.png"
+      TimeStamp="Wed 23.09.20 2:33:49 PM" />
+    <Url
+      Source="../../Content/Overview/Self Backup Feature.htm"
+      TimeStamp="Wed 23.09.20 2:33:55 PM" />
+    <Url
+      Source="../../Content/Overview/Self Service.htm"
+      TimeStamp="Wed 23.09.20 2:33:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Site+Recovery/Site Recovery.png"
+      TimeStamp="Wed 23.09.20 2:33:49 PM" />
+    <Url
+      Source="../../Content/Overview/Site Recovery.htm"
+      TimeStamp="Wed 23.09.20 2:33:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Skipping+Swap+Files+and+Partitions/Skipping Swap Files and Partitions.png"
+      TimeStamp="Wed 23.09.20 2:33:50 PM" />
+    <Url
+      Source="../../Content/Overview/Skipping Swap Files and Partitions.htm"
+      TimeStamp="Wed 23.09.20 2:33:55 PM" />
+    <Url
+      Source="../../Content/Overview/Skipping Unused Blocks.htm"
+      TimeStamp="Wed 23.09.20 2:33:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tape+Backup/Tape Backup.png"
+      TimeStamp="Wed 23.09.20 2:33:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tape+Backup/Tape Backup_1.png"
+      TimeStamp="Wed 23.09.20 2:33:50 PM" />
+    <Url
+      Source="../../Content/Overview/Tape Backup.htm"
+      TimeStamp="Wed 23.09.20 2:33:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Universal+Object+Recovery/Universal Object Recovery.png"
+      TimeStamp="Wed 23.09.20 2:33:50 PM" />
+    <Url
+      Source="../../Content/Overview/Universal Object Recovery.htm"
+      TimeStamp="Wed 23.09.20 2:33:55 PM" />
+    <Url
+      Source="../../Content/Overview/Usability.htm"
+      TimeStamp="Wed 23.09.20 2:33:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Virtual+Machine+Backup/Virtual Machine Backup.png"
+      TimeStamp="Wed 23.09.20 2:33:50 PM" />
+    <Url
+      Source="../../Content/Overview/Virtual Machine Backup.htm"
+      TimeStamp="Wed 23.09.20 2:33:55 PM" />
+    <Url
+      Source="../../Content/Overview/VM Verification.htm"
+      TimeStamp="Wed 23.09.20 2:33:55 PM" />
+    <Url
+      Source="../TOCs/Active+Directory.fltoc"
+      TimeStamp="Wed 23.09.20 2:33:50 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Active+Directory.css"
+      TimeStamp="Wed 23.09.20 2:33:50 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="auto-cursor-target"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Heading 3"
+      To="h3"
+      Style="Flare" />
+    <Map
+      From="Heading 4"
+      To="h4"
+      Style="Flare" />
+    <Map
+      From="nkv-about-text"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="nkv-add-about"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="cite"
+      Style="Flare" />
+    <Map
+      From="expand-control-text"
+      To="b.expand-control-text"
+      Style="Word" />
+    <Map
+      From="HTML Code"
+      To="code"
+      Style="Flare" />
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

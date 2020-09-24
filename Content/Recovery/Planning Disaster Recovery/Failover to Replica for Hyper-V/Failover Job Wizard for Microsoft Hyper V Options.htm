@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Networks.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Failover Job Wizard for Microsoft Hyper-V: Options</h1>
+        <p>On the Options page of the wizard, specify the options for the Microsoft Hyper-V failover job.</p>
+        <ul style="padding-left: 0px;list-style-type: disc;margin-left: 36pt;">
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;"><a href="file:///C:/Users/User/Downloads/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Options.doc#FailoverJobWizardforMicrosoftHyper-V:Op">Job Options</a>
+                </p>
+            </li>
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;"><a href="file:///C:/Users/User/Downloads/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Options.doc#FailoverJobWizardforMicrosoftHyper-V:Op">Pre and Post Actions</a>
+                </p>
+            </li>
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;"><a href="file:///C:/Users/User/Downloads/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Options.doc#FailoverJobWizardforMicrosoftHyper-V:Op">Completing the New Failover Job Wizard for Microsoft Hyper-V</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Job Options</h2>
+        <p>In this section, you can specify the following failover job options:</p>
+        <ol style="padding-left: 0px;list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">Job name: A string of 50 or fewer characters specifying the name of the failover job.</p>
+            </li>
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">Power off source VMs: Select this checkbox to power off source VMs when the failover job has completed.</p>
+            </li>
+        </ol>
+        <h2>Pre and Post Actions</h2>
+        <p>You can enable the following pre- and post-actions:</p>
+        <ol style="padding-left: 0px;list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">Send job run reports to: When selected, a job report is sent to the specified recipients each time the failover job has completed. This option overrides the default setting in the NAKIVO Backup &amp; Replication Settings.</p>
+            </li>
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">Run local pre-job script: When selected, a dialog box opens. You can specify the following options of the <a href="C:\display\NH\Pre+and+Post+Job+Scripts">pre-job script</a> to be executed in this dialog box: </p>
+                <ol style="padding-left: 0px;list-style-type: decimal;margin-left: 36pt;" start="1">
+                    <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                        <p style="margin-top: 5pt;margin-bottom: 5pt;">Script path: A local path to the script on the machine where the Director is installed. A script interpreter should also be specified.</p>
+                    </li>
+                    <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                        <p style="margin-top: 5pt;margin-bottom: 5pt;">Job behavior: The following options are available: </p>
+                        <ul style="padding-left: 0px;list-style-type: square;margin-left: 36pt;">
+                            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                                <p style="margin-top: 5pt;margin-bottom: 5pt;">Wait for the script to finish: This is the default option.</p>
+                            </li>
+                            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                                <p style="margin-top: 5pt;margin-bottom: 5pt;">Do not wait for the script to finish.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                        <p style="margin-top: 5pt;margin-bottom: 5pt;">Error handling: The following options are available: </p>
+                        <ul style="padding-left: 0px;list-style-type: square;margin-left: 36pt;">
+                            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                                <p style="margin-top: 5pt;margin-bottom: 5pt;">Continue the job on script failure: This is the default option.</p>
+                            </li>
+                            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                                <p style="margin-top: 5pt;margin-bottom: 5pt;">Fail the job on script failure.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">Run local post job script: When selected, a dialog box opens in which you can specify the options of the <a href="C:\display\NH\Pre+and+Post+Job+Scripts">post-job script</a> to be executed on the machine where the product is installed. Proceed as for the pre-job script.</p>
+                <p>
+                    <br />
+                    <img src="../../../Resources/Images/Failover+Job+Wizard+for+Microsoft+Hyper-V_+Options/Failover Job Wizard for Microsoft_1.png" style="visibility: visible;mso-wrap-style: square;width: 468px;height: 172px;" />
+                </p>
+            </li>
+        </ol>
+        <h2>Completing the New Failover Job Wizard for Microsoft Hyper-V</h2>
+        <p>Click&#160;Finish&#160;or&#160;Finish &amp; Run&#160;to complete the job creation.</p>
+        <p>Note</p>
+        <p>If you click Finish &amp; Run, you will have to define the scope of your job. Please refer to <a href="C:\display\NH\Running+Jobs+on+Demand">Running Jobs on Demand</a> for details.</p>
+    </body>
+</html>

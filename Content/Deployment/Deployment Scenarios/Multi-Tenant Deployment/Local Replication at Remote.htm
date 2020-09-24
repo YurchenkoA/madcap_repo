@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Local Replication at Remote Site</h1>
+        <ul>
+            <li><a href="#Deployme">Deployment Scenario</a>
+            </li>
+            <li><a href="#Deployme2">Deployment Diagram</a>
+            </li>
+            <li><a href="#Deployme3">Deployment Steps</a>
+            </li>
+            <li><a href="#Connecti">Connections</a>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <h2><a name="Deployme"></a>Deployment Scenario</h2>
+        <p>In this scenario, tenant VMs are running and replicated locally at the remote sites.</p>
+        <p><b>Example</b>
+        </p>
+        <p>An Enterprise has two branch offices running VMware virtual infrastructure. The IT manager located at the headquarters is responsible for the Enterprise data protection and needs to replicate business critical VMs locally at the branch offices for high availability.</p>
+        <h2><a name="Deployme2"></a>Deployment Diagram</h2>
+        <p>The deployment diagram for the above scenario is as follows:</p>
+        <p class="p_112">
+            <img src="../../../Resources/Images/02. Deployment/Local Replication at Remote.jpg" class="img_26" />
+        </p>
+        <h2><a name="Deployme3"></a>Deployment Steps</h2>
+        <p>To deploy the above scenario, perform the following steps:</p>
+        <ol>
+            <li>Install the Director in multi-tenant mode at the master site.</li>
+            <li>Install at least one Transporter at each remote site.</li>
+            <li>For each tenant, prepare a separate folder at the remote site for creating a Backup Repository. </li>
+        </ol>
+        <h2><a name="Connecti"></a>Connections</h2>
+        <p>The implementation of the above scenario requires that the following connections be available:</p>
+        <table>
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="font-size: 10pt;font-weight: bold;text-align: center;background-color: #dcdcdc;">Connection</td>
+                    <td style="font-size: 10pt;font-weight: bold;text-align: center;background-color: #dcdcdc;">Description</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;">A</td>
+                    <td style="font-size: 10pt;">Connection from the machine on which the Director is installed to vCenter servers and ESXi hosts that run source VMs at remote sites. The port used for communication with vCenter servers and ESXi hosts (443 by default) is open in firewalls.</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;">B</td>
+                    <td style="font-size: 10pt;">Connection from the machine on which the Director is installed to machines at remote sites where Transporters are installed. The port used for communication with the Transporters (9446 by default) is open in firewalls.</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;">C</td>
+                    <td style="font-size: 10pt;">Connection from the machine on which the Director is installed to vCenter servers and ESXi hosts where VM replicas will be created at remote sites. The port used for communication with vCenter servers and ESXi hosts (443 by default) is open in firewalls.</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;">D</td>
+                    <td style="font-size: 10pt;">At remote sites, connections from machines where Transporters are installed to vCenter servers and ESXi hosts running source VMs.</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;">E</td>
+                    <td style="font-size: 10pt;">At remote sites, connections from machines where Transporters are installed to vCenter servers and ESXi hosts where VM replicas will be created.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p><b>Note</b>
+        </p>
+        <p>For security purposes, a VPN connection should be established between the master site and remote sites.</p>
+    </body>
+</html>

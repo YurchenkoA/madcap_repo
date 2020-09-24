@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/Auto+Updating+NAKIVO+Backup+and+Replication.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Updating Virtual Appliance</h1>
+        <p class="p_5">Prior to updating your virtual appliance (VA):</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Make sure that no jobs or repository maintenance tasks are running in the product.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Create a snapshot of the VA<span class="span_8">&#160;to revert to the previous version in case any failure occurs.&#160;</span></p>
+            </li>
+        </ol>
+        <p>Follow the steps below to&#160;update your VA:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_2">
+                <p class="p_2">&#160;Using SSH client, log in to the VA that needs to be updated.&#160;<br /><br /><img src="../../Resources/Images/Updating+Virtual+Appliance/Updating Virtual Appliance.png" class="img_22" /></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Download the latest&#160;<cite>VA and Linux updater</cite> from&#160;<a href="https://www.nakivo.com/resources/download/update/">www.nakivo.com/resources/download/update/</a>.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Change the directory to <code class="code_1">/opt/nakivo/updates&#160;</code>and locate the updater.<br /><br /><img src="../../Resources/Images/Updating+Virtual+Appliance/Updating Virtual Appliance_1.png" class="img_23" /></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Log out from the SHH client.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Log in to your vSphere client, navigate to your VA and click <b>Launch Web Console</b>.<br /><br /><img src="../../Resources/Images/Updating+Virtual+Appliance/Updating Virtual Appliance_2.png" class="img_24" /></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Do one of the following depending on the NAKIVO Backup &amp; Replication version you use:</p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1">For the product Version 8.1 and above: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_2">
+                                <p class="p_2">In the VA menu, select&#160;<b>Manage NAKIVO services</b>&#160;and press&#160;<b>Enter</b>.<br /><br /><img src="../../Resources/Images/Updating+Virtual+Appliance/Updating Virtual Appliance_3.png" class="img_25" /></p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">In the menu that opens, select&#160;<b>Software update</b>&#160;and press&#160;<b>Enter</b>.<br /><br /><img src="../../Resources/Images/Updating+Virtual+Appliance/Updating Virtual Appliance_4.png" class="img_26" /></p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">Select the updater that you have downloaded and press&#160;<b>Enter</b>.<br /><br /><img src="../../Resources/Images/Updating+Virtual+Appliance/Updating Virtual Appliance_5.png" class="img_27" /></p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">Review the End User License Agreement. Press&#160;<b>Space</b>&#160;to go to the bottom of it. If you agree to the terms of the agreement, type <b>Y</b> and then press&#160;<b>Enter</b>&#160;to begin the update process.<br /><br /><img src="../../Resources/Images/Updating+Virtual+Appliance/Updating Virtual Appliance_6.png" class="img_28" /></p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>For earlier product versions:</p>
+                        <ol start="1" class="ol_1">
+                            <li>
+                                <p>In the VA menu, select&#160;<b>Software update&#160;</b>and press&#160;<b>Enter.</b></p>
+                            </li>
+                            <li>
+                                <p>Select the updater that you have downloaded and press&#160;<b>Enter.</b></p>
+                            </li>
+                            <li>
+                                <p>Review the End User License Agreement. Press&#160;<b>Space</b>&#160;to go to the bottom of it. If you agree to the terms of the agreement, type <b>Y</b> and then press&#160;<b>Enter&#160;</b>to begin the update process.</p>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>When the update process is complete, a message will appear to inform you about it. Exit the VA console.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Update all machines on which you have deployed an additional&#160;<a href="C:\display\NH\Transporter">Transporter</a>.</p>
+            </li>
+        </ol>
+        <p>Note</p>
+        <p>Updating VA with versions prior to the previous major version – for example, updating VA version 6.1 to version 9.0 – is prohibited. Please update your VA to the next major version first.</p>
+    </body>
+</html>

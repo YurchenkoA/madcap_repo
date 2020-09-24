@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  LastImport="2020-09-05T23:43:08.5558170+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Desktop/Word Source/01. Overview.docx"
+      AbsoluteSource="file:///C:/Users/User/Desktop/Word Source/01. Overview.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/NAKIVO Backup Replication.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/NAKIVO Backup Replication.htm"
+      TimeStamp="Sat 05.09.20 11:42:58 PM" />
+    <Url
+      Source="../../Content/Deployment Options.htm"
+      TimeStamp="Sat 05.09.20 11:42:59 PM" />
+    <Url
+      Source="../../Content/Data Protection.htm"
+      TimeStamp="Sat 05.09.20 11:42:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Amazon EC2 Backup.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Amazon EC2 Backup.htm"
+      TimeStamp="Sat 05.09.20 11:42:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Backup Copy.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Backup Copy_1.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Backup Copy_2.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Backup Copy.png"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Backup Copy_3.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Backup Copy_1.png"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Backup Copy_4.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Backup Copy.htm"
+      TimeStamp="Sat 05.09.20 11:42:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Backup to Cloud.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Backup to Cloud.htm"
+      TimeStamp="Sat 05.09.20 11:42:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Container Protection.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Container Protection_1.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Container Protection.htm"
+      TimeStamp="Sat 05.09.20 11:42:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Microsoft 365 Backup.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Microsoft 365 Backup.htm"
+      TimeStamp="Sat 05.09.20 11:42:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Oracle Database Backup.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Oracle Database Backup.htm"
+      TimeStamp="Sat 05.09.20 11:42:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Physical Machine Backup.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Physical Machine Backup.htm"
+      TimeStamp="Sat 05.09.20 11:42:59 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Tape Backup.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Tape Backup_1.jpg"
+      TimeStamp="Sat 05.09.20 11:42:55 PM" />
+    <Url
+      Source="../../Content/Tape Backup.htm"
+      TimeStamp="Sat 05.09.20 11:43:00 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Virtual Machine Backup.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Virtual Machine Backup.htm"
+      TimeStamp="Sat 05.09.20 11:43:00 PM" />
+    <Url
+      Source="../../Content/Data Recovery.htm"
+      TimeStamp="Sat 05.09.20 11:43:00 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Cross Platform Recovery.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Cross Platform Recovery.htm"
+      TimeStamp="Sat 05.09.20 11:43:00 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Instant File Recovery to Source.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Instant File Recovery to Source.htm"
+      TimeStamp="Sat 05.09.20 11:43:00 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Instant Object Recovery.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Instant Object Recovery.htm"
+      TimeStamp="Sat 05.09.20 11:43:00 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Instant VM Recovery Flash.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Instant VM Recovery Flash.htm"
+      TimeStamp="Sat 05.09.20 11:43:00 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Physical to Virtual Machine.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Physical to Virtual Machine.htm"
+      TimeStamp="Sat 05.09.20 11:43:00 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Universal Object Recovery.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Universal Object Recovery.htm"
+      TimeStamp="Sat 05.09.20 11:43:00 PM" />
+    <Url
+      Source="../../Content/Disaster Recovery.htm"
+      TimeStamp="Sat 05.09.20 11:43:00 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Replication from Backup.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Replication from Backup_1.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Replication from Backup.htm"
+      TimeStamp="Sat 05.09.20 11:43:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Replication Types.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Replication Types_1.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Replication Types.htm"
+      TimeStamp="Sat 05.09.20 11:43:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Site Recovery.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Site Recovery.htm"
+      TimeStamp="Sat 05.09.20 11:43:01 PM" />
+    <Url
+      Source="../../Content/Backup Size Reduction.htm"
+      TimeStamp="Sat 05.09.20 11:43:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Global Data Deduplication.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Global Data Deduplication.htm"
+      TimeStamp="Sat 05.09.20 11:43:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Skipping Swap Files and Partitions.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Skipping Swap Files and Partitions.htm"
+      TimeStamp="Sat 05.09.20 11:43:01 PM" />
+    <Url
+      Source="../../Content/Skipping Unused Blocks.htm"
+      TimeStamp="Sat 05.09.20 11:43:01 PM" />
+    <Url
+      Source="../../Content/Reliability.htm"
+      TimeStamp="Sat 05.09.20 11:43:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Application and Database Support.jpg"
+      TimeStamp="Sat 05.09.20 11:42:56 PM" />
+    <Url
+      Source="../../Content/Application and Database Support.htm"
+      TimeStamp="Sat 05.09.20 11:43:01 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Encryption in Flight and at.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Encryption in Flight and at_1.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Encryption in Flight and at.htm"
+      TimeStamp="Sat 05.09.20 11:43:02 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Log Truncation.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Log Truncation.htm"
+      TimeStamp="Sat 05.09.20 11:43:02 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Self Backup Feature.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Self Backup Feature.htm"
+      TimeStamp="Sat 05.09.20 11:43:02 PM" />
+    <Url
+      Source="../../Content/VM Verification.htm"
+      TimeStamp="Sat 05.09.20 11:43:02 PM" />
+    <Url
+      Source="../../Content/Performance.htm"
+      TimeStamp="Sat 05.09.20 11:43:02 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Advanced Bandwidth Throttling.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Advanced Bandwidth Throttling_1.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Advanced Bandwidth Throttling_2.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Advanced Bandwidth Throttling_3.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Advanced Bandwidth Throttling_4.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Advanced Bandwidth Throttling_5.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Advanced Bandwidth Throttling_6.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Advanced Bandwidth Throttling_7.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Advanced Bandwidth Throttling_8.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Advanced Bandwidth Throttling_9.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Advanced Bandwidth Throttling_10.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Advanced Bandwidth Throttling_11.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Advanced Bandwidth Throttling.htm"
+      TimeStamp="Sat 05.09.20 11:43:02 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Deduplication Appliance Support.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Deduplication Appliance Support.htm"
+      TimeStamp="Sat 05.09.20 11:43:02 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Full Synthetic Data Storage.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Full Synthetic Data Storage_1.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Full Synthetic Data Storage.htm"
+      TimeStamp="Sat 05.09.20 11:43:02 PM" />
+    <Url
+      Source="../../Content/Incremental Jobs.htm"
+      TimeStamp="Sat 05.09.20 11:43:02 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Jobs and Concurrent Tasks.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Jobs and Concurrent Tasks.htm"
+      TimeStamp="Sat 05.09.20 11:43:02 PM" />
+    <Url
+      Source="../../Content/LAN Free Data Transfer.htm"
+      TimeStamp="Sat 05.09.20 11:43:02 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Direct SAN Access for VMware.png"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Direct SAN Access for VMware.htm"
+      TimeStamp="Sat 05.09.20 11:43:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Hot Add for VMware.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Hot Add for VMware.htm"
+      TimeStamp="Sat 05.09.20 11:43:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Network Acceleration.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Network Acceleration_1.jpg"
+      TimeStamp="Sat 05.09.20 11:42:57 PM" />
+    <Url
+      Source="../../Content/Network Acceleration.htm"
+      TimeStamp="Sat 05.09.20 11:43:03 PM" />
+    <Url
+      Source="../../Content/Usability.htm"
+      TimeStamp="Sat 05.09.20 11:43:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Calendar.jpg"
+      TimeStamp="Sat 05.09.20 11:42:58 PM" />
+    <Url
+      Source="../../Content/Calendar.htm"
+      TimeStamp="Sat 05.09.20 11:43:03 PM" />
+    <Url
+      Source="../../Content/File System Indexing.htm"
+      TimeStamp="Sat 05.09.20 11:43:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Global Search.jpg"
+      TimeStamp="Sat 05.09.20 11:42:58 PM" />
+    <Url
+      Source="../../Content/Global Search.htm"
+      TimeStamp="Sat 05.09.20 11:43:03 PM" />
+    <Url
+      Source="../../Content/Policy Based Data Protection.htm"
+      TimeStamp="Sat 05.09.20 11:43:03 PM" />
+    <Url
+      Source="../../Content/Automation.htm"
+      TimeStamp="Sat 05.09.20 11:43:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/HTTP APIs.jpg"
+      TimeStamp="Sat 05.09.20 11:42:58 PM" />
+    <Url
+      Source="../../Content/HTTP APIs.htm"
+      TimeStamp="Sat 05.09.20 11:43:03 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Job Chaining.jpg"
+      TimeStamp="Sat 05.09.20 11:42:58 PM" />
+    <Url
+      Source="../../Content/Job Chaining.htm"
+      TimeStamp="Sat 05.09.20 11:43:04 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Pre and Post Job Scripts.jpg"
+      TimeStamp="Sat 05.09.20 11:42:58 PM" />
+    <Url
+      Source="../../Content/Pre and Post Job Scripts.htm"
+      TimeStamp="Sat 05.09.20 11:43:04 PM" />
+    <Url
+      Source="../../Content/Integration.htm"
+      TimeStamp="Sat 05.09.20 11:43:04 PM" />
+    <Url
+      Source="../../Content/Active Directory.htm"
+      TimeStamp="Sat 05.09.20 11:43:04 PM" />
+    <Url
+      Source="../../Content/EMC DD Boost.htm"
+      TimeStamp="Sat 05.09.20 11:43:04 PM" />
+    <Url
+      Source="../../Content/HPE StoreOnce Catalyst.htm"
+      TimeStamp="Sat 05.09.20 11:43:04 PM" />
+    <Url
+      Source="../../Content/NEC HYDRAstor.htm"
+      TimeStamp="Sat 05.09.20 11:43:04 PM" />
+    <Url
+      Source="../../Content/QUANTUM DXi.htm"
+      TimeStamp="Sat 05.09.20 11:43:04 PM" />
+    <Url
+      Source="../../Content/BaaS.htm"
+      TimeStamp="Sat 05.09.20 11:43:04 PM" />
+    <Url
+      Source="../../Content/Branding.htm"
+      TimeStamp="Sat 05.09.20 11:43:04 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/License Delegation.jpg"
+      TimeStamp="Sat 05.09.20 11:42:58 PM" />
+    <Url
+      Source="../../Content/License Delegation.htm"
+      TimeStamp="Sat 05.09.20 11:43:05 PM" />
+    <Url
+      Source="../../Content/Resources/Images/01. Overview/Multi Tenancy.jpg"
+      TimeStamp="Sat 05.09.20 11:42:58 PM" />
+    <Url
+      Source="../../Content/Multi Tenancy.htm"
+      TimeStamp="Sat 05.09.20 11:43:05 PM" />
+    <Url
+      Source="../../Content/Self Service.htm"
+      TimeStamp="Sat 05.09.20 11:43:05 PM" />
+    <Url
+      Source="../../Content/Licensing.htm"
+      TimeStamp="Sat 05.09.20 11:43:05 PM" />
+    <Url
+      Source="../TOCs/01. Overview.fltoc"
+      TimeStamp="Sat 05.09.20 11:42:58 PM" />
+    <Url
+      Source="../../Content/Resources/MasterPages/01. Overview.flmsp"
+      TimeStamp="Sat 05.09.20 11:42:58 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/01. Overview.css"
+      TimeStamp="Sat 05.09.20 11:42:58 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading3"
+      Style="Word" />
+    <Map
+      From="List Paragraph"
+      To="p.ListParagraph"
+      Style="Word" />
+    <Map
+      From="Title"
+      To="p.Title"
+      Style="Word" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles />
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

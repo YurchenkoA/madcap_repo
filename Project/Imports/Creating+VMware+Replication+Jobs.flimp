@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Replication"
+  LastImport="2020-09-14T17:07:54.5891510+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Creating+VMware+Replication+Jobs.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Creating+VMware+Replication+Jobs.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+VMware_+Destination.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+VMware_+Destination.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+VMware_+Networks.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+VMware_+Networks.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+VMware_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+VMware_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+VMware_+Re-IP.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+VMware_+Re-IP.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+VMware_+Retention.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+VMware_+Retention.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+VMware_+Schedule.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+VMware_+Schedule.doc" />
+    <Url
+      Source="../../../../../Downloads/Replication+Job+Wizard+for+VMware_+Source.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replication+Job+Wizard+for+VMware_+Source.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Creating+VMware+Replication+Jobs/Creating VMware Replication.png"
+      TimeStamp="Mon 14.09.20 5:07:43 PM" />
+    <Url
+      Source="../../Content/Replication/Creating VMware Replication.htm"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Destination/Replication Job Wizard for.png"
+      TimeStamp="Mon 14.09.20 5:07:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Destination/Replication Job Wizard for_1.png"
+      TimeStamp="Mon 14.09.20 5:07:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Destination/Replication Job Wizard for_2.png"
+      TimeStamp="Mon 14.09.20 5:07:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Destination/Replication Job Wizard for_3.png"
+      TimeStamp="Mon 14.09.20 5:07:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Destination/Replication Job Wizard for_4.png"
+      TimeStamp="Mon 14.09.20 5:07:43 PM" />
+    <Url
+      Source="../../Content/Replication/Replication Job Wizard for.htm"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Networks/Replication Job Wizard for_1.png"
+      TimeStamp="Mon 14.09.20 5:07:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Networks/Replication Job Wizard for_1_1.png"
+      TimeStamp="Mon 14.09.20 5:07:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Networks/Replication Job Wizard for_1_2.png"
+      TimeStamp="Mon 14.09.20 5:07:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Networks/Replication Job Wizard for_1_3.png"
+      TimeStamp="Mon 14.09.20 5:07:43 PM" />
+    <Url
+      Source="../../Content/Replication/Replication Job Wizard for_1.htm"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Options/Replication Job Wizard for_2.png"
+      TimeStamp="Mon 14.09.20 5:07:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Options/Replication Job Wizard for_2_1.png"
+      TimeStamp="Mon 14.09.20 5:07:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Options/Replication Job Wizard for_2_2.png"
+      TimeStamp="Mon 14.09.20 5:07:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Options/Replication Job Wizard for_2_3.png"
+      TimeStamp="Mon 14.09.20 5:07:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Options/Replication Job Wizard for_2_4.png"
+      TimeStamp="Mon 14.09.20 5:07:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Options/Replication Job Wizard for_2_5.png"
+      TimeStamp="Mon 14.09.20 5:07:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Options/Replication Job Wizard for_2_6.png"
+      TimeStamp="Mon 14.09.20 5:07:44 PM" />
+    <Url
+      Source="../../Content/Replication/Replication Job Wizard for_2.htm"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Re-IP/Replication Job Wizard for_3.png"
+      TimeStamp="Mon 14.09.20 5:07:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Re-IP/Replication Job Wizard for_3_1.png"
+      TimeStamp="Mon 14.09.20 5:07:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Re-IP/Replication Job Wizard for_3_2.png"
+      TimeStamp="Mon 14.09.20 5:07:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Re-IP/Replication Job Wizard for_3_3.png"
+      TimeStamp="Mon 14.09.20 5:07:44 PM" />
+    <Url
+      Source="../../Content/Replication/Replication Job Wizard for_3.htm"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Retention/Replication Job Wizard for_4.png"
+      TimeStamp="Mon 14.09.20 5:07:44 PM" />
+    <Url
+      Source="../../Content/Replication/Replication Job Wizard for_4.htm"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Schedule/Replication Job Wizard for_5.png"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Schedule/Replication Job Wizard for_5_1.png"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Schedule/Replication Job Wizard for_5_2.png"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Schedule/Replication Job Wizard for_5_3.png"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Schedule/Replication Job Wizard for_5_4.png"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Schedule/Replication Job Wizard for_5_5.png"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Replication/Replication Job Wizard for_5.htm"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Source/Replication Job Wizard for_6.png"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Source/Replication Job Wizard for_6_1.png"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Source/Replication Job Wizard for_6_2.png"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Source/Replication Job Wizard for_6_3.png"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Replication+Job+Wizard+for+VMware_+Source/Replication Job Wizard for_6_4.png"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Replication/Replication Job Wizard for_6.htm"
+      TimeStamp="Mon 14.09.20 5:07:46 PM" />
+    <Url
+      Source="../TOCs/Creating+VMware+Replication+Jobs.fltoc"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Creating+VMware+Replication+Jobs.css"
+      TimeStamp="Mon 14.09.20 5:07:45 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="auto-cursor-target"
+      To="p.auto-cursor-target"
+      Style="Word" />
+    <Map
+      From="bullet1"
+      To="p.bullet1"
+      Style="Word" />
+    <Map
+      From="bullet4"
+      To="p.bullet4"
+      Style="Word" />
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading3"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="notenormal"
+      To="p.notenormal"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="span.Emphasis"
+      Style="Word" />
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

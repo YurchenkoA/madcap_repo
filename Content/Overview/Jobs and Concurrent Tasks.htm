@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Jobs and Concurrent Tasks</h1>
+        <p>Job is a data protection activity that is performed by NAKIVO Backup &amp; Replication in accordance with a distinct configuration. These are the types of NAKIVO Backup &amp; Replication jobs:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Backup">Backup job</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Backup+Copy">Backup copy job</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Replication">Replication job</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Recovery">Recovery job</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Failover+to+Replica+for+VMware">Failover job</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Performing+Flash+VM+Boot+Recovery">Flash VM boot job</a>
+                </p>
+            </li>
+        </ul>
+        <p>In NAKIVO Backup &amp; Replication, a job can have one or more <cite>job objects</cite> to process. Such job objects can be VMs, backups and replicas. Depending on your preferences, job objects may be reordered for processing within a job.</p>
+        <p>
+            <img src="../Resources/Images/Jobs+and+Concurrent+Tasks/Jobs and Concurrent Tasks.png" class="img_34" />
+        </p>
+        <p>Each job object consists of&#160;one or more&#160;disks&#160;that have to be processed within a job run. Data processing&#160;that is related to a specific disk of a VM constitutes a single&#160;task, in the scope of the corresponding job. Such tasks are processed by a&#160;<a href="C:\display\NH\Transporter">Transporter</a>. For the sake of managing the load over the infrastructure, any Transporter is configured to process a limited number of&#160;concurrent&#160;tasks. When a task is processed, the Transporter starts processing another task if available.&#160;</p>
+    </body>
+</html>

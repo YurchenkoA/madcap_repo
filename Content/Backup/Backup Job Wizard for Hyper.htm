@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Backing+Up+to+Tape.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Backup Job Wizard for Hyper-V: Destination</h1>
+        <p>On the <span class="Strong">Destination</span> page of the wizard, you can select&#160;one or multiple different Backup Repositories to back up your Hyper-V VMs.</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Hyper-V_+Destination.doc#BackupJobWizardforHyper-V:Destination-S" class="Hyperlink">Setting Single Backup Repository for All VMs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Hyper-V_+Destination.doc#BackupJobWizardforHyper-V:Destination-S" class="Hyperlink">Setting Different Backup Repositories for VMs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Hyper-V_+Destination.doc#BackupJobWizardforHyper-V:Destination-M" class="Hyperlink">Mapping Source VMs to Existing Backups</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+Hyper-V_+Destination.doc#BackupJobWizardforHyper-V:Destination-E" class="Hyperlink">Excluding VM Disks from the Backup Job</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Setting Single Backup Repository for All VMs</h2>
+        <p>To back up all VMs to a single Backup Repository, choose a Backup Repository from the <span class="Strong">Destination</span>drop-down list.</p>
+        <p class="NormalWeb">
+            <img src="../Resources/Images/Backup+Job+Wizard+for+Hyper-V_+Destination/Backup Job Wizard for Hyper.png" class="img_33" />
+        </p>
+        <h2>Setting Different Backup Repositories for VMs</h2>
+        <p>To back up the selected VMs to different Backup Repositories, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click <span class="Strong">Advanced options</span>.</p>
+            </li>
+            <li class="li_1">
+                <p>In the VM boxes, choose a Backup Repository for each VM individually.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+Hyper-V_+Destination/Backup Job Wizard for Hyper_1.png" class="img_34" /></p>
+            </li>
+        </ol>
+        <h2>Mapping Source VMs to Existing Backups</h2>
+        <p>If you have previously backed up a VM and then lost the backup job due to accidental job deletion or because you needed to recreate jobs in a new copy of the&#160;product, you can map the source VMs to existing backups to avoid running full VM backups again.</p>
+        <p>To map source VMs to existing backups, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click <span class="Strong">Advanced options</span>.</p>
+            </li>
+            <li class="li_1">
+                <p>From the <span class="Strong">Destination</span> drop-down list, choose a Backup Repository that contains an existing VM backup.</p>
+            </li>
+            <li class="li_1">
+                <p>Select the <span class="Strong">Use existing backup as a target</span> option and choose an existing backup from the drop-down list.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+Hyper-V_+Destination/Backup Job Wizard for Hyper_2.png" class="img_35" /></p>
+            </li>
+        </ol>
+        <p>When you run the job, the product will analyze the target VM you have selected, determine how it is different from the source VM, and transfer only the differential data.</p>
+        <p>VM backup mapping can be a time-consuming process that can be equal to the time required to create a full VM backup.</p>
+        <p>After the job is completed, a new recovery point will be created and existing recovery points will <span class="Emphasis">not</span> be changed or overwritten.</p>
+        <h2>Excluding VM Disks from the Backup Job</h2>
+        <p>If you do not want to back up&#160;certain VM disks, you can exclude those disks from the backup job by following the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click <span class="Strong">Advanced options</span>.</p>
+            </li>
+            <li class="NormalWeb">
+                <p>Cancel the selection of the VM disks that you would not like to back up.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+Hyper-V_+Destination/Backup Job Wizard for Hyper_3.png" class="img_36" /></p>
+            </li>
+        </ol>
+        <p class="NormalWeb">&#160;</p>
+    </body>
+</html>

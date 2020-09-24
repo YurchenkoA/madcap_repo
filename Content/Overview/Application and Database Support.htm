@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Application and Database Support</h1>
+        <p>When you back up a VM that runs Active Directory, Microsoft SQL Server, Microsoft Exchange, or any other application or database, it is crucial to ensure that all data inside of those applications remain consistent in the backup. This is important because portions of data and some transactions kept in memory may be incomplete when the VM backup is made. If you take no actions to flush memory and I/O operations, the backups will be crash-consistent. It is similar to pulling the plug on a physical server and then powering it back on. Therefore, most modern applications and databases offer ways to recover from this state. However, in most cases you'll still need to spend some time on manual restore operations and run the risk of losing important data.</p>
+        <p>To ensure that all data is consistent in the backups, NAKIVO Backup &amp; Replication allows you to use the application awareness feature which is called app-aware mode. To perform consistent backups and replicas of Windows-based environments, the product relies on the Microsoft Volume Shadow Copy (VSS) service running inside VMs. If your application is not VSS-aware or runs on Linux, it provides you with the ability to run&#160;<a href="C:\display\KB\Application-Aware+Mode+for+Linux+VMs">custom pre-freeze and post-thaw scripts</a> to enable application-consistent VM backup and replication. A pre-freeze script is executed before a snapshot of a VM is taken, and post-thaw script is executed after the snapshot has been taken.</p>
+        <p>With the app-aware mode turned on, your backups and replicas will contain consistent application and database data, so you won't need to take any extra configuration steps. As a result, you will be able to instantly recover not only full&#160;<a href="https://www.nakivo.com/features/instant-vm-recovery/">VMs</a>, but also Microsoft Exchange and Active Directory objects, such as emails or users, directly from a compressed and&#160;<a href="https://www.nakivo.com/features/backup-deduplication/">deduplicated</a>&#160;backup.&#160; If app-aware mode is disabled, NAKIVO Backup &amp; Replication will create normal (standard) snapshots of source volumes instead of quiesced ones. In case of failure, the product will copy data directly from source volumes without displaying an error.</p>
+        <p>The app-aware mode can be enabled/disabled on the Options page of the&#160;<a href="C:\display\NH\Backup">backup</a> and <a href="C:\display\NH\Replication">replication</a> job wizard of all <a href="C:\display\NH\Supported+Platforms">supported platforms</a>.&#160;</p>
+        <p>
+            <img src="../Resources/Images/Application+and+Database+Support/Application and Database Support.png" alt="Stages of Application Quiescing" class="img_11" />
+        </p>
+        <h2>Application Awareness for AWS EC2 Instances</h2>
+        <p>NAKIVO Backup &amp; Replication provides the ability to create application-consistent replicas of AWS EC2 Instances. The application awareness approach is different for Windows-based and Linux-based Instances. Refer to the sections below for more information.&#160;</p>
+        <h3>Application Awareness for Windows-based AWS EC2 Instances</h3>
+        <p>NAKIVO Backup &amp; Replication provides application awareness for <a href="C:\display\NH\System+Requirements">supported</a> Windows operating systems by using Microsoft Volume Shadow Copy (VSS) service. If application awareness is enabled for a Windows-based Instance, NAKIVO Backup &amp; Replication does the following:&#160;</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2">Connects to the source Instance using credentials provided.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Automatically deploys a NAKIVO VSS Driver into the Instance OS.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">With the help of the VSS driver, creates application-consistent snapshots of the Instance's EBS volumes.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Automatically removes the VSS driver from the Instance OS.</p>
+            </li>
+        </ol>
+        <h3>Application Awareness for Linux-based AWS EC2 Instances</h3>
+        <p>NAKIVO Backup &amp; Replication provides the ability to run custom pre-freeze and post-thaw scripts on Linux-based Instances to enable application awareness. A pre-freeze script is executed before a snapshot of an Instance is taken, and post-thaw script is executed after the snapshot has been taken.</p>
+        <h4>Pre-Conditions for Application Awareness on Linux-based Instances</h4>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2">Create pre-freeze and post-thaw scripts for your Linux-based Instances.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Make sure that SSH is enabled on the Instances.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Place the scripts in the appropriate folders on each Instance:</p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_2"><b>Pre-freeze:</b>&#160;/<code class="code_1">usr/sbin/pre-freeze-script</code></p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_2"><b>Post-thaw:</b> <code class="code_1">/usr/sbin/post-thaw-script</code></p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>

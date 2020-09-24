@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Getting Started"
+  LastImport="2020-09-11T16:23:51.7039145+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/First+Steps+with+NAKIVO+Backup+&amp;+Replication.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/First+Steps+with+NAKIVO+Backup+&amp;+Replication.doc" />
+    <Url
+      Source="../../../../../Downloads/Logging+in+to+NAKIVO+Backup+and+Replication.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Logging+in+to+NAKIVO+Backup+and+Replication.doc" />
+    <Url
+      Source="../../../../../Downloads/Web+Interface+Components.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Web+Interface+Components.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/First+Steps+with+NAKIVO+Backup+&amp;+Replication/First Steps with NAKIVO Backup.png"
+      TimeStamp="Fri 11.09.20 4:23:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/First+Steps+with+NAKIVO+Backup+&amp;+Replication/First Steps with NAKIVO Backup_1.png"
+      TimeStamp="Fri 11.09.20 4:23:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/First+Steps+with+NAKIVO+Backup+&amp;+Replication/First Steps with NAKIVO Backup_2.png"
+      TimeStamp="Fri 11.09.20 4:23:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/First+Steps+with+NAKIVO+Backup+&amp;+Replication/First Steps with NAKIVO Backup_3.png"
+      TimeStamp="Fri 11.09.20 4:23:43 PM" />
+    <Url
+      Source="../../Content/Getting Started/First Steps with NAKIVO Backup.htm"
+      TimeStamp="Fri 11.09.20 4:23:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Logging+in+to+NAKIVO+Backup+and+Replication/Logging in to NAKIVO Backup.png"
+      TimeStamp="Fri 11.09.20 4:23:43 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Logging+in+to+NAKIVO+Backup+and+Replication/Logging in to NAKIVO Backup_1.png"
+      TimeStamp="Fri 11.09.20 4:23:43 PM" />
+    <Url
+      Source="../../Content/Getting Started/Logging in to NAKIVO Backup.htm"
+      TimeStamp="Fri 11.09.20 4:23:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components.png"
+      TimeStamp="Fri 11.09.20 4:23:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_1.png"
+      TimeStamp="Fri 11.09.20 4:23:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_2.png"
+      TimeStamp="Fri 11.09.20 4:23:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_3.png"
+      TimeStamp="Fri 11.09.20 4:23:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_4.png"
+      TimeStamp="Fri 11.09.20 4:23:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_5.png"
+      TimeStamp="Fri 11.09.20 4:23:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_6.png"
+      TimeStamp="Fri 11.09.20 4:23:44 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Web+Interface+Components/Web Interface Components_7.png"
+      TimeStamp="Fri 11.09.20 4:23:44 PM" />
+    <Url
+      Source="../../Content/Getting Started/Web Interface Components.htm"
+      TimeStamp="Fri 11.09.20 4:23:44 PM" />
+    <Url
+      Source="../TOCs/First+Steps+with+NAKIVO+Backup+&amp;+Replication.fltoc"
+      TimeStamp="Fri 11.09.20 4:23:44 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/First+Steps+with+NAKIVO+Backup+&amp;+Replication.css"
+      TimeStamp="Fri 11.09.20 4:23:44 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="HTML Code"
+      To="span.HTMLCode"
+      Style="Word" />
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

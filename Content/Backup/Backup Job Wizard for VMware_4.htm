@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Backing+Up+to+Tape.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Backup Job Wizard for VMware: Source</h1>
+        <p>On the <span class="Strong">Source</span> page in the wizard, you can&#160;add VMware VMs to your backup job by using one of the <a href="C:\display\NH\Inventory" class="Hyperlink">inventory</a> views, Procced as described in the sections below:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+VMware_+Source.doc#BackupJobWizardforVMware:Source-Hostsan" class="Hyperlink">Hosts and Clusters</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+VMware_+Source.doc#BackupJobWizardforVMware:Source-VMsandT" class="Hyperlink">VMs and Templates</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Job+Wizard+for+VMware_+Source.doc#BackupJobWizardforVMware:Source-Policy" class="Hyperlink">Policy</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Hosts and Clusters</h2>
+        <p>When <span class="Strong">Hosts &amp; Clusters</span> view is selected, the inventory tree opens in the left pane and displays all VMware items: clusters, hosts, folders, resource pools, and VMs. Proceed as follows:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_2">
+                <p>Optionally, you can filter the inventory tree by entering a string into the <span class="Strong">Search</span> box.&#160;You can enter a part of the entire name of the item.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+VMware_+Source/Backup Job Wizard for VMware_4.png" class="img_87" /></p>
+            </li>
+            <li class="li_1">
+                <p>Select VMware items by placing a checkmark to the left of each item.</p>
+            </li>
+            <li class="li_2">
+                <p>The selected items appear in the right pane of the page. You can drag a VM or a container with the pointer to a new position to reorder the selected items.&#160;By doing that, you can specify to back up the most important VMs first.<br /><br />&#160;<img src="../Resources/Images/Backup+Job+Wizard+for+VMware_+Source/Backup Job Wizard for VMware_4_1.png" class="img_88" /></p>
+            </li>
+            <li class="li_1">
+                <p>Review the list of selected VMware items. You can remove a selected VM or a container from the backup job in one of the following ways: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p>Deselect the object in the left pane. This will remove the object from the right pane; OR</p>
+                    </li>
+                    <li class="li_1">
+                        <p>In the right pane, hover the pointer over the item you want to remove and. This will deselect the object in the left pane.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+VMware_+Source/Backup Job Wizard for VMware_4_2.png" class="img_31" /></p>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <h2>VMs and Templates</h2>
+        <p>When the <span class="Strong">VMs &amp; Templates</span> view is selected, the inventory tree displays VMware hosts, VMs, and VM templates. Proceed as it was described for the <span class="Strong">Hosts &amp; Clusters</span> view above.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+VMware_+Source/Backup Job Wizard for VMware_4_3.png" class="img_87" /></p>
+        <h2>Policy</h2>
+        <p>When the <span class="Strong">Policy</span> view is selected, job policies can be used. Refer to <a href="C:\display\NH\Managing+Job+Policies" class="Hyperlink">Managing Job Policies</a> for details. Follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>If the items are selected in alternate views, a dialog box opens warning you that switching to the <span class="Strong">Policy</span> view will reset your current selection. Click <span class="Strong">Switch View</span> to confirm switching to the <span class="Strong">Policy</span> view.</p>
+            </li>
+            <li class="li_1">
+                <p>Add at least one rule to the job policy. Refer to <a href="C:\display\NH\Managing+Policy+Rules" class="Hyperlink">Managing Policy Rules</a> for details.<br /><br /><img src="../Resources/Images/Backup+Job+Wizard+for+VMware_+Source/Backup Job Wizard for VMware_4_4.png" class="img_31" /></p>
+            </li>
+        </ol>
+        <p>Click <span class="Strong">Next</span> to confirm adding selected VMs to the backup job. The wizard will display the next page.</p>
+        <p>Notes:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>If you cannot find a VM or a container, try the following: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p>Make sure that the corresponding vCenter or ESXi host has been&#160;<a href="C:\display\NH\Adding+Installed+Transporters" class="Hyperlink">added to the inventory</a>. &#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p><a href="C:\display\NH\Refreshing+Inventory" class="Hyperlink">Refresh the Inventory</a>.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p>By adding a VMware container to the job, you ensure that important VMs are always protected. If you add a VMware container to the job: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p>All VMs currently available in the selected container will be backed up.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>All new VMs that are created in (or moved to) the container in the future will be automatically added to the job and backed up.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p>The order in which VMs are backed up is important if the Transporter performing the backup cannot process all VMs of the job simultaneously – either because the Transporter is processing other jobs at the same time or because the number of VM disks in the job exceeds the Transporter’s maximum Load specified during the Transporter creation.&#160;</p>
+            </li>
+            <li class="li_1">
+                <p>VMs marked as primary are protected by <a href="https://www.vmware.com/products/vsphere/fault-tolerance.html" class="Hyperlink">VMware Fault Tolerance</a>. Disabled VMs are Fault Tolerance shadow VMs.</p>
+            </li>
+        </ol>
+    </body>
+</html>

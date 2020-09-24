@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Hyper-V+VM+Recovery.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Recovery Job Wizard for Hyper-V: Destination</h1>
+        <p>On the Destination page, select a location for the recovered VMs.</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Hyper-V_+Destination.doc#RecoveryJobWizardforHyper-V:Destination">Setting the Same Host, Datastore, and Network for All Recovered VMs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Hyper-V_+Destination.doc#RecoveryJobWizardforHyper-V:Destination">Setting the Default Destination for Recovered VMs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Hyper-V_+Destination.doc#RecoveryJobWizardforHyper-V:Destination">Setting Different Options for Recovered VMs</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Setting the Same Host, Datastore, and Network for All Recovered VMs</h2>
+        <p>To recover all VMs to the same server and location and to connect all recovered VMs to the same networks, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Choose a server from the Container drop-down list.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Type a location in the Path field. It can be a local or a shared path.</p>
+            </li>
+            <li>
+                <p>Choose a network from the Network drop-down list.</p>
+                <p>
+                    <img src="../../../Resources/Images/Recovery+Job+Wizard+for+Hyper-V_+Destination/Recovery Job Wizard for Hyper_1.png" class="img_2" />
+                </p>
+                <p>Note</p>
+                <p>To connect to a shared path successfully, the following conditions must be met:<br />1. The shared path is created with the same credentials as the corresponding Hyper-V container that was added. See Adding Hyper-V Servers for details on adding Hyper-V containers to NAKIVO Backup &amp; Replication.<br />2. The logon session in which you created the shared path has not been ended.</p>
+                <p>As a workaround, create a symbolic link to the shared path from the Hyper-V container. Refer to Step 7 of&#160;<a href="C:\pages\viewpage.action?pageId=24951525">High Availability of NAKIVO Backup &amp; Replication</a>&#160;for details.</p>
+            </li>
+        </ol>
+        <h2>Setting the Default Destination for Recovered VMs</h2>
+        <p>If you have chosen a host, cluster, folder, or a Backup Repository as a source for your recovery job on the&#160;Backups&#160;page, you can set the default container, datastore, and VM folder for the recovered VMs. To do this, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Click&#160;Advanced options&#160;and then click on the name of the chosen host, cluster, folder, or a resource pool.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Choose a&#160;Default container.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">If you have chosen the backup job on the&#160;Source&#160;page, you can choose a&#160;Default Network.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Optionally, you can also choose a&#160;Default VM folder.<span class="span_1"><br /><br /><img src="../../../Resources/Images/Recovery+Job+Wizard+for+Hyper-V_+Destination/Recovery Job Wizard for Hyper_1_1.png" class="img_3" /></span></p>
+            </li>
+        </ol>
+        <h2>Setting Different Options for Recovered VMs</h2>
+        <p>To specify different options for recovered VMs, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Click Advanced setup.</p>
+            </li>
+            <li>
+                <p>Choose a target container, disk, and network adapter for each VM.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Click Next to go to the next step.<br /><br /><img src="../../../Resources/Images/Recovery+Job+Wizard+for+Hyper-V_+Destination/Recovery Job Wizard for Hyper_1_2.png" class="img_4" /></p>
+            </li>
+        </ol>
+        <p>&#160;</p>
+    </body>
+</html>

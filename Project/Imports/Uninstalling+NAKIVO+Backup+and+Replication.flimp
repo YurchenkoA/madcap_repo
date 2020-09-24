@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Deployment"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-23T12:15:03.3259280+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Uninstalling+NAKIVO+Backup+and+Replication.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Uninstalling+NAKIVO+Backup+and+Replication.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Deployment/Uninstalling NAKIVO Backup.htm"
+      TimeStamp="Wed 23.09.20 12:15:01 PM" />
+    <Url
+      Source="../TOCs/Uninstalling+NAKIVO+Backup+and+Replication.fltoc"
+      TimeStamp="Wed 23.09.20 12:15:01 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Uninstalling+NAKIVO+Backup+and+Replication.css"
+      TimeStamp="Wed 23.09.20 12:15:01 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Heading 3"
+      To="h3"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

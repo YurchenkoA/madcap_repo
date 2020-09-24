@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Installing+on+Linux.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Installing on Linux</h1>
+        <ul class="ul_2">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Installing+on+Linux.doc#InstallingonLinux-LinuxInstallationPrer">Linux Installation Prerequisites</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Installing+on+Linux.doc#InstallingonLinux-SilentInstallationonL">Silent Installation on Linux</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Installing+on+Linux.doc#InstallingonLinux-InstallingFullSolutio">Installing Full Solution on Linux</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Installing+on+Linux.doc#InstallingonLinux-InstallingTransporter">Installing Transporter on Linux</a> </p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Installing+on+Linux.doc#InstallingonLinux-TransporterInstallati">Transporter Installation Prerequisites</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Installing+on+Linux.doc#InstallingonLinux-TransporterInstallati">Transporter Installation</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Installing+on+Linux.doc#InstallingonLinux-InstallingFullSolutio">Installing Full Solution in Multi-Tenant Mode on Linux</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Linux Installation Prerequisites</h2>
+        <p>In order to install and use NAKIVO Backup &amp; Replication on a Linux OS, make sure the following requirements are met:</p>
+        <ul class="ul_2">
+            <li class="li_1">
+                <p class="p_1">On Ubuntu and SLES, NAKIVO Backup &amp; Replication relies on the following packages: </p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1">cifs-utils</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">open-iscsi</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">ntfs-3g</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">On RedHat Enterprise Linux, NAKIVO Backup &amp; Replication relies on the following packages: </p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1">cifs-utils</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">iscsi-initiator-utils</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">ntfs-3g</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Silent Installation on Linux</h2>
+        <p>You can install NAKIVO Backup &amp; Replication in silent mode via a command line. To install the full solution, simply run the following command:<code class="code_1">&#160;installer.sh -f --eula-accept</code> This will install all product components (<a href="C:\display\NH\Director">Director</a>,&#160;<a href="C:\display\NH\Transporter">Transporter</a>,&#160;<a href="C:\display\NH\Backup+Repository">Backup Repository</a>) and you will be able to use all product features after installation.</p>
+        <p>The following arguments are available:</p>
+        <table class="table_1">
+            <col class="col_1" />
+            <col class="col_2" />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_2">Argument </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_2">Description </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p><b>-h, -help, help</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Display the list of available arguments without starting the installation.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>--eula-accept, -ea</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Indicates that you have read and agree to the&#160;<a href="https://www.nakivo.com/support/eula/">End User License Agreement</a>.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>-f</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall perform the silent installation of the full solution (Director and Transporter).</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>-t</b>&#160;</p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall perform the silent installation of Transporter only.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>-m</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall perform the silent installation of the full solution in&#160;<a href="C:\display\NH\Multi-Tenant+Mode">multi-tenant mode</a>.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>-u</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall perform the silent update of the installed product components.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>-e</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall install Transporter for AWS EC2, or update Transporter installed for AWS EC2. Refer to <a href="C:\display\NH\Updating+on+Amazon+EC2">Updating on Amazon EC2</a> for details.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>-a</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall enable uploading support bundles to support team server (Call Home). Refer to <a href="C:\display\NH\System+Settings">System Settings</a> for details.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>-y</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall accept limitations silently.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>-i &lt;install_path&gt;</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall install to the specified installation path.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>-d &lt;director_port&gt;</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall provide a custom Director port.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>-p &lt;transporter_port&gt;</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall provide a custom Transporter port.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>-r &lt;port1&gt;-&lt;port2&gt;</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall provide a custom transporter data ports range.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>-C</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall suppress creating the repository.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>-c &lt;repo_path&gt;</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall create the repository. The <b>&lt;repo_path&gt;</b> parameter is optional.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>--rt &lt;repo_type&gt;</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall create a repository of the specified type. The <b>&lt;repo_type&gt; </b>parameter may accept the following values: <b>1</b> – "Forever incremental with deduplication";&#160;<b>2</b> – "Forever incremental without deduplication"; <b>3</b> – "Incremental with full backups (deduplication devices)".</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>--rc &lt;compress_level&gt;</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall specify the repository compression level. The parameter may accept the following values: Disabled; Fast; Medium; Best. Refer to <a href="C:\display\NH\Creating+Backup+Repositories">Creating Backup Repositories</a> for details.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><b>--pnp-cleanup</b>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Shall clean up the database of the device manager for the Linux kernel.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Installing Full Solution on Linux</h2>
+        <p>Follow the steps below to install all components of NAKIVO Backup &amp; Replication (both Director and Transporter) on a Linux OS:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Upload the installer file to the machine on which you want to install NAKIVO Backup &amp; Replication in the <cite>binary transfer mode</cite>. For example:</p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1"><a href="C:\display\NH\Uploading+Installer+from+Windows+Machine+to+Linux+Machine">Upload the installer from a Windows-based machine</a>.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Upload the product from a Linux-based machine: run the following command:<code class="code_1">&#160;wget 'server_ip/shared/NAKIVO_Backup_&amp;_Replication_TRIAL.sh'</code></p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Log in to the Linux machine and allow the execution of the installer file. For example:&#160;<code class="code_1">chmod +x NAKIVO_Backup_&amp;_Replication_TRIAL.sh</code></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Execute the installer file with root privileges. For example:&#160;<code class="code_1">sudo ./NAKIVO_Backup_&amp;_Replication_TRIAL.sh</code></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Review the license agreement (press&#160;<b>Space</b>&#160;to go to the next page of the agreement). If you agree to the terms of the license agreement, press "Y" and then press&#160;<b>Enter</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Type "S" to install the full solution and press&#160;<b>Enter</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify the installation path for the product: Press&#160;<b>Enter</b>&#160;to accept the default installation path "/opt/nakivo" or enter a custom path and press&#160;<b>Enter</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify the Director HTTPS port (which will be used to access the Web UI of NAKIVO Backup &amp; Replication): Press&#160;<b>Enter</b>&#160;to accept the default port "4443" or enter a custom port number and press&#160;<b>Enter</b>. Make sure the port you specify is open in your firewall.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify whether to allow the product to automatically send support bundles to a NAKIVO server during the evaluation period (Call Home). If this option is enabled, NAKIVO Backup &amp; Replication will automatically create, encrypt, and upload support bundles once a day to a NAKIVO support server during the evaluation period. NAKIVO Support team may use this information to improve the product experience and will be able to identify and resolve product issues faster.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify the Transporter port (which will be used to connect to the Transporter that is installed by default with the Director): Press&#160;<b>Enter</b>&#160;to accept the default port "9446" or enter a custom port number (1 to 65535) and press&#160;<b>Enter</b>. Make sure the port you specify is open in your firewall.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify a range of port numbers (from 1 to 65535) that will be used to transfer data by the Onboard Transporter (default are 9448-10000). The range you specify should contain at least 100 ports. Make sure that the ports you specify are open in your firewall.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify a path to the default Backup Repository: Press&#160;<b>Enter</b>&#160;to accept the default path "/opt/nakivo/repository" or enter a custom path and press&#160;<b>Enter</b>&#160;to begin the installation process.</p>
+            </li>
+        </ol>
+        <p>After the installation is complete, you can log in to NAKIVO Backup &amp; Replication by opening the following URL in your web browser: https://machine_IP_or_DNS:director_https_port</p>
+        <p>By default, login name and password are not required to access NAKIVO Backup &amp; Replication. To prevent unauthorized access to the product, you can set up credentials in Configuration.</p>
+        <h2>Installing Transporter on Linux</h2>
+        <p>If you have already installed the full solution (both Director and Transporter) and want to deploy an additional Transporter, run the NAKIVO Backup &amp; Replication installer for Windows and follow the steps below:</p>
+        <h3>Transporter Installation Prerequisites</h3>
+        <p>Prior to installing a Transporter, make sure the following prerequisites are met:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Make sure the machine on which you plan to install the Transporter has a connection to the relevant items below: </p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1">The machine on which the Director is installed</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">VMware/Hyper-V servers on which you plan to back up or replicate VMs (if you plan to retrieve VM data using the Transporter you are about to install)</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Machines on which you have installed other Transporters (if you plan to set up data transfer between an existing Transporter and the one you are about to install)&#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Backup repository (if you plan to assign the Transporter you are about to install to a Backup Repository)</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">VMware/Hyper-V servers which you plan to use as a destination for replicated VMs (if you plan to write data to the target servers and datastores using the Transporter you are about to install)</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">If you have discovered VMware/Hyper-V servers&#160;using DNS names, make sure those DNS names can be resolved on the machine on which you plan to install the Transporter.</p>
+            </li>
+        </ol>
+        <h3>Transporter Installation</h3>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Upload the installer file to the machine on which you wish to install NAKIVO Backup &amp; Replication in the&#160;<cite>binary transfer mode</cite>. For example:</p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1"><a href="C:\display\NH\Uploading+Installer+from+Windows+Machine+to+Linux+Machine">Upload the installer from a Windows-based machine</a>.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Upload the product from a Linux-based machine: run the following command:&#160;<code class="code_1">wget 'server_ip/shared/NAKIVO_Backup_&amp;_Replication_TRIAL.sh'</code></p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Allow the execution of the installer file. For example:&#160;<code class="code_1">chmod +x NAKIVO_Backup_&amp;_Replication_TRIAL.sh</code></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Execute the installer file with root privileges. For example:<code class="code_1">&#160;sudo ./NAKIVO_Backup_&amp;_Replication_TRIAL.sh</code></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Review the license agreement (press&#160;<b>Space</b>&#160;to go to the next page of the agreement). If you agree to the terms of the license agreement, press "Y" and then press&#160;<b>Enter</b>.</p>
+            </li>
+            <li>
+                <p>Type "T" to install only the Transporter and press&#160;<b>Enter</b>.</p>
+                <p>Note</p>
+                <p>Alternatively, you can use the <b>-t</b> argument to install the Transporter silently:<br /><code class="code_1">sudo ./NAKIVO_Backup_&amp;_Replication_TRIAL.sh -t</code></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify the installation path for the product: Press&#160;<b>Enter</b>&#160;to accept the default installation path "/opt/nakivo" or enter a custom path and press&#160;<b>Enter</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify the Transporter port (used to connect to the Transporter): Press&#160;<b>Enter</b>&#160;to accept the default port "9446" or enter a custom port number and press&#160;<b>Enter</b>&#160;to begin the installation process. Make sure the port you specify is open in your firewall.</p>
+            </li>
+        </ol>
+        <p>After the installation is complete, <a href="C:\display\NH\Adding+Installed+Transporters">add the Transporter</a> to NAKIVO Backup &amp; Replication.</p>
+        <h2>Installing Full Solution in Multi-Tenant Mode on Linux</h2>
+        <p>Follow the steps below to install the full solution in multi-tenant mode on a Linux OS:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Upload the installer file to the machine on which you want to install NAKIVO Backup &amp; Replication in the&#160;<cite>binary transfer mode</cite>. For example:</p>
+                <ul class="ul_1">
+                    <li class="li_1">
+                        <p class="p_1"><a href="C:\display\NH\Uploading+Installer+from+Windows+Machine+to+Linux+Machine">Upload the installer from a Windows-based machine</a>.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Upload the product from a Linux-based machine: run the following command:&#160;<code class="code_1">wget 'server_ip/shared/NAKIVO_Backup_&amp;_Replication_TRIAL.sh'</code></p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Log in to the Linux machine and allow the execution of the installer file. For example:&#160;chmod +x NAKIVO_Backup_&amp;_Replication_TRIAL.sh</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Execute the installer file with root privileges. For example:&#160;<code class="code_1">sudo ./NAKIVO_Backup_&amp;_Replication_TRIAL.sh</code></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Review the license agreement (press&#160;<b>Space</b>&#160;to go to the next page of the agreement). If you agree to the terms of the license agreement, press "Y" and then press&#160;<b>Enter</b>.</p>
+            </li>
+            <li>
+                <p>Type “M” to install the Director in Multi-tenant mode and press <b>Enter</b>.</p>
+                <p>Note</p>
+                <p>Alternatively, you can use the <b>-m</b> argument to install the solution in multi-tenant mode silently:<br /><code class="code_1">sudo ./NAKIVO_Backup_&amp;_Replication_TRIAL.sh -m</code></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify the installation path for the product: Press <b>Enter</b> to accept the default installation path “/opt/nakivo” or enter a custom path and press <b>Enter</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify the Director HTTPS port (which will be used to access the Web UI of NAKIVO Backup &amp; Replication): Press <b>Enter</b> to accept the default port “4443” or enter a custom port number and press <b>Enter</b>. Make sure the port you specify is open in your firewall.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify whether to allow the product to automatically send support bundles to a NAKIVO server during the evaluation period. If this option is enabled, NAKIVO Backup &amp; Replication will automatically create, encrypt, and upload support bundles once a day to a NAKIVO support server during the evaluation period. NAKIVO Support team may use this information to improve the product experience and will be able to identify and resolve product issues faster.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify the Transporter port (which will be used to connect to the Transporter that is installed by default with the Director): Press <b>Enter</b> to accept the default port “9446” or enter a custom port number (1 to 65535) and press <b>Enter</b>. Make sure the port you specify is open in your firewall.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify a range of port numbers (from 1 to 65535) that will be used to transfer data by the Onboard Transporter&#160;(default are 9448-10000). The range you specify should contain at least 100 ports. Make sure that the ports you specify are open in your firewall.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify a path to the default backup repository: Press <b>Enter</b> to accept the default path <code class="code_1">/opt/nakivo/repository</code> or enter a custom path and press <b>Enter</b> to begin the installation process.</p>
+            </li>
+        </ol>
+        <p>After the installation is complete, you can log in to NAKIVO Backup &amp; Replication by going to the following URL in your web browser:&#160;<a href="https://machine_IP_or_DNSdirector_https_port.">https://machine_IP_or_DNS:director_https_port.</a></p>
+        <p>Refer to the&#160;<a href="C:\display\NH\Getting+Started">Getting Started</a>&#160;section to know how to continue working with NAKIVO Backup &amp; Replication.&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/First+Steps+with+NAKIVO+Backup+&amp;+Replication1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Logging in to NAKIVO Backup and Replication</h1>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Logging+in+to+NAKIVO+Backup+and+Replication.doc#LoggingintoNAKIVOBackupandReplication-G">Getting to Login Page&#160;</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Logging+in+to+NAKIVO+Backup+and+Replication.doc#LoggingintoNAKIVOBackupandReplication-C">Creating User Account</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Logging+in+to+NAKIVO+Backup+and+Replication.doc#LoggingintoNAKIVOBackupandReplication-R">Resetting Password</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Logging+in+to+NAKIVO+Backup+and+Replication.doc#LoggingintoNAKIVOBackupandReplication-D">Default Password in AWS EC2</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Getting to Login Page&#160;</h2>
+        <p><span class="span_2">You can get to the NAKIVO Backup &amp; Replication login page by opening the following URL in your web browser:&#160;</span><a href="https://machine_IP_or_DNS:4443"><span class="span_2">https://machine_IP_or_DNS:4443</span></a>
+        </p>
+        <p>Note</p>
+        <p>If you have selected a custom HTTPS port during installation, replace 4443 with the corresponding value.</p>
+        <h2>Creating User Account</h2>
+        <p>When you open the NAKIVO Backup &amp; Replication login page for the first time, you will be prompted to create a new user account. This is an admin account that will be used to access your instance of the application. Fill out the fields in the form:</p>
+        <p>Note</p>
+        <p>If NAKIVO Backup &amp; Replication is deployed in an EC2 instance, you will first be prompted to enter the EC2 instance ID.</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2"><b class="b_1">Name</b><span class="span_3">: Provide your real name.</span>
+                </p>
+            </li>
+            <li>
+                <p><b class="b_1">Username</b><span class="span_3">: Enter an admin username to log in to the application.</span>
+                </p>
+            </li>
+            <li>
+                <p><b>Email</b>: Provide an email address that you will use to identify yourself in the application.</p>
+            </li>
+            <li>
+                <p><b>Password</b>: Enter a password for logging in to the application.</p>
+            </li>
+            <li>
+                <p><b>Repeat password</b>: Repeat the password you’ve entered in the Password field above.</p>
+            </li>
+        </ol>
+        <p>When you are ready to create your NAKIVO Backup &amp; Replication account, click&#160;<b>Proceed</b>.</p>
+        <p>
+            <img src="../Resources/Images/Logging+in+to+NAKIVO+Backup+and+Replication/Logging in to NAKIVO Backup_2.png" class="img_5" />
+        </p>
+        <p><span class="span_1">The application opens in your browser displaying the </span><a href="C:\pages\viewpage.action?pageId=24052656">configuration wizard</a><span class="span_1">.&#160;</span>
+        </p>
+        <p><span class="span_1">Refer to </span><a href="C:\pages\viewpage.action?pageId=24052656">First Steps with NAKIVO Backup &amp; Replication</a><span class="span_1">&#160;to learn how to start using NAKIVO Backup &amp; Replication.</span>
+        </p>
+        <p><span class="span_1">To log out of the application, click </span><b class="b_2">Logout</b><span class="span_1"> in the main menu, and then click </span><b class="b_2">Log out</b><span class="span_1">.</span>
+        </p>
+        <h2>Resetting Password</h2>
+        <p>If you forget the password used to log in to NAKIVO Backup &amp; Replication, you can restore it by following the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2">Open the NAKIVO Backup &amp; Replication login page.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Type in incorrect credentials. The notification <b>Incorrect credentials&#160;</b>will appear on the display.</p>
+            </li>
+            <li class="li_3">
+                <p class="p_4">Click the <b>Forgot password</b> link.<br /><br /><img src="../Resources/Images/Logging+in+to+NAKIVO+Backup+and+Replication/Logging in to NAKIVO Backup_3.png" class="img_6" /></p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Do either of the following:</p>
+            </li>
+        </ol>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2">&#160;</p>
+                <ul class="ul_3">
+                    <li class="li_1">
+                        <p class="p_2">If you have set up <a href="C:\display\NH\Email+Notifications">email settings</a> in NAKIVO Backup &amp; Replication, enter your email address in the field and click<b>&#160;Done</b>. The password will be sent to your email address.</p>
+                    </li>
+                    <li>
+                        <p>If you have not set up email settings in NAKIVO Backup &amp; Replication:</p>
+                        <ol start="1" class="ol_1">
+                            <li>
+                                <p>Enter your username and click&#160;<b>Done</b>.</p>
+                            </li>
+                            <li>
+                                <p>&#160;Go to the product installation folder and locate the “forgot_password.txt” file.</p>
+                            </li>
+                            <li>
+                                <p>Paste the<span class="span_1">&#160;security string from the file in the appropriate field.</span></p>
+                            </li>
+                            <li>
+                                <p><span class="span_1">Click&#160;</span><b class="b_2">Done</b><span class="span_1">.</span>
+                                </p>
+                                <p>Notes:</p>
+                                <ol start="1" class="ol_1">
+                                    <li class="li_1">
+                                        <p class="p_2">If you are using the Virtual Appliance (VA), go to the&#160;VA console, then&#160;go to the command line and&#160;enter:&#160;<code class="code_1">cat /opt/nakivo/director/forgot_password.txt</code>&#160;The security string will be displayed on the screen. You can copy-paste it into the web interface.</p>
+                                    </li>
+                                    <li class="li_1">
+                                        <p class="p_2">If you are using a NAS, open an SSH connection to your device and read the forgot_password.txt file in the following folders: </p>
+                                        <ul class="ul_2">
+                                            <li class="li_1">
+                                                <p class="p_2">For ASUSTOR NAS: <code class="code_1">/usr/local/AppCentral/NBR</code></p>
+                                            </li>
+                                            <li class="li_1">
+                                                <p class="p_2">For FreeNAS (inside the jail): <code class="code_1">/usr/local/nakivo/director</code></p>
+                                            </li>
+                                            <li class="li_1">
+                                                <p class="p_2">For NETGEAR NAS: <code class="code_1">/apps/nbr</code></p>
+                                            </li>
+                                            <li class="li_1">
+                                                <p class="p_2">For QNAP NAS: <code class="code_1">/share/CACHEDEV1_DATA/.qpkg/NBR</code></p>
+                                            </li>
+                                            <li class="li_1">
+                                                <p class="p_2">For Raspberry PI: <code class="code_1">/opt/nakivo/director</code></p>
+                                            </li>
+                                            <li class="li_1">
+                                                <p class="p_2">For Synology NAS: <code class="code_1">/volume1/@appstore/NBR</code></p>
+                                            </li>
+                                            <li class="li_1">
+                                                <p class="p_2">For Western Digital NAS: <code class="code_1">/mnt/HD/HD_a2/Nas_Prog/NBR</code></p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="li_1">
+                                        <p class="p_2">To learn how to open an <code class="code_1">SSH</code> connection to your NAS device and read text files, refer to the corresponding NAS vendor documentation.</p>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Default Password in AWS EC2</h2>
+        <p>If you have deployed NAKIVO Backup &amp; Replication as an EC2 instance in AWS EC2, use the following default credentials to log in:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><b>Username</b>: admin</p>
+            </li>
+            <li>
+                <p><b>Password</b>:&#160;The password is the ID of the&#160;NAKIVO Backup &amp; Replication instance in AWS</p>
+            </li>
+        </ul>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Planning Disaster Recovery\Replica Failback for VMware vSphere"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-18T10:10:17.7797082+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Destination.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Destination.doc" />
+    <Url
+      Source="../../../../../Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Networks.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Networks.doc" />
+    <Url
+      Source="../../../../../Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Re-IP.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Re-IP.doc" />
+    <Url
+      Source="../../../../../Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Source.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Failback+Job+Wizard+for+VMware+vSphere_+Source.doc" />
+    <Url
+      Source="../../../../../Downloads/Replica+Failback+for+VMware+vSphere.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replica+Failback+for+VMware+vSphere.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+Replica+Failback+for+VMware+vSphere.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+Replica+Failback+for+VMware+vSphere.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Failback+Job+Wizard+for+VMware+vSphere_+Destination/Failback Job Wizard for VMware.png"
+      TimeStamp="Fri 18.09.20 10:10:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Job+Wizard+for+VMware+vSphere_+Destination/Failback Job Wizard for VMware_1.png"
+      TimeStamp="Fri 18.09.20 10:10:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Job+Wizard+for+VMware+vSphere_+Destination/Failback Job Wizard for VMware_2.png"
+      TimeStamp="Fri 18.09.20 10:10:09 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Replica Failback for VMware vSphere/Failback Job Wizard for VMware.htm"
+      TimeStamp="Fri 18.09.20 10:10:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Job+Wizard+for+VMware+vSphere_+Networks/Failback Job Wizard for VMware_1.png"
+      TimeStamp="Fri 18.09.20 10:10:09 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Replica Failback for VMware vSphere/Failback Job Wizard for VMware_1.htm"
+      TimeStamp="Fri 18.09.20 10:10:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Job+Wizard+for+VMware+vSphere_+Options/Failback Job Wizard for VMware_2.png"
+      TimeStamp="Fri 18.09.20 10:10:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Job+Wizard+for+VMware+vSphere_+Options/Failback Job Wizard for VMware_2_1.png"
+      TimeStamp="Fri 18.09.20 10:10:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Job+Wizard+for+VMware+vSphere_+Options/Failback Job Wizard for VMware_2_2.png"
+      TimeStamp="Fri 18.09.20 10:10:09 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Replica Failback for VMware vSphere/Failback Job Wizard for VMware_2.htm"
+      TimeStamp="Fri 18.09.20 10:10:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Job+Wizard+for+VMware+vSphere_+Re-IP/Failback Job Wizard for VMware_3.png"
+      TimeStamp="Fri 18.09.20 10:10:10 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Replica Failback for VMware vSphere/Failback Job Wizard for VMware_3.htm"
+      TimeStamp="Fri 18.09.20 10:10:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Failback+Job+Wizard+for+VMware+vSphere_+Source/Failback Job Wizard for VMware_4.png"
+      TimeStamp="Fri 18.09.20 10:10:10 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Replica Failback for VMware vSphere/Failback Job Wizard for VMware_4.htm"
+      TimeStamp="Fri 18.09.20 10:10:10 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Replica Failback for VMware vSphere/Replica Failback for VMware.htm"
+      TimeStamp="Fri 18.09.20 10:10:10 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Replica+Failback+for+VMware+vSphere/Starting Replica Failback.png"
+      TimeStamp="Fri 18.09.20 10:10:10 AM" />
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Replica Failback for VMware vSphere/Starting Replica Failback.htm"
+      TimeStamp="Fri 18.09.20 10:10:10 AM" />
+    <Url
+      Source="../TOCs/Failback+Job+Wizard+for+VMware+vSphere_+Destination.fltoc"
+      TimeStamp="Fri 18.09.20 10:10:10 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Failback+Job+Wizard+for+VMware+vSphere_+Destination.css"
+      TimeStamp="Fri 18.09.20 10:10:10 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="auto-cursor-target"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Heading 3"
+      To="h3"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Emphasis"
+      To="i"
+      Style="Flare" />
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

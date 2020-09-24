@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Full Synthetic Data Storage</h1>
+        <p>With&#160;<b>forever incremental</b>&#160;Backup Repositories, NAKIVO Backup &amp; Replication uses the full synthetic mode to store backups: all&#160;unique&#160;data blocks are stored in a single pool, while recovery points serve as references to the data blocks&#160;that&#160;are required to&#160;reconstruct a machine at a particular moment in time.&#160;</p>
+        <p><b>Example</b>
+        </p>
+        <p>You run the first backup of a VM on Sunday. For the sake of simplicity, let's say that the VM consists only of 2 data blocks: A and B. Then on Monday, you run an incremental backup, which finds that the block A has been deleted, but a new block C has been added. Then on Tuesday, the incremental backup finds that the block B has been deleted and a new block D has been added. Here's how the VM would look like during the three days:</p>
+        <p>&#160;<img src="../Resources/Images/Full+Synthetic+Data+Storage/Full Synthetic Data Storage.png" class="img_27" /></p>
+        <p>And here's how the data will be stored in the&#160;<b>forever incremental Backup Repository</b>&#160;if the job is set to keep 3 or more recovery points:</p>
+        <p>
+            <img src="../Resources/Images/Full+Synthetic+Data+Storage/Full Synthetic Data Storage_1.png" class="img_28" />
+        </p>
+        <p>As you can see from above, each unique data block is stored only once to save space, while recovery points are just references to data blocks that are required to reconstruct the VM as of a particular moment in time.&#160;If, for example, you delete Monday's recovery point, then no actual data removal will occur, as its data blocks (B and C) are required for recovery points of Sunday and Tuesday. If, on the other hand, you change the recovery point retention policy to keep only the last two recovery points (Mon and Tues in our case), then only block A will be deleted, as it's not being used anywhere else.&#160;</p>
+        <p>The full synthetic data storage approach provides a number of benefits:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><b>Smaller backups</b>: Unique data blocks are stored only once and can be referenced by&#160;multiple&#160;recovery points, as opposed to storing the same data again in different increments.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><b>Faster backups</b>:&#160;There is no need to run full backups periodically or transform legacy increments into virtual full backups,&#160;as each recovery point already "knows" which data blocks should be used to reconstruct an entire machine.&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><b>Safer backups</b>:&#160;With a legacy incremental backup approach, losing one increment in a chain means losing the entire chain of recovery points after that increment. With NAKIVO Backup &amp; Replication losing a data block or an increment (such as A or B in the example above) can still leave you with recoverable increments.&#160;</p>
+            </li>
+            <li>
+                <p><b>Faster recovery</b>:&#160;A legacy incremental backup consists of a chain of increments that you must apply one by one in order to get to a particular machine state. With NAKIVO Backup &amp; Replication, each&#160;recovery point already "knows" which data blocks should be used to reconstruct an entire machine.</p>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Log Truncation</h1>
+        <p>With NAKIVO Backup &amp; Replication, you can remove (truncate) transaction log files of Microsoft Exchange and Microsoft SQL servers which will allow you to reduce the size of backups and, as a result, to optimize the use of storage space.&#160;Log truncation can be enabled on the Options page of <a href="C:\display\NH\Backup">backup</a> and <a href="C:\display\NH\Replication">replication</a> jobs.&#160;</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Log+Truncation.doc#LogTruncation-MicrosoftExchangeLogTrunc">Microsoft Exchange Log Truncation</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Log+Truncation.doc#LogTruncation-MicrosoftSQLServerLogTrun">Microsoft SQL Server Log Truncation</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Microsoft Exchange Log Truncation</h2>
+        <p>Microsoft Exchange is the industry's leading platform for email, calendaring, and messaging services. To protect data from undesired deletion or modification, each change that is made to a Microsoft Exchange server database is recorded in transaction logs. These logs can be replayed to recover data that was removed or changed in the database. While this approach improves data protection, it has a downside. Since the Microsoft Exchange database is constantly changing (as data is written and removed in the database), transaction logs grow over time. If not periodically removed, they will eventually fill up the disk and may crash the entire server.</p>
+        <p>NAKIVO Backup &amp; Replication can create consistent backups of VMware and Hyper-V VMs as well as remove&#160;transaction log files of Microsoft Exchange 2016, 2013, 2010, and 2007 servers. After creating a successful backup, NAKIVO Backup &amp; Replication connects to your Microsoft Exchange server, identifies which transaction log files have already been written to the database and removes—or <cite>truncates</cite>—those log files.</p>
+        <p>
+            <img src="../Resources/Images/Log+Truncation/Log Truncation.png" alt="Stages of Log Truncation" class="img_36" />
+        </p>
+        <p>As a result, NAKIVO Backup &amp; Replication creates regular, application-consistent backups of your Microsoft Exchange server and also removes the transaction log files so they don't consume all free disk space on the server.</p>
+        <h2>Microsoft SQL Server Log Truncation</h2>
+        <p>Any Microsoft SQL server tracks all database transactions (modifications) completed by the server and records them to the transaction logs. Transaction log files (identified with the .ldf extension) are very important, as they are used to ensure database integrity and allow restoring data by replaying the changes. However, these files grow over time and can eventually fill all the free space. This may result in the Microsoft SQL Server crash, or loss of valuable data. That is where Transaction Log Truncation might help.</p>
+        <p>On one hand, you need to keep the transaction logs, so you can recover Microsoft SQL Server data in case any data deletion, undesired modification, or corruption occurs. On the other hand, you need to remove transaction logs to save space, but without any transaction records you will be unable to successfully recover, should any unpredictable situation occur.</p>
+        <p>The best practice is to first back up the whole VMware or Hyper-V VM running Microsoft SQL Server and all log files stored therein, and then delete—or truncate—those files on the source VM freeing up the storage space.</p>
+        <p>NAKIVO Backup &amp; Replication supports transaction log truncation for Microsoft SQL Server 2008 and later. The product follows the best practice of performing the log truncation process while ensuring ease of use and simplicity. NAKIVO Backup &amp; Replication can automatically truncate transaction log files after successful VM backup and replication. All you need to do is just set it and forget it.</p>
+        <p>To free up the VM storage space, NAKIVO Backup &amp; Replication performs the following operations:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2">Backs up/replicates the entire VMware or Hyper-V VM running Microsoft SQL Server.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">After completing a successful backup/replication, identifies Microsoft SQL Server transaction log files, which were already committed to the database.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Truncates (deletes) the committed transaction log files on the source VM, thus freeing up storage space.</p>
+            </li>
+        </ul>
+        <p>Consequently, you get a VM backup/replica with all transaction log files. Even though the backed up log files can be pretty large, NAKIVO Backup &amp; Replication easily reduces the size of the VM backup by using backup&#160;deduplication&#160;and compression features. In its turn, the original VM is left logs-free and can be recovered at a certain recovery point using the aforementioned VM backup/replica, should something go wrong.</p>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Backing+Up+to+Tape.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Tape Backup Wizard: Options</h1>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Tape+Backup+Wizard_+Options.doc#TapeBackupWizard:Options-JobOptions" class="Hyperlink">Job Options</a> </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Tape+Backup+Wizard_+Options.doc#TapeBackupWizard:Options-JobName" class="Hyperlink">Job Name</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Tape+Backup+Wizard_+Options.doc#TapeBackupWizard:Options-NetworkAcceler" class="Hyperlink">Network Acceleration</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Tape+Backup+Wizard_+Options.doc#TapeBackupWizard:Options-DataEncryption" class="Hyperlink">Data Encryption</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Tape+Backup+Wizard_+Options.doc#TapeBackupWizard:Options-Createfullback" class="Hyperlink">Create full backup</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Tape+Backup+Wizard_+Options.doc#TapeBackupWizard:Options-Tapeappending" class="Hyperlink">Tape appending</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Tape+Backup+Wizard_+Options.doc#TapeBackupWizard:Options-Pre-andPost-Jo" class="Hyperlink">Pre- and Post- Job Actions</a> </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Tape+Backup+Wizard_+Options.doc#TapeBackupWizard:Options-EmailNotificat" class="Hyperlink">Email Notifications&#160;</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Tape+Backup+Wizard_+Options.doc#TapeBackupWizard:Options-Pre-JobScript" class="Hyperlink">Pre- Job Script</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Tape+Backup+Wizard_+Options.doc#TapeBackupWizard:Options-Post-JobScript" class="Hyperlink">Post-Job Script</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Tape+Backup+Wizard_+Options.doc#TapeBackupWizard:Options-DataTransfer" class="Hyperlink">Data Transfer</a> </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Tape+Backup+Wizard_+Options.doc#TapeBackupWizard:Options-BandwidthThrot" class="Hyperlink">Bandwidth Throttling</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Tape+Backup+Wizard_+Options.doc#TapeBackupWizard:Options-CompletingtheT" class="Hyperlink">Completing the Tape Backup Wizard</a>
+                </p>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <p><span class="span_1">On the&#160;</span><span class="Strong">Options</span><span class="span_1">&#160;page of the wizard, you can name the job and enable/disable network acceleration and encryption. What’s more, you can set up pre- and post-actions and enable bandwidth throttling.&#160;</span>
+        </p>
+        <h2>Job Options</h2>
+        <p>In this section, you can give a name to the tape&#160;backup job and enable/disable app-aware mode, change tracking, network acceleration, encryption, and VM verification.</p>
+        <h3>Job Name</h3>
+        <p>Specify a name for the tape backup job in the <span class="Strong">Job name</span> box.<br /><br /><img src="../Resources/Images/Tape+Backup+Wizard_+Options/Tape Backup Wizard Options.png" class="img_103" /></p>
+        <h3>Network Acceleration</h3>
+        <p>Once Network Acceleration is enabled, NAKIVO Backup &amp; Replication will use compression and traffic reduction techniques to speed up data transfer. Select this option if you are backing up over WAN without a VPN connection. For more information, refer to the <a href="C:\display\NH\Network+Acceleration" class="Hyperlink">Network Acceleration</a> topic.&#160;<br /><br /><img src="../Resources/Images/Tape+Backup+Wizard_+Options/Tape Backup Wizard Options_1.png" class="img_103" /></p>
+        <h3>Data Encryption</h3>
+        <p>If the <span class="Strong">Encryption</span> option is selected, backup data will be protected with AES 256 encryption while traveling over the network. Data encryption increases the backup time and CPU load on machines running Transporters. Select this option if you back up over WAN without a VPN connection. For more information, refer to the <a href="C:\display\NH\Encryption+in+Flight+and+at+Rest" class="Hyperlink">Encryption in Flight and at Rest topic</a>.</p>
+        <p class="NormalWeb">
+            <img src="../Resources/Images/Tape+Backup+Wizard_+Options/Tape Backup Wizard Options_2.png" class="img_104" />
+        </p>
+        <p>Note</p>
+        <p>You need at least one Transporter at the source and target sites to enable encryption.</p>
+        <h3>Create full backup</h3>
+        <p>With the&#160;<span class="Strong">Create full backup&#160;</span>list, you can specify how often the system should perform a full (not incremental) backup to tape. The following options are available:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><span class="Strong">Always</span>: Every backup will be full</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Every</span>: Select a day of the week. The full backup will be performed once a week on a specified day</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Every</span> <span class="Strong">2nd</span>:&#160;Select a day of the week. The full backup will be performed once in 2 weeks on a specified day</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">First</span>:&#160;Select a day of the week. The full backup will be performed once per month starting with the first specified day of the month</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Second</span>:&#160;Select a day of the week. The full backup will be performed once per month starting with the second specified day of the month</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Third</span>:&#160;Select a day of the week. The full backup will be performed once per month starting with the third specified day of the month</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Fourth</span>:&#160;Select a day of the week. The full backup will be performed once per month starting with the fourth specified day of the month</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Last</span>:&#160;Select a day of the week. The full backup will be performed once per month starting with the last specified day of the month</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Day</span> <span class="Strong">#</span>: Select the day number.&#160;The full backup will be performed once per month on the specified day number</p>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Job runs #</span>: Specify the number of backup jobs to pass before running a full backup<br /><br /><img src="../Resources/Images/Tape+Backup+Wizard_+Options/Tape Backup Wizard Options_3.png" class="img_103" /></p>
+            </li>
+        </ul>
+        <p>Note</p>
+        <p>Only&#160;<span class="Strong">Always&#160;</span>and&#160;<span class="Strong">Job runs #&#160;</span>options are always available for selection. The rest of the options' availability depends on the scheduling settings specified on the&#160;<a href="C:\display\NH\Tape+Backup+Wizard:+Schedule"><span class="Hyperlink_2">Schedule&#160;</span></a>page.</p>
+        <h3>Tape appending</h3>
+        <p>The&#160;<span class="Strong">Tape appending&#160;</span>feature allows you to set up the rules for data appending. The following options are available:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><span class="Strong">Append previous tape if possible</span>:&#160; </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><span class="span_9">The job run&#160;appends&#160;data to the last tape cartridge.</span>
+                        </p>
+                    </li>
+                    <li class="li_4">
+                        <p>If the tape cartridge that was last written during the last job run is not available in the device or is full, the job starts with an empty cartridge:</p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p>All job objects within the job run are written to the selected tape cartridge one by one.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>If the selected tape cartridge runs out of space, the next empty tape cartridge is selected and the process repeats until all job objects are written.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Start full backup with an empty tape</span>:&#160; </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p>In case the backup modes of all job objects within the job run are defined as <span class="Strong">full</span>: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p>The job run starts with an empty tape cartridge.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>All job objects within the job run are written to the selected tape cartridge one by one.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>If the selected tape cartridge runs out of space, the next empty tape cartridge is selected and the process repeats until all job objects are written.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p>In case the backup modes of all job objects within the job run are defined as <span class="Strong">incremental</span>: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p>The job run appends data to the last tape cartridge.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>All job objects within the job run are written to the selected tape cartridge one by one.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>If the selected tape cartridge runs out of space, the next empty tape cartridge is selected and the process repeats until all job objects are written.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p>In case the backup modes of all job objects within the job run are defined as a <span class="Strong">mix of full and incremental</span> modes: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p>The job run appends data to the last tape cartridge.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>All job objects within the job run are written to the selected tape cartridge one by one.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>If the selected tape cartridge runs out of space, the next empty tape cartridge is selected and the process repeats until all job objects are written.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p><span class="Strong">Always start with an empty tape</span>:&#160; </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p>The job starts with an empty tape cartridge.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>All job objects within the job run are written to the selected tape cartridge one by one.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>In case the selected tape cartridge runs out of space, the next empty tape cartridge is selected and the process repeats until all job objects are written.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <p class="NormalWeb">
+            <img src="../Resources/Images/Tape+Backup+Wizard_+Options/Tape Backup Wizard Options_4.png" class="img_104" />
+        </p>
+        <h2>Pre- and Post- Job Actions</h2>
+        <p>NAKIVO Backup &amp; Replication provides you with the ability to enable certain actions before a tape backup job begins and after it has completed. You can choose to send job run reports to the email provided and run local pre and post job scripts.</p>
+        <h3>Email Notifications&#160;</h3>
+        <p>NAKIVO Backup &amp; Replication can send email notifications on job completion status to specified recipients. This feature complements&#160;<a href="C:\display\NH\Email+Notifications" class="Hyperlink">global notifications</a>&#160;and and provides you with the ability to configure notifications on a per-job level.</p>
+        <p>To enable this option, configure your&#160;<a href="C:\display\NH\Email+Notifications" class="Hyperlink">Email settings</a>.</p>
+        <p>To send email notifications, do the following:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p>In the <span class="Emphasis">Pre- and Post- Actions</span> section, select the&#160;<span class="Strong">Send job run reports to&#160;</span>option<span class="Strong">&#160;</span>and specify one or more email addresses in the text box. Separate multiple email addresses with a semicolon.<br /><br /><img src="../Resources/Images/Tape+Backup+Wizard_+Options/Tape Backup Wizard Options_5.png" class="img_104" /></p>
+            </li>
+        </ul>
+        <h3>Pre- Job Script</h3>
+        <p>To run a script before the product begins copying backups, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Place a script file on the machine on which the Director is installed.</p>
+            </li>
+            <li class="li_1">
+                <p>In the&#160;<span class="Emphasis">Pre and Post Actions</span>&#160;section, select&#160;the&#160;<span class="Strong">Run local pre job script</span>&#160;option and click the&#160;<span class="Strong">settings</span>&#160;link. Specify the following parameters in the dialog that opens:<br /><br /><img src="../Resources/Images/Tape+Backup+Wizard_+Options/Tape Backup Wizard Options_6.png" class="img_51" /></p>
+            </li>
+        </ol>
+        <ul class="ul_1">
+            <li class="li_1">
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><span class="Strong">Script path</span>:&#160;Specify a local path to the script on the machine on which the Director is installed. Script interpreter should be specified.&#160;</p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p>Example (Windows):&#160;<span class="Emphasis">cmd.exe /c D:\script.bat</span></p>
+                            </li>
+                            <li class="li_1">
+                                <p>Example (Linux):&#160;<span class="Emphasis">bash /root/script.sh</span></p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Job behavior</span>: Choose either of the following job behaviors in relation to script completion: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p><span class="Strong">Wait for the script to finish</span>:<span class="Strong">&#160;</span>If this option is selected, tape backup will not be started until the script is completed.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><span class="Strong">Do not wait for the script to finish</span>:<span class="Strong">&#160;</span>If this option is selected, the product will run the script and will start copying backups at the same time.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Error handling</span>: Choose either of the following job behaviors in relation to script failure: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p><span class="Strong">Continue the job on script failure</span>:<span class="Strong">&#160;</span>If this option is selected, the job will perform tape backup&#160;even if the script has failed.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><span class="Strong">Fail the job on script failure</span>:<span class="Strong">&#160;</span>If this option is selected and the script fails, the job will be failed and tape backup will not be performed.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h3>Post-Job Script</h3>
+        <p>To run a script after the product has finished copying all backups, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Place a script file on the machine on which the Director is installed.</p>
+            </li>
+            <li class="li_1">
+                <p>In the&#160;<span class="Emphasis">Pre and Post Actions</span>&#160;section, select&#160;the&#160;<span class="Strong">Run local post job script</span>&#160;option and click the&#160;<span class="Strong">settings</span>&#160;link. Specify the following parameters in the dialog box that opens:<br /><br /><img src="../Resources/Images/Tape+Backup+Wizard_+Options/Tape Backup Wizard Options_7.png" class="img_105" /></p>
+            </li>
+        </ol>
+        <ul class="ul_1">
+            <li class="li_1">
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p><span class="Strong">Script path</span>:<span class="Strong">&#160;</span>Specify a local path to the script on the machine on which the Director is installed. Script interpreter should be specified.&#160;</p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p>Example (Windows):&#160;<span class="Emphasis">cmd.exe /c D:\script.bat</span></p>
+                            </li>
+                            <li class="li_1">
+                                <p>Example (Linux):&#160;<span class="Emphasis">bash /root/script.sh</span></p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Job behavior</span>: Choose either of the following job behaviors in relation to script completion: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p><span class="Strong">Wait for the script to finish</span>:<span class="Strong">&#160;</span>If this option is selected, the job will be in the “running” state until the script is completed.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><span class="Strong">Do not wait for the script to finish</span>:<span class="Strong">&#160;</span>If this option is selected, the job will be completed even if the script execution is still in progress.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Error handling</span>: Choose either of the following job behaviors in relation to script failure<span class="Strong">:</span> </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p><span class="Strong">Continue the job on script failure</span>:<span class="Strong">&#160;</span>If this option is selected, script failure will not influence the status of the job.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><span class="Strong">Fail the job on script failure</span>:<span class="Strong">&#160;</span>If this option is selected and the script has failed, the job status will be set to “failed” even if VM backup has been successful.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <p>Important</p>
+        <p>Pre- and post-job scripts&#160;can be executed only on the machine where the Director is installed.</p>
+        <h2>Data Transfer</h2>
+        <p><span class="span_4">In the </span><span class="Emphasis_1">Data Transfer</span><span class="span_4">r section of the Options page, you can configure bandwidth throttling.</span>
+        </p>
+        <h3>Bandwidth Throttling</h3>
+        <p>Follow the steps below to regulate the speed of data transfer over the network for your tape backup job:</p>
+        <ol start="1" class="ol_1">
+            <li class="NormalWeb">
+                <p>For the <span class="Strong">Bandwidth throttling</span> option, choose <span class="Strong">Enabled</span>.</p>
+                <p>Note</p>
+                <p>If bandwidth throttling is disabled for the current job, global bandwidth rules may still apply to your job. Refer to <a href="C:\display\NH\Bandwidth+Throttling" class="Hyperlink">Bandwidth Throttling</a> for details.</p>
+            </li>
+            <li class="li_1">
+                <p>Click the <span class="Strong">Settings</span> link that becomes available.</p>
+            </li>
+            <li class="li_1">
+                <p>The <span class="Emphasis">Job Bandwidth Rules</span> dialog box opens displaying you the list of available rules. You have the following options: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p>Create a new bandwidth rule for your tape backup job: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p>Click the <span class="Strong">Create New Rule</span> button.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>The <span class="Emphasis">New Bandwidth Rule</span> dialog box opens. Refer to the <a href="C:\display\NH\Bandwidth+Throttling" class="Hyperlink">Bandwidth Throttling</a> topic for details on creating a bandwidth rule.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>Click <span class="Strong">Save</span>.</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p>Activate an existing bandwidth rule for your job. Select the checkbox to the left of the necessary bandwidth rule. To deactivate a bandwidth rule for your job, clear the corresponding checkbox.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>Edit a bandwidth rule. Click the <span class="Strong">Edit</span> link for a bandwidth rule and modify it in the <span class="Emphasis">Edit Bandwidth Rule</span> dialog box that opens.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>Disable a bandwidth rule. Click the <span class="Strong">Disable</span> link. The bandwidth rule will be disabled for all jobs.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>Remove a bandwidth rule. Click the <span class="Strong">Remove</span> link and then click <span class="Strong">Delete</span> to confirm your operation.<br /><br /><img src="../Resources/Images/Tape+Backup+Wizard_+Options/Tape Backup Wizard Options_8.png" class="img_36" /></p>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <h2>Completing the Tape Backup Wizard</h2>
+        <p>Click&#160;<span class="Strong">Finish</span>&#160;or&#160;<span class="Strong">Finish &amp; Run</span>&#160;to complete the job creation.</p>
+        <p>Note</p>
+        <p>If you click <span class="Strong">Finish &amp; Run</span>, you will have to define the scope of your job. Refer to <a href="C:\display\NH\Running+Jobs+on+Demand" class="Hyperlink">Running Jobs on Demand</a> for details.</p>
+    </body>
+</html>

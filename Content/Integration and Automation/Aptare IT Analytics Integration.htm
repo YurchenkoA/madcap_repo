@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Aptare+IT+Analytics+Integration.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Aptare IT Analytics Integration</h1>
+        <p>APTARE IT Analytics is a storage resource management platform for integrating storage and backup solutions. The integration with NAKIVO Backup &amp; Replication is based on an APTARE data collector that sends storage component information to the system’s platform. The steps for integrating NAKIVO Backup &amp; Replication with APTARE IT Analytics are as follows:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">On the machine where NAKIVO Backup &amp; Replication is deployed, do the following: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1"><a href="https://aptaredocs.veritas.com/10.3.00/#page/Backup%2520Manager%2520DC%2F%24H_94.html%23">Install</a> APTARE StorageConsole Data Collector with NAKIVO connector.&#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">When the installation has been successfully completed, make sure that the APTARE Agent service is running.</p>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Open your NAKIVO Backup &amp; Replication instance and run your backup jobs.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Log in to the APTARE portal.&#160;</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Go to the<b> ADMIN</b> tab and take the following steps:&#160;<br /><br /><img src="../Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration.png" class="img_1" /></p>
+                <ol start="1" class="ol_1">
+                    <li class="li_2">
+                        <p class="p_2">Add a Collector.&#160;For details, refer to the <a href="https://aptaredocs.veritas.com/10.3.00/#page/User%2520Guide%2F%24H_168.html%23">Managing and Monitoring Data Collection</a> subsection of the APTARE IT Analytics User Guide.<br /><br /><img src="../Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_1.png" class="img_2" /></p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">Add a NAKIVO Backup &amp; Replication data protection policy with a connection to your NAKIVO Backup &amp; Replication instance.&#160;For details, refer to the <a href="https://aptaredocs.veritas.com/10.3.00/#page/Backup%2520Manager%2520DC%2F%24H_28.html%23ww1001115">Pre-Installation Setup for Generic Backup</a> subsection of the APTARE IT Analytics User Guide.<br /><br /><img src="../Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_2.png" class="img_3" /><br /><br /><img src="../Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_3.png" class="img_4" /></p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">Run your policy.<br /><br /><img src="../Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_4.png" class="img_5" /></p>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Go to the <b>REPORTS</b>&#160;tab in the APTARE portal and take the following actions:<br /><br /><img src="../Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_5.png" class="img_6" /></p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1">Create and configure the report for your backup job the following way: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_2">
+                                <p class="p_2">Right-click on your report folder and select <b>New SQL Template</b>.<br /><br /><img src="../Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_6.png" class="img_7" /></p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">Select the template designer that will be used to gather user input for the report.<br /><br /><img src="../Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_7.png" class="img_8" /></p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1">&#160;Build an SQL query for your machine backup report or daily backup report, use either:<br />&#160;<br /><b>Daily Backup Report</b><br /><code class="code_1">select * from SDK_V_NKVO_NBR_DAILYBACKUP where (creation_date between ${startDate} and ${endDate}) and (server_instance_id in (select server_instance_id from apt_v_server_instance where server_id in (${hosts}))) order by report_id desc</code></p>
+                                <p>
+                                    <br /><b>Machine Backup Report</b><span class="span_1"><br /></span><code class="code_1">select * from SDK_V_NKVO_NBR_MACHINEBACKUP where (creation_date between ${startDate} and ${endDate}) and (server_instance_id in (select server_instance_id from apt_v_server_instance where server_id in (${hosts}))) order by report_id desc</code>
+                                </p>
+                                <p class="p_3"><span class="span_2"><br /><br /></span>
+                                    <img src="../Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_8.png" class="img_9" />
+                                </p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2"><span class="span_2">Change formatting options if necessary.<br /><br /><img src="../Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_9.png" class="img_10" /></span>
+                                </p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">Provide a name and description of the report and select users to share it with. Click <b>Finish</b>.<br /><br /><img src="../Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_10.png" class="img_11" /></p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">Double-click on the report. In the dialog box that opens, enter the necessary time and report scope. Click <b>Generate</b> to generate your report.&#160;For details, refer to the <a href="https://aptaredocs.veritas.com/10.3.00/#page/User%2520Guide%2F%24H_31.html%23">Generating and Maintaining Reports</a> subsection of the APTARE IT Analytics User Guide.<br /><br /><img src="../Resources/Images/Aptare+IT+Analytics+Integration/Aptare IT Analytics Integration_11.png" class="img_12" /></p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <p>To know more about APTARE IT Analytics, refer to the <a href="https://aptaredocs.veritas.com/10.3.00/#page/User%2520Guide%2F%24H.html%23wwconnect_header">APTARE IT Analytics User Guide</a>.</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

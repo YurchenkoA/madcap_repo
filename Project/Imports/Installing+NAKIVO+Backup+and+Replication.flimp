@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Deployment\Installing NAKIVO Backup and Replication"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-23T11:40:41.0863668+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Installing+NAKIVO+Backup+and+Replication.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Installing+NAKIVO+Backup+and+Replication.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and Replication/Installing NAKIVO Backup and.htm"
+      TimeStamp="Wed 23.09.20 11:40:39 AM" />
+    <Url
+      Source="../TOCs/Installing+NAKIVO+Backup+and+Replication.fltoc"
+      TimeStamp="Wed 23.09.20 11:40:38 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Installing+NAKIVO+Backup+and+Replication.css"
+      TimeStamp="Wed 23.09.20 11:40:38 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Physical+Machine+Recovery.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Recovery Job Wizard for Physical Machines: Options</h1>
+        <p>On the Options page, set the options for the physical machine recovery job.</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Options.doc#RecoveryJobWizardforPhysicalMachines:Op">Job Options</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Options.doc#RecoveryJobWizardforPhysicalMachines:Op">Recovered VM Options</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Options.doc#RecoveryJobWizardforPhysicalMachines:Op">Pre and Post Actions</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Options.doc#RecoveryJobWizardforPhysicalMachines:Op">Data Transfer</a> </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Options.doc#RecoveryJobWizardforPhysicalMachines:Op">Transport Mode</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Options.doc#RecoveryJobWizardforPhysicalMachines:Op">Transporters</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Options.doc#RecoveryJobWizardforPhysicalMachines:Op">Transporter Load</a>
+                        </p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><a href="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Physical+Machines_+Options.doc#RecoveryJobWizardforPhysicalMachines:Op">Bandwidth Throttling</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Job Options</h2>
+        <p>In the Job Options section, set the following:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1">Job name: Enter the name for the recovery job.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Network acceleration: Enable <a href="C:\display\NH\Network+Acceleration">network acceleration</a> if you transfer data over a slow WAN. Note that you need at least one Transporter on source and target sites for this feature to work.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Encryption: Enable <a href="C:\display\NH\Encryption+in+Flight+and+at+Rest">encryption</a> to protect your data while transferring it over a WAN without VPN. Job data will be encrypted during the transfer that will increase the load on the Transporter(s).&#160;<br /><br /><img src="../../../Resources/Images/Recovery+Job+Wizard+for+Physical+Machines_+Options/Recovery Job Wizard for Physical_2.png" class="img_4" /></p>
+            </li>
+        </ul>
+        <h2>Recovered VM Options</h2>
+        <p>In the Recovered VM Options section, set the following:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1">Recovered VM names: Select one of the following VM name options:</p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1">Append "-recovered" in the end: Select this option to use the name of the source physical machine for the recovered VM name with -recovered added to the in the end.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Leave recovered VM names as is:&#160; Select this option to retain the name of the source physical machine for the recovered VM name.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Enter custom recovered VM names: Select this option specify a custom name for the recovered VM.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">VM disks: Select one of the following VM disk types: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1">Respect original VM disk type: Select this option to keep the same disk type as the source machine for the recovered VM.&#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Create only thin disks on target VMs: Select this option to create thin disks on your target VM.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">VM MAC addresses: Select one of the following actions for the recovered VM:</p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1">Generate new MAC addresses</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Do not generate new MAC addresses</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">VM power on: Select one of the following options: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1">Power on recovered VMs</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Do not power on recovered VMs<span class="span_1"><br /><br /><img src="../../../Resources/Images/Recovery+Job+Wizard+for+Physical+Machines_+Options/Recovery Job Wizard for Physical_2_1.png" class="img_4" /></span></p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Pre and Post Actions</h2>
+        <p>In the Pre and Post Actions section, set the following actions after the recovery job is completed:</p>
+        <ul class="ul_1">
+            <li>
+                <p>Send job run reports to: Enter one or more email addresses in the text field. Use semicolons to separate multiple email addresses.</p>
+                <p>Note</p>
+                <p>To enable this option, make sure that <a href="C:\display\NH\Email+Notifications">Email settings</a> are configured.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Run local pre job script: To run a script after the product has finished the recovery job, do the following: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1">Place a script file on the machine on which the Director is installed.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Select the Run local pre job script option and click the settings link.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Specify the following options in the dialog box that appears: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p class="p_1">Script path: Specify a local path to the script on the machine where the Director is installed. A script interpreter should be specified.&#160;<br />Example (Windows): cmd.exe /c D:\script.bat</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1">Job behavior: Select one of the following job behaviors in relation to script completion: </p>
+                                <ul class="ul_3">
+                                    <li class="li_1">
+                                        <p class="p_1">Wait for the script to finish: When selected, the job remains in the “running” state until the script is executed.</p>
+                                    </li>
+                                    <li class="li_1">
+                                        <p class="p_1">Do not wait for the script to finish: When selected, the product runs the script and starts the recovery process at the same time.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1">Error handling: Select one of the following job behaviors in relation to script failure: </p>
+                                <ul class="ul_3">
+                                    <li class="li_1">
+                                        <p class="p_1">Continue the job on script failure: When selected, script failure does not influence the status of the job.</p>
+                                    </li>
+                                    <li class="li_1">
+                                        <p class="p_1">Fail the job on script failure: When selected and the script fails, the job status is set to “failed” and recovery is not performed.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Run local post job script: To run a script after the product has finished the recovery process, do the following: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1">Place a script file on the machine on which the Director is installed.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Select the Run local post job script option and click the settings link.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Specify the following options in the dialog box that appears: </p>
+                        <ul class="ul_3">
+                            <li class="li_1">
+                                <p class="p_1">Script path: Specify a local path to the script on the machine on which the Director is installed. A script interpreter should be specified. <br />Example (Windows): cmd.exe /c D:\script.bat</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1">Job behavior: Select one of the following job behaviors in relation to script completion:</p>
+                                <ul class="ul_3">
+                                    <li class="li_1">
+                                        <p class="p_1">Wait for the script to finish: When selected, the job remains in the “running” state until the script is executed.</p>
+                                    </li>
+                                    <li class="li_1">
+                                        <p class="p_1">Do not wait for the script to finish: When selected, the job is completed even if the script execution is still in progress.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1">Error handling: Select one of the following job behaviors in relation to script failure:</p>
+                                <ul class="ul_3">
+                                    <li class="li_1">
+                                        <p class="p_1">Continue the job on script failure: When selected, script failure does not influence the status of the job.</p>
+                                    </li>
+                                    <li class="li_1">
+                                        <p class="p_1">Fail the job on script failure: When selected and the script execution fails, the job status is set to “failed” even if the recovery process is successful.&#160;<br /><br /><img src="../../../Resources/Images/Recovery+Job+Wizard+for+Physical+Machines_+Options/Recovery Job Wizard for Physical_2_2.png" class="img_4" /></p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+        <h2>Data Transfer</h2>
+        <h3><span class="span_1">Transport Mode</span>
+        </h3>
+        <p>NAKIVO Backup &amp; Replication provides the following transport modes for writing VM data:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1">Hot Add only: NAKIVO Backup &amp; Replication can write data directly to the datastore bypassing the network, which can significantly increase the job performance. This is achieved with the help of VMware's <a href="https://beta-helpcenter.nakivo.com/display/NH/Hot+Add+for+VMware">Hot Add technology</a>. In order for the Hot Add feature to work, the target Transporter (the one that will be writing data) should run on a host that has access to the target datastore(s).</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">LAN only: Data will be written over LAN.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Automatic: When this option is chosen, Hot Add mode is used where possible. If the product cannot use Hot Add, LAN mode&#160; is used.</p>
+            </li>
+        </ul>
+        <h3 class="h3_1">Transporters</h3>
+        <p>By default, the product automatically determines which Transporter should be used to read data from the source VM. However, you can manually specify which Transporters should be used for the job:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1">Automatic selection: The product automatically determines the Transporters that are the closest to source and target hosts.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Manual - configured for all VMs: Select this option to manually specify a single source and a single target Transporter that will be used for data transfer by the job.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Manual - configured per host: Select this option to manually specify Transporters for all source and target hosts.</p>
+            </li>
+        </ul>
+        <h3 class="h3_1">Transporter Load</h3>
+        <p>You can limit the maximum number of transporter tasks used by the job. By default, this number is set to 3 concurrent tasks.&#160;To change the default number of tasks, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">In the Data Transfer section, select the Limit transporter load to checkbox.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Specify the number of concurrent tasks in the corresponding box.</p>
+            </li>
+        </ol>
+        <h3 class="h3_1">Bandwidth Throttling</h3>
+        <p>Follow the steps below to set the speed of data transfer over the network for your recovery job:</p>
+        <ol start="1" class="ol_1">
+            <li>
+                <p>For the Bandwidth throttling option, choose Enabled.</p>
+                <p>Note</p>
+                <p>If bandwidth throttling is disabled for the current job, global bandwidth rules may still apply to your job. Refer to <a href="C:\display\NH\Bandwidth+Throttling">Bandwidth Throttling</a> for details.</p>
+                <p>&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click the Settings link that becomes available.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">The Job Bandwidth Rules dialog box opens displaying the list of available rules. You have the following options: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p class="p_1">Create a new bandwidth rule for your recovery job: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p class="p_1">Click the Create New Rule button.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1">The New Bandwidth Rule dialog opens. Refer to <a href="C:\display\NH\Bandwidth+Throttling">Bandwidth Throttling</a> for details on creating a bandwidth rule.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1">Click Save.</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Activate an existing bandwidth rule for your job: Select the checkbox to the left of the required bandwidth rule. To deactivate a bandwidth rule for your job, deselect the corresponding checkbox.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Edit a bandwidth rule: Click the Edit link for a bandwidth rule and modify it in the Edit Bandwidth Rule dialog box that opens.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Disable a bandwidth rule: Click the Disable link. The bandwidth rule is disabled for all jobs.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Remove a bandwidth rule: Click the Remove link and then click Delete to confirm your operation.<br /><br /><img src="../../../Resources/Images/Recovery+Job+Wizard+for+Physical+Machines_+Options/Recovery Job Wizard for Physical_2_3.png" class="img_4" /></p>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

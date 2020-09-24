@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Replication"
+  LastImport="2020-09-15T20:35:46.6518207+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Staging+(Seeding)+VM+Replication.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Staging+(Seeding)+VM+Replication.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Replication/Staging Seeding VM Replication.htm"
+      TimeStamp="Tue 15.09.20 8:35:43 PM" />
+    <Url
+      Source="../TOCs/Staging+(Seeding)+VM+Replication.fltoc"
+      TimeStamp="Tue 15.09.20 8:35:43 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Staging+(Seeding)+VM+Replication.css"
+      TimeStamp="Tue 15.09.20 8:35:43 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

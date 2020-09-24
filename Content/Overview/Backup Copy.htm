@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Backup Copy</h1>
+        <p>Backups can be lost on account of a number of reasons, so having more than one copy of your business-critical backups is vital for ensuring that your data can be recovered in case of disaster. Backup Copy jobs provide a simple yet powerful way to create and maintain copies of your backups. Backup copy jobs copy backups from one Backup Repository to another without affecting the source ESXi hosts, VMs, Amazon Instances, or physical machines. This way, your source VMs/physical machines and Amazon Instances are read-only once while backups can be copied to one or multiple locations.</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Backup+Copy.doc#BackupCopy-CreateMirroredCopyofyourBack">Create Mirrored Copy of your Backup Repository</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Backup+Copy.doc#BackupCopy-CopyMostImportantBackups">Copy Most Important Backups</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Backup+Copy.doc#BackupCopy-CopyBackupsCreatedbyParticul">Copy Backups Created by Particular Backup Jobs</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Backup+Copy.doc#BackupCopy-SaveStorageSpacewithVariable">Save Storage Space with Variable Data Compression</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Backup+Copy.doc#BackupCopy-CopyBackupsOffsite">Copy Backups Offsite</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Backup+Copy.doc#BackupCopy-CopyBackupstoAmazonCloud">Copy Backups to Amazon Cloud</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Backup+Copy.doc#BackupCopy-CopyRecoveryPointsthatYouNee">Copy Recovery Points that You Need</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Backup+Copy.doc#BackupCopy-ScheduleBackupCopytoSuitYour">Schedule Backup Copy to Suit Your Needs</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Create Mirrored Copy of your Backup Repository</h2>
+        <p>With a Backup Copy job, you can create and maintain a mirrored copy of your primary Backup Repository, which is the simplest and the most reliable way to protect all your backups. Think of it as a Backup Repository replication: all backups and recovery points that appear in the Backup Repository A will be automatically sent to Backup Repository B:</p>
+        <p>
+            <img src="../Resources/Images/Backup+Copy/Backup Copy.png" class="img_12" />
+        </p>
+        <h2>Copy Most Important Backups</h2>
+        <p>To save storage space on your secondary Backup Repository and to speed up data transfer, you can choose to create a Backup Copy job for only the most important backups:</p>
+        <p>
+            <img src="../Resources/Images/Backup+Copy/Backup Copy_1.png" class="img_13" />&#160;</p>
+        <p>This way, only the selected backups (and their recovery points) will be transferred to the secondary Backup Repository.</p>
+        <h2>Copy Backups Created by Particular Backup Jobs</h2>
+        <p>NAKIVO Backup &amp; Replication enables you to create and maintain copies of backups created by particular Backup jobs:</p>
+        <p>
+            <img src="../Resources/Images/Backup+Copy/Backup Copy_2.png" class="img_14" />
+        </p>
+        <p>This way, you can ensure that all backups created by important Backup jobs are copied to a secondary Backup Repository.</p>
+        <h2>Save Storage Space with Variable Data Compression</h2>
+        <p>In addition to global data deduplication, NAKIVO Backup &amp; Replication automatically compresses backed up data to reduce the amount of space that backups occupy in storage. By default, the compression level in the new Backup Repositories is set to “Fast,” so that your Backup jobs will run faster. When creating a secondary Backup Repository, you can set the compression level to “Best,” which uses more CPU, but delivers better compression levels. This way, the strongest compression algorithm will be used to compress backup data, resulting in smaller backups in your secondary Backup Repository.</p>
+        <h2>Copy Backups Offsite</h2>
+        <p>While you can keep copies of your backups locally, having at least one copy of your most critical backups offsite can save you a lot of trouble in case a local disaster should wipe your primary backups. The secondary Backup Repository can be placed in any location that has a connection to the Internet, since backup data can be transferred via AES 256 encrypted link, and your secondary backup repository can be encrypted as well:</p>
+        <p>
+            <img src="../Resources/Images/Backup+Copy/Backup Copy_3.png" class="img_15" />
+        </p>
+        <h2>Copy Backups to Amazon Cloud</h2>
+        <p>Amazon provides one of the most reliable and affordable cloud services in the industry. With NAKIVO Backup &amp; Replication, you can use Amazon's fast, reliable, and affordable cloud to store copies of your backups.</p>
+        <p>
+            <img src="../Resources/Images/Backup+Copy/Backup Copy_4.png" class="img_16" />
+        </p>
+        <h2>Copy Recovery Points that You Need</h2>
+        <p>Each backup can contain up to 4,000 recovery points, which are saved based on recovery point retention policy, i.e. how many recovery points you want to have and for how long you want to keep them. With Backup Copy jobs, you can choose to create a mirrored copy of each backup: all recovery points that are available in Backup Repository A will be copied to Backup Repository B:</p>
+        <p>
+            <img src="../Resources/Images/Backup+Copy/Backup Copy_5.png" class="img_17" />
+        </p>
+        <p>However, Backup and Backup Copy are different jobs, so you can set different retention policies for your primary backups and their copies in a different Backup Repository. This way, for example, you can store several daily backups onsite, and keep (archive) weekly, monthly, and yearly copies of backups in a secondary Backup Repository for long-term storage:</p>
+        <p>
+            <img src="../Resources/Images/Backup+Copy/Backup Copy_6.png" class="img_18" />
+        </p>
+        <p>Also, you can use fast storage for a subset of backups and use slower, but more reliable storage for long-term archiving.</p>
+        <h2>Schedule Backup Copy to Suit Your Needs</h2>
+        <p>Backup Copy jobs have their own schedule, so you can set them up to run whenever it suits your needs. For example, you can set up a Backup Copy job to run every night on workdays, or set it up to run on weekends to send all backups made during the week to a secondary Backup Repository.</p>
+        <p>&#160;To learn how to create and run backup copy jobs with NAKIVO Backup &amp; Replication, refer to <a href="C:\display\NH\Creating+Backup+Copy+Jobs">Creating Backup Copy Jobs</a>.</p>
+    </body>
+</html>

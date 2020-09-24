@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/Deploying+Amazon+Machine+Image+in+Amazon+EC2.css" rel="stylesheet" />
+        <link href="../../Resources/TableStyles/TableNormal.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Deploying VMware Virtual Appliance</h1>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Deploying+VMware+Virtual+Appliance.doc#DeployingVMwareVirtualAppliance-Deployi">Deploying Virtual Appliance with vSphere Web Client</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Deploying+VMware+Virtual+Appliance.doc#DeployingVMwareVirtualAppliance-Deployi">Deploying Virtual Appliance with vSphere Client</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Deploying+VMware+Virtual+Appliance.doc#DeployingVMwareVirtualAppliance-Virtual">Virtual Appliance OS and Credentials</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Deploying+VMware+Virtual+Appliance.doc#DeployingVMwareVirtualAppliance-WebInte">Web Interface Login</a>
+                </p>
+            </li>
+        </ul>
+        <p class="p_5">NAKIVO Backup &amp; Replication offers the following VA deployment options:</p>
+        <ul class="ul_1">
+            <li class="li_5">
+                <p class="p_7">Full Solution</p>
+            </li>
+            <li class="li_5">
+                <p class="p_7">Full Solution without Backup Repository</p>
+            </li>
+            <li class="li_5">
+                <p class="p_7">Transporter-only</p>
+            </li>
+            <li class="li_5">
+                <p class="p_7">Transporter with Backup Repository</p>
+            </li>
+            <li class="li_5">
+                <p class="p_7">Multi-tenant Director&#160;&#160;</p>
+            </li>
+        </ul>
+        <p>The Virtual Appliance (VA) has two disks: the first (30 GB) contains a Linux OS with NAKIVO Backup &amp; Replication, and the second (500 GB) is used as a Backup Repository. If you deploy the Virtual Appliance disks using the&#160;<b>Thin Provision</b>&#160;option, then the disks will not reserve space on your datastore and will only consume space when actual data (such as your backups) is written to disks.</p>
+        <h2>Deploying Virtual Appliance with vSphere Web Client</h2>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><a href="https://www.nakivo.com/resources/download/trial-download/">Download NAKIVO Backup &amp; Replication VA</a>.&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Log in to your vSphere vCenter with the vSphere Web Client.</p>
+            </li>
+            <li class="li_3">
+                <p class="p_6">Select&#160;<b>Deploy OVF Template</b> from the&#160;<b>Actions&#160;</b>menu. Note that the Client Integration Plug-in must be installed to enable OVF functionality.&#160;<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance.png" class="img_9" /></p>
+            </li>
+            <li class="li_3">
+                <p class="p_6">On the <b>Select an OVF template</b>&#160;page of the <b>Deploy OVF Template</b> wizard, select <b>Local file</b> and upload&#160;the VA file (.ova) you've downloaded. Click&#160;<b>Next</b>.&#160;<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_2.png" class="img_10" /></p>
+            </li>
+            <li class="li_3">
+                <p class="p_6">On the&#160;<b>Select a name and folder</b>&#160;page, specify a unique name and target location for the Virtual Appliance. Click&#160;<b>Next</b>.<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_3.png" class="img_11" /></p>
+            </li>
+            <li class="li_3">
+                <p class="p_6">On the&#160;<b>Select a computer resource </b>page, select the resource pool within which you would like to deploy the Virtual Appliance and click&#160;<b>Next</b>.<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_4.png" class="img_10" /></p>
+            </li>
+            <li class="li_3">
+                <p class="p_6">On the<b>&#160;Review details</b>&#160;page, review the template details and click&#160;<b>Next</b>.<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_5.png" class="img_11" /></p>
+            </li>
+            <li class="li_3">
+                <p class="p_6">On the<b>&#160;License agreements</b>&#160;page, read the end-user license agreement (EULA). If you agree to its terms, select <b>I accept all license agreements</b>&#160;and then click&#160;<b>Next</b>.<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_6.png" class="img_10" /></p>
+            </li>
+            <li>
+                <p>On the&#160;<b>Select storage</b>&#160;page, select a datastore in which you would like to keep the Virtual Appliance disk, virtual disk format (<cite>Thin Provisioning</cite>&#160;is recommended), VM storage policy and click&#160;<b>Next</b>.</p>
+                <p>Important</p>
+                <p>If you use thick provisioning instead of thin provisioning, keep in mind that NAKIVO Backup &amp; Replication can take up to 0,5 TB of data. Check to see if it is 0,5 TB by default for all cases.</p>
+                <p class="p_2">
+                    <br />
+                    <img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_7.png" class="img_10" />
+                </p>
+            </li>
+            <li class="li_3">
+                <p class="p_6">On the&#160;<b>Select networks</b>&#160;page, select a network to which the Virtual Appliance will be connected. Opting for a network with DHCP and Internet access is recommended. Click&#160;<b>Next</b>.<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_8.png" class="img_12" /></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">On the&#160;<b>Ready to complete</b>&#160;page, review the summary of the setups you have configured and click <b>Finish</b> to complete deployment.<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_9.png" class="img_13" /></p>
+                <p>After the Virtual Appliance is deployed, you may need to&#160;<a href="C:\display\NH\Virtual+Appliance+Configuration">configure&#160;</a>it.<span class="span_2">&#160;</span></p>
+                <p>Important</p>
+                <p><span class="span_3">If you plan&#160;to expose the Virtual Appliance to the Internet, change the&#160;default credentials&#160;and&#160;</span><a href="file:///C:/Users/User/Downloads/Deploying+VMware+Virtual+Appliance.doc">set up a login and password</a><span class="span_3">&#160;for the Web interface</span>
+                </p>
+            </li>
+        </ol>
+        <h2>Deploying Virtual Appliance with vSphere Client</h2>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><a href="https://www.nakivo.com/resources/download/trial-download/">Download NAKIVO Backup &amp; Replication VA</a>.&#160;</p>
+            </li>
+            <li class="li_3">
+                <p class="p_6">Log in to your vSphere vCenter with the vSphere Client, go to&#160;<b class="b_1">File</b><span class="span_3">&#160;in the top menu and select&#160;</span><b class="b_1">Deploy OVF</b><span class="span_3">&#160;</span><b class="b_1">Template</b><span class="span_3">.<br /><br /></span><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_10.png" class="img_14" /></p>
+            </li>
+            <li class="li_3">
+                <p class="p_6"><span class="span_3">On the&#160;</span><b class="b_1">Source</b><span class="span_3">&#160;page of the </span><b class="b_1">Deploy OVF Template</b><span class="span_3"> wizard, select and locate the file with the template. Click&#160;</span><b class="b_1">Next</b><span class="span_3">.</span>&#160;<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_11.png" class="img_15" /></p>
+            </li>
+            <li class="li_3">
+                <p class="p_6"><span class="span_3">On the</span><b>&#160;OVF Template Details</b><span class="span_3">&#160;page, review the template details and click&#160;</span><b>Next</b>.<span class="span_3"><br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_12.png" class="img_15" /></span></p>
+            </li>
+            <li class="li_3">
+                <p class="p_6"><span class="span_3">On the</span><b class="b_1">&#160;End User License Agreement</b><span class="span_3">&#160;page, read the license agreement. If you agree to its terms, click&#160;</span><b class="b_1">Accept</b><span class="span_3">&#160;and then click&#160;</span><b class="b_1">Next</b><span class="span_3">.<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_13.png" class="img_16" /></span>
+                </p>
+            </li>
+            <li class="li_3">
+                <p class="p_6"><span class="span_3">On the&#160;</span><b class="b_1">Name and Location</b><span class="span_3">&#160;page, specify a name and location for the deployed VA and click&#160;</span><b class="b_1">Next</b><span class="span_3">.<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_14.png" class="img_15" /></span>
+                </p>
+            </li>
+            <li class="li_3">
+                <p class="p_6"><span class="span_3">On the&#160;</span><b class="b_1">Host/Cluster</b><span class="span_3">&#160;page, select the host or cluster on which you wish to run the deployed template and click&#160;</span><b class="b_1">Next</b><span class="span_3">.<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_15.png" class="img_17" /></span>
+                </p>
+            </li>
+            <li class="li_3">
+                <p class="p_6"><span class="span_3">On the&#160;</span><b class="b_1">Storage</b><span class="span_3">&#160;page, select a datastore where you would like to keep the VA disk and click&#160;</span><b class="b_1">Next</b><span class="span_3">.<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_16.png" class="img_15" /></span>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><span class="span_3">&#160;On the&#160;</span><b class="b_1">Disk Format</b><span class="span_3">&#160;page, select a virtual disk format (</span><b class="b_1">Thin Provision</b><span class="span_3"> is recommended) and click&#160;</span><b class="b_1">Next</b><span class="span_3">.</span>
+                </p>
+                <p>Important</p>
+                <p>If you wish to select one of the <b>Thick Provision</b> options instead of <b>Thin Provision</b>, keep in mind that NAKIVO Backup &amp; Replication can take 0,5 TB of data. Check to see if it is 0,5 TB by default for all cases.</p>
+                <p class="p_2">
+                    <img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_17.png" class="img_16" />
+                </p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">On the&#160;<b>Network Mapping</b>&#160;page, select a network to which the VA will be connected. It is recommended that you choose a network with DHCP and Internet access. Click&#160;<b>Next</b>.<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_18.png" class="img_18" /></p>
+            </li>
+            <li class="li_3">
+                <p class="p_6">On the&#160;<b>Ready to Complete</b>&#160;page, review the summary of the options you have configured and select the&#160;<b>Power on after deployment</b>&#160;option.<br /><br /><img src="../../Resources/Images/Deploying+VMware+Virtual+Appliance/Deploying VMware Virtual Appliance_19.png" class="img_15" /></p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Finish</b>&#160;to complete the deployment.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">After the Virtual Appliance is deployed,&#160;<a href="C:\display\NH\Virtual+Appliance+Configuration">configure</a>&#160;it if necessary.<span class="span_2">&#160;</span></p>
+            </li>
+        </ol>
+        <p>After the installation is complete, you can log in to NAKIVO Backup &amp; Replication by opening the following URL in your web browser:&#160;<a href="https://machine_IP_or_DNSdirector_https_port">https://machine_IP_or_DNS:director_https_port</a></p>
+        <p>&#160;</p>
+        <h2>Virtual Appliance OS and Credentials</h2>
+        <p>The appliance runs&#160;Ubuntu 18.04, 64-bit. Use the following credentials to log in to the appliance:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><b>Username</b>: root</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Password</b>:&#160;QExS-6b%3D</p>
+            </li>
+        </ul>
+        <p>For the versions of NAKIVO Backup &amp; Replication older than 7.2, the password is <code class="code_1">root.</code></p>
+        <p>Important</p>
+        <p>If you plan&#160;to expose the Virtual Appliance to the Internet, change the default VA credentials and&#160;<a href="file:///C:/Users/User/Downloads/Deploying+VMware+Virtual+Appliance.doc">set up a login and password</a>&#160;for the Web interface.</p>
+        <h2>Web Interface Login</h2>
+        <p>Open the following URL to access the product's web interface:&#160;<a href="https://Appliance_VM_IP:4443">https://Appliance_VM_IP:4443</a>. Refer to the&#160;&#160;<a href="C:\display\NH\Getting+Started">Getting Started</a> section to better understand how to continue working with NAKIVO Backup &amp; Replication.&#160;</p>
+    </body>
+</html>

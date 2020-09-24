@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Full Recovery\Amazon EC2 Instance Recovery"
+  CreateNewStylesheet="false"
+  AutoFitTables="true"
+  UseHeaderRows="true"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-17T17:32:43.9128093+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Amazon+EC2+Instance+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Amazon+EC2+Instance+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+Amazon+EC2_+Backups.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Amazon+EC2_+Backups.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+Amazon+EC2_+Destinaton.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Amazon+EC2_+Destinaton.doc" />
+    <Url
+      Source="../../../../../Downloads/Recovery+Job+Wizard+for+Amazon+EC2_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Recovery+Job+Wizard+for+Amazon+EC2_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+Amazon+EC2+Instance+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+Amazon+EC2+Instance+Recovery.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Amazon EC2 Instance Recovery/Amazon EC2 Instance Recovery.htm"
+      TimeStamp="Thu 17.09.20 5:32:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Amazon+EC2_+Backups/Recovery Job Wizard for Amazon.png"
+      TimeStamp="Thu 17.09.20 5:32:38 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Amazon EC2 Instance Recovery/Recovery Job Wizard for Amazon.htm"
+      TimeStamp="Thu 17.09.20 5:32:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Amazon+EC2_+Destinaton/Recovery Job Wizard for Amazon_1.png"
+      TimeStamp="Thu 17.09.20 5:32:38 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Amazon+EC2_+Destinaton/Recovery Job Wizard for Amazon_1_1.png"
+      TimeStamp="Thu 17.09.20 5:32:38 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Amazon EC2 Instance Recovery/Recovery Job Wizard for Amazon_1.htm"
+      TimeStamp="Thu 17.09.20 5:32:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Amazon+EC2_+Options/Recovery Job Wizard for Amazon_2.png"
+      TimeStamp="Thu 17.09.20 5:32:38 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Amazon+EC2_+Options/Recovery Job Wizard for Amazon_2_1.png"
+      TimeStamp="Thu 17.09.20 5:32:38 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Amazon+EC2_+Options/Recovery Job Wizard for Amazon_2_2.png"
+      TimeStamp="Thu 17.09.20 5:32:38 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Recovery+Job+Wizard+for+Amazon+EC2_+Options/Recovery Job Wizard for Amazon_2_3.png"
+      TimeStamp="Thu 17.09.20 5:32:39 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Amazon EC2 Instance Recovery/Recovery Job Wizard for Amazon_2.htm"
+      TimeStamp="Thu 17.09.20 5:32:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Amazon+EC2+Instance+Recovery/Starting Amazon EC2 Instance.png"
+      TimeStamp="Thu 17.09.20 5:32:39 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Amazon+EC2+Instance+Recovery/Starting Amazon EC2 Instance_1.png"
+      TimeStamp="Thu 17.09.20 5:32:39 PM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Amazon EC2 Instance Recovery/Starting Amazon EC2 Instance.htm"
+      TimeStamp="Thu 17.09.20 5:32:39 PM" />
+    <Url
+      Source="../TOCs/Amazon+EC2+Instance+Recovery.fltoc"
+      TimeStamp="Thu 17.09.20 5:32:39 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/01. Overview.css"
+      TimeStamp="Thu 17.09.20 5:32:39 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Heading 2"
+      To="h2"
+      Style="Flare" />
+    <Map
+      From="Heading 3"
+      To="h3"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="title"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/Auto+Updating+NAKIVO+Backup+and+Replication.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Connecting to an Amazon EC2 Instance from Windows</h1>
+        <p>You can use the following free tools to connect to your Amazon EC2 instance:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="https://winscp.net/eng/download.php">WinSCP </a>to upload the installer file.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTYgen tool</a> to convert the private key.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY tool </a>to connect to an Amazon instance securely.</p>
+            </li>
+        </ul>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Log in to NAKIVO Backup &amp; Replication.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Go to <b>Settings</b> &gt; <b>Transporters</b>.</p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Download the keys of your Amazon instance.<br /><br /><img src="../../Resources/Images/Connecting+to+an+Amazon+EC2+Instance+from+Windows/Connecting to an Amazon EC2.png" class="img_9" />&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click on the Transporter to view its details. Copy or remember the IP-address/hostname of the Amazon instance.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Unzip the folder with the key.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Convert the key using PuTTYgen: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_2">
+                        <p class="p_2">In PuTTYgen menu, go to <cite>Conversions &gt; Import.</cite><span class="span_4"><br /><br /><img src="../../Resources/Images/Connecting+to+an+Amazon+EC2+Instance+from+Windows/Connecting to an Amazon EC2_1.png" alt="PuTTYgen menu" class="img_10" /></span><cite>&#160;</cite></p>
+                    </li>
+                    <li class="li_2">
+                        <p class="p_2">Locate the <code class="code_1">SSH_key.pem</code>&#160;you just downloaded and unzipped. If you don't see it in the&#160;<b>Open</b><cite>...</cite> dialogue box, change the file type to <b>All files</b><cite>.</cite><span class="span_4"><br /><br /><img src="../../Resources/Images/Connecting+to+an+Amazon+EC2+Instance+from+Windows/Connecting to an Amazon EC2_2.png" alt="Locate the SHH key" class="img_11" /></span></p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Click on <b>Save private key</b>. If PuTTYgen asks you to save the key without a passphrase, click <b>Yes</b>.</p>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Open WinSCP.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Create a new session: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1">Add the hostname or IP address of your Amazon instance you received on step 4 into the <b>Host Name</b>&#160;box.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">In the <b>Username</b> box, enter&#160;<code class="code_1">ubuntu.</code></p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Leave the <b>Password</b> box empty.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Add the private key to WinSCP:</p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p class="p_1">Click the&#160;<b>Advanced...</b> button.</p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2">The <b>Advanced Site Settings</b> dialog box opens. Go to <cite>SSH &gt; Authentication &gt; Private key file:</cite> and select the key file you generated on step 6.<br /><br /><img src="../../Resources/Images/Connecting+to+an+Amazon+EC2+Instance+from+Windows/Connecting to an Amazon EC2_3.png" alt="Private key file" class="img_12" />&#160;</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1">Click <b>OK</b>.</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Click <b>Login</b>.&#160;</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Upload the&#160;updater&#160;file.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Open PuTTY.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Enter the IP-address or hostname of the Amazon EC2 instance.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Go to <cite>Connection &gt; SSH &gt; Auth</cite> and add the private key in <cite>Private key file for authentication:</cite>&#160;box.<br /><br />&#160;<img src="../../Resources/Images/Connecting+to+an+Amazon+EC2+Instance+from+Windows/Connecting to an Amazon EC2_4.png" alt="Private key file for authentication" class="img_13" /></p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">Click&#160;<b>Open</b>.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1">In the command line prompt that opens: log in to the Amazon EC2 instance: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p class="p_1">For <b>login</b>, enter <code class="code_1">ubuntu</code></p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1">For <b>password</b>, leave a blank line.</p>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <p>Update NAKIVO Backup &amp; Replication following the <a href="C:\display\NH\Updating+on+Linux">instructions</a>.</p>
+            </li>
+        </ol>
+    </body>
+</html>

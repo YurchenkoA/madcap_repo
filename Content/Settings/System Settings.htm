@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Adding+Active+Directory+User.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>System Settings</h1>
+        <p>To configure the&#160;system settings, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click <b>Settings</b>&#160;in the left pane of the product.</p>
+            </li>
+            <li class="li_2">
+                <p>Go to the&#160;<b>General</b>&#160;tab and click&#160;<b>System settings.</b><span class="span_3"><br /></span><br /><img src="../Resources/Images/System+Settings/System Settings.png" class="img_28" /></p>
+            </li>
+            <li class="li_1">
+                <p>Enter the following options:</p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p>In the <i>System</i> section: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p><b>Store system events for the last X days</b>:<b>&#160;</b>Events older than the specified number of days (can be from 10 to 365) will be deleted.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><b>Store job history for the last X days</b>: The<b>&#160;</b>history of the jobs older than the specified number of days will be deleted.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><b>Auto log out after X minutes of inactivity</b>: If this option is selected, the current user will be automatically logged out of the product after the specified period of inactivity.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><b>Auto&#160;retry failed jobs X times with Y minutes interval</b>: If this option is selected, failed jobs will be automatically retried the specified number of times (from 2 to 10) and with the specified time interval (from 1 to 60). Jobs with failed backup, replication, and recovery remain in the “running” state until all retries either succeed or fail. </p>
+                                <ul class="ul_2">
+                                    <li class="li_1">
+                                        <p><b>Retry critical errors</b>:&#160;If this option is selected, NAKIVO Backup &amp; Replication will try to automatically re-run jobs with critical and non-critical errors automatically a specified number of times.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="li_1">
+                                <p><b>Auto upload support bundles to support team server</b>:&#160;If this option is selected, NAKIVO Backup &amp; Replication will automatically create, encrypt, and upload support bundles once a day to a NAKIVO support server. NAKIVO Support team may use this information to improve the product experience and will be able to identify and resolve product issues faster.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><b>Enable built-in support chat</b>:&#160;If this option is selected, you will have the possibility to contact a NAKIVO representative via chat in the NAKIVO Backup &amp; Replication interface. When selected in the multi-tenant mode, the built-in support chat will be available in all tenants of the NAKIVO Backup &amp; Replication instance.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><b>Display special offers</b>: If enabled, you will see the NAKIVO special offers toolbar in the product interface.&#160;</p>
+                            </li>
+                            <li class="li_1">
+                                <p><b>Continue to update even if self-back fails</b>: If selected, the product update will proceed even if self<span class="span_1">-backup cannot be performed.</span></p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p>In the&#160;<i>Tape Options&#160;</i>section: </p>
+                        <ol start="1" class="ol_1">
+                            <li>
+                                <p><b>Auto erase expired tapes</b>:&#160;If selected, expired tapes will be erased automatically.&#160;</p>
+                                <p>Important</p>
+                                <p>If this option is selected, the following prerequisites must be met for a cartridge to be erased:</p>
+                                <ul class="ul_2">
+                                    <li class="li_1">
+                                        <p>All recovery points within the tape cartridge are expired.</p>
+                                    </li>
+                                    <li class="li_4">
+                                        <p>There are no dependent recovery points on other tape cartridges.</p>
+                                    </li>
+                                    <li class="li_4">
+                                        <p>The product keeps at least one full chain of recovery points.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="li_1">
+                                <p><b class="b_2">Wait for next tape for</b><span class="span_2">: Specify for how long the system should wait for the next tape if there is no appropriate amount. Select the&#160;</span><b class="b_2">Send email notification</b> <span class="span_2">checkbox to receive email notifications.</span></p>
+                            </li>
+                            <li class="li_1">
+                                <p><b class="b_2">Auto refresh tapes every</b><span class="span_2">: Select how often the contents of the tapes are to be refreshed in minutes or hours. Deselect if no refreshing is required.</span>
+                                </p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p>In the <i>Processing Options</i> section:</p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p><b>Auto remove deleted VMs and instances from jobs</b>:&#160;If you have protected a container (such as a VMware cluster or EC2 region) and NAKIVO Backup &amp; Replication discovers (during the&#160;<a href="C:\display\NH\Refreshing+Inventory">inventory refresh</a>) that a VM or EC2 Instance is no longer available in the protected container,&#160;NAKIVO Backup &amp; Replication will automatically remove such VMs and EC2 instances from all jobs if this option is selected.</p>
+                            </li>
+                            <li>
+                                <p><b>Process every source machine by one job at a time</b>: If this option is selected,&#160;<span class="span_1">all machines in backup and replication jobs will be processed by no more than one job at a time. Running jobs and respective source objects will not be affected after changing this setting. For physical servers, this option is always enabled.</span></p>
+                            </li>
+                            <li>
+                                <p><b>Skip swap files and partitions during processing</b>:<b>&#160;</b>If this option is selected, swap files and partitions will be skipped during backup and replication to reduce backup size.</p>
+                            </li>
+                            <li>
+                                <p><b>Check for sufficient RAM on the target host for replication/recovery jobs</b>: If deselected, the amount of RAM on the target host sufficient for replication and recovery jobs will not be checked.</p>
+                            </li>
+                            <li class="li_1">
+                                <p><b>LVM Snapshot allocation size</b>: This option allows you to set an LVM allocation snapshot size for a Linux physical server backup. The default size is 1 GB. The maximum size is 1000 GB.&#160;</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p>In the <i>Auto Refresh</i> section:&#160;</p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p><b>Auto refresh inventories every X minutes</b>:&#160;Specify how often you want your inventories to be refreshed.&#160;</p>
+                            </li>
+                            <li>
+                                <p><b>Auto refresh Transporters every X minutes</b>: Specify how often you want your Transporters to be refreshed.&#160;</p>
+                            </li>
+                            <li>
+                                <p><b>Auto refresh repositories every X minutes</b>: Specify how often you want your inventories to be refreshed.&#160;</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>In the <i>Regional options</i> section, set:</p>
+                        <ul class="ul_2">
+                            <li class="li_1">
+                                <p><b>Clock format</b>
+                                </p>
+                            </li>
+                            <li class="li_1">
+                                <p><b>Short date format</b>
+                                </p>
+                            </li>
+                            <li class="li_1">
+                                <p><b>Long date format</b>
+                                </p>
+                            </li>
+                            <li class="li_1">
+                                <p><b>First day of week</b>
+                                </p>
+                            </li>
+                            <li class="li_1">
+                                <p><b>Decimal symbol</b>
+                                </p>
+                            </li>
+                            <li>
+                                <p><b>Default time zone</b>
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <ol start="6" class="ol_2">
+                <li class="li_1">
+                    <p>In the <i>Web Interface TLS/SSL Certificate</i> section, you can either<b>:</b></p>
+                </li>
+            </ol>
+            <ul class="ul_4">
+                <li class="li_1">
+                    <p>&#160;</p>
+                    <ol class="ol_1">
+                        <li class="li_1">
+                            <p><span class="span_4">§ </span><b>View current</b> <b>certificate</b>: A dialog containing the current certificate information opens.</p>
+                        </li>
+                        <li class="li_1">
+                            <p><span class="span_4">§ </span><b>Install new certificate</b>: A dialog opens allowing you to install a new TLS/SSL certificate for the NAKIVO Backup &amp; Replication web interface. Certificates are generated either internally or through certification authorities. Proceed as follows to install a new certificate: </p>
+                            <ul class="ul_2">
+                                <li class="li_1">
+                                    <p>Click <b>Browse</b> and navigate to the location of either of the following certificate file types:</p>
+                                    <ul class="ul_2">
+                                        <li class="li_1">
+                                            <p><b>Private key</b>: A file in the *.key format.</p>
+                                        </li>
+                                        <li class="li_1">
+                                            <p><b>Private key password (optional)</b>: A password for your private key.</p>
+                                        </li>
+                                        <li class="li_1">
+                                            <p><b>Certificate file</b>: A file in the *.pem, *.crt, *.cer, *.p7b, or *.p7s format.</p>
+                                        </li>
+                                        <li class="li_1">
+                                            <p><b>Intermediate certificate (optional)</b>: A file in the *.pem, *.crt, *.cer, *.p7b, *.p7s format.<br /><br /><img src="../Resources/Images/System+Settings/System Settings_1.png" class="img_29" /></p>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="li_1">
+                                    <p>Click <b>Install</b>.</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </ol>
+        <p>Note</p>
+        <p>In the&#160;<i>Web Interface TLS/SSL Certificate</i>&#160;section, you can see a notification about imminent TLS/SSL certificate expiration in 30 days and onwards. If your certificate has expired, you will be asked to install a valid certificate.</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

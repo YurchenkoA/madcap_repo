@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="WebHelp2"
+  ComponentType="MasterPage"
+  TemplateName="Fluid"
+  Comment="HTML5 Side Navigation skin"
+  EnableResponsiveOutput="True"
+  AutoSyncTOC="true">
+  <WebHelpOptions
+    NavigationPanePosition="Right"
+    OffCanvasMenuStyle="Accordion"
+    MainMenuPosition="Left"
+    EnableSticky="All" />
+  <Stylesheet>
+    <Resources>
+      <Resource
+        Name="HighResLogo_white1.png">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</Resource>
+    </Resources>
+    <Styles>
+      <Style
+        Name="Logo">
+        <Properties>
+          <Property
+            Name="BackgroundImage">url('HighResLogo_white1.png')</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Header">
+        <Properties>
+          <Property
+            Name="PaddingBottom">20px</Property>
+          <Property
+            Name="PaddingTop">20px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Side Navigation Menu Item">
+        <Classes>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="LineHeight">1.6em</Property>
+              <Property
+                Name="TextAlign">left</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <Strings />
+</CatapultSkin>

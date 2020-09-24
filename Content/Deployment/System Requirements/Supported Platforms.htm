@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Supported Platforms</h1>
+        <p>NAKIVO Backup &amp; Replication provides data protection for the following platforms:</p>
+        <ul>
+            <li>VMware vSphere v4.1 - v7.0</li>
+            <li>Microsoft Hyper-V 2019, 2016, 2012R2, 2012</li>
+            <li>AWS EC2</li>
+            <li>Nutanix AHV 5.10 (LTS)</li>
+            <li>Microsoft Windows Server 2019, 2016, 2012R2, 2012, 2008R2</li>
+            <li>Microsoft Windows 10 Pro</li>
+            <li>Linux Servers and workstations (see Physical machine requirements)</li>
+            <li>Microsoft 365 (Exchange Online)</li>
+            <li>Oracle Database (RMAN)</li>
+        </ul>
+        <p>&#160;</p>
+        <p>To add a supported platform to the NAKIVO Backup &amp; Replication, make sure that your system has been updated with the latest patch and all the necessary requirements are met:<br /></p>
+        <ul>
+            <li><a href="#Hypervis">Hypervisor Requirements</a>
+                <ul>
+                    <li><a href="#VMware">VMware vSphere</a>
+                    </li>
+                    <li><a href="#Microsof">Microsoft Hyper-V</a>
+                    </li>
+                    <li><a href="#Nutanix">Nutanix AHV
+</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#Physical">Physical Machine Requirements</a>
+            </li>
+            <li><a href="#Public">Public Cloud Requirements</a>
+            </li>
+            <li><a href="#Microsof2">Microsoft 365 Requirements</a>
+            </li>
+            <li><a href="#Oracle">Oracle Database Requirements</a>
+            </li>
+        </ul>
+        <h2><a name="Hypervis"></a>Hypervisor Requirements</h2>
+        <p>To provide data protection for your virtual environments, make sure the following requirements are met: </p>
+        <h3><a name="VMware"></a>VMware vSphere</h3>
+        <ul>
+            <li>Full administrative permissions (recommended), or <a href="https://beta-helpcenter.nakivo.com/display/KB/Required+vSphere+Permissions"><span class="span_1">limited permissions</span></a> are required.</li>
+        </ul>
+        <h3><a name="Microsof"></a>Microsoft Hyper-V</h3>
+        <ul>
+            <li>Full GUI installation of Windows Server is required.</li>
+            <li>Full administrative permissions are required.</li>
+            <li>Default administrative shares must be enabled on Hyper-V hosts.</li>
+            <li>The "File server" role must be enabled on Hyper-V hosts.</li>
+            <li>The SMB 2 protocol should be enabled on Hyper-V hosts.</li>
+        </ul>
+        <h3><a name="Nutanix"></a>Nutanix AHV</h3>
+        <ul>
+            <li>User admin or cluster admin permissions are required.</li>
+        </ul>
+        <h2><a name="Physical"></a>Physical Machine Requirements</h2>
+        <p>To provide data protection for Windows physical machines, make sure they meet the following hardware and software requirements: </p>
+        <p><span class="span_2">Hardware</span>
+        </p>
+        <ul>
+            <li><b>CPU</b>: x86_64</li>
+            <li><span class="span_2">RAM</span>: At least 1 GB</li>
+            <li><span class="span_2">Firmware</span>: BIOS or UEFI</li>
+            <li><span class="span_2">Partition table</span>: MBR or GPT <span class="span_2">Disk</span>: up to 64 TB in size</li>
+        </ul>
+        <p><b>Software</b>
+        </p>
+        <ul>
+            <li>Supported Windows operating systems:<ul><li>Microsoft Windows Server 2019 (x64)</li><li>Microsoft Windows Server 2016 (x64)</li><li>Microsoft Windows Server 2012R2 (x64)</li><li>Microsoft Windows Server 2012 (x64)</li><li>Microsoft Windows Server 2008R2 (x64)</li></ul></li>
+            <li>Supported workstations:<ul><li>Microsoft Windows 10 Pro (x64)</li></ul></li>
+            <li>Supported Windows File Systems:<ul><li>NTFS</li><li>ReFS</li></ul></li>
+            <li>Physical machines should be accessible over the network.</li>
+            <li>Administrative credentials should be provided to the physical machine.</li>
+            <li>PowerShell must be installed.</li>
+            <li>SMBv2 or higher version of SMB protocol must be enabled. In case a firewall is enabled, the corresponding rule for SMB-in needs to be enabled too.</li>
+            <li>Selected users should have permissions to "Log on as a batch job".</li>
+            <li>Supported Linux operating systems:<ul><li><p>Ubuntu v16.04-18.04 LTS (x64)</p></li><li><p>RHEL v7.0-7.5 (x64)</p></li><li><p>SLES v12 (x64)</p></li><li><p>CentOS v7.0-7.6 (x64)</p></li><li><p>Supported workstations:</p></li><li><p>Ubuntu 18.04 (Desktop) LTS, 64-bit</p></li><li><p>Ubuntu 20.04 (Desktop) LTS, 64-bit</p></li></ul></li>
+            <li>
+                <p>Supported Linux File Systems:</p>
+                <ul>
+                    <li>
+                        <p>NTFS</p>
+                    </li>
+                    <li>
+                        <p>Ext2</p>
+                    </li>
+                    <li>
+                        <p>Ext3</p>
+                    </li>
+                    <li>
+                        <p>Ext4</p>
+                    </li>
+                    <li>
+                        <p>FAT32</p>
+                    </li>
+                    <li>
+                        <p>XFS</p>
+                    </li>
+                    <li>
+                        <p>Linux SWAP</p>
+                    </li>
+                    <li>
+                        <p>ReiserFS</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>Connection to the following TCP ports should be allowed by the firewall of the target system:<br />22 – Used by SSH for secure logins, file transfers (scp,sftp) and port forwarding.<br />9446 – Used by NAKIVO Backup &amp; Replication to communicate with the server.</p>
+            </li>
+            <li><code>openssh-server</code> package should be installed.</li>
+            <li><code>sshd</code> service should be running.</li>
+            <li><code>root </code>login over<code> ssh</code> should be enabled if you use the <code>root </code>user. Check the <code>/etc/ssh/sshd_config</code> file to have a line:<code> PermitRootLogin yes</code>. Refer to Linux vendor documentation for more details.</li>
+            <li><code>/etc/pam.d/bhsvc</code> file with special permissions provided to the Transporter service is required. Refer to the <a href="https://helpcenter.nakivo.com/display/KB/Required+Permissions+for+Linux+Recovery+Server">Required Permissions for Linux Recovery Server</a> knowledge base article for details.</li>
+            <li><code>selinux</code> configuration should be set to disabled if present. Refer to the <a href="https://helpcenter.nakivo.com/display/KB/File+Recovery:+Empty+Disk">File Recovery: Empty Disk</a> knowledge base article for details.</li>
+            <li><code>PasswordAuthentication</code> should be set to "Yes".</li>
+            <li>If you add a physical machine to the NAKIVO Backup &amp; Replication inventory with a non-root account, the following is required:<ul><li><p><code>sudo</code> must be installed on the physical machine.</p></li><li><p>disable<code> requiretty</code> for non-root user accounts. Update the<code> etc/sudoers </code>file to have a line:<code> Defaults !requiretty</code></p></li><li><p>Provided credentials should allow you to do anything without a password. Refer to the example below where a NAKIVO Backup &amp; Replication user is taken.</p></li></ul></li>
+        </ul>
+        <p style="font-weight: bold;">Example</p>
+        <p class="p_40">User privilege specification</p>
+        <p class="p_41">root ALL=(ALL:ALL) ALL #Members of the admin group may gain root privileges</p>
+        <p class="p_42">%admin ALL=(ALL) ALL</p>
+        <p class="p_42">#Allow members of group sudo to execute any command</p>
+        <p class="p_43">%sudo ALL=(ALL:ALL) ALL #See sudoers(5) for more information on "#include" directives: #includedir /etc/sudoers.d nakivo ALL=(ALL) NOPASSWD:ALL Defaults !requiretty</p>
+        <h2><a name="Public"></a>Public Cloud Requirements</h2>
+        <p class="p_44">Refer to <a href="https://helpcenter.nakivo.com/display/KB/Required+AWS+IAM+Permissions+for+Amazon+EC2"><span class="span_1">Required AWS IAM Permissions for Amazon EC2</span></a> for details. </p>
+        <p class="p_44"><b>Note</b>
+        </p>
+        <p>There is also an option for granting full IAM permissions for the application.</p>
+        <h2><a name="Microsof2"></a>Microsoft 365 Requirements</h2>
+        <p>To provide data protection for your Microsoft 365, the following requirements must be met: </p>
+        <ul>
+            <li>Exchange Online must be purchased as a part of the Microsoft 365 plan or a standalone service.</li>
+            <li>Provided Microsoft 365 (Exchange Online) credentials must have sufficient permissions to be used by the product.</li>
+            <li>Microsoft 365 account must be accessible over the network.</li>
+        </ul>
+        <p>To backup and restore Microsoft 365, a Transporter should be installed on one of the following operating systems:</p>
+        <p><b>Windows</b>
+        </p>
+        <ul>
+            <li>Windows Server 2019 Standard (x64)</li>
+            <li>Windows Server 2016 Standard (x64)</li>
+            <li>Windows Server 2012 R2 Standard (x64)<ul><li>Update for Windows Server 2012 R2 (KB3179574)</li></ul></li>
+            <li>Windows Server 2012 Standard (x64)</li>
+            <li>Windows Server 2008 R2 Standard (x64)</li>
+            <li>Windows 10 Pro (x64)</li>
+            <li>Windows 8 Professional (x64)</li>
+            <li>Windows 7 Professional (x64)</li>
+        </ul>
+        <p><b>Linux</b>
+        </p>
+        <ul>
+            <li>Ubuntu 18.04 Server (x64)</li>
+            <li>Ubuntu 16.04 Server (x64)</li>
+            <li>SUSE Linux Enterprise Server 12 SP3 (x64)</li>
+            <li>Red Hat Enterprise Linux 7.6 (x64)</li>
+            <li>Red Hat Enterprise Linux 7.5 (x64)</li>
+            <li>Red Hat Enterprise Linux 7.4 (x64)</li>
+        </ul>
+        <h2><a name="Oracle"></a>Oracle Database Requirements</h2>
+        <p>To provide data protection for your Oracle database, make sure of the following:</p>
+        <ul>
+            <li>Oracle database is accessible over the network.</li>
+            <li>Provided Oracle database credentials have sufficient permissions to be used by the product.</li>
+            <li>Provided OS credentials for the Oracle database have sufficient permissions to be used by the product. </li>
+            <li>Oracle database must be set to ARCHIVELOG mode to create backups. </li>
+        </ul>
+        <p>Supported operating systems:</p>
+        <ul>
+            <li>Windows Server 2016 Standard (x64)</li>
+            <li>Windows Server 2012 R2 Standard (x64)<ul><li>Update for Windows Server 2012 R2 </li></ul></li>
+        </ul>
+        <ul>
+            <li>Windows Server 2012 Standard (x64)</li>
+            <li>Windows Server 2008 R2 Standard (x64)</li>
+        </ul>
+        <p>Supported Oracle Database release versions:</p>
+        <ul>
+            <li>Oracle Database 19c</li>
+            <li>Oracle Database 18c</li>
+            <li>Oracle Database 12c R2</li>
+            <li>Oracle Database 11g R2</li>
+        </ul>
+    </body>
+</html>

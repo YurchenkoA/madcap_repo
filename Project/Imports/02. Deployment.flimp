@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Deployment"
+  LastImport="2020-09-08T12:04:14.9729763+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Desktop/Word Source/02. Deployment.docx"
+      AbsoluteSource="file:///C:/Users/User/Desktop/Word Source/02. Deployment.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Deployment/02. Deployment.htm"
+      TimeStamp="Tue 08.09.20 12:03:29 PM" />
+    <Url
+      Source="../../Content/Deployment/Architecture.htm"
+      TimeStamp="Tue 08.09.20 12:03:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Director.jpg"
+      TimeStamp="Tue 08.09.20 12:03:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Director_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:19 PM" />
+    <Url
+      Source="../../Content/Deployment/Director.htm"
+      TimeStamp="Tue 08.09.20 12:03:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Transporter.jpg"
+      TimeStamp="Tue 08.09.20 12:03:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Transporter_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Transporter_2.jpg"
+      TimeStamp="Tue 08.09.20 12:03:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Transporter_3.jpg"
+      TimeStamp="Tue 08.09.20 12:03:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Transporter_4.jpg"
+      TimeStamp="Tue 08.09.20 12:03:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Transporter_5.jpg"
+      TimeStamp="Tue 08.09.20 12:03:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Transporter_6.jpg"
+      TimeStamp="Tue 08.09.20 12:03:19 PM" />
+    <Url
+      Source="../../Content/Deployment/Transporter.htm"
+      TimeStamp="Tue 08.09.20 12:03:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Backup Repository.png"
+      TimeStamp="Tue 08.09.20 12:03:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Backup Repository.jpg"
+      TimeStamp="Tue 08.09.20 12:03:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Backup Repository_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:19 PM" />
+    <Url
+      Source="../../Content/Deployment/Backup Repository.htm"
+      TimeStamp="Tue 08.09.20 12:03:30 PM" />
+    <Url
+      Source="../../Content/Deployment/System Requirements.htm"
+      TimeStamp="Tue 08.09.20 12:03:30 PM" />
+    <Url
+      Source="../../Content/Deployment/Supported Platforms.htm"
+      TimeStamp="Tue 08.09.20 12:03:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Storage Integration Requirements.png"
+      TimeStamp="Tue 08.09.20 12:03:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Storage Integration Requirements_1.png"
+      TimeStamp="Tue 08.09.20 12:03:20 PM" />
+    <Url
+      Source="../../Content/Deployment/Storage Integration Requirements.htm"
+      TimeStamp="Tue 08.09.20 12:03:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deployment Requirements.png"
+      TimeStamp="Tue 08.09.20 12:03:20 PM" />
+    <Url
+      Source="../../Content/Deployment/Deployment Requirements.htm"
+      TimeStamp="Tue 08.09.20 12:03:31 PM" />
+    <Url
+      Source="../../Content/Deployment/Feature Requirements.htm"
+      TimeStamp="Tue 08.09.20 12:03:31 PM" />
+    <Url
+      Source="../../Content/Deployment/Deployment Scenarios.htm"
+      TimeStamp="Tue 08.09.20 12:03:31 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Single Site Deployment.jpg"
+      TimeStamp="Tue 08.09.20 12:03:22 PM" />
+    <Url
+      Source="../../Content/Deployment/Single Site Deployment.htm"
+      TimeStamp="Tue 08.09.20 12:03:31 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Distributed Deployment.jpg"
+      TimeStamp="Tue 08.09.20 12:03:22 PM" />
+    <Url
+      Source="../../Content/Deployment/Distributed Deployment.htm"
+      TimeStamp="Tue 08.09.20 12:03:31 PM" />
+    <Url
+      Source="../../Content/Deployment/Multi Tenant Deployment.htm"
+      TimeStamp="Tue 08.09.20 12:03:32 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Backup from a Remote Site.jpg"
+      TimeStamp="Tue 08.09.20 12:03:22 PM" />
+    <Url
+      Source="../../Content/Deployment/Backup from a Remote Site.htm"
+      TimeStamp="Tue 08.09.20 12:03:32 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Replication from a Remote.jpg"
+      TimeStamp="Tue 08.09.20 12:03:22 PM" />
+    <Url
+      Source="../../Content/Deployment/Replication from a Remote.htm"
+      TimeStamp="Tue 08.09.20 12:03:32 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Local Backup at Remote Site.jpg"
+      TimeStamp="Tue 08.09.20 12:03:22 PM" />
+    <Url
+      Source="../../Content/Deployment/Local Backup at Remote Site.htm"
+      TimeStamp="Tue 08.09.20 12:03:32 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Local Replication at Remote.jpg"
+      TimeStamp="Tue 08.09.20 12:03:22 PM" />
+    <Url
+      Source="../../Content/Deployment/Local Replication at Remote.htm"
+      TimeStamp="Tue 08.09.20 12:03:32 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Backup at Master Site.jpg"
+      TimeStamp="Tue 08.09.20 12:03:22 PM" />
+    <Url
+      Source="../../Content/Deployment/Backup at Master Site.htm"
+      TimeStamp="Tue 08.09.20 12:03:32 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Replication at Master Site.png"
+      TimeStamp="Tue 08.09.20 12:03:22 PM" />
+    <Url
+      Source="../../Content/Deployment/Replication at Master Site.htm"
+      TimeStamp="Tue 08.09.20 12:03:33 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing NAKIVO Backup and.htm"
+      TimeStamp="Tue 08.09.20 12:03:33 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance.jpg"
+      TimeStamp="Tue 08.09.20 12:03:22 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:22 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_2.jpg"
+      TimeStamp="Tue 08.09.20 12:03:22 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_3.jpg"
+      TimeStamp="Tue 08.09.20 12:03:22 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_4.jpg"
+      TimeStamp="Tue 08.09.20 12:03:22 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_5.jpg"
+      TimeStamp="Tue 08.09.20 12:03:22 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_6.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_7.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_8.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_9.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_10.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_11.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_12.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_13.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_14.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_15.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_16.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_17.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying VMware Virtual Appliance_18.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Deployment/Deploying VMware Virtual Appliance.htm"
+      TimeStamp="Tue 08.09.20 12:03:33 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying Nutanix AHV Virtual.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying Nutanix AHV Virtual_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying Nutanix AHV Virtual_2.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying Nutanix AHV Virtual_3.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying Nutanix AHV Virtual_4.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying Nutanix AHV Virtual_5.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying Nutanix AHV Virtual_6.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying Nutanix AHV Virtual_7.jpg"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Deploying Nutanix AHV Virtual.png"
+      TimeStamp="Tue 08.09.20 12:03:23 PM" />
+    <Url
+      Source="../../Content/Deployment/Deploying Nutanix AHV Virtual.htm"
+      TimeStamp="Tue 08.09.20 12:03:33 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Windows.jpg"
+      TimeStamp="Tue 08.09.20 12:03:24 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Windows_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:24 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Windows_2.jpg"
+      TimeStamp="Tue 08.09.20 12:03:24 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Windows_3.jpg"
+      TimeStamp="Tue 08.09.20 12:03:24 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Windows_4.jpg"
+      TimeStamp="Tue 08.09.20 12:03:24 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Windows_5.jpg"
+      TimeStamp="Tue 08.09.20 12:03:24 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Windows_6.jpg"
+      TimeStamp="Tue 08.09.20 12:03:24 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Windows_7.jpg"
+      TimeStamp="Tue 08.09.20 12:03:24 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Windows_8.jpg"
+      TimeStamp="Tue 08.09.20 12:03:24 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Windows_9.jpg"
+      TimeStamp="Tue 08.09.20 12:03:24 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on Windows.htm"
+      TimeStamp="Tue 08.09.20 12:03:33 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on Linux.htm"
+      TimeStamp="Tue 08.09.20 12:03:33 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Uploading Installer from Windows.jpg"
+      TimeStamp="Tue 08.09.20 12:03:24 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Uploading Installer from Windows_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:24 PM" />
+    <Url
+      Source="../../Content/Deployment/Uploading Installer from Windows.htm"
+      TimeStamp="Tue 08.09.20 12:03:34 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on Synology NAS.htm"
+      TimeStamp="Tue 08.09.20 12:03:34 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Synology NAS_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Synology NAS_1_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:25 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on Synology NAS_1.htm"
+      TimeStamp="Tue 08.09.20 12:03:34 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Synology NAS_2.jpg"
+      TimeStamp="Tue 08.09.20 12:03:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Synology NAS_2_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Synology NAS_2_2.jpg"
+      TimeStamp="Tue 08.09.20 12:03:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Synology NAS_2_3.jpg"
+      TimeStamp="Tue 08.09.20 12:03:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Synology NAS_2_4.jpg"
+      TimeStamp="Tue 08.09.20 12:03:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Synology NAS_2_5.jpg"
+      TimeStamp="Tue 08.09.20 12:03:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Synology NAS_2_6.jpg"
+      TimeStamp="Tue 08.09.20 12:03:25 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on Synology NAS_2.htm"
+      TimeStamp="Tue 08.09.20 12:03:34 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on QNAP NAS.htm"
+      TimeStamp="Tue 08.09.20 12:03:34 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on QNAP NAS via.jpg"
+      TimeStamp="Tue 08.09.20 12:03:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on QNAP NAS via_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:25 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on QNAP NAS via.htm"
+      TimeStamp="Tue 08.09.20 12:03:34 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on QNAP NAS Manually.jpg"
+      TimeStamp="Tue 08.09.20 12:03:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on QNAP NAS Manually_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:25 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on QNAP NAS Manually.htm"
+      TimeStamp="Tue 08.09.20 12:03:34 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Western Digital.jpg"
+      TimeStamp="Tue 08.09.20 12:03:25 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on Western Digital.htm"
+      TimeStamp="Tue 08.09.20 12:03:35 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on ASUSTOR NAS.htm"
+      TimeStamp="Tue 08.09.20 12:03:35 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on ASUSTOR NAS_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:26 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on ASUSTOR NAS_1_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:26 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on ASUSTOR NAS_1_2.jpg"
+      TimeStamp="Tue 08.09.20 12:03:26 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on ASUSTOR NAS_1.htm"
+      TimeStamp="Tue 08.09.20 12:03:35 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on ASUSTOR NAS_2.jpg"
+      TimeStamp="Tue 08.09.20 12:03:26 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on ASUSTOR NAS_2_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:26 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on ASUSTOR NAS_2.htm"
+      TimeStamp="Tue 08.09.20 12:03:35 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on NETGEAR ReadyNAS.htm"
+      TimeStamp="Tue 08.09.20 12:03:35 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on NETGEAR ReadyNAS_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:26 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on NETGEAR ReadyNAS_1.htm"
+      TimeStamp="Tue 08.09.20 12:03:35 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on NETGEAR ReadyNAS_2.jpg"
+      TimeStamp="Tue 08.09.20 12:03:26 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on NETGEAR ReadyNAS_2.htm"
+      TimeStamp="Tue 08.09.20 12:03:35 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Installing on Generic ARM.jpg"
+      TimeStamp="Tue 08.09.20 12:03:26 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on Generic ARM.htm"
+      TimeStamp="Tue 08.09.20 12:03:36 PM" />
+    <Url
+      Source="../../Content/Deployment/Deploying Amazon Machine Image.htm"
+      TimeStamp="Tue 08.09.20 12:03:36 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on FreeNAS.htm"
+      TimeStamp="Tue 08.09.20 12:03:36 PM" />
+    <Url
+      Source="../../Content/Deployment/Installing on Raspberry Pi.htm"
+      TimeStamp="Tue 08.09.20 12:03:36 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating NAKIVO Backup and.htm"
+      TimeStamp="Tue 08.09.20 12:03:36 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Auto Updating NAKIVO Backup.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Auto Updating NAKIVO Backup_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Auto Updating NAKIVO Backup_2.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Auto Updating NAKIVO Backup_3.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Auto Updating NAKIVO Backup_4.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Auto Updating NAKIVO Backup_5.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Auto Updating NAKIVO Backup_6.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Auto Updating NAKIVO Backup_7.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Auto Updating NAKIVO Backup_8.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Auto Updating NAKIVO Backup_9.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Deployment/Auto Updating NAKIVO Backup.htm"
+      TimeStamp="Tue 08.09.20 12:03:36 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating Virtual Appliance.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating Virtual Appliance_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating Virtual Appliance_2.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating Virtual Appliance_3.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating Virtual Appliance_4.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating Virtual Appliance_5.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating Virtual Appliance_6.jpg"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating Virtual Appliance.htm"
+      TimeStamp="Tue 08.09.20 12:03:36 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating on Windows.png"
+      TimeStamp="Tue 08.09.20 12:03:27 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating on Windows.htm"
+      TimeStamp="Tue 08.09.20 12:03:37 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating on Linux.htm"
+      TimeStamp="Tue 08.09.20 12:03:37 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating on Synology NAS.jpg"
+      TimeStamp="Tue 08.09.20 12:03:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating on Synology NAS_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating on Synology NAS_2.jpg"
+      TimeStamp="Tue 08.09.20 12:03:28 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating on Synology NAS.htm"
+      TimeStamp="Tue 08.09.20 12:03:37 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating on Western Digital.jpg"
+      TimeStamp="Tue 08.09.20 12:03:28 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating on Western Digital.htm"
+      TimeStamp="Tue 08.09.20 12:03:37 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating on Amazon EC2.htm"
+      TimeStamp="Tue 08.09.20 12:03:37 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Connecting to an Amazon EC2.jpg"
+      TimeStamp="Tue 08.09.20 12:03:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Connecting to an Amazon EC2_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Connecting to an Amazon EC2_2.jpg"
+      TimeStamp="Tue 08.09.20 12:03:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Connecting to an Amazon EC2_3.jpg"
+      TimeStamp="Tue 08.09.20 12:03:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Connecting to an Amazon EC2.png"
+      TimeStamp="Tue 08.09.20 12:03:28 PM" />
+    <Url
+      Source="../../Content/Deployment/Connecting to an Amazon EC2.htm"
+      TimeStamp="Tue 08.09.20 12:03:37 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating on QNAP NAS.jpg"
+      TimeStamp="Tue 08.09.20 12:03:28 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating on QNAP NAS.htm"
+      TimeStamp="Tue 08.09.20 12:03:38 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating on ASUSTOR NAS.jpg"
+      TimeStamp="Tue 08.09.20 12:03:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating on ASUSTOR NAS_1.jpg"
+      TimeStamp="Tue 08.09.20 12:03:28 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating on ASUSTOR NAS.htm"
+      TimeStamp="Tue 08.09.20 12:03:38 PM" />
+    <Url
+      Source="../../Content/Resources/Images/02. Deployment/Updating on NETGEAR ReadyNAS.jpg"
+      TimeStamp="Tue 08.09.20 12:03:28 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating on NETGEAR ReadyNAS.htm"
+      TimeStamp="Tue 08.09.20 12:03:38 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating on FreeNAS.htm"
+      TimeStamp="Tue 08.09.20 12:03:38 PM" />
+    <Url
+      Source="../../Content/Deployment/Updating on Generic ARM based.htm"
+      TimeStamp="Tue 08.09.20 12:03:38 PM" />
+    <Url
+      Source="../../Content/Deployment/Uninstalling NAKIVO Backup.htm"
+      TimeStamp="Tue 08.09.20 12:03:39 PM" />
+    <Url
+      Source="../TOCs/02. Deployment.fltoc"
+      TimeStamp="Tue 08.09.20 12:03:29 PM" />
+    <Url
+      Source="../../Content/Resources/MasterPages/02. Deployment.flmsp"
+      TimeStamp="Tue 08.09.20 12:03:29 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/02. Deployment.css"
+      TimeStamp="Tue 08.09.20 12:03:29 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading3"
+      Style="Word" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading4"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles />
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

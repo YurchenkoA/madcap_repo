@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>VM Verification</h1>
+        <p>VM verification is a process of checking the integrity of a backup or replica by booting a VM from a backup or starting a replica and interacting with it.&#160;With the VM verification feature, you have proof that your VM backups or replicas are usable, and can rest assured that your VMs can be recovered in case of disaster.&#160;VM backups and replicas can be corrupted or not bootable, even if the data protection software performed properly. The worst time to find out that your backup is bad is when your VM is down. If you don't have backup copies or VM replicas at an offsite location, you are left without any viable means of quickly restoring business processes.</p>
+        <p>VM verification involves the following entities:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><b>Source Object</b>: Backup recovery point or replica recovery point which is used as a source of data for VM verification.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><b>Target Object</b>: An entity that is subject to VM verification. It can be a replica or a temporary VM created via <a href="C:\display\NH\Instant+VM+Recovery+-+Flash+VM+Boot">Flash VM Boot</a>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><b>Guest OS Agent</b>: An entity in the target object which allows remote interaction with the guest OS of this object (VMware Tools for VMware vSphere;&#160;Hyper-V integration services for Microsoft Hyper-V). Guest OS agent is required to be installed on the target object in order to perform VM verification.</p>
+            </li>
+        </ul>
+        <p>There are two VM verification methods:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><b>Boot Verification</b>:&#160;Verifying the target VM via starting target VM and checking whether hypervisor tools are running.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><b>Screenshot Verification</b>: Verifying the target VM via starting the target VM and taking a screenshot of the VM screen.</p>
+            </li>
+        </ul>
+        <p>To verify VMware and Hyper-V backups, NAKIVO Backup &amp; Replication relies on the Flash VM Boot feature. After a VM backup job has completed the data transfer, the product performs the following actions:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_2">Instantly runs the VM from the newly created backup (with networking turned off).</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Waits until the OS has booted.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Checks if guest OS agents are run successfully (if Boot Verification is selected).</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Makes a screenshot of a running VM (If Screenshot Verification is selected).</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2">Discards the test-recovered VM.</p>
+            </li>
+        </ol>
+        <p>You can view the results of the verification procedure in the Dashboard or choose to receive an email report.&#160;VM verification, being an option for the jobs listed below, can be run on demand or scheduled to run automatically, saving you time and effort.&#160;VM verification option is available for the following jobs:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Creating+VMware+Backup+Jobs">VMware VM Backup Job</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Creating+VMware+Replication+Jobs">VMware VM Replication Job</a>&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Creating+VMware+Flash+VM+Boot+Jobs">VMware Flash VM Boot Job</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Creating+Hyper-V+Backup+Jobs">Hyper-V VM Backup Job</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Creating+Hyper-V+Replication+Jobs">Hyper-V VM Replication Job</a>&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Creating+Hyper-V+Flash+VM+Boot+Jobs">Hyper-V Flash VM Boot Job</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="C:\display\NH\Creating+Backup+Copy+Jobs">Backup Copy Job</a>
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>

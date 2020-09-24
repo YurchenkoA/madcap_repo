@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Full Recovery"
+  LastImport="2020-09-17T10:31:58.2250664+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/File+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/File+Recovery.doc" />
+    <Url
+      Source="../../../../../Downloads/File+Recovery+Wizard_+Backup.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/File+Recovery+Wizard_+Backup.doc" />
+    <Url
+      Source="../../../../../Downloads/File+Recovery+Wizard_+Files.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/File+Recovery+Wizard_+Files.doc" />
+    <Url
+      Source="../../../../../Downloads/File+Recovery+Wizard_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/File+Recovery+Wizard_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/File+Recovery+Wizard_+Recovery+Server.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/File+Recovery+Wizard_+Recovery+Server.doc" />
+    <Url
+      Source="../../../../../Downloads/Opening+File+Recovery+Wizard.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Opening+File+Recovery+Wizard.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Recovery/Full Recovery/File Recovery.htm"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Resources/Images/File+Recovery+Wizard_+Backup/File Recovery Wizard Backup.png"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/File Recovery Wizard Backup.htm"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Resources/Images/File+Recovery+Wizard_+Files/File Recovery Wizard Files.png"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Resources/Images/File+Recovery+Wizard_+Files/File Recovery Wizard Files_1.png"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Resources/Images/File+Recovery+Wizard_+Files/File Recovery Wizard Files_2.png"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/File Recovery Wizard Files.htm"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Resources/Images/File+Recovery+Wizard_+Options/File Recovery Wizard Options.png"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Resources/Images/File+Recovery+Wizard_+Options/File Recovery Wizard Options.jpg"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Resources/Images/File+Recovery+Wizard_+Options/File Recovery Wizard Options_1.jpg"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Resources/Images/File+Recovery+Wizard_+Options/File Recovery Wizard Options_1.png"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Resources/Images/File+Recovery+Wizard_+Options/File Recovery Wizard Options_2.png"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/File Recovery Wizard Options.htm"
+      TimeStamp="Thu 17.09.20 10:31:52 AM" />
+    <Url
+      Source="../../Content/Resources/Images/File+Recovery+Wizard_+Recovery+Server/File Recovery Wizard Recovery.jpg"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Resources/Images/File+Recovery+Wizard_+Recovery+Server/File Recovery Wizard Recovery.png"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/File Recovery Wizard Recovery.htm"
+      TimeStamp="Thu 17.09.20 10:31:52 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Opening+File+Recovery+Wizard/Opening File Recovery Wizard.png"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Opening+File+Recovery+Wizard/Opening File Recovery Wizard_1.png"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Recovery/Full Recovery/Opening File Recovery Wizard.htm"
+      TimeStamp="Thu 17.09.20 10:31:52 AM" />
+    <Url
+      Source="../TOCs/File+Recovery.fltoc"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/File+Recovery.css"
+      TimeStamp="Thu 17.09.20 10:31:51 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading3"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="notenormal"
+      To="p.notenormal"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="HTML Code"
+      To="span.HTMLCode"
+      Style="Word" />
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

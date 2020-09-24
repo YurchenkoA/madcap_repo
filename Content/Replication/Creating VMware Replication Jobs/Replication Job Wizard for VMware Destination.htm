@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/Creating+VMware+Replication+Jobs.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 class="Heading1">Replication Job Wizard for VMware: Destination</h1>
+        <p class="NormalWeb">On the <span class="Strong">Destination</span> page, select a location for your replica(s).</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="../../../../../../Downloads/Replication+Job+Wizard+for+VMware_+Destination.doc#ReplicationJobWizardforVMware:Destinati" class="Hyperlink">Setting the Same Host, Datastore, and Network for All Replicas</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="../../../../../../Downloads/Replication+Job+Wizard+for+VMware_+Destination.doc#ReplicationJobWizardforVMware:Destinati" class="Hyperlink">Setting the Default Destination for Replicas</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="../../../../../../Downloads/Replication+Job+Wizard+for+VMware_+Destination.doc#ReplicationJobWizardforVMware:Destinati" class="Hyperlink">Setting Different Options for Replicas</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="../../../../../../Downloads/Replication+Job+Wizard+for+VMware_+Destination.doc#ReplicationJobWizardforVMware:Destinati" class="Hyperlink">Mapping Source VMs to Existing Replicas</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="../../../../../../Downloads/Replication+Job+Wizard+for+VMware_+Destination.doc#ReplicationJobWizardforVMware:Destinati" class="Hyperlink">Excluding a VM Disk from the Replication Job</a>
+                </p>
+            </li>
+        </ul>
+        <h2 class="Heading2">Setting the Same Host, Datastore, and Network for All Replicas</h2>
+        <p class="NormalWeb">To replicate all VMs to the same container and datastore, and to connect all replicas to the same network, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Choose a cluster, host, or resource pool from the <span class="Strong">Container</span> drop-down list.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Choose a datastore from the <span class="Strong">Datastore</span> drop-down list.</p>
+            </li>
+            <li class="NormalWeb">
+                <p class="NormalWeb">If you create a Replication job from a backup job (<span class="Strong">Jobs &amp; Groups</span> or <span class="Strong">Backup repository</span> view), select a target network from the <span class="Strong">Network</span> drop-down list.</p>
+            </li>
+            <li class="NormalWeb">
+                <p class="NormalWeb">Optionally, you can choose a target VM folder from the <span class="Strong">VM folder</span> drop-down list.<br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+VMware_+Destination/Replication Job Wizard for.png" class="img_2" /></p>
+            </li>
+        </ol>
+        <h2 class="Heading2">Setting the Default Destination for Replicas</h2>
+        <p class="NormalWeb">If you have chosen a host, cluster, folder, or a resource pool as a source for your replication job on the <a href="https://beta-helpcenter.nakivo.com/display/NH/Replication+Job+Wizard+for+VMware%3A+Source"><span class="Strong_1">Source</span></a> page, you can set the default container, datastore, and VM folder for replicas. To do this, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Click <span class="Strong">Advanced options </span>and then click on the name of the chosen host, cluster, folder, or a resource pool.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Choose a <span class="Strong">Default container</span>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">If you have chosen the backup job on the <span class="Strong">Source </span>page, you can choose a <span class="Strong">Default Network</span>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Optionally, you can also choose a <span class="Strong">Default VM folder.</span><span class="Strong"><br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+VMware_+Destination/Replication Job Wizard for_1.png" class="img_3" /></span></p>
+            </li>
+        </ol>
+        <h2 class="Heading2">Setting Different Options for Replicas</h2>
+        <p class="NormalWeb">To specify different replication options for VMs, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Click <span class="Strong">Advanced options</span>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Choose a target container, target VM, and&#160;target datastore for each VM.<br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+VMware_+Destination/Replication Job Wizard for_2.png" class="img_4" /></p>
+            </li>
+        </ol>
+        <h2 class="Heading2">Mapping Source VMs to Existing Replicas</h2>
+        <p class="NormalWeb">If you want to perform <a href="../../../../../../../../display/NH/Staging+(Seeding)+VM+Replication" class="Hyperlink">staged replication</a>&#160;or if you lose the replication job (due to accidental job deletion or because you need to recreate jobs in a new copy of the product), you can map source VMs to existing replicas to avoid running full VM replication again.</p>
+        <p class="NormalWeb">To map source VMs to existing VMs, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Click <span class="Strong">Advanced options</span>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Open the target VM drop-down list&#160;and select the <span class="Strong">Use existing target VM&#160;</span>option.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Select the VM that should be used as a target for replication in the <span class="Strong">Virtual Machine</span> drop-down list.<br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+VMware_+Destination/Replication Job Wizard for_3.png" class="img_5" /></p>
+            </li>
+        </ol>
+        <p class="NormalWeb">When you run the job, the product analyzes the target VM you have selected, determines how it is different from the source VM, and transfers only the differential data.</p>
+        <p class="NormalWeb">VM replication mapping can be a time-consuming process that can be equal to the time required to create a full VM replication.</p>
+        <p class="notenormal">After the job completion, a new recovery point will be created and existing recovery points will <span class="Emphasis">not</span> be changed or overwritten.</p>
+        <h2 class="Heading2">Excluding a VM Disk from the Replication Job</h2>
+        <p class="NormalWeb">If you do not want to replicate some disks of a VM, you can exclude those disks from the replication job. Follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Click <span class="Strong">Advanced options</span>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Open the target VM drop-down list.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click the drop-down list next to the disk that you want to skip&#160;and select the <span class="Strong">Skip this disk</span> option.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">After you have specified replica location options, click <span class="Strong">Next</span> to go to the next page.<br /><br /><img src="../../Resources/Images/Replication+Job+Wizard+for+VMware_+Destination/Replication Job Wizard for_4.png" class="img_6" /></p>
+            </li>
+        </ol>
+        <p class="NormalWeb">&#160;</p>
+    </body>
+</html>

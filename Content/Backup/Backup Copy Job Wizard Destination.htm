@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Backing+Up+to+Tape.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Backup Copy Job Wizard: Destination</h1>
+        <p>On the <span class="Strong">Destination</span> page of the wizard, select a target location for backup copies.</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Copy+Job+Wizard_+Destination.doc#BackupCopyJobWizard:Destination-Selecti" class="Hyperlink">Selecting a Tape Storage</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Copy+Job+Wizard_+Destination.doc#BackupCopyJobWizard:Destination-Selecti" class="Hyperlink">Selecting a Target Backup Repository</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p><a href="file:///C:/Users/User/Desktop/Madcap flare source/backup/Backup+Copy+Job+Wizard_+Destination.doc#BackupCopyJobWizard:Destination-Mapping" class="Hyperlink">Mapping Source Backups to Existing Backups</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Selecting a Tape Storage</h2>
+        <p>The Backup Copy Job Wizard allows you to copy backups to tape devices or to media pools. Detailed information about copying backups to tapes is available in the <a href="C:\display\NH\Backing+Up+to+Tape" class="Hyperlink">Backing Up to Tape</a> section.<br /><br /><img src="../Resources/Images/Backup+Copy+Job+Wizard_+Destination/Backup Copy Job Wizard Destination.png" class="img_5" /></p>
+        <h2>Selecting a Target Backup Repository</h2>
+        <p>Backup Copy jobs can copy backups from one Backup Repository to another. Select a target Backup Repository as described below:</p>
+        <ul class="ul_1">
+            <li class="li_2">
+                <p>To copy all backups you have selected on the Backups page to a single Backup Repository, select <span class="Strong">Disk&#160;</span>from the&#160;<span class="Strong">Destination type </span>drop-down list and then select a Backup Repository from the <span class="Strong">Destination&#160;</span>drop-down list.<br /><br /><img src="../Resources/Images/Backup+Copy+Job+Wizard_+Destination/Backup Copy Job Wizard Destination_1.png" class="img_5" /></p>
+            </li>
+            <li class="li_1">
+                <p>To copy backups to different Backup Repositories, follow the steps below:</p>
+            </li>
+        </ul>
+        <blockquote>
+            <dl start="1">
+                <li class="li_1">
+                    <ol start="1" class="ol_1">
+                        <li class="li_1">
+                            <p>Click&#160;<span class="Strong">Advanced options</span>.</p>
+                        </li>
+                        <li class="li_1">
+                            <p>For each backup, select a target Backup Repository.<br /><br /><img src="../Resources/Images/Backup+Copy+Job+Wizard_+Destination/Backup Copy Job Wizard Destination_2.png" class="img_6" /></p>
+                        </li>
+                    </ol>
+                </li>
+            </dl>
+        </blockquote>
+        <h2>Mapping Source Backups to Existing Backups</h2>
+        <p>If you have previously copied backups to a different Backup Repository and then lost the Backup Copy job (due to accidental job deletion or because you need to recreate jobs in a new copy of the product) you can map source backups to existing backups in the target Backup Repository to avoid transferring all backup data again.</p>
+        <p>To map source backups to existing backups in a target Backup Repository, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>Click&#160;<span class="Strong">Advanced options</span>.</p>
+            </li>
+            <li class="li_1">
+                <p>From the&#160;<span class="Strong">Backup repository</span>&#160;drop-down list, choose a Backup Repository that contains a copy of the source backup.</p>
+            </li>
+            <li class="li_2">
+                <p>Select the&#160;<span class="Strong">Use existing backup as a target</span>&#160;option and select the existing backup copy from the drop-down list.<br /><br /><img src="../Resources/Images/Backup+Copy+Job+Wizard_+Destination/Backup Copy Job Wizard Destination_3.png" class="img_6" /></p>
+            </li>
+        </ol>
+        <p>When running the job, the product analyzes the existing backup copy you have selected, determines how it is different from the source backup, and transfers only the differential data.</p>
+        <p class="NormalWeb">&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Object+Recovery+for+Microsoft+Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 class="Heading1">Object Recovery Wizard for Microsoft AD Server: Options</h1>
+        <p class="NormalWeb"><span class="span_1">On the </span><span class="Strong_1">Options</span><span class="span_1"> page of the wizard, you can set up the following options for your object recovery job:</span>
+        </p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Options.doc#ObjectRecoveryWizardforMicrosoftADServe" class="Hyperlink">Recovering Objects to Original Location</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Options.doc#ObjectRecoveryWizardforMicrosoftADServe" class="Hyperlink">Exporting Active Directory Objects</a>
+                </p>
+            </li>
+        </ul>
+        <h2 class="Heading2">Recovering Objects to Original Location</h2>
+        <p class="NormalWeb"><span class="span_1">Follow the steps below to recover objects of your Microsoft Active Directory server to the original location:</span>
+        </p>
+        <ol start="1" class="ol_1">
+            <li class="qowt-li-0_0">
+                <p class="qowt-li-0_0"><span class="span_1">In the </span><span class="Strong_1">Recovery type</span><span class="span_1"> list, select </span><span class="Strong_1">Recover to original location</span><span class="span_1">.</span>
+                </p>
+            </li>
+            <li class="qowt-li-0_0">
+                <p class="qowt-li-0_0">If you have selected multiple objects or container(s) that include one or more “user” objects, the <span class="Strong_1">Recovery of User object</span><span class="span_1"> list becomes available. Select either of the following options:</span> </p>
+                <ul class="ul_2">
+                    <li class="qowt-li-0_0">
+                        <p class="qowt-li-0_0"><span class="Strong">User </span><span class="Strong_1">will be disabled</span><span class="span_1">: If this option is selected, NAKIVO Backup &amp; Replication disables all recovered “user” objects and the corresponding user accounts are disabled after importing these objects to Active Directory.</span>
+                        </p>
+                    </li>
+                    <li class="qowt-li-0_0_1">
+                        <p class="NormalWeb_2"><span class="Strong">User must change password</span><span class="Strong_1"> at next log</span> <span class="Strong_1">on</span><span class="span_1">: If this option is selected, NAKIVO Backup &amp; Replication generates a new password for each recovered “user” object. The </span><span class="qowt-font3-couriernew_1">passwords.txt</span> <span class="span_1">file is added to the ZIP archive with recovered objects, and it contains the new passwords. After importing the “user” objects to Active Directory, corresponding users are forced to change the password on the next logon.</span><span class="span_1"><br /><br /><img src="../../../Resources/Images/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Options/Object Recovery Wizard for_2.png" class="img_5" /></span></p>
+                    </li>
+                </ul>
+            </li>
+            <li class="qowt-li-0_0">
+                <p class="qowt-li-0_0">In the <span class="Strong_1">Overwrite behavior</span><span class="span_1"> list, select what you wish to do if the recovered item conflicts with an existing one:</span> </p>
+                <ul class="ul_2">
+                    <li class="qowt-li-0_0">
+                        <p class="qowt-li-0_0"><span class="Strong">Rename recovered item if such </span><span class="Strong_1">item exists</span>
+                        </p>
+                    </li>
+                    <li class="qowt-li-0_0">
+                        <p class="qowt-li-0_0"><span class="Strong">Skip recovered item if such </span><span class="Strong_1">item exists</span>
+                        </p>
+                    </li>
+                    <li class="qowt-li-0_0">
+                        <p class="qowt-li-0_0"><span class="Strong">Overwrite the original item if such </span><span class="Strong_1">item exists</span>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_2">
+                <p class="p_2"><span class="span_1">If you have chosen</span><span class="qowt-font4-timesnewroman_1">&#160;to recover a full database (</span><span class="qowt-font3-couriernew_1">ntds.dit</span><span class="span_1"> file)&#160;on the </span><span class="Strong_1">Recovery Server</span><span class="span_1"> page</span><span class="qowt-font4-timesnewroman_1">, p</span><span class="span_1">ut a checkmark in the&#160;</span><span class="Strong_1">Stop Microsoft Active Directory instance before recovery </span><span class="span_1">checkbox to stop the instance before the recovery process begins</span><span class="Strong_1">.</span><span class="span_1">&#160;This option is recommended for the safe recovery of Active Directory objects.</span><span class="span_1"><br /><br /></span>
+                    <img src="../../../Resources/Images/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Options/Object Recovery Wizard for_2_1.png" class="img_6" />
+                </p>
+            </li>
+            <li class="li_2">
+                <p class="p_2">Click <span class="Strong">Recover</span>.</p>
+            </li>
+        </ol>
+        <p class="title">Note</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1">Some attributes may be skipped for the selected object(s) depending on the Active Directory system settings.&#160;</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">In case the recovery process fails, the<span class="span_1">&#160;VM will be reverted to the snapshot taken on the </span><span class="Strong_1">Recovery Server</span><span class="span_1"> page of the wizard</span></p>
+            </li>
+        </ul>
+        <h2 class="Heading2">Exporting Active Directory Objects</h2>
+        <p class="NormalWeb">Follow the steps below to export recovered objects of your Microsoft Active Directory server to a custom location:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">In the <span class="Strong">Recovery type</span> list, select <span class="Strong">Export</span>. A number of options become available for setting up a custom location.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">In the <span class="Strong">Export location</span> list, select the appropriate location type: </p>
+                <ul class="ul_2">
+                    <li class="li_2">
+                        <p class="p_2"><span class="Strong">Local folder on Recovery Server: </span>If this option is selected, you will have to enter the path to a local folder on the recovery server in the <span class="Strong">Local path</span> field.<br /><br /><img src="../../../Resources/Images/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Options/Object Recovery Wizard for_2_2.png" class="img_7" /></p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><span class="Strong">CIFS share</span>: If this option is selected, enter the following values: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p class="p_1"><span class="Strong">Path to the share</span>
+                                </p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><span class="Strong">Username</span>
+                                </p>
+                            </li>
+                            <li class="li_2">
+                                <p class="p_2"><span class="Strong">Password</span><span class="Strong"><br /><br /><img src="../../../Resources/Images/Object+Recovery+Wizard+for+Microsoft+AD+Server_+Options/Object Recovery Wizard for_2.jpg" class="img_8" /></span>
+                                </p>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">In the <span class="Strong">Overwrite behavior</span> list, select what needs to be done if the recovered item conflicts with an existing item. Refer to the section above for an explanation.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click <span class="Strong">Recover</span>.</p>
+            </li>
+        </ol>
+        <p class="NormalWeb">The <span class="Strong">Finish</span> page of the wizard opens informing you that Microsoft Active Directory object recovery has started. To view the object recovery progress, go to the <a href="C:\display\NH\Web+Interface+Components"><span class="Strong_2">Activities</span></a>.</p>
+        <p class="NormalWeb">To close the wizard, click <span class="Strong">Close</span>.</p>
+        <p class="NormalWeb">&#160;</p>
+        <p class="NormalWeb">&#160;</p>
+    </body>
+</html>

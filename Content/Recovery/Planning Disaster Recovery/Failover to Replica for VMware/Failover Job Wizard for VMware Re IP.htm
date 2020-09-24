@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Failover+Job+Wizard+for+VMware_+Networks.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Failover Job Wizard for VMware: Re-IP</h1>
+        <p>When the IP addressing scheme for the target replica differs from the IP addressing scheme for the VMware source VMs, your failover job needs relations between source VMs addresses and the target replica VMs addresses to be performed successfully. These relations are called re-IP rules.</p>
+        <p>Warning</p>
+        <p>VMware Tools must be running on source VMs to successfully enable re-IP for your failover job.</p>
+        <p>To map a source VM IP address to a specific target IP address, do the following on the Re-IP page of the wizard:</p>
+        <ol style="padding-left: 0px;list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">Select Enable Re-IP.</p>
+            </li>
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">The Re-IP Rules section opens. Click the Select VMs link.</p>
+            </li>
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">The Re-IP dialog box opens. In the list of your source VMs, select at least one VM and close the dialog box.</p>
+            </li>
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">You have the following options: </p>
+                <ul style="padding-left: 0px;list-style-type: circle;margin-left: 36pt;">
+                    <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                        <p style="margin-top: 5pt;margin-bottom: 5pt;">Create a new rule: </p>
+                        <ol style="padding-left: 0px;list-style-type: decimal;margin-left: 36pt;" start="1">
+                            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                                <p style="margin-top: 5pt;margin-bottom: 5pt;">Click Create new rule.</p>
+                            </li>
+                            <li style="margin-bottom: 12pt;">
+                                <p style="margin-bottom: 12pt;">The New Re-IP Rule dialog opens. Enter source and target settings for the Re-IP rule and click Save.<br /><br /><img src="../../../Resources/Images/Failover+Job+Wizard+for+VMware_+Re-IP/Failover Job Wizard for VMware_2.png" style="visibility: visible;mso-wrap-style: square;width: 468px;height: 231px;" /></p>
+                                <p>Note</p>
+                                <p>You can use wildcards for IP addresses. For example, if you enter <span style="font-family: 'Courier New';">192.168.1.* -&gt; 10.30.30.*</span> for the re-IP rule, a source VM IP address such as <span style="font-family: 'Courier New';">192.168.1.50</span> will be changed to the <span style="font-family: 'Courier New';">10.30.30.50</span> IP address for your failover job.</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                        <p style="margin-top: 5pt;margin-bottom: 5pt;">Add an existing rule: </p>
+                        <ol style="padding-left: 0px;list-style-type: decimal;margin-left: 36pt;" start="1">
+                            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                                <p style="margin-top: 5pt;margin-bottom: 5pt;">Click Add existing rule.</p>
+                            </li>
+                            <li style="margin-top: 5pt;margin-bottom: 12pt;">
+                                <p style="margin-top: 5pt;margin-bottom: 12pt;">The Re-IP Rules dialog opens. Select one or more appropriate Re-IP rules and close the dialog.<br /><br /><img src="../../../Resources/Images/Failover+Job+Wizard+for+VMware_+Re-IP/Failover Job Wizard for VMware_2_1.png" style="visibility: visible;mso-wrap-style: square;width: 468px;height: 260px;" /></p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                        <p style="margin-top: 5pt;margin-bottom: 5pt;">Edit an existing Re-IP rule: </p>
+                        <ol style="padding-left: 0px;list-style-type: decimal;margin-left: 36pt;" start="1">
+                            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                                <p style="margin-top: 5pt;margin-bottom: 5pt;">Hover over the required item in the Re-IP Rules list and click the Edit button to the right of the item.</p>
+                            </li>
+                            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                                <p style="margin-top: 5pt;margin-bottom: 5pt;">The Edit Re-IP Rule dialog box opens. Edit the required properties of the Re-IP rule and click Save.</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li style="margin-top: 5pt;margin-bottom: 12pt;">
+                        <p style="margin-top: 5pt;margin-bottom: 12pt;">Delete an existing mapping: Hover over the required item in the Re-IP Rules list and click the X icon to the right of the item.<br /><br /><img src="../../../Resources/Images/Failover+Job+Wizard+for+VMware_+Re-IP/Failover Job Wizard for VMware_2_2.png" style="visibility: visible;mso-wrap-style: square;width: 468px;height: 136px;" /></p>
+                    </li>
+                    <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                        <p style="margin-top: 5pt;margin-bottom: 5pt;">To leave the list of existing Re-IP rules intact, go to the next page of the wizard.</p>
+                    </li>
+                </ul>
+            </li>
+            <li style="margin-top: 5pt;margin-bottom: 5pt;">
+                <p style="margin-top: 5pt;margin-bottom: 5pt;">Click Next to go to the next page of the wizard.</p>
+            </li>
+        </ol>
+    </body>
+</html>

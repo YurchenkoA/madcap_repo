@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Transporter</h1>
+        <ul>
+            <li>
+                <MadCap:xref href="#What">What is Transporter?</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#How">How Many Transporters Should be Deployed</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#How2">How Transporters are Selected for Jobs</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Transpor">Transporter as VMware Appliance</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Transpor2">Transporter as Nutanix Appliance</MadCap:xref>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <h2><a name="What"></a>What is Transporter?</h2>
+        <p>Transporter is the component of the product that does all of the heavy lifting. It performs backup, replication, and recovery, as well as data compression, deduplication, and encryption. An instance of the Transporter is automatically installed along with the Director to enable backup, replication, and recovery out of the box. The default Transporter is called "Onboard Transporter" and cannot be removed from the product. </p>
+        <p class="p_17">
+            <img src="../../Resources/Images/02. Deployment/Transporter.jpg" class="img_3" />
+        </p>
+        <p>A single Transporter can back up, replicate, and recover multiple VMs and cloud instances. </p>
+        <p class="p_17">
+            <img src="../../Resources/Images/02. Deployment/Transporter_1.jpg" class="img_2" />
+        </p>
+        <p>One Transporter can simultaneously process multiple source disks (6 by default) during backup, replication, and recovery. If jobs contain more disks than the Transporter is set to process simultaneously, the disks will be put in a queue and will be processed once the Transporter frees up.</p>
+        <h2><a name="How"></a>How Many Transporters Should be Deployed</h2>
+        <p>In most cases, it is sufficient to deploy only one Transporter per site. In large environments, where multiple source items need to be processed simultaneously, multiple Transporters can be deployed to distribute the workload.</p>
+        <p class="p_17">
+            <img src="../../Resources/Images/02. Deployment/Transporter_2.jpg" class="img_4" />
+        </p>
+        <p>Deploying multiple Transporters also enables network acceleration and AES 256 encryption of traffic between a pair of Transporters. For example, if VMs are replicated over WAN between two sites, the Transporter installed in the source site can compress and encrypt data before transferring it over WAN, and the Transporter installed in the Target site can unencrypt and decompress the data prior to writing it to the target server.</p>
+        <p class="p_17">
+            <img src="../../Resources/Images/02. Deployment/Transporter_3.jpg" class="img_5" />
+        </p>
+        <p class="p_5">If you plan to transfer data over WAN without a VPN connection from your source site to the target site, make sure the source and target Transporters are added to the product using external IP addresses or DNS names that can be properly resolved in WAN, so that the two Transporters can connect to each other.</p>
+        <h2><a name="How2"></a>How Transporters are Selected for Jobs</h2>
+        <p>In large and geographically distributed environments multiple Transporters can be deployed to distribute the data protection workload, optimize network traffic, and improve data transfer speeds. Thus, if more than oneTransporter is deployed for NAKIVO Backup &amp; Replication, it is important to determine which one should be used to read data from a particular source and which one should be used to write data to a target.</p>
+        <p>By default, the product automatically determines which Transporter should be used based on the proximity of a Transporter to the source or target server. The proximity is measured by using the ping round trip time. </p>
+        <p class="p_17">
+            <img src="../../Resources/Images/02. Deployment/Transporter_4.jpg" class="img_6" />
+        </p>
+        <p>In the example above, Transporter 1 will be selected to read data from the Source ESXi, and Transporter 2 will be selected to write data to the Target ESXi.</p>
+        <p class="p_5">The Transporter selection can also be configured manually during job creation.</p>
+        <h2><a name="Transpor"></a>Transporter as VMware Appliance</h2>
+        <p>Since VMware does not provide a VDDK library for ARM-based processors, the NAKIVO <a href="#">Onboard Transporter</a> may not support VMware as some functionality necessary for working with VMware is missing for such ARM-based NAS devices. </p>
+        <p>In this case, you will need to <a href="../Installing NAKIVO Backup and Replication/Deploying VMware Virtual Appliance.htm">deploy an additional Transporter as a VMware appliance</a> to allow NAKIVO Backup &amp;&#160;Replication to work with VMware vCenters and ESXi hosts, and protect your virtual infrastructure.</p>
+        <p class="p_17">
+            <img src="../../Resources/Images/02. Deployment/Transporter_5.jpg" class="img_7" />
+        </p>
+        <p>Once deployed, the additional Transporter allows the application to retrieve necessary data via Transporter-to-Transporter communication.</p>
+        <h2><a name="Transpor2"></a>Transporter as Nutanix Appliance</h2>
+        <p>Nutanix AHV support is done via deploying a Nutanix Transporter to a Nutanix cluster to read/write data from/to VMs in Nutanix cluster. For more information, refer to Adding Installed Transporters and Deploying Transporter as Nutanix AHV Appliance sections.</p>
+        <p class="p_15">
+            <img src="../../Resources/Images/02. Deployment/Transporter_6.jpg" class="img_8" />
+        </p>
+    </body>
+</html>

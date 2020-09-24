@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Backing+Up+to+Tape.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Tape Backup Wizard: Backups</h1>
+        <p>In<span class="Strong">&#160;</span>the&#160;<span class="Strong">Backups&#160;</span>page of the wizard, you can add items to your backup copy job.&#160;Proceed as follows:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>In the left pane of the page, choose either of the following <a href="C:\display\NH\Inventory" class="Hyperlink">inventory</a> views: </p>
+                <ul class="ul_2">
+                    <li class="li_2">
+                        <p><span class="Strong">Jobs &amp; Groups</span>:&#160;If chosen, the inventory tree opens in the left pane and shows the backup groups along with backups. Proceed as follows:<br /><br /><img src="../Resources/Images/Tape+Backup+Wizard_+Backups/Tape Backup Wizard Backups.png" class="img_71" /></p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_2">
+                                <p>Optionally, filter the inventory tree by entering a string to the <span class="Strong">Search</span> box. You can enter a part or the entire item name.<br /><br /><br /><img src="../Resources/Images/Tape+Backup+Wizard_+Backups/Tape Backup Wizard Backups_1.png" class="img_99" /></p>
+                            </li>
+                            <li class="li_2">
+                                <p>Select backup items by selecting the checkbox next to the them.<br /><br /><img src="../Resources/Images/Tape+Backup+Wizard_+Backups/Tape Backup Wizard Backups_2.png" class="img_100" /></p>
+                            </li>
+                            <li class="li_2">
+                                <p>The selected items appear in the right pane of the page. If necessary, reorder the selected items by dragging them to a new position. By doing so, you can specify the order in which the items should be backed up.<br /><br /><img src="../Resources/Images/Tape+Backup+Wizard_+Backups/Tape Backup Wizard Backups_3.png" class="img_101" /></p>
+                            </li>
+                            <li class="li_1">
+                                <p>Review the list of the selected items. If needed, remove a selected backup in the backup copy job in either of the following ways: </p>
+                                <ul class="ul_3">
+                                    <li class="li_1">
+                                        <p>Cancel the selection of the item(s) in the left pane. This will remove the item(s) from the right pane.</p>
+                                    </li>
+                                    <li class="li_1">
+                                        <p>In the right pane, hover over the item you want to remove and click the red “X” to the right. This will cancel the selection of the item(s) in the left pane.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Backup Repositories</span>:&#160;If chosen, the inventory tree shows available Backup Repositories along with the backups in them. Proceed as it is described for the <span class="Strong">Jobs &amp; Groups</span> view above.</p>
+                    </li>
+                    <li class="li_1">
+                        <p><span class="Strong">Policy</span>:&#160;If selected, this allows you to use job policies; refer to <a href="C:\display\NH\Managing+Job+Policies" class="Hyperlink">Managing Job Policies</a> for details. Please follow the steps below: </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_1">
+                                <p>If items were selected in alternate views, a dialog box opens warning you that switching to the <span class="Strong">Policy</span> view will reset your current selection. Click <span class="Strong">Switch View</span> to confirm switching to the <span class="Strong">Policy</span> view.</p>
+                            </li>
+                            <li class="li_1">
+                                <p>Make sure that at least one item matches the available set of policy rules. Refer to <a href="C:\display\NH\Managing+Policy+Rules" class="Hyperlink">Managing Policy Rules</a> for details.</p>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p>Click <span class="Strong">Next</span> to confirm adding selected items to the backup copy job.</p>
+            </li>
+        </ol>
+        <p>The wizard will display the next page.</p>
+        <p>Notes:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p>If you add a container – a group, job, or a backup repository – to the backup copy job, the following actions will occur: </p>
+                <ul class="ul_2">
+                    <li class="li_1">
+                        <p>All backups currently available in the selected container will be backed up.</p>
+                    </li>
+                    <li class="li_1">
+                        <p>All new backups that are created in (or moved to) the container in the future will be automatically added to the job and backed up.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p>The order in which backups are copied is important if the Transporter that is running the job cannot process all items simultaneously: either because the Transporter is processing other tasks at the same time or because the number of backups in the job exceeds the Transporter’s Maximum Load specified during the Transporter creation.</p>
+            </li>
+        </ol>
+    </body>
+</html>

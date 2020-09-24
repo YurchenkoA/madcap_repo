@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../../../Resources/Stylesheets/Attach+_+Detach+Repository+Action.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Failback Amazon EC2 Instances Action</h1>
+        <p>Refer to the following sections on adding a&#160;<b>Failback EC2 Instances</b>&#160;action to your Site Recovery job:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Amazon+EC2+Instances+Action.doc#FailbackAmazonEC2InstancesAction-Failba">Failback Amazon EC2 Instances: Instances</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Amazon+EC2+Instances+Action.doc#FailbackAmazonEC2InstancesAction-Failba">Failback Amazon EC2 Instances: Location</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Amazon+EC2+Instances+Action.doc#FailbackAmazonEC2InstancesAction-Failba">Failback EC2 Instances: Options</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Failback Amazon EC2 Instances: Instances</h2>
+        <p>On this page of the wizard, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Select one or more replica Amazon EC2 Instances in the left pane of the page.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Next</b>&#160;to go to the&#160;<b>Location&#160;</b>page.<br /><br /><img src="../../../../../Resources/Images/Failback+Amazon+EC2+Instances+Action/Failback Amazon EC2 Instances.png" class="img_3" />&#160;</p>
+            </li>
+        </ol>
+        <h2>Failback Amazon EC2 Instances: Location</h2>
+        <p>On this page of the wizard, you can specify failback location for your Amazon EC2 instances:</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Amazon+EC2+Instances+Action.doc#FailbackAmazonEC2InstancesAction-Settin">Setting Original Amazon EC2 Failback Location</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Amazon+EC2+Instances+Action.doc#FailbackAmazonEC2InstancesAction-Settin">Setting Single New Amazon EC2 Failback Location</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="file:///C:/Users/User/Downloads/Failback+Amazon+EC2+Instances+Action.doc#FailbackAmazonEC2InstancesAction-Settin">Setting Multiple New Failback Locations for EC2 Instances</a>
+                </p>
+            </li>
+        </ul>
+        <h3>Setting Original Amazon EC2 Failback Location</h3>
+        <p>To use the original location for your&#160;<b>Failback EC2 Instances</b>&#160;action, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li>
+                <p>In the&#160;<b>Failback location</b>&#160;list, choose&#160;<b>Original Location</b>.</p>
+                <p>Important</p>
+                <p>To successfully failback an Amazon EC2 instance to its original location, the source instance should not exist.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Next</b>&#160;to go to the&#160;<b>Options&#160;</b>page.<br /><br /><img src="../../../../../Resources/Images/Failback+Amazon+EC2+Instances+Action/Failback Amazon EC2 Instances_1.png" class="img_4" /></p>
+            </li>
+        </ol>
+        <h3>Setting Single New Amazon EC2 Failback Location</h3>
+        <p>To create a new location for all your&#160;<cite>Failback EC2 Instances</cite>&#160;action, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">In the&#160;<b>Failback location</b>&#160;list, choose&#160;<b>New Location</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Region</b>:&#160;Select an <a href="C:\display\NH\Amazon+EC2+Backup">Amazon EC2</a> Region from the list of available regions.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Network</b>:&#160;Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">VPC</a>&#160;to which all EC2 instances will be connected.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Subnet</b>:&#160;Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Subnet&#160;</a>to which all EC2 instances will be connected.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Security group</b>:&#160;Select an Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Security Group</a>&#160;for all EC2 instances.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Instance access</b>:<b>&#160;</b>Specify&#160;Amazon EC2&#160;<a href="C:\display\NH\Amazon+EC2+Backup">Key Pair</a>&#160;options by choosing one of the following follows: </p>
+                <ul class="ul_4">
+                    <li class="li_1">
+                        <p class="p_1"><b>Use existing key pair</b>:&#160;An existing Amazon EC2 Key Pair will be used to connect to the recovered instances.</p>
+                    </li>
+                    <li>
+                        <p><b>Create a new key pair</b>:&#160;A new Amazon EC2 Key Pair will be created and assigned to all recovered EC2 instances. Type in a name for the new Amazon&#160;EC2 Key Pair in the&#160;<b>Key pair name</b>&#160;field and click&#160;<b>Download</b>.</p>
+                        <p>Important</p>
+                        <p>This is your only chance to save the private key file, so make sure you save the private key file in a safe place. You will need to provide the name of your key pair when you start recovered EC2 instances and the corresponding private key each time you connect to the instances.</p>
+                    </li>
+                    <li>
+                        <p><b>Proceed without key pair</b>: No AWS Key Pair will be assigned to the recovered Amazon EC2 instances.</p>
+                        <p>Important</p>
+                        <p>A key pair enables you to connect to Linux Instances via SSH. If you recover Linux Instances without a key pair, you will not be able to connect to them.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Next</b>&#160;to go to the&#160;<b>Options&#160;</b>page.<br /><br /><img src="../../../../../Resources/Images/Failback+Amazon+EC2+Instances+Action/Failback Amazon EC2 Instances_2.png" class="img_5" />&#160;</p>
+            </li>
+        </ol>
+        <h3>Setting Multiple New Failback Locations for EC2 Instances</h3>
+        <p>To set multiple new locations for your&#160;<b>Failback EC2 Instances</b>&#160;action, follow the steps below:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">In the&#160;<b>Failback location</b>&#160;list, choose&#160;<b>New Location</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Advanced Options</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click on the required source instances to expand them.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">For a required instance, set up the options as follows: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1"><b>Region</b>: Select an EC2 region to which the Amazon EC2 instance will fail back.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Instance type</b>: Select a type for your failback EC2 instance.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>EBS Volumes</b>:&#160;Choose whether to fail back or skip individual Amazon EBS volumes.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Network</b>:&#160;Select an Amazon EC2 VPC to which the EC2 instance will fail back.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Subnet</b>:&#160;Select an Amazon EC2 Subnet to which the Amazon EC2 Instance will fail back.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Security group</b>:&#160;Select an Amazon&#160;EC2 Security Group for the Amazon EC2 Instance.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Instance access</b>:&#160;Specify Amazon EC2 Key Pair options as follows: </p>
+                        <ul class="ul_2">
+                            <li class="li_1">
+                                <p class="p_1"><b>Use existing key pair</b>: Choose an existing Amazon EC2 Key Pair that you want to use to connect to the failback EC2 instance.</p>
+                            </li>
+                            <li>
+                                <p><b>Create a new key pair</b>:&#160;Select this option to create a new Amazon EC2 Key Pair and assign it to the failback EC2 instance. Enter a name for the new Amazon EC2 Key Pair in the <b>Key pairname</b> box and click&#160;<b>Download</b>.</p>
+                                <p>Important</p>
+                                <p>This is your only chance to save the private key file, so make sure you save the private key file in a safe place. You will need to provide the name of your key pair when you start recovered EC2 instances and the corresponding private key each time you connect to the instances.</p>
+                            </li>
+                            <li>
+                                <p><b>Proceed without key pair</b>:&#160;Select this option if you do not want to assign an Amazon Key Pair to the failback Amazon EC2 instance.</p>
+                                <p>Important</p>
+                                <p>A key pair enables you to connect to Linux Instances via SSH. If you recover Linux Instances without a key pair, you will not be able to connect to them.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_2">
+                <p class="p_2">After setting the location&#160;advanced options, click&#160;<b>Next</b>&#160;to go to the&#160;<b>Options&#160;</b>page.</p>
+            </li>
+        </ol>
+        <h2>Failback EC2 Instances: Options</h2>
+        <p>On this page of the wizard, do the following:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1">Select&#160;<b>Power off replica Instances</b>&#160;to power off the production workloads during the failover.&#160;Note that this will take place only in production mode; no workloads will be powered on in test mode.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">In the&#160;<b>Action options</b>&#160;section, set the options for your action. Refer to&#160;<a href="C:\display\NH\Site+Recovery+Job+Wizard:+Actions">Options Common to Most Actions</a>&#160;for details.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1">Click&#160;<b>Save</b>.<br /><br /><img src="../../../../../Resources/Images/Failback+Amazon+EC2+Instances+Action/Failback Amazon EC2 Instances_3.png" class="img_6" /></p>
+            </li>
+        </ol>
+        <p>The&#160;<b>Options</b><cite>&#160;</cite>page closes and your&#160;<b>Failback EC2 Instances&#160;</b>action is added to the Site Recovery Job.</p>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/Failover+Job+Wizard+for+Amazon+EC2_+Destination1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Failover Job Wizard for Amazon EC2: Options</h1>
+        <p>On the <b>Options</b> page of the wizard, specify the options for the Amazon EC2 failover job.</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_1"><a href="../../../../../../../Downloads/Failover+Job+Wizard+for+Amazon+EC2_+Options.doc#FailoverJobWizardforAmazonEC2:Options-J">Job Options</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="../../../../../../../Downloads/Failover+Job+Wizard+for+Amazon+EC2_+Options.doc#FailoverJobWizardforAmazonEC2:Options-P">Pre and Post Actions</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><a href="../../../../../../../Downloads/Failover+Job+Wizard+for+Amazon+EC2_+Options.doc#FailoverJobWizardforAmazonEC2:Options-C">Completing the New Failover Job Wizard for Amazon EC2</a>
+                </p>
+            </li>
+        </ul>
+        <h2>Job Options</h2>
+        <p>You can specify the following failover&#160;job options:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><b>Job name</b>: A string of 50 or fewer characters specifying the name of the failover job.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Power off source instances</b>: Select this checkbox to power off source Amazon EC2 instances when the failover job has completed.</p>
+            </li>
+        </ol>
+        <h2>Pre and Post Actions</h2>
+        <p>You can enable the following pre- and post-actions:</p>
+        <ol start="1" class="ol_1">
+            <li class="li_1">
+                <p class="p_1"><b>Send job run reports to</b>: When selected, a job report is sent to the specified recipients each time the failover job has completed. This option overrides the default setting in the NAKIVO Backup &amp; Replication&#160;<b>Settings</b>.</p>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Run local pre job script</b>: When selected, a dialog box opens. You can specify the following options of the&#160;<a href="../../../../../../../../../display/NH/Pre+and+Post+Job+Scripts">pre-job script</a>&#160;to be executed in this dialog box: </p>
+                <ol start="1" class="ol_1">
+                    <li class="li_1">
+                        <p class="p_1"><b>Script path</b>: A local path to the script on the machine where the Director is installed. A script interpreter should also be specified.</p>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Job behavior</b>: The following options are available: </p>
+                        <ul class="ul_4">
+                            <li class="li_1">
+                                <p class="p_1"><b>Wait for the script to finish</b>:<b>&#160;</b>This is the default option.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Do not wait for the script to finish</b>.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="li_1">
+                        <p class="p_1"><b>Error handling</b>: The following options are available: </p>
+                        <ul class="ul_4">
+                            <li class="li_1">
+                                <p class="p_1"><b>Continue the job on script failure</b>: This is the default option.</p>
+                            </li>
+                            <li class="li_1">
+                                <p class="p_1"><b>Fail the job on script failure</b>.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li class="li_1">
+                <p class="p_1"><b>Run local post job script</b>: When selected, a dialog box opens in which you can specify the options of the&#160;<a href="../../../../../../../../../display/NH/Pre+and+Post+Job+Scripts">post-job script</a>&#160;to be executed on the machine where the product is installed. Proceed as for the&#160;pre<cite>-</cite>job script.<br /><br /><img src="../../../Resources/Images/Failover+Job+Wizard+for+Amazon+EC2_+Options/Failover Job Wizard for Amazon_1_1.png" class="img_1" /></p>
+            </li>
+        </ol>
+        <h2>Completing the New Failover Job Wizard for Amazon EC2</h2>
+        <p>Click&#160;<b>Finish</b>&#160;or&#160;<b>Finish &amp; Run</b>&#160;to complete the job creation.</p>
+        <p>Note</p>
+        <p>If you click&#160;<b>Finish &amp; Run</b>,&#160;you will have to define the scope of your job. Refer to&#160;<a href="../../../../../../../../../display/NH/Running+Jobs+on+Demand">Running Jobs on Demand</a>&#160;for details.</p>
+    </body>
+</html>

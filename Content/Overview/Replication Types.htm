@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/Active+Directory.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Replication Types</h1>
+        <p>NAKIVO Backup &amp; Replication allows you to replicate virtual machines and Amazon EC2 instances.&#160;</p>
+        <ul class="ul_1">
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Replication+Types.doc#ReplicationTypes-VMReplication">VM Replication</a>
+                </p>
+            </li>
+            <li class="li_1">
+                <p class="p_2"><a href="file:///C:/Users/User/Downloads/Replication+Types.doc#ReplicationTypes-EC2Replication">EC2 Replication</a>
+                </p>
+            </li>
+        </ul>
+        <h2>VM Replication</h2>
+        <p>A VM replica is an exact copy of an entire VMware, Hyper-V or Nutanix VM created on a target host. VM replication ensures business continuity as it lets you immediately power on the replica of any failed primary VM at any time.<br /><br /><img src="../Resources/Images/Replication+Types/Replication Types.png" class="img_46" /><br /><br />Replicas are stored on the target hosts in a powered-off state, and so do not consume any resources. If the source VM has been damaged, you simply need to power the replica without NAKIVO Backup &amp; Replication.&#160;<span class="span_3">NAKIVO Backup &amp; Replication provides you with the ability to add both individual VMs and all VMs within selected VMware containers (such as resource pools, folders, hosts, clusters, etc.) to a replication job. That is to say, all your new VMs that are created in or moved to a protected container are automatically added to your replication job.&#160;</span>You can store up to 30 recovery points for each replica. Even if the source VM was replicated after an error, you can always revert to the last working copy.</p>
+        <h2>EC2 Replication</h2>
+        <p>AWS EC2 replication creates identical copies (i.e. replicas) of your AWS EC2 instances as AMIs, ensuring business continuity in case primary instances or the whole region become unavailable. NAKIVO Backup &amp; Replication allows for replicating instances either inside the same region or to another one.</p>
+        <p>
+            <img src="../Resources/Images/Replication+Types/Replication Types_1.png" class="img_47" />
+        </p>
+        <p>In the case of same region replication, NAKIVO Backup &amp; Replication first initiates the creation of snapshots of selected source volumes and then creates AMIs from the source instance configuration and created snapshots. In case of cross-region replication,&#160;<span class="span_3">NAKIVO Backup &amp; Replication&#160;initiates the creation of snapshots of selected source volumes in the source region. Then the product copies those snapshots to the target region and creates AMI from source instance configuration and copied snapshots. Finally, NAKIVO Backup &amp; Replication deletes the snapshots in the source region.</span></p>
+        <p><span class="span_3">To learn how to create VMware, Hyper-V, and AWS EC replication jobs, refer to the corresponding topics in the </span><a href="C:\display\NH\Replication">Replication</a><span class="span_3"> section.&#160;</span>
+        </p>
+    </body>
+</html>

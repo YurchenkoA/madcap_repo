@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Planning Disaster Recovery\Replica Failback for Microsoft Hyper-V"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-23T13:33:58.7604641+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Replica+Failback+for+Microsoft+Hyper-V.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Replica+Failback+for+Microsoft+Hyper-V.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Replica Failback for Microsoft Hyper-V/Replica Failback for Microsoft.htm"
+      TimeStamp="Wed 23.09.20 1:33:57 PM" />
+    <Url
+      Source="../TOCs/Replica+Failback+for+Microsoft+Hyper-V.fltoc"
+      TimeStamp="Wed 23.09.20 1:33:57 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Replica+Failback+for+Microsoft+Hyper-V.css"
+      TimeStamp="Wed 23.09.20 1:33:57 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

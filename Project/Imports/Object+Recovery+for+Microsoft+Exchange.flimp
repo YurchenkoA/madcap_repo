@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Granular Recovery\Object Recovery for Microsoft Exchange"
+  LastImport="2020-09-17T10:43:53.8448907+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Object+Recovery+for+Microsoft+Exchange.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Object+Recovery+for+Microsoft+Exchange.doc" />
+    <Url
+      Source="../../../../../Downloads/Object+Recovery+Wizard+for+Microsoft+Exchange_+Backup.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Object+Recovery+Wizard+for+Microsoft+Exchange_+Backup.doc" />
+    <Url
+      Source="../../../../../Downloads/Object+Recovery+Wizard+for+Microsoft+Exchange_+Objects.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Object+Recovery+Wizard+for+Microsoft+Exchange_+Objects.doc" />
+    <Url
+      Source="../../../../../Downloads/Object+Recovery+Wizard+for+Microsoft+Exchange_+Options.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Object+Recovery+Wizard+for+Microsoft+Exchange_+Options.doc" />
+    <Url
+      Source="../../../../../Downloads/Object+Recovery+Wizard+for+Microsoft+Exchange_+Recovery+Method.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Object+Recovery+Wizard+for+Microsoft+Exchange_+Recovery+Method.doc" />
+    <Url
+      Source="../../../../../Downloads/Starting+Object+Recovery+for+Microsoft+Exchange.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Starting+Object+Recovery+for+Microsoft+Exchange.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft Exchange/Object Recovery for Microsoft.htm"
+      TimeStamp="Thu 17.09.20 10:43:50 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+Exchange_+Backup/Object Recovery Wizard for.png"
+      TimeStamp="Thu 17.09.20 10:43:49 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft Exchange/Object Recovery Wizard for.htm"
+      TimeStamp="Thu 17.09.20 10:43:50 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+Exchange_+Objects/Object Recovery Wizard for_1.png"
+      TimeStamp="Thu 17.09.20 10:43:49 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft Exchange/Object Recovery Wizard for_1.htm"
+      TimeStamp="Thu 17.09.20 10:43:50 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+Exchange_+Options/Object Recovery Wizard for_2.jpg"
+      TimeStamp="Thu 17.09.20 10:43:49 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+Exchange_+Options/Object Recovery Wizard for_2_1.jpg"
+      TimeStamp="Thu 17.09.20 10:43:49 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+Exchange_+Options/Object Recovery Wizard for_2_2.jpg"
+      TimeStamp="Thu 17.09.20 10:43:49 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft Exchange/Object Recovery Wizard for_2.htm"
+      TimeStamp="Thu 17.09.20 10:43:50 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Object+Recovery+Wizard+for+Microsoft+Exchange_+Recovery+Method/Object Recovery Wizard for_3.png"
+      TimeStamp="Thu 17.09.20 10:43:49 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft Exchange/Object Recovery Wizard for_3.htm"
+      TimeStamp="Thu 17.09.20 10:43:50 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Object+Recovery+for+Microsoft+Exchange/Starting Object Recovery for.png"
+      TimeStamp="Thu 17.09.20 10:43:50 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Starting+Object+Recovery+for+Microsoft+Exchange/Starting Object Recovery for_1.png"
+      TimeStamp="Thu 17.09.20 10:43:50 AM" />
+    <Url
+      Source="../../Content/Recovery/Granular Recovery/Object Recovery for Microsoft Exchange/Starting Object Recovery for.htm"
+      TimeStamp="Thu 17.09.20 10:43:50 AM" />
+    <Url
+      Source="../TOCs/Object+Recovery+for+Microsoft+Exchange.fltoc"
+      TimeStamp="Thu 17.09.20 10:43:50 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Object+Recovery+for+Microsoft+Exchange.css"
+      TimeStamp="Thu 17.09.20 10:43:50 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading1"
+      Style="Word" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading2"
+      Style="Word" />
+    <Map
+      From="Normal (Web)"
+      To="p.NormalWeb"
+      Style="Word" />
+    <Map
+      From="notenormal"
+      To="p.notenormal"
+      Style="Word" />
+    <Map
+      From="title"
+      To="p.title"
+      Style="Word" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.Hyperlink"
+      Style="Word" />
+    <Map
+      From="Strong"
+      To="span.Strong"
+      Style="Word" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

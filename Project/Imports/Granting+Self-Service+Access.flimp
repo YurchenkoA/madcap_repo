@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Multi-Tenant Mode"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-21T11:06:34.5892773+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Granting+Self-Service+Access.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Granting+Self-Service+Access.doc" />
+    <Url
+      Source="../../../../../Downloads/Multi-Tenant+Mode.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Multi-Tenant+Mode.doc" />
+    <Url
+      Source="../../../../../Downloads/Tenant+Configuration.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Tenant+Configuration.doc" />
+    <Url
+      Source="../../../../../Downloads/Tenant+Creation.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Tenant+Creation.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Multi-Tenant Mode/Granting Self Service Access.htm"
+      TimeStamp="Mon 21.09.20 11:06:32 AM" />
+    <Url
+      Source="../../Content/Multi-Tenant Mode/Multi Tenant Mode.htm"
+      TimeStamp="Mon 21.09.20 11:06:32 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Tenant+Configuration/Tenant Configuration.png"
+      TimeStamp="Mon 21.09.20 11:06:31 AM" />
+    <Url
+      Source="../../Content/Multi-Tenant Mode/Tenant Configuration.htm"
+      TimeStamp="Mon 21.09.20 11:06:32 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Tenant+Creation/Tenant Creation.png"
+      TimeStamp="Mon 21.09.20 11:06:31 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Tenant+Creation/Tenant Creation_1.png"
+      TimeStamp="Mon 21.09.20 11:06:31 AM" />
+    <Url
+      Source="../../Content/Multi-Tenant Mode/Tenant Creation.htm"
+      TimeStamp="Mon 21.09.20 11:06:32 AM" />
+    <Url
+      Source="../TOCs/Granting+Self-Service+Access.fltoc"
+      TimeStamp="Mon 21.09.20 11:06:31 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Granting+Self-Service+Access.css"
+      TimeStamp="Mon 21.09.20 11:06:31 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="auto-cursor-target"
+      To="p"
+      Style="Flare" />
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+    <Map
+      From="Strong"
+      To="b"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>

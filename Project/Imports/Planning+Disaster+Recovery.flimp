@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  ImportFolder="Recovery\Planning Disaster Recovery"
+  InlineFormatting="Keep"
+  PreserveMappedStyles="false"
+  LastImport="2020-09-17T18:47:55.9127783+03:00">
+  <Files>
+    <Url
+      Source="../../../../../Downloads/Planning+Disaster+Recovery.doc"
+      AbsoluteSource="file:///C:/Users/User/Downloads/Planning+Disaster+Recovery.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Recovery/Planning Disaster Recovery/Planning Disaster Recovery.htm"
+      TimeStamp="Thu 17.09.20 6:47:53 PM" />
+    <Url
+      Source="../TOCs/Planning+Disaster+Recovery.fltoc"
+      TimeStamp="Thu 17.09.20 6:47:53 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Planning+Disaster+Recovery.css"
+      TimeStamp="Thu 17.09.20 6:47:53 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1"
+      Style="Flare" />
+    <Map
+      From="Normal (Web)"
+      To="p"
+      Style="Flare" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a"
+      Style="Flare" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+</MsWordImport>
